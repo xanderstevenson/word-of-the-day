@@ -13,7 +13,8 @@ def send_it(token, room_id, message):
                   "Content-Type": "application/json"}
 
         data = {"roomId": room_id,
-                "text": message}
+                "text": message,
+                "attachments": card}
 
         return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
 
@@ -31,6 +32,40 @@ if __name__ == '__main__':
         teams_room = "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
         message = "testingdude"
 
+         
+        card =  [
+        {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "content": {
+                "type": "AdaptiveCard",
+                "version": "1.2",
+                "body": [
+                {
+                "type": "TextBlock",
+                "text": "Word of the Day",
+                "size": "Large",
+                "separator": True,
+                "horizontalAlignment": "Center",
+                "fontType": "Default",
+                "isSubtle": True,
+                "color": "Accent",
+                "weight": "Bolder"
+                }
+                ],
+                "actions": [
+                {
+                "type": "Action.OpenUrl",
+                "url": "https://developer.cisco.com/",
+                "title": "DevNet",
+                "style": "positive",
+                "horizontalAlignment": "Center",
+                }
+                ]
+        }
+        }
+        ]
+
+
         # Check access token
         teams_access_token = os.environ.get("TEAMS_ACCESS_TOKEN")
         token = access_token if access_token else teams_access_token
@@ -43,7 +78,7 @@ if __name__ == '__main__':
             sys.exit(2)
 
         # Now let's post our message to Webex Teams
-        res = send_it(token, teams_room, str(dt.datetime.now()) + "\n" + message)
+        res = send_it(token, teams_room, message)
         if res.status_code == 200:
                 print("your message was successfully posted to Webex Teams")
         else:
