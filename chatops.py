@@ -39,28 +39,34 @@ if __name__ == '__main__':
         "content": {
                 "type": "AdaptiveCard",
                 "version": "1.2",
-                "body": [
-                {
-                "type": "TextBlock",
-                "text": "Word of the Day",
-                "size": "Large",
-                "separator": True,
-                "horizontalAlignment": "Center",
-                "fontType": "Default",
-                "isSubtle": True,
-                "color": "Accent",
-                "weight": "Bolder"
-                }
-                ],
-                "actions": [
-                {
-                "type": "Action.OpenUrl",
-                "url": "https://developer.cisco.com/",
-                "title": "DevNet",
-                "style": "positive",
-                "horizontalAlignment": "Center",
-                }
-                ]
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Word of the Day",
+            "size": "Large",
+            "separator": True,
+            "horizontalAlignment": "Center",
+            "fontType": "Default",
+            "isSubtle": True,
+            "color": "Accent",
+            "weight": "Bolder",
+            "wrap": True
+        },
+
+        {   "type": "Image",
+                "url": "https://fcit.usf.edu/matrix/wp-content/uploads/2017/01/DanceBot-3-Sm.gif",
+                "size": "small"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "url": "https://developer.cisco.com/",
+            "title": "DevNet",
+            "style": "positive",
+            "alignment": "Center"
+        }
+    ]
         }
         }
         ]
