@@ -4,6 +4,7 @@ import datetime as dt
 import sys
 import os
 import getopt
+from terms import return_word
 
 
 # Simple Bot Function for passing messages to a room
@@ -31,7 +32,7 @@ if __name__ == '__main__':
         access_token = os.environ.get("TEAMS_ACCESS_TOKEN")
         teams_room = "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
         message = "testingdude"
-
+        word = return_word()
          
         card =  [
         {
@@ -53,20 +54,49 @@ if __name__ == '__main__':
             "wrap": True
         },
 
-        {   "type": "Image",
-                "url": "https://fcit.usf.edu/matrix/wp-content/uploads/2017/01/DanceBot-3-Sm.gif",
-                "size": "small"
-        }
-    ],
+        {
+            "type": "TextBlock",
+            "text": word,
+            "size": "Medium",
+            "separator": True,
+            "horizontalAlignment": "Center",
+            "fontType": "Default",
+            "isSubtle": True,
+        #     "color": "Accent",
+        #     "weight": "Bolder",
+            "wrap": True
+        },
+
+    {
+            "type":"ActionSet",
+    "horizontalAlignment": "Center",
     "actions": [
         {
-            "type": "Action.OpenUrl",
-            "url": "https://developer.cisco.com/",
-            "title": "DevNet",
-            "style": "positive",
-            "alignment": "Center"
+        "type": "Action.OpenUrl",
+        "url": "https://developer.cisco.com/site/support/",
+        "title": "DevNet Developer Support",
+        "style": "positive",
+        "horizontalAlignment": "Center",
+        # "iconUrl": "https://pubhub.devnetcloud.com/media/support/site/images/cwd.png"
         }
     ]
+
+    }
+        # {
+        #     "type": "ImageSet",
+        #     "images": [
+        #         {
+        #             "type": "Image",
+        #             "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/giphy.gif",
+        #             "size": "Medium"
+        #         }
+        #     ]
+        # }
+    ],
+
+
+
+
         }
         }
         ]
