@@ -1,9 +1,8 @@
-import requests
+
 import json
-import datetime as dt
 import sys
+import requests
 import os
-import getopt
 from terms import return_word
 
 
@@ -31,34 +30,53 @@ if __name__ == '__main__':
         #args = parser.parse_args() 
         access_token = os.environ.get("TEAMS_ACCESS_TOKEN")
         teams_room = "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
-        message = "testingdude"
-        word = return_word()
-         
+        message = ""
+        # fetch random dictionary containing word as key and definition as value
+        random_word = return_word()
+        word = "\n" + random_word["name"] + "\n\n"
+        definition = random_word["definition"]
+        
         card =  [
         {
         "contentType": "application/vnd.microsoft.card.adaptive",
         "content": {
                 "type": "AdaptiveCard",
                 "version": "1.2",
+                # "backgroundImage": {
+                #         "url": "https://st.depositphotos.com/1131998/1433/v/950/depositphotos_14331897-stock-illustration-gray-technology-background.jpg"
+                # },
     "body": [
         {
             "type": "TextBlock",
             "text": "Word of the Day",
-            "size": "Large",
-            "separator": True,
+            "size": "ExtraLarge",
             "horizontalAlignment": "Center",
             "fontType": "Default",
             "isSubtle": True,
             "color": "Accent",
             "weight": "Bolder",
-            "wrap": True
+            "wrap": True,
+            "style": "Emphasis"
         },
-
+# code block for word
         {
             "type": "TextBlock",
             "text": word,
-            "size": "Medium",
+            "size": "Large",
             "separator": True,
+            "horizontalAlignment": "Center",
+            "fontType": "Default",
+            "isSubtle": True,
+            "color": "Good",
+            "weight": "Bolder",
+        #     "wrap": True
+        },
+# code block for definition
+        {
+            "type": "TextBlock",
+            "text": definition,
+            "size": "Medium",
+        #     "separator": True,
             "horizontalAlignment": "Center",
             "fontType": "Default",
             "isSubtle": True,
@@ -66,6 +84,20 @@ if __name__ == '__main__':
         #     "weight": "Bolder",
             "wrap": True
         },
+# code block - use in a sentence
+        {
+            "type": "TextBlock",
+            "text": f"See how many times you can incorporate the word into your speech and text today.",
+            "size": "Small",
+        #     "separator": True,
+            "horizontalAlignment": "Center",
+            "fontType": "Default",
+            "isSubtle": True,
+            "color": "Warning",
+            "weight": "Lighter",
+            "wrap": True
+        },
+
 
     {
             "type":"ActionSet",
