@@ -33,9 +33,11 @@ if __name__ == '__main__':
         message = ""
         # fetch random dictionary containing word as key and definition as value
         random_word = return_word()
+        random_word_name = random_word["name"]
         word = "\n" + random_word["name"] + "\n\n"
         definition = random_word["definition"]
-        
+        wiki_link_text = f"Click here to learn more about {random_word_name}"
+
         card =  [
         {
         "contentType": "application/vnd.microsoft.card.adaptive",
@@ -87,7 +89,7 @@ if __name__ == '__main__':
 # code block - use in a sentence
         {
             "type": "TextBlock",
-            "text": f"See how many times you can incorporate the word into your speech and text today.",
+            "text": "See how many times you can incorporate the word into your speech and text today.",
             "size": "Small",
         #     "separator": True,
             "horizontalAlignment": "Center",
@@ -106,7 +108,7 @@ if __name__ == '__main__':
         {
         "type": "Action.OpenUrl",
         "url": "https://developer.cisco.com/site/support/",
-        "title": "DevNet Developer Support",
+        "title": wiki_link_text,
         "style": "positive",
         "horizontalAlignment": "Center",
         # "iconUrl": "https://pubhub.devnetcloud.com/media/support/site/images/cwd.png"
