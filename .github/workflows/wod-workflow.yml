@@ -2,7 +2,7 @@
     
  on:
    schedule:
-     - cron: "11 00 * * *" #runs at 00:00 UTC everyday
+     - cron: "13 00 * * *" #runs at 00:00 UTC everyday
 
  jobs:
    build:
@@ -24,6 +24,4 @@
            python3 chatops.py
          env:
            key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
-       - name: export index
-         .... # use crosponding script or actions to help export.
-         # done?
+
