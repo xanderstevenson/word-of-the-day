@@ -62,7 +62,7 @@ if __name__ == '__main__':
         {
             "type": "TextBlock",
             "text": word,
-            "size": "Large",
+            "size": "ExtraLarge",
             "separator": True,
             "horizontalAlignment": "Center",
             "fontType": "Default",

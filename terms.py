@@ -18,8 +18,8 @@ def return_word():
             "definition": "The space between characters (numbers, letters, puncuation) and the process of adjusting this space to improve the readabilty."
         },
         {
-            "name": "leading (pronounced 'led-ing')",
-            "definition": "The vertical distance between lines on a website."
+            "name": "leading",
+            "definition": "(pronounced 'led-ing') The vertical distance between lines on a website."
         },
         {
             "name": "meta elements",
@@ -33,7 +33,774 @@ def return_word():
             "name": "back end",
             "definition": "The parts of a website or webservice which are unseen but make it run. This includes databases, servers, middleware, microservices and applications."
         },
-
+        {
+            "name": "circuit breaking",
+            "definition": "Circuit breaking creates resilient microservices applications by stopping the request and response process if a service is not working. Protected functions are wrapped in circuit breakers, which, when tripped, stop receiving calls. This makes sure threads ar enot waiting on calls, which can render a system unresponsive."
+        },
+        {
+            "name": "fault injection",
+            "definition": "Fault injection is a system testing method which involves the deliberate introduction of network faults and errors into a system. It can be used to identify design or configuration weaknesses, and to ensure that the system can handle faults and recover from error conditions."
+        },       
+        {
+            "name": "sidecar",
+            "definition": "Just as a sidecar can attach to a motorcycle, in software architecture a sidecar attaches to a parent application and enhances/extends its functionality."
+        },
+        {
+            "name": "canary deployment",
+            "definition": "A strategy of delayed deployment where an application is releases incrementally to a subset of users (e.g. 1%, 5%, 15%, 50%, 75%, 100%)."
+        },  
+        {
+            "name": "zero trust",
+            "definition": "Zero trust is a security framework which requires all users, both internal and external to the network or organization, to be continuously validated for security posture and configuration before being granted or keeping any access to data and applications."
+        },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },      
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {  
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },       
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },
+        # {
+        #     "name": "",
+        #     "definition": ""
+        # },      
     ]
 
 
