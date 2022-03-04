@@ -35,8 +35,10 @@ if __name__ == '__main__':
         random_word = return_word()
         random_word_name = random_word["name"]
         word = "\n" + random_word["name"] + "\n\n"
+        word_url = random_word["url"]
         definition = random_word["definition"]
-        wiki_link_text = f"Source: click here to learn more about {random_word_name}"
+        wiki_link_text = f"Click here for source & learn more about '{random_word_name}'"
+        
 
         card =  [
         {
@@ -107,7 +109,7 @@ if __name__ == '__main__':
     "actions": [
         {
         "type": "Action.OpenUrl",
-        "url": "https://developer.cisco.com/site/support/",
+        "url": word_url,
         "title": wiki_link_text,
         "style": "positive",
         "horizontalAlignment": "Center",
