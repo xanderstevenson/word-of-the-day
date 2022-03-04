@@ -36,7 +36,7 @@ if __name__ == '__main__':
         random_word_name = random_word["name"]
         word = "\n" + random_word["name"] + "\n\n"
         definition = random_word["definition"]
-        wiki_link_text = f"Click here to learn more about {random_word_name}"
+        wiki_link_text = f"Source: click here to learn more about {random_word_name}"
 
         card =  [
         {
