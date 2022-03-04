@@ -10,22 +10,22 @@ def return_word():
 
 
         {
-            "name": "wireframe",
+            "name": "Wireframe",
             "definition": "A basic sketch or outline of the key information of a planned website. This 'skeleton' is used by developers and designers when laying out a webpage.",
-            "url": ""
+            "url": "https://en.wikipedia.org/wiki/Website_wireframe"
         },
         {
-            "name": "kerning",
+            "name": "Kerning",
             "definition": "The space between characters (numbers, letters, puncuation) and the process of adjusting this space to improve the readabilty.",
-            "url": ""
+            "url": "https://en.wikipedia.org/wiki/Kerning"
         },
         {
-            "name": "leading",
+            "name": "Leading",
             "definition": "(pronounced 'led-ing') The vertical distance between lines on a website.",
-            "url": ""
+            "url": "https://en.wikipedia.org/wiki/Leading"
         },
         {
-            "name": "scalability",
+            "name": "Scalability",
             "definition": "The ability of a system to efficiently handle a growing or shrinking workload by providing it with more or less resources. Scaling horizontally (out/in) means adding more nodes to (or removing nodes from) a system while scaling vertically (up/down) means adding resources to (or removing resources from) a single node.",
             "url": "https://en.wikipedia.org/wiki/Scalability"
         },
@@ -40,32 +40,32 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/CI/CD"
         },
         {
-            "name": "circuit breaking",
+            "name": "Circuit breaking",
             "definition": "Circuit breaking creates resilient microservices applications by stopping the request and response process if a service is not working. Protected functions are wrapped in circuit breakers, which, when tripped, stop receiving calls. This makes sure threads ar enot waiting on calls, which can render a system unresponsive.",
             "url": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern"
         },
         {
-            "name": "fault injection",
+            "name": "Fault injection",
             "definition": "Fault injection is a system testing method which involves the deliberate introduction of network faults and errors into a system. It can be used to identify design or configuration weaknesses, and to ensure that the system can handle faults and recover from error conditions.",
             "url": "https://en.wikipedia.org/wiki/Fault_injection"
         },  
         {
-            "name": "sidecar",
+            "name": "Sidecar",
             "definition": "Just as a sidecar can attach to a motorcycle, in software architecture a sidecar attaches to a parent application and enhances/extends its functionality.",
             "url": "https://en.wikipedia.org/wiki/Microservices#Service_mesh"
         },
         {
-            "name": "canary deployment",
+            "name": "Canary deployment",
             "definition": "A strategy of delayed deployment where an application is releases incrementally to a subset of users (e.g. 1%, 5%, 15%, 50%, 75%, 100%).",
             "url": "https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.canary-deployment.en.html",
         },  
         {
-            "name": "zero trust",
+            "name": "Zero trust",
             "definition": "Zero trust is a security framework which requires all users, both internal and external to the network or organization, to be continuously validated for security posture and configuration before being granted or keeping any access to data and applications.",
             "url": "https://en.wikipedia.org/wiki/Zero_trust_security_model"
         },
         {
-            "name": "hardening",
+            "name": "Hardening",
             "definition": "The process of securing a system by reducing its vulnerability to attack. Hardening typically includes keeping software updated, changing default passwords, removing unnecessary software and accounts, and the disabling or removal of unnecessary services and software.",
             "url": "https://en.wikipedia.org/wiki/Hardening_(computing)"
         },       
