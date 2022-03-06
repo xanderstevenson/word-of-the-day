@@ -37,7 +37,7 @@ if __name__ == '__main__':
         word = "\n" + random_word["name"] + "\n\n"
         word_url = random_word["url"]
         definition = random_word["definition"]
-        wiki_link_text = f"Click here for source & learn more about '{random_word_name}'"
+        wiki_link_text = f"Click & Learn More about '{random_word_name}'"
         
 
         card =  [
@@ -89,18 +89,18 @@ if __name__ == '__main__':
             "wrap": True
         },
 # code block - use in a sentence
-        {
-            "type": "TextBlock",
-            "text": "See how many times you can incorporate the word into your speech and text today.",
-            "size": "Small",
-        #     "separator": True,
-            "horizontalAlignment": "Center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "color": "Warning",
-            "weight": "Lighter",
-            "wrap": True
-        },
+        # {
+        #     "type": "TextBlock",
+        #     "text": "See how many times you can incorporate the word into your speech and text today.",
+        #     "size": "Small",
+        # #     "separator": True,
+        #     "horizontalAlignment": "Center",
+        #     "fontType": "Default",
+        #     "isSubtle": True,
+        #     "color": "Warning",
+        #     "weight": "Lighter",
+        #     "wrap": True
+        # },
 
 
     {
@@ -117,7 +117,23 @@ if __name__ == '__main__':
         }
     ]
 
-    }
+    },
+
+# code block - use in a sentence
+    {
+        "type": "TextBlock",
+        "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
+        "size": "Small",
+    #     "separator": True,
+        "horizontalAlignment": "Center",
+        "fontType": "Default",
+        "isSubtle": True,
+        "color": "Warning",
+        "weight": "Lighter",
+        "wrap": True
+    },
+
+
         # {
         #     "type": "ImageSet",
         #     "images": [
