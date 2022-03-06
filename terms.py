@@ -74,46 +74,46 @@ def return_word():
             "definition": "An enumeration is a complete, ordered listing of all the items in a collection. The term is commonly used in mathematics and computer science to refer to a listing of all of the elements of a set. In cybersecurity, enumeration is defined as a process which establishes an active connection to the target hosts to discover potential attack vectors in the system.",
             "url": "https://en.wikipedia.org/wiki/Enumeration"
         },       
-        # {
-        #     "name": "runtime",
-        #     "definition": "Runtime is the period of time when a program is running. It begins when a program is opened (or executed) and ends with the program is quit or closed. Runtime is a technical term, used most often in software development. It is commonly seen in the context of a "runtime error," which is an error that occurs while a program is running. The term "runtime error" is used to distinguish from other types of errors, such as syntax errors and compilation errors, which occur before a program is run.",
-        #     "url": "https://techterms.com/definition/runtime#:~:text=Runtime%20is%20the%20period%20of,most%20often%20in%20software%20development."
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
+        {
+            "name": "Runtime",
+            "definition": "Runtime is the period of time when a program is running. It begins when a program is opened (or executed) and ends with the program is quit or closed. Runtime is a technical term, used most often in software development. It is commonly seen in the context of a 'runtime error',  which is an error that occurs while a program is running. The term 'runtime error' is used to distinguish from other types of errors, such as syntax errors and compilation errors, which occur before a program is run.",
+            "url": "https://techterms.com/definition/runtime"
+        },       
+        {
+            "name": "Abstraction",
+            "definition": "Abstraction the process of hiding specifics, details or attributes from a user's view, making a system more generic and, therefore, easily understood. A good example is your laptop’s OS; It abstracts away all the details of how your computer actually works.",
+            "url": "https://en.wikipedia.org/wiki/Abstraction_(computer_science)"
+        },       
+        {
+            "name": "Chaos engineering",
+            "definition": "The discipline of experimenting on a software system in production in order to build confidence in the system's capability to withstand turbulent and unexpected conditions.",
+            "url": "https://en.wikipedia.org/wiki/Chaos_engineering"
+        },       
+        {
+            "name": "Cloud native",
+            "definition": "An approach to software engineering which takes advantage of innovations in cloud computing to build and run scalable apps via the cloud’s resources and technologies such as containers, microservices, serverless functions and immutable infrastructure. The result is loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers the granular control to make major changes frequently with relative safety and ease.",
+            "url": "https://en.wikipedia.org/wiki/Cloud_native_computing"
+        },       
+        {
+            "name": "Containerization",
+            "definition": "Containerization, or OS-level virtualization, is an operating system (OS) paradigm in which the kernel allows the existence of multiple isolated user space instances, called containers (LXC, Solaris containers, Docker, Podman), zones (Solaris containers), virtual private servers (OpenVZ), partitions, virtual environments (VEs), virtual kernels (DragonFly BSD), or jails (FreeBSD jail or chroot jail).[1] Such instances may look like real computers from the point of view of programs running in them. A computer program running on an ordinary operating system can see all resources (connected devices, files and folders, network shares, CPU power, quantifiable hardware capabilities) of that computer. However, programs running inside of a container can only see the container's contents and devices assigned to the container.",
+            "url": "https://en.wikipedia.org/wiki/OS-level_virtualization"
+        },       
+        {
+            "name": "DevSecOps",
+            "definition": "DevSecOps is the augmentation of DevOps to allow for security practices to be integrated into the DevOps approach, resulting in the merger of development, operational and security responsibilities. Security practices and testing are performed earlier in the development lifecycle, hence the term ‘shift left’ can be used. DevSecOps empowers the developer by breaking down team silos and promoting the creation of secure, automated workflows and policy enforcement which provide the developer with timely and accurate information on how to move the project forward.",
+            "url": "https://www.ibm.com/cloud/learn/devsecops"
+        },       
+        {
+            "name": "Distributed apps",
+            "definition": "A distributed application is an application whose functionality is delegated to smaller, independent components. In a cloud native environment, the individual parts typically run as containers on a cluster. In contrast with monolithic applications, if a node which is running on a distributed application goes down, another node can resume the task, thus eliminating a single point of failure.",
+            "url": "https://en.wikipedia.org/wiki/Distributed_computing"
+        },       
+        {
+            "name": "Immutable infrastructure",
+            "definition": "A computer infrastructure (VMs, containers, network appliances, etc.) that can’t be altered once it’s deployed, which makes it easier to prevent and mitigate security vulnerabilities. This is often with enforced via an automated process that overwrites unauthorized changes or through a system that won’t allow changes in the first place. Containers are an excellent example of immutable infrastructure because persistent changes to containers can only be made by creating a new version of the container or recreating the existing container from its image.",
+            "url": "https://glossary.cncf.io/immutable_infrastructure/"
+        },       
         # {
         #     "name": "",
         #     "definition": "",
