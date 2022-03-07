@@ -96,7 +96,7 @@ def return_word():
         },       
         {
             "name": "Containerization",
-            "definition": "Containerization, or OS-level virtualization, is an operating system (OS) paradigm in which the kernel allows the existence of multiple isolated user space instances, called containers (LXC, Solaris containers, Docker, Podman), zones (Solaris containers), virtual private servers (OpenVZ), partitions, virtual environments (VEs), virtual kernels (DragonFly BSD), or jails (FreeBSD jail or chroot jail).[1] Such instances may look like real computers from the point of view of programs running in them. A computer program running on an ordinary operating system can see all resources (connected devices, files and folders, network shares, CPU power, quantifiable hardware capabilities) of that computer. However, programs running inside of a container can only see the container's contents and devices assigned to the container.",
+            "definition": "Containerization, or OS-level virtualization, is an operating system (OS) paradigm in which the kernel allows the existence of multiple isolated user space instances, called containers (LXC, Solaris containers, Docker, Podman), zones (Solaris containers), virtual private servers (OpenVZ), partitions, virtual environments (VEs), virtual kernels (DragonFly BSD), or jails (FreeBSD jail or chroot jail) Such instances may look like real computers from the point of view of programs running in them. A computer program running on an ordinary operating system can see all resources (connected devices, files and folders, network shares, CPU power, quantifiable hardware capabilities) of that computer. However, programs running inside of a container can only see the container's contents and devices assigned to the container.",
             "url": "https://en.wikipedia.org/wiki/OS-level_virtualization"
         },       
         {
@@ -111,24 +111,24 @@ def return_word():
         },       
         {
             "name": "Immutable infrastructure",
-            "definition": "A computer infrastructure (VMs, containers, network appliances, etc.) that can’t be altered once it’s deployed, which makes it easier to prevent and mitigate security vulnerabilities. This is often with enforced via an automated process that overwrites unauthorized changes or through a system that won’t allow changes in the first place. Containers are an excellent example of immutable infrastructure because persistent changes to containers can only be made by creating a new version of the container or recreating the existing container from its image.",
+            "definition": "A computer infrastructure (VMs, containers, network appliances, etc.) that can’t be altered once it’s deployed, which makes it easier to prevent and mitigate security vulnerabilities. This is often with enforced via an automated process that overwrites unauthorized changes or through a system that won’t allow changes in the first place. Containers are an excellent example of immutable infrastructure because persistent changes to containers can only be made by creating a new version of the container or recreating the existing container from its image.",
             "url": "https://glossary.cncf.io/immutable_infrastructure/"
         },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": ""
-        # },       
+        {
+            "name": "Infrastructure as a Service (IaaS)",
+            "definition": "A cloud-computing model where the cloud providers own, operate and offer hardware and software for consumers on an on-demand and pay-as-you-go model. The resources offered are scalable physical or virtualized storage, compute and network resources.",
+            "url": "https://en.wikipedia.org/wiki/Infrastructure_as_a_service"
+        },       
+        {
+            "name": "Infrastructure as Code (IaC)",
+            "definition": "The process of managing and provisioning infrastructure based on machine-readable definition files as opposed to manual configuration done on hardware or through shell scripts or other, interactive configuration tools.",
+            "url": "https://en.wikipedia.org/wiki/Infrastructure_as_code"
+        },       
+        {
+            "name": "Kubernetes (K8s)",
+            "definition": "An open-source container orchestration system for automating software deployment, scaling, and management.",
+            "url": "Kubernetes (K8s) is an open-source tool for modern infrastructure automation. It’s like a data center operating system that manages applications running across a distributed system (just like the OS on your laptop that manages your apps). Kubernetes schedules containers across nodes in a cluster. It defines infrastructure building blocks, called ‘primitives’ (such as app instances, load balancers, and persistent storage) which collectively provide mechanisms that deploy, maintain, and scale applications based on CPU, memory or custom metrics." + "\n" + "Amazon, Google, IBM, Microsoft, Oracle, Red Hat, SUSE and VMware offer Kubernetes-based platforms or infrastructure as a service (IaaS) that deploy Kubernetes."
+        },       
         # {
         #     "name": "",
         #     "definition": "",
@@ -167,10 +167,9 @@ def return_word():
              
    
     ]
-
-
+    
+    # test_dict = {"name": "Kubernetes (K8s)","definition": "An open-source container orchestration system for automating software deployment, scaling, and management.","url": "Kubernetes (K8s) is an open-source tool for modern infrastructure automation. It’s like a data center operating system that manages applications running across a distributed system (just like the OS on your laptop that manages your apps). Kubernetes schedules containers across nodes in a cluster. It defines infrastructure building blocks, called ‘primitives’ (such as app instances, load balancers, and persistent storage) which collectively provide mechanisms that deploy, maintain, and scale applications based on CPU, memory or custom metrics." + "\n" + "Amazon, Google, IBM, Microsoft, Oracle, Red Hat, SUSE and VMware offer Kubernetes-based platforms or infrastructure as a service (IaaS) that deploy Kubernetes."}
+    
+    # return test_dict
     return random.choice(word_list)
  
-
-
-return_word()
