@@ -126,8 +126,8 @@ def return_word():
         },       
         {
             "name": "Kubernetes (K8s)",
-            "definition": "An open-source container orchestration system for automating software deployment, scaling, and management.",
-            "url": "Kubernetes (K8s) is an open-source tool for modern infrastructure automation. It’s like a data center operating system that manages applications running across a distributed system (just like the OS on your laptop that manages your apps). Kubernetes schedules containers across nodes in a cluster. It defines infrastructure building blocks, called ‘primitives’ (such as app instances, load balancers, and persistent storage) which collectively provide mechanisms that deploy, maintain, and scale applications based on CPU, memory or custom metrics." + "\n" + "Amazon, Google, IBM, Microsoft, Oracle, Red Hat, SUSE and VMware offer Kubernetes-based platforms or infrastructure as a service (IaaS) that deploy Kubernetes."
+            "definition": "Kubernetes (K8s) is an open-source tool for modern infrastructure automation. It’s like a data center operating system that manages applications running across a distributed system (just like the OS on your laptop that manages your apps). Kubernetes schedules containers across nodes in a cluster. It defines infrastructure building blocks, called ‘primitives’ (such as app instances, load balancers, and persistent storage) which collectively provide mechanisms that deploy, maintain, and scale applications based on CPU, memory or custom metrics." + "\n" + "Amazon, Google, IBM, Microsoft, Oracle, Red Hat, SUSE and VMware offer Kubernetes-based platforms or infrastructure as a service (IaaS) that deploy Kubernetes.",
+            "url": "https://en.wikipedia.org/wiki/Kubernetes"
         },       
         # {
         #     "name": "",
