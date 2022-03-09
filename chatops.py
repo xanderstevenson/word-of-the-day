@@ -152,16 +152,16 @@ if __name__ == '__main__':
 
 
 
-        # {
-        #     "type": "ImageSet",
-        #     "images": [
-        #         {
-        #             "type": "Image",
-        #             "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/giphy.gif",
-        #             "size": "Medium"
-        #         }
-        #     ]
-        # }
+        {
+            "type": "ImageSet",
+            "images": [
+                {
+                    "type": "Image",
+                    "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/giphy.gif",
+                    "size": "Medium"
+                }
+            ]
+        }
     ],
 
 
