@@ -237,65 +237,65 @@ def return_word():
             "id": 36     
         },  
         {
-            "name": "",
-            "definition": "",
-            "url": "",
+            "name": "Site reliability engineering (SRE)",
+            "definition": "A set of principles and practices which incorporates aspects of software engineering and applies them to infrastructure and operations problems.The main goals are to create scalable and highly reliable software systems. Site reliability engineering is closely related to DevOps, a set of practices that combine software development and IT operations, and SRE has also been described as a specific implementation of DevOps. However, while DevOps is focused on getting code to production, SRE ensures that the code running in production works properly.",
+            "url": "https://en.wikipedia.org/wiki/Site_reliability_engineering",
             "id": 37     
         },  
         {
-            "name": "",
-            "definition": "",
-            "url": "",
+            "name": "Stateful vs. Stateless",
+            "definition": "A stateless process or application can be understood in isolation. There is no stored knowledge of or reference to past transactions. Each transaction is made as if from scratch for the first time. Stateless applications provide one service or function and use content delivery network (CDN), web, or print servers to process these short-term requests. \n\n Stateful applications and processes, however, are those that can be returned to again and again, like online banking or email. They’re performed with the context of previous transactions and the current transaction may be affected by what happened during previous transactions. For these reasons, stateful apps use the same servers each time they process a request from a user.  \n\n If a stateful transaction is interrupted, the context and history have been stored so you can more or less pick up where you left off. Stateful apps track things like window location, setting preferences, and recent activity. You can think of stateful transactions as an ongoing periodic conversation with the same person. /n/n The majority of applications we use day to day are stateful, but as technology advances, microservices and containers make it easier to build and deploy applications in the cloud.",
+            "url": "https://www.redhat.com/en/topics/cloud-native-apps/stateful-vs-stateless",
             "id": 38     
         },  
-            {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 39     
-        }, 
-        {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 40     
-        },  
-        {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 41     
-        },  
-        {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 42     
-        },  
-        {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 43     
-        },  
-        {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 44     
-        },  
-        {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 45     
-        },  
-            {
-            "name": "",
-            "definition": "",
-            "url": "",
-            "id": 46     
-        }, 
+        #     {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 39     
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 40     
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 41     
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 42     
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 43     
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 44     
+        # },  
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 45     
+        # },  
+        #     {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 46     
+        # }, 
 
     ]
 
