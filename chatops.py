@@ -119,22 +119,22 @@ if __name__ == '__main__':
 
             },
 
-        ## second link button
-            {
-            "type":"ActionSet",
-            "horizontalAlignment": "Center",
-            "actions": [
-                {
-                "type": "Action.OpenUrl",
-                "url": 'https://github.com/xanderstevenson/word-of-the-day-bot/pulls',
-                "title": 'Submit an entry for a new Word of the Day!',
-                "style": "positive",
-                "horizontalAlignment": "Center",
-                # "iconUrl": "https://pubhub.devnetcloud.com/media/support/site/images/cwd.png"
-                }
-            ]
+        # ## second link button
+        #     {
+        #     "type":"ActionSet",
+        #     "horizontalAlignment": "Center",
+        #     "actions": [
+        #         {
+        #         "type": "Action.OpenUrl",
+        #         "url": 'https://github.com/xanderstevenson/word-of-the-day-bot/pulls',
+        #         "title": 'Submit an entry for a new Word of the Day!',
+        #         "style": "positive",
+        #         "horizontalAlignment": "Center",
+        #         "iconUrl": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/github.png"
+        #         }
+        #     ]
 
-            },
+        #     },
 
         # code block - use in a sentence
             {
@@ -151,17 +151,14 @@ if __name__ == '__main__':
             },
 
 
+            # {
+            #     "type": "Image",
+            #     "url": "https://developer.webex.com/static/images/hero1.3E5fuG8.png",
+            #     "size": "Small",
+            #     "height": "50px"
+            # }
 
-        {
-            "type": "ImageSet",
-            "images": [
-                {
-                    "type": "Image",
-                    "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/giphy.gif",
-                    "size": "Medium"
-                }
-            ]
-        }
+
     ],
 
 
