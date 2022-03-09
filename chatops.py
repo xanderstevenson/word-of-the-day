@@ -119,6 +119,23 @@ if __name__ == '__main__':
 
             },
 
+        ## second link button
+            {
+            "type":"ActionSet",
+            "horizontalAlignment": "Center",
+            "actions": [
+                {
+                "type": "Action.OpenUrl",
+                "url": 'https://github.com/xanderstevenson/word-of-the-day-bot/pulls',
+                "title": 'Submit an entry for a new Word of the Day!',
+                "style": "positive",
+                "horizontalAlignment": "Center",
+                # "iconUrl": "https://pubhub.devnetcloud.com/media/support/site/images/cwd.png"
+                }
+            ]
+
+            },
+
         # code block - use in a sentence
             {
             "type": "TextBlock",
@@ -134,16 +151,17 @@ if __name__ == '__main__':
             },
 
 
-        # {
-        #     "type": "ImageSet",
-        #     "images": [
-        #         {
-        #             "type": "Image",
-        #             "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/giphy.gif",
-        #             "size": "Medium"
-        #         }
-        #     ]
-        # }
+
+        {
+            "type": "ImageSet",
+            "images": [
+                {
+                    "type": "Image",
+                    "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/giphy.gif",
+                    "size": "Medium"
+                }
+            ]
+        }
     ],
 
 
