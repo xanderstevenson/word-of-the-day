@@ -45,7 +45,7 @@ def return_word():
         },
         {
             "name": "CI/CD",
-            "definition": "The combined practices of Continuous Integration (CI) and either Continuous delivery or Continuous deployment with the aim towards increasing efficiency and productivity. CI/CD compiles incremental changes to software code made by developers. Automated testing is performed and then automated delivery to customers is generated.",
+            "definition": "The combined practices of Continuous Integration (CI) and either Continuous delivery or Continuous deployment (CD) with the aim towards increasing efficiency and productivity. CI/CD compiles incremental changes to software code made by developers. Automated testing is performed and then automated delivery to customers is generated.",
             "url": "https://en.wikipedia.org/wiki/CI/CD",
             "id": 5
         },
@@ -212,10 +212,95 @@ def return_word():
             "url": "https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/",
             "id": 32     
         },     
-       
+        {
+            "name": "Portability",
+            "definition": "The ability of software to be used in different environments, which helps to avoid being locked-in to certain operating environments, such as operating systems, cloud providers or vendors. Portable software works in different operating environments without needing major reconfiguration. When software with the same functionality is produced for several computing platforms, portability is the key issue for development cost reduction. \n\n In software engineering, ‘porting’ is the process of adapting software for the purpose of achieving some form of execution in a computing environment that is different from the one that a given program (meant for such execution) was originally designed for (e.g., different CPU, operating system, or third party library). The term is also used when software/hardware is changed to make them usable in different environments.",
+            "url": "https://en.wikipedia.org/wiki/Software_portability",
+            "id": 33     
+        },  
+        {
+            "name": "Serverless",
+            "definition": "A cloud computing and cloud native model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers. In this way, developers can build and run applications without having to manage servers. Although, ‘Serverless’ is a misnomer in the sense that servers are still used by cloud service providers to execute code for developers. However, developers of serverless applications are not concerned with capacity planning, configuration, management, maintenance, fault tolerance, or scaling of containers, VMs, or physical servers. \n\n Serverless computing does not hold resources in volatile memory; computing is rather done in short bursts with the results persisted to storage. When an app is not in use, there are no computing resources allocated to the app. And pricing is based on the actual amount of resources consumed by an application.",
+            "url": "https://en.wikipedia.org/wiki/Serverless_computing",
+            "id": 34     
+        },  
+        {
+            "name": "Service mesh",
+            "definition": "A dedicated infrastructure layer for managing communications between services or microservices, using a proxy. A service mesh can provide a number of benefits, such as observability, reliability and secure connections or automating the retries and backoff for failed requests.",
+            "url": "https://en.wikipedia.org/wiki/Service_mesh",
+            "id": 35     
+        },  
+        {
+            "name": "Service proxy",
+            "definition": "A network component that acts as an intermediary for requests from a client that is seeking resources from microservice components. The service proxy applies some logic to the request traffic and then forwards that traffic to another service. It thus acts as a ‘go-between’ that collects information about network traffic and/or applies rules to it.",
+            "url": "https://glossary.cncf.io/service_proxy/",
+            "id": 36     
+        },  
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 37     
+        },  
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 38     
+        },  
+            {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 39     
+        }, 
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 40     
+        },  
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 41     
+        },  
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 42     
+        },  
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 43     
+        },  
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 44     
+        },  
+        {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 45     
+        },  
+            {
+            "name": "",
+            "definition": "",
+            "url": "",
+            "id": 46     
+        }, 
+
     ]
-    
-    # test_dict = {"name": "Kubernetes (K8s)","definition": "An open-source container orchestration system for automating software deployment, scaling, and management.","url": "Kubernetes (K8s) is an open-source tool for modern infrastructure automation. It’s like a data center operating system that manages applications running across a distributed system (just like the OS on your laptop that manages your apps). Kubernetes schedules containers across nodes in a cluster. It defines infrastructure building blocks, called ‘primitives’ (such as app instances, load balancers, and persistent storage) which collectively provide mechanisms that deploy, maintain, and scale applications based on CPU, memory or custom metrics." + "\n" + "Amazon, Google, IBM, Microsoft, Oracle, Red Hat, SUSE and VMware offer Kubernetes-based platforms or infrastructure as a service (IaaS) that deploy Kubernetes."}
+
+
+    # test_dict = {"id": "33",}
     
     # return test_dict
     return random.choice(word_list)
