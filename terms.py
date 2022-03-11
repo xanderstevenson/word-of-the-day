@@ -248,18 +248,18 @@ def return_word():
             "url": "https://www.redhat.com/en/topics/cloud-native-apps/stateful-vs-stateless",
             "id": 38     
         },  
-        #     {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 39     
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 40     
-        # },  
+            {
+            "name": "Version control",
+            "definition": "Version control (also known as revision control, source control, or source code management) is a class of systems responsible for managing changes to computer programs, documents, large web sites, or other collections of information. Version control is a component of software configuration management. \n\n Version control systems are most commonly run as stand-alone applications, but revision control is also embedded in various types of software, such as word processors and spreadsheets, collaborative web docs, and content management systems, e.g., Wikipedia's page history. Revision control enables reverting a document to a previous revision, which is critical for allowing editors to track each other's edits, correct mistakes, and defend against vandalism and spamming in wikis. Git is the most popular version control software but there are many competitors.",
+            "url": "https://en.wikipedia.org/wiki/Version_control",
+            "id": 39     
+        }, 
+        {
+            "name": "Virtual machine (VM)",
+            "definition": "In computing, a virtual machine (VM) is the virtualization/emulation of a computer system. Virtual machines are based on computer architectures and provide functionality of a physical computer, while not being bound to a particular piece of hardware. VMs rely on virtualization to create multiple virtual computers from a single physical computer. This allows infrastructure providers to maximize physical resources and easily create and tear down multiple VMs instances on a single machine.",
+            "url": "https://en.wikipedia.org/wiki/Virtual_machine",
+            "id": 40     
+        },  
         # {
         #     "name": "",
         #     "definition": "",
