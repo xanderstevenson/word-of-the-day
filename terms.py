@@ -260,18 +260,18 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Virtual_machine",
             "id": 40     
         },  
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 41     
-        # },  
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 42     
-        # },  
+        {
+            "name": "Gorilla testing",
+            "definition": "A software testing technique that repeatedly applies inputs on a module to ensure it is functioning correctly and that there are no bugs. Gorilla testing is a manual testing procedure and is performed on selected modules of the software system with selected test cases. \n\n The main objective is to test specific modules heavily and find any faults in their implementation. Since the tester manually applies the same test case repeatedly, it is also known as Torture Testing, Fault Tolerance Testing, or Frustrating Testin",
+            "url": "https://www.educative.io/edpresso/what-is-gorilla-testing",
+            "id": 41     
+        },  
+        {
+            "name": "Monkey testing",
+            "definition": "In software testing, monkey testing is a technique where the user tests the application or system by providing random inputs and checking the behavior, or seeing whether the application or system will crash. Monkey testing is usually implemented as random, automated unit tests.",
+            "url": "https://en.wikipedia.org/wiki/Monkey_testing",
+            "id": 42     
+        },  
         # {
         #     "name": "",
         #     "definition": "",
