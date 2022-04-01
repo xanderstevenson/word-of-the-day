@@ -290,12 +290,61 @@ def return_word():
             "url": "https://developer.cisco.com/site/webdialer/",
             "id": 45     
         },  
+        {
+            "name": "Link aggregation",
+            "definition": "In computer networking, link aggregation is the combining (aggregating) of multiple network connections in parallel by any of several methods, in order to increase throughput beyond what a single connection could sustain, to provide redundancy in case one of the links should fail, or both. A link aggregation group (LAG) is the combined collection of physical ports.",
+            "url": "https://en.wikipedia.org/wiki/Link_aggregation",
+            "id": 46     
+        },         
+        {
+            "name": "Hashing",
+            "definition": "Hashing is a widely used concept within the IT world. It’s a multi-purpose technique used to generate a value based on a string that is computed through a mathematical function. The mathematical function used is called the hashing algorithm, and the value computed is called the hash value. A hash value is used because as long as you provide the same input string to a hashing algorithm, it will always generate exactly the same output hash value. \n\n We can then use the computed hash value instead of the original string for simplicity. In networks, we run a lot of data through a hashing algorithm to scramble data before we transmit it (encrypt it). But the same technique can also be used to choose a physical link to use when they’re bundled into a logical interface.",
+            "url": "https://en.wikipedia.org/wiki/Hash_function",
+            "id": 47     
+        },         
+        {
+            "name": "Bandwidth, Throughput and Goodput",
+            "definition": "In computing, bandwidth is the maximum rate of data transfer across a given path. \n\n Throughput is all the bits that you can actually, physically transfer through your network, which can fall short of the bandwidth ideal. This includes all the needed headers and everything that is transported across your network. \n\n To determine goodput, take all your throughput data and strip all the headers and all the application layer overheads; what’s left is the data that you can use: goodput. \n\n Bandwidth > Throughput > Goodput",
+            "url": "https://en.wikipedia.org/wiki/Goodput",
+            "id": 48     
+        },         
+        {
+            "name": "Trunking",
+            "definition": "In telecommunications, trunking is a technology for providing network access to multiple clients simultaneously by sharing a set of circuits, carriers, channels, or frequencies, instead of providing individual circuits or channels for each client. This is reminiscent to the structure of a tree with one trunk and many branches. \n\n In computer networking, port trunking is the use of multiple concurrent network connections to aggregate the link speed of each participating port and cable, also called link aggregation. Such high-bandwidth link groups may be used to interconnect switches or to connect high-performance servers to a network. \n\n In the context of Ethernet VLANs, Cisco uses the term Ethernet trunking to mean carrying multiple VLANs through a single network link through the use of a trunking protocol. To allow for multiple VLANs on one link, frames from individual VLANs must be identified. The most common and preferred method, IEEE 802.1Q adds a tag to the Ethernet frame, labeling it as belonging to a certain VLAN. Since 802.1Q is an open standard, it is the only option in an environment with multiple-vendor equipment.",
+            "url": "https://en.wikipedia.org/wiki/Trunking",
+            "id": 49     
+        },         
         #     {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 46     
-        # }, 
+        #     "id": 50     
+        # },        
+        #  {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 51     
+        # },        
+        #  {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 51     
+        # },        
+        #  {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 51     
+        # },        
+        #  {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 51     
+        # },        
+
 
     ]
 
