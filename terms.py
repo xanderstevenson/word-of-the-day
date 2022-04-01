@@ -314,35 +314,94 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Trunking",
             "id": 49     
         },         
-        #     {
+        {
+            "name": "Capacity planning",
+            "definition": "The process of determining the production capacity needed by an organization to meet changing demands for bandwidth, processing capability, services or similar items.",
+            "url": "https://en.wikipedia.org/wiki/Capacity_planning",
+            "id": 50     
+        },        
+        {
+            "name": "Captive portal",
+            "definition": "A web page accessed with a web browser that is displayed to newly connected users of a Wi-Fi or wired network before they are granted broader access to network resources. Captive portals are commonly used to present a landing or log-in page which may require authentication, payment, acceptance of an end-user license agreement, acceptable use policy, survey completion, or other valid credentials that both the host and user agree to adhere by.",
+            "url": "https://en.wikipedia.org/wiki/Captive_portal",
+            "id": 51     
+        },        
+        {
+            "name": "Fragmentation",
+            "definition": "In computer storage, fragmentation is a phenomenon in which storage space, main storage or secondary storage, is used inefficiently, reducing capacity or performance and often both. The exact consequences of fragmentation depend on the specific system of storage allocation in use and the particular form of fragmentation. In many cases, fragmentation leads to storage space being "wasted", and in that case the term also refers to the wasted space itself.",
+            "url": "https://en.wikipedia.org/wiki/Fragmentation_(computing)",
+            "id": 52     
+        },        
+        {
+            "name": "Jumbogram and Jumbo frame",
+            "definition": "In packet-switched computer networks, a jumbogram is an internet-layer packet exceeding the standard maximum transmission unit (MTU) of the underlying network technology. While IPv4 has no facilities to exceed its theoretical IP MTU limit, the designers of IPv6 have provided a protocol extension to permit packets of larger size. An optional feature of IPv6, the jumbo payload option, allows the exchange of packets with payloads of up to one byte less than 4 GiB (232 − 1 = 4,294,967,295 bytes), by making use of a 32-bit length field. \n\n In contrast, large packets (more than 1500 bytes of payload, the limit set by the IEEE 802.3 standard) for link-layer technologies are referred to as jumbo frames. Commonly, jumbo frames can carry up to 9000 bytes of payload, but smaller and larger variations exist and some care must be taken using the term. Many Gigabit Ethernet switches and Gigabit Ethernet network interface controllers and some Fast Ethernet switches and Fast Ethernet network interface cards can support jumbo frames.",
+            "url": "https://en.wikipedia.org/wiki/Jumbo_frame",
+            "id": 53     
+        },        
+        {
+            "name": "Information Technology Infrastructure Library (ITIL)",
+            "definition": "A library and set of detailed practices for IT activities such as IT service management (ITSM) and IT asset management (ITAM) that focus on aligning IT services with the needs of business. \n\n ITIL describes processes, procedures, tasks, and checklists which are neither organization-specific nor technology-specific, but can be applied by an organization toward strategy, delivering value, and maintaining a minimum level of competency. It allows the organization to establish a baseline from which it can plan, implement, and measure. It is used to demonstrate compliance and to measure improvement.",
+            "url": "https://en.wikipedia.org/wiki/ITIL",
+            "id": 54     
+        },          
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 50     
-        # },        
-        #  {
+        #     "id": 55     
+        # },          
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 51     
-        # },        
-        #  {
+        #     "id": 56     
+        # },          
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 51     
-        # },        
-        #  {
+        #     "id": 57     
+        # },          
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 51     
-        # },        
-        #  {
+        #     "id": 58     
+        # },          
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 51     
+        #     "id": 59     
+        # },          
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 60     
+        # },          
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 61     
+        # },          # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 62     
+        # },          
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 63     
+        # },          
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 64     
         # },        
 
 
