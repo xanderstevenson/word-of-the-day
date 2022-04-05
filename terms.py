@@ -344,72 +344,254 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/ITIL",
             "id": 54     
         },          
+        {
+            "name": "Big data",
+            "definition": "A tech term that describes large volumes of data in a structured, semi-structured, and unstructured form that can be leveraged for gleaning valuable business insights using machine learning and advanced analytics techniques. Big Data is characterized by the four V’s – Volume of the data, Variety of the data, Veracity, i.e. trustworthiness of the data, and Velocity. \n\n Big data also refers to data sets that are too large or complex to be dealt with by traditional data-processing application software. Data with many fields (rows) offer greater statistical power, while data with higher complexity (more attributes or columns) may lead to a higher false discovery rate.",
+            "url": "https://en.wikipedia.org/wiki/Big_data",
+            "id": 55     
+        },          
+        {
+            "name": "Colo (Colocation Centre)",
+            "definition": "A colocation center (also spelled co-location, or colo) or 'carrier hotel', is a type of data centre where equipment, space, and bandwidth are available for rental to retail customers. Colocation facilities provide space, power, cooling, and physical security for the server, storage, and networking equipment of other firms and also connect them to a variety of telecommunications and network service providers with a minimum of cost and complexity.",
+            "url": "https://en.wikipedia.org/wiki/Colocation_centre",
+            "id": 56     
+        },          
+        {
+            "name": "Data migration",
+            "definition": "The process of moving data, applications, or business elements between multiple formats, storage systems, warehouses, and servers. ",
+            "url": "https://en.wikipedia.org/wiki/Data_migration",
+            "id": 57     
+        },          
+        {
+            "name": "GCP (Google Cloud Platform)",
+            "definition": "A Google cloud computing platform, which is a suite of public cloud computing services that offers management tools, computing, data storage, data analytics and machine learning. Google Cloud Platform provides infrastructure as a service, platform as a service, and serverless computing environments.",
+            "url": "https://en.wikipedia.org/wiki/Google_Cloud_Platform",
+            "id": 58     
+        },          
+        {
+            "name": "Fibre Channel",
+            "definition": "A high-speed data transfer protocol providing in-order, lossless delivery of raw block data. Fibre Channel is primarily used to connect computer data storage to servers in storage area networks (SAN) in commercial data centers.",
+            "url": "https://en.wikipedia.org/wiki/Fibre_Channel",
+            "id": 59     
+        },          
+        {
+            "name": "Forward error correction (FEC)",
+            "definition": "Forward error correction (FEC) or channel coding is a technique used for controlling errors in data transmission over unreliable or noisy communication channels. In EFC, the source (transmitter) sends redundant data and the destination (receiver) recognizes only the portion of the data that contains no apparent errors.",
+            "url": "https://en.wikipedia.org/wiki/Error_correction_code#Forward_error_correction",
+            "id": 60     
+        },          
+        {
+            "name": "Hypervisor",
+            "definition": "A hypervisor (or virtual machine monitor, VMM, virtualizer) is software that allows multiple operating systems to share a single hardware host system. A hypervisor is similar to an emulator; it is computer software, firmware or hardware that creates and runs virtual machines. A computer on which a hypervisor runs one or more virtual machines is called a host machine, and each virtual machine is called a guest machine. The hypervisor presents the guest operating systems with a virtual operating platform and manages the execution of the guest operating systems. \n\n Multiple instances of a variety of operating systems may share the virtualized hardware resources: for example, Linux, Windows, and macOS instances can all run on a single physical x86 machine. This contrasts with operating-system–level virtualization, where all instances (usually called containers) must share a single kernel, though the guest operating systems can differ in user space, such as different Linux distributions with the same kernel.",
+            "url": "https://en.wikipedia.org/wiki/Hypervisor",
+            "id": 61     
+        },          
+        {
+            "name": "YANG",
+            "definition": "Yet Another Next Generation (YANG) is a data modeling language for the definition of data sent over network management protocols such as the NETCONF and RESTCONF. This data modeling language can be used to model both configuration data as well as state data of network elements. Furthermore, YANG can be used to define the format of event notifications emitted by network elements and it allows data modelers to define the signature of remote procedure calls that can be invoked on network elements via the NETCONF protocol. The language, being protocol independent, can then be converted into any encoding format, e.g. XML or JSON, that the network configuration protocol supports.",
+            "url": "https://en.wikipedia.org/wiki/YANG",
+            "id": 62     
+        },          
+        {
+            "name": "YAML",
+            "definition": "YAML is a human-readable data-serialization language. It is commonly used for configuration files and in applications where data is being stored or transmitted. YAML targets many of the same communications applications as Extensible Markup Language (XML) but has a minimal syntax. It uses both Python-style indentation to indicate nesting, and a more compact format that uses [...] for lists and {...} for maps, thus JSON files are valid as of YAML 1.2. \n\n The official recommended filename extension for YAML files has been .yaml since 2006. Support for reading and writing YAML is available for many programming languages. Some source-code editors such as Vim, Emacs, and various integrated development environments have features that make editing YAML easier, such as folding up nested structures or automatically highlighting syntax errors.",
+            "url": "https://en.wikipedia.org/wiki/YAML",
+            "id": 63     
+        },   
+
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 55     
-        # },          
+        #     "id": 64   
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 56     
-        # },          
+        #     "id": 65      
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 57     
-        # },          
+        #     "id": 66     
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 58     
-        # },          
+        #     "id": 67      
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 59     
-        # },          
+        #     "id": 68     
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 60     
-        # },          
+        #     "id": 69     
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 61     
-        # },          # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 62     
-        # },          
+        #     "id": 70     
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 63     
-        # },          
+        #     "id": 71     
+        # },        
+
+             
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 64     
+        #     "id": 72     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 73      
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 74     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 75     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 76      
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 77     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 78     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 79     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 80     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 81     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 82     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 83     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 84     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 85     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 86     
+        # },        
+
+             
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 87     
         # },        
 
 
     ]
 
-
-    # test_dict = {"id": "33",}
-    
-    # return test_dict
     return random.choice(word_list)
  
