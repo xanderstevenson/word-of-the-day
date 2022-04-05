@@ -398,198 +398,150 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/YAML",
             "id": 63     
         },   
-
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 64   
-        # },        
-
-             
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 65      
-        # },        
-
-             
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 66     
-        # },        
-
-             
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 67      
-        # },        
-
-             
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 68     
-        # },        
-
-             
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 69     
-        # },        
-
-             
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 70     
-        # },        
-
-             
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 71     
-        # },        
-
-             
+        {
+            "name": "Blockchain",
+            "definition": "A list of records, called blocks, that are linked together using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. The timestamp proves that the transaction data existed when the block was published to get into its hash. As blocks each contain information about the block previous to it, they form a chain, with each additional block reinforcing the ones before it. Therefore, blockchains are resistant to modification of their data because once recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.",
+            "url": "https://en.wikipedia.org/wiki/Blockchain",
+            "id": 64   
+        },        
+        {
+            "name": "Net neutrality",
+            "definition": "Network neutrality, most commonly called net neutrality, is the principle that Internet service providers (ISPs) must treat all Internet communications equally, and not charge users different rates based on content, website, platform, application, type of equipment, source address, destination address, or method of communication. \n\n With net neutrality, ISPs may not intentionally block, slow down, or charge money for specific online content. Without net neutrality, ISPs may prioritize certain types of traffic, meter others, or potentially block traffic from specific services, while charging consumers for various tiers of service.",
+            "url": "https://en.wikipedia.org/wiki/Net_neutrality",
+            "id": 65      
+        },           
+        {
+            "name": "Non-fungible token (NFT)",
+            "definition": "A non-fungible token (NFT) is a unique, non-interchangeable unit of data stored on a blockchain, a form of digital ledger, that can be sold and traded. Types of NFT data units may be associated with digital files such as photos, videos, and audio. Because each token is uniquely identifiable, NFTs differ from blockchain cryptocurrencies, such as Bitcoin. \n\n NFT ledgers claim to provide a public certificate of authenticity or proof of ownership, but the legal rights conveyed by an NFT can be uncertain. NFTs do not restrict the sharing or copying of the underlying digital files, do not necessarily convey the copyright of the digital files, and do not prevent the creation of NFTs with identical associated files.",
+            "url": "Non-fungible token",
+            "id": 66     
+        },         
+        {
+            "name": "Metaverse",
+            "definition": "A metaverse is a network of 3D virtual worlds focused on social connection. In futurism and science fiction, it is often described as a hypothetical iteration of the Internet as a single, universal virtual world that is facilitated by the use of virtual and augmented reality headsets. \n\n The term ‘metaverse’ has its origins in the 1992 science fiction novel Snow Crash as a portmanteau of ‘meta’ and ‘universe.’ Various metaverses have been developed for popular use such as virtual world platforms like Second Life. Some metaverse iterations involve integration between virtual and physical spaces and virtual economies. Demand for increased immersion means metaverse development is often linked to advancing virtual reality technology.",
+            "url": "https://en.wikipedia.org/wiki/Metaverse",
+            "id": 67      
+        },          
+        {
+            "name": "Digital divide",
+            "definition": "The digital divide is a gap between those who have access to digital technology and those who do not. These technologies include, but are not limited to smart phones, computers, and the internet. In the Information Age in which information and communication technologies (ICTs) have eclipsed manufacturing technologies as the basis for world economies and social connectivity, people without access to the Internet and other ICTs are at a socio-economic disadvantage because they are unable or less able to find and apply for jobs, shop and sell online, participate democratically, or research and learn.",
+            "url": "https://en.wikipedia.org/wiki/Digital_divide",
+            "id": 68     
+        },            
+        {
+            "name": "Hyper-personalization",
+            "definition": "Hyper-personalization is the concept of gathering real-time behavioral data of customers and leveraging artificial intelligence (AI) and to deliver more relevant content, product, and service information to each user. This approach takes personalized marketing a step further.",
+            "url": "https://en.wikipedia.org/wiki/Personalization",
+            "id": 69     
+        },          
+        {
+            "name": "Gamification",
+            "definition": "Gamification is the strategic attempt to enhance systems, services, organizations, and activities in order to create similar experiences to those experienced when playing games in order to motivate and engage users. This is generally accomplished through the application of game-design elements and game principles (dynamics and mechanics) in non-game contexts.",
+            "url": "https://en.wikipedia.org/wiki/Gamification",
+            "id": 70     
+        },          
+        {
+            "name": "Wantrepreneur",
+            "definition": "Someone who would like to start a business and thinks and talks about doing so, but never gets started.",
+            "url": "https://www.entrepreneur.com/article/242451",
+            "id": 71     
+        },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 72     
-        # },        
-
-             
+        # },           
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 73      
-        # },        
-
-             
+        # },           
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 74     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 75     
-        # },        
-
-             
+        # },         
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 76      
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 77     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 78     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 79     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 80     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 81     
-        # },        
-
-             
+        # },         
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 82     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 83     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 84     
-        # },        
-
-             
+        # },          
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 85     
-        # },        
-
-             
+        # },           
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 86     
-        # },        
-
-             
+        # },           
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 87     
         # },        
-
 
     ]
 
