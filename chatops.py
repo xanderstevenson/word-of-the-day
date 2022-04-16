@@ -22,12 +22,7 @@ def send_it(token, room_id, message):
 if __name__ == '__main__':
 
     # Command line arguments parsing    
-    from argparse import ArgumentParser  
-    #parser = ArgumentParser("chatops.py")  
-    #parser.add_argument("-m", "--message", help="the message text to post to Webex Teams", required=True)
-    #parser.add_argument("-r", "--room_id", help="the identifier of the room you added your bot to", required=True)
-    #parser.add_argument("-t", "--token", help="[optional] your bot's access token. Alternatively, you can use the TEAMS_ACCESS_TOKEN env variable", required=False)
-    #args = parser.parse_args() 
+    from argparse import ArgumentParser   
     access_token = os.environ.get("TEAMS_ACCESS_TOKEN")
     teams_room = "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
     the_message = ""
@@ -37,7 +32,7 @@ if __name__ == '__main__':
     word = "\n" + random_word["name"] + "\n\n"
     word_url = random_word["url"]
     definition = random_word["definition"]
-    wiki_link_text = f"Click & Learn More about '{random_word_name}'"
+    wiki_link_text = f"Learn More about '{random_word_name}'"
     
 
     card = [
@@ -88,21 +83,6 @@ if __name__ == '__main__':
         #     "weight": "Bolder",
             "wrap": True
             },
-    # code block - use in a sentence
-            # {
-        #     "type": "TextBlock",
-        #     "text": "See how many times you can incorporate the word into your speech and text today.",
-        #     "size": "Small",
-        # #     "separator": True,
-        #     "horizontalAlignment": "Center",
-        #     "fontType": "Default",
-        #     "isSubtle": True,
-        #     "color": "Warning",
-        #     "weight": "Lighter",
-        #     "wrap": True
-            # },
-
-
             {
             "type":"ActionSet",
             "horizontalAlignment": "Center",
@@ -118,23 +98,6 @@ if __name__ == '__main__':
             ]
 
             },
-
-        # ## second link button
-        #     {
-        #     "type":"ActionSet",
-        #     "horizontalAlignment": "Center",
-        #     "actions": [
-        #         {
-        #         "type": "Action.OpenUrl",
-        #         "url": 'https://github.com/xanderstevenson/word-of-the-day-bot/pulls',
-        #         "title": 'Submit an entry for a new Word of the Day!',
-        #         "style": "positive",
-        #         "horizontalAlignment": "Center",
-        #         "iconUrl": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/github.png"
-        #         }
-        #     ]
-
-        #     },
 
         # code block - use in a sentence
             {
@@ -157,12 +120,7 @@ if __name__ == '__main__':
             #     "size": "Small",
             #     "height": "50px"
             # }
-
-
     ],
-
-
-
 
         }
         }
@@ -171,14 +129,6 @@ if __name__ == '__main__':
 
         # Check access token
     teams_access_token = os.environ.get("TEAMS_ACCESS_TOKEN")
-    # token = access_token if access_token else teams_access_token
-    # if not token:
-    #     error_message = "You must provide a Webex Teams API access token to " \
-    #                     "interact with the Webex Teams APIs, either via " \
-    #                     "a TEAMS_ACCESS_TOKEN environment variable " \
-    #                     "or via the -t command line argument."
-    #     print(error_message)
-    #     sys.exit(2)
 
     # Now let's post our message to Webex Teams
     res = send_it(teams_access_token, teams_room, the_message)
