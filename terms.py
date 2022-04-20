@@ -280,7 +280,7 @@ def return_word():
         },  
         {
             "name": "Cisco JTAPI",
-            "definition": "JTAPI serves as a programming interface standard developed by Sun Microsystems for use with Java-based computer–telephony applications. You use Cisco JTAPI to develop applications that a) Control and observe Cisco Unified Communications Manager (CUCM) phones and b) route calls by using Computer–Telephony Integration (CTI) ports and route points (virtual devices). \n\n Cisco Unified JTAPI gets used in a contact center to monitor device status and to issue routing instructions to send calls to the right place at the right time, to start and stop recording instructions while retrieving call statistics for analysis; and to screen-pop calls into CRM applications, automated scripting, and remote call control. \n\n Cisco Unified JTAPI, used in an enterprise environment, combines user availability, location, and preferences for a uniquely tailored environment for presence-based routing. For example, in a financial environment, market data, business logic, and call control combine in a browser-based application to enable brokers and analysts to respond to rapid changes in the global financial markets. \n\n In a healthcare environment, call control, doctor/patient lookup, and emergency response team paging combine in a browser-based console. Further, in a hospitality environment, caller data gets linked with POS systems to automate room or restaurant reservations, dispatch taxis, and schedule wakeup calls.",
+            "definition": "JTAPI serves as a programming interface standard developed by Sun Microsystems for use with Java-based computer–telephony applications. You use Cisco JTAPI to develop applications that \n\n a) Control and observe Cisco Unified Communications Manager (CUCM) phones and \n b) route calls by using Computer–Telephony Integration (CTI) ports and route points (virtual devices). \n\n Cisco Unified JTAPI gets used in a contact center to monitor device status and to issue routing instructions to send calls to the right place at the right time, to start and stop recording instructions while retrieving call statistics for analysis; and to screen-pop calls into CRM applications, automated scripting, and remote call control. \n\n Cisco Unified JTAPI, used in an enterprise environment, combines user availability, location, and preferences for a uniquely tailored environment for presence-based routing. For example, in a financial environment, market data, business logic, and call control combine in a browser-based application to enable brokers and analysts to respond to rapid changes in the global financial markets. \n\n In a healthcare environment, call control, doctor/patient lookup, and emergency response team paging combine in a browser-based console. Further, in a hospitality environment, caller data gets linked with POS systems to automate room or restaurant reservations, dispatch taxis, and schedule wakeup calls.",
             "url": "https://developer.cisco.com/site/jtapi/",
             "id": 44     
         },  
@@ -578,95 +578,203 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Customer_relationship_management",
             "id": 93     
         },        
+        {
+            "name": "CSS (Cascading Style Sheets)",
+            "definition": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. \n\n CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.",
+            "url": "https://en.wikipedia.org/wiki/CSS",
+            "id": 94     
+        },        
+        {
+            "name": "Call to action (CTA)",
+            "definition": "A call to action (CTA) is a prompt on a website that tells the user to take some specified action. A call to action is typically written as a command or action phrase, such as ‘Sign Up’ or ‘Buy Now’ and generally takes the form of a button or hyperlink. In digital marketing this can take the form of the text on a button (a CTA button) or a web link and in email campaigns CTAs are often links to a webpage where the user can take further action.",
+            "url": "https://www.optimizely.com/optimization-glossary/call-to-action",
+            "id": 95     
+        },        
+        {
+            "name": "GUI (Graphical User Interface)",
+            "definition": "The graphical user interface (GUI) is a form of user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation, instead of text-based user interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer keyboard.",
+            "url": "https://en.wikipedia.org/wiki/Graphical_user_interface",
+            "id": 96     
+        },        
+        {
+            "name": "HTML (Hypertext Markup Language)",
+            "definition": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document. \n\n HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags but use them to interpret the content of the page. \n\n HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997. A form of HTML, known as HTML5, is used to display video and audio, primarily using the <canvas> element, in collaboration with javascript.",
+            "url": "https://en.wikipedia.org/wiki/HTML",
+            "id": 97     
+        },        
+        {
+            "name": "Meta element",
+            "definition": "Meta elements are tags used in HTML and XHTML documents to provide structured metadata about a Web page. They are part of a web page's head section. Multiple Meta elements with different attributes can be used on the same page. Meta elements can be used to specify page description, keywords and any other metadata not provided through the other head elements and attributes. The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata within the HTML document. e.g. \n\n <meta name='generator' content='MediaWiki 1.39.0-wmf.7'> \n <meta name='referrer' content='origin-when-cross-origin'>",
+            "url": "https://en.wikipedia.org/wiki/Meta_element",
+            "id": 98     
+        },        
+        {
+            "name": "OOTB (Out of the box)",
+            "definition": "An out-of-the-box feature or functionality (also called OOTB or off the shelf), particularly in software, is a native feature or built-in functionality of a product that comes directly from the vendor and works immediately when the product is placed in service. In the context of software, out-of-the-box features and functionality are available for all users by default and do not require customization, modification, configuration, scripting, add-ons, modules, third-party tools, or additional fees in order to be used.",
+            "url": "https://medium.com/swlh/out-of-box-vs-custom-software-solutions-143ad473d29d",
+            "id": 99     
+        },        
+        {
+            "name": "COTS (Commercial off-the-shelf)",
+            "definition": "Commercial off-the-shelf or commercially available off-the-shelf (COTS) products are packaged or canned (ready-made) hardware or software, which are adapted aftermarket to the needs of the purchasing organization, rather than the commissioning of custom-made, or bespoke, solutions. A related term, Mil-COTS, refers to COTS products for use by the U.S. military. \n\n In the context of the U.S. government, the Federal Acquisition Regulation (FAR) has defined ‘COTS’ as a formal term for commercial items, including services, available in the commercial marketplace that can be bought and used under government contract. For example, Microsoft is a COTS software provider. COTS purchases are alternatives to custom software or one-off developments – government-funded developments or otherwise. \n\n Although COTS products can be used out of the box, in practice the COTS product must be configured to achieve the needs of the business and integrated to existing organizational systems. Extending the functionality of COTS products via custom development is also an option, however this decision should be carefully considered due to the long term support and maintenance implications. Such customized functionality is not supported by the COTS vendor, so brings its own sets of issues when upgrading the COTS product. \n The use of COTS has been mandated across many government and business programs, as such products may offer significant savings in procurement, development, and maintenance. In the 1990s, many regarded COTS as extremely effective in reducing the time and cost of software development.  COTS software came with many not-so-obvious tradeoffs— a reduction in initial cost and development time over an increase in software component-integration work, dependency on the vendor, security issues and incompatibilities from future changes.",
+            "url": "https://en.wikipedia.org/wiki/Commercial_off-the-shelf",
+            "id": 100     
+        },        
+        {
+            "name": "Responsive design",
+            "definition": "Responsive web design (RWD) or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction. /n/n A responsive design adapts the web-page layout to the viewing environment by using techniques such as fluid proportion-based grids, flexible images, and CSS3 media queries, an extension of the @media rule, in the following ways: \n - The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points. \n - Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element. \n - Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, e.g. width of the rendering surface (browser window width or a physical display size). \n - Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone. \n\n Responsive web design became more important as users of mobile devices came to account for the majority of web site visitors",
+            "url": "https://en.wikipedia.org/wiki/Responsive_web_design",
+            "id": 101     
+        },        
+        {
+            "name": "UI vs. UX",
+            "definition": "A user interface (UI) is a place where interactions between humans and machines occur. It allows users to effectively operate a machine to complete a task or achieve a specific goal, like making a purchase or downloading an app. The three most common UIs are the command line interface, graphic user interface, and voice-enabled user interface. Essential properties of a well-designed UI include clarity, familiarity, consistency, forgiveness and efficiency. The primary interface design techniques are prototyping and simulation. \n\n User experience (UX) is the experience that a person has as they interact with a product. The term was coined by Don Norman back in the 90s when he worked at Apple. Don Norman says that ‘’User experience’ encompasses all aspects of the end-users interaction with the company, its services, and its products.’ UX designers incorporate the ideas of user persona and user journey into their research and design. These understandings help them to propose design solutions that works the best for their users. \n\n The meanings of UX and UI imply that they are related design disciplines, yet they are very different in nature. The UI design is more concerned with the visual properties of design as well as the overall feel it conveys (i.e., is it aesthetically pleasing?). UX design is more analytical; It’s rooted in cognitive behavior and human psychology.",
+            "url": "https://xd.adobe.com/ideas/process/ui-design/ui-vs-ux-design-understanding-similarities-and-differences/",
+            "id": 102     
+        },        
+        {
+            "name": "What You See is What You Get (WYSIWYG)",
+            "definition": "In computing, WYSIWYG, an acronym for What You See Is What You Get, is a system in which editing software allows content to be edited in a form that resembles its appearance when printed or displayed as a finished product, such as a printed document, web page, or slide presentation. WYSIWYG implies a user interface that allows the user to view something very similar to the end result while the document is being created. In general, WYSIWYG implies the ability to directly manipulate the layout of a document without having to type or remember names of layout commands.",
+            "url": "https://en.wikipedia.org/wiki/WYSIWYG",
+            "id": 103     
+        },        
+        {
+            "name": "Three-tier architecture",
+            "definition": "Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed. \n\n The chief benefit of three-tier architecture is that because each tier runs on its own infrastructure, each tier can be developed simultaneously by a separate development team, and can be updated or scaled as needed without impacting the other tiers. Three-tier architecture is the predominant software architecture for traditional client-server applications. \n\n A 3-tier application is a program that is organized into three major parts: the workstation or presentation interface; the business logic; and the database and related programming. Each of these is distributed to one or more separate places on a network.",
+            "url": "https://www.ibm.com/cloud/learn/three-tier-architecture",
+            "id": 104     
+        },        
+        {
+            "name": "Agile software development",
+            "definition": "In software development, agile (sometimes written Agile) practices include requirements discovery and solutions improvement through the collaborative effort of self-organizing and cross-functional teams with their customer(s)/end user(s), adaptive planning, evolutionary development, early delivery, continual improvement, and flexible responses to changes in requirements, capacity, and understanding of the problems to be solved. \n\n Popularized in the 2001 Manifesto for Agile Software Development, these values and principles were derived from and underpin a broad range of software development frameworks, including Scrum and Kanban.",
+            "url": "https://en.wikipedia.org/wiki/Agile_software_development",
+            "id": 105     
+        },        
+        {
+            "name": "Amelioration pattern",
+            "definition": "In software engineering, an amelioration pattern is a design pattern that describes how to go from a bad solution to a better one. In other words, it is an anti-pattern formed when an existing software design pattern was edited (i.e. rearranged, added or deleted) to better suit a particular problem so as to achieve some further effect or behavior. In this sense, an amelioration pattern is transformational in character.",
+            "url": "https://dl.acm.org/doi/10.5555/1035053.1035074",
+            "id": 106     
+        },        
+        {
+            "name": "Anti-pattern",
+            "definition": "An anti-pattern in software engineering, project management, and business processes is a common response to a recurring problem that is usually ineffective and risks being highly counterproductive. The term, coined in 1995 by computer programmer Andrew Koenig, was inspired by the book Design Patterns (which highlights a number of design patterns in software development that its authors considered to be highly reliable and effective) and first published in his article in the Journal of Object-Oriented Programming. A further paper in 1996 presented by Michael Ackroyd at the Object World West Conference also documented anti-patterns. \n\n It was, however, the 1998 book AntiPatterns that both popularized the idea and extended its scope beyond the field of software design to include software architecture and project management. Other authors have extended it further since to encompass environmental/organizational/cultural anti-patterns.",
+            "url": "https://en.wikipedia.org/wiki/Anti-pattern",
+            "id": 107     
+        },        
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 94     
+        #     "id": 108     
         # },        
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 95     
+        #     "id": 109     
         # },        
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 96     
+        #     "id": 110     
         # },        
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 97     
+        #     "id": 111     
         # },        
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 98     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 99     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 100     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 101     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 102     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 103     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 104     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 105     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 106     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 107     
+        #     "id": 112     
         # },        
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 108     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 113     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 114     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 115     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 116     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 117     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 118     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 119     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 120     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 121     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 122     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 123     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 124     
+        # },        
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 125     
         # },        
 
     ]
