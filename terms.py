@@ -662,24 +662,24 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Anti-pattern",
             "id": 107     
         },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 108     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 109     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 110     
-        # },        
+        {
+            "name": "Aspect-Oriented Programming (AOP)",
+            "definition": "Nearly all programming paradigms support some level of grouping and encapsulation of concerns into separate, independent entities. Aspect-oriented programming entails breaking down program logic into distinct parts (so-called concerns, which are cohesive areas of functionality). AOP aims to increase modularity by allowing the separation of cross-cutting concerns. \n\n  Systems are composed of several components, each responsible for a specific piece of functionality. But often these components also carry additional responsibilities beyond their core functionality. System services such as logging, transaction management, and security often find their way into components whose core responsibilities is something else. These system services are commonly referred to as cross-cutting concerns because they tend to cut across multiple components in a system. Logging exemplifies a crosscutting concern because a logging strategy necessarily affects every logged part of the system. Logging thereby crosscuts all logged classes and methods.  \n\n Aspect-oriented programming allows for the creation of relationships between different classes. These relationships are arbitrary, but can be used to encapsulate the housekeeping code needed to create compatibility between two classes. \n\n AOP is a technique for building common, reusable routines that can be applied applicationwide. During development this facilitates separation of core application logic and common, repeatable tasks (input validation, logging, error handling, etc.). At runtime, you can use AOP to hot-patch applications that are vulnerable to SQL injection, or embed intrusion detection and audit logging capabilities directly into an application without modifying the underlying source code.",
+            "url": "https://en.wikipedia.org/wiki/Aspect-oriented_programming",
+            "id": 108     
+        },        
+        {
+            "name": "Capability Maturity Model",
+            "definition": "A methodology used to develop and refine an organization's software development process. The model describes a five-level evolutionary path of increasingly organized and systematically more mature processes.",
+            "url": "https://en.wikipedia.org/wiki/Capability_Maturity_Model",
+            "id": 109     
+        },        
+        {
+            "name": "Data modeling",
+            "definition": "Data modeling in software engineering is the process of creating a data model for an information system by applying certain formal techniques. Data modeling is a process used to define and analyze data requirements needed to support the business processes within the scope of corresponding information systems in organizations. Therefore, the process of data modeling involves professional data modelers working closely with business stakeholders, as well as potential users of the information system. \n\n Data modeling techniques and methodologies are used to model data in a standard, consistent, predictable manner in order to manage it as a resource. The use of data modeling standards is strongly recommended for all projects requiring a standard means of defining and analyzing data within an organization, e.g., using data modeling: \n\n - to assist business analysts, programmers, testers, manual writers, IT package selectors, engineers, managers, related organizations and clients to understand and use an agreed upon semi-formal model that encompasses the concepts of the organization and how they relate to one another \n - to manage data as a resource \n - to integrate information systems \n - to design databases/data warehouses (aka data repositories) \n\n Data modeling may be performed during various types of projects and in multiple phases of projects. Data models are progressive; there is no such thing as the final data model for a business or application. Instead a data model should be considered a living document that will change in response to a changing business. The data models should ideally be stored in a repository so that they can be retrieved, expanded, and edited over time.",
+            "url": "https://en.wikipedia.org/wiki/Data_modeling",
+            "id": 110     
+        },        
         # {
         #     "name": "",
         #     "definition": "",
@@ -775,6 +775,231 @@ def return_word():
         #     "definition": "",
         #     "url": "",
         #     "id": 125     
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 126      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 127    
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 128    
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 129     
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 130      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 131      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 132      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 133     
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 134      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 135      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 136      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 137      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 138      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 139      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 140      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 141      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 142      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 143      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 144      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id":      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 145      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 146      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 147      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 148      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 149      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 150      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 151      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 152      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 153      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 154      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 155      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 156      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 157      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 158      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 159      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 160      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 161      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 162      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 163      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 164      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 165     
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 166      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 167      
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 168     
+        # },           # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 169     
         # },        
 
     ]
