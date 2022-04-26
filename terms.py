@@ -11,8 +11,6 @@ def return_word():
 
     word_list = [
 
-
-
         {
             "name": "Wireframe",
             "definition": "A basic sketch or outline of the key information of a planned website. This 'skeleton' is used by developers and designers when laying out a webpage.",
@@ -37,9 +35,9 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Scalability",
             "id": 3
         },
-        {
+        +{
             "name": "DevOps",
-            "definition": "DevOps combines software development (dev) and IT Operations (Ops). It's primary goals include shortening the software and systems develoment lifecycles while increasing the quality of products. DevOps practices involve continuous development, continuous testing, continuous integration, continuous deployment and continuous monitoring of software applications throughout its development life cycle.",
+            "definition": "DevOps combines software development (Dev) and IT Operations (Ops). It's primary goals include shortening the software and systems develoment lifecycles while increasing the quality of products. DevOps practices involve continuous development, continuous testing, continuous integration, continuous deployment and continuous monitoring of software applications throughout its development life cycle.",
             "url": "https://en.wikipedia.org/wiki/DevOps",
             "id": 4
         },
@@ -616,7 +614,7 @@ def return_word():
         },        
         {
             "name": "COTS (Commercial off-the-shelf)",
-            "definition": "Commercial off-the-shelf or commercially available off-the-shelf (COTS) products are packaged or canned (ready-made) hardware or software, which are adapted aftermarket to the needs of the purchasing organization, rather than the commissioning of custom-made, or bespoke, solutions. A related term, Mil-COTS, refers to COTS products for use by the U.S. military. \n\n In the context of the U.S. government, the Federal Acquisition Regulation (FAR) has defined ‘COTS’ as a formal term for commercial items, including services, available in the commercial marketplace that can be bought and used under government contract. For example, Microsoft is a COTS software provider. COTS purchases are alternatives to custom software or one-off developments – government-funded developments or otherwise. \n\n Although COTS products can be used out of the box, in practice the COTS product must be configured to achieve the needs of the business and integrated to existing organizational systems. Extending the functionality of COTS products via custom development is also an option, however this decision should be carefully considered due to the long term support and maintenance implications. Such customized functionality is not supported by the COTS vendor, so brings its own sets of issues when upgrading the COTS product. \n The use of COTS has been mandated across many government and business programs, as such products may offer significant savings in procurement, development, and maintenance. In the 1990s, many regarded COTS as extremely effective in reducing the time and cost of software development.  COTS software came with many not-so-obvious tradeoffs— a reduction in initial cost and development time over an increase in software component-integration work, dependency on the vendor, security issues and incompatibilities from future changes.",
+            "definition": "Commercial off-the-shelf or commercially available off-the-shelf (COTS) products are packaged or canned (ready-made) hardware or software, which are adapted aftermarket to the needs of the purchasing organization, rather than the commissioning of custom-made, or bespoke, solutions. A related term, Mil-COTS, refers to COTS products for use by the U.S. military. \n\n In the context of the U.S. government, the Federal Acquisition Regulation (FAR) has defined ‘COTS’ as a formal term for commercial items, including services, available in the commercial marketplace that can be bought and used under government contract. For example, Microsoft is a COTS software provider. COTS purchases are alternatives to custom software or one-off developments – government-funded developments or otherwise. \n\n Although COTS products can be used out of the box, in practice the COTS product must be configured to achieve the needs of the business and integrated to existing organizational systems. Extending the functionality of COTS products via custom development is also an option, however this decision should be carefully considered due to the long term support and maintenance implications. Such customized functionality is not supported by the COTS vendor, so brings its own sets of issues when upgrading the COTS product. \n\n The use of COTS has been mandated across many government and business programs, as such products may offer significant savings in procurement, development, and maintenance. In the 1990s, many regarded COTS as extremely effective in reducing the time and cost of software development.  COTS software came with many not-so-obvious tradeoffs— a reduction in initial cost and development time over an increase in software component-integration work, dependency on the vendor, security issues and incompatibilities from future changes.",
             "url": "https://en.wikipedia.org/wiki/Commercial_off-the-shelf",
             "id": 100     
         },        
@@ -680,328 +678,282 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Data_modeling",
             "id": 110     
         },        
+        {
+            "name": "Driver",
+            "definition": "In computing, a device driver is a computer program that operates or controls a particular type of device that is attached to a computer or automaton.[1] A driver provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used. \n\n A driver communicates with the device through the computer bus or communications subsystem to which the hardware connects. When a calling program invokes a routine in the driver, the driver issues commands to the device (drives it). Once the device sends data back to the driver, the driver may invoke routines in the original calling program. \n\n Drivers are hardware dependent and operating-system-specific. They usually provide the interrupt handling required for any necessary asynchronous time-dependent hardware interface. \n\n Previously, we have been describing a hardware device driver. Now, a driver in software provides a programming interface to control and manage specific lower level interfaces that are often linked to a specific type of hardware, or other low-level service. In the case of hardware, the specific subclass of drivers controlling physical or virtual hardware devices are known as device drivers. E.g., a client library for connecting to a database is often known as a driver, for example the MySQL native driver for PHP.",
+            "url": "https://en.wikipedia.org/wiki/Device_driver",
+            "id": 111     
+        },        
+        {
+            "name": "Elegant solution",
+            "definition": "An elegant solution is used in mathematics, engineering and software development to refer to a solution that solves the problem in the simplest and most effective manner. In many cases, it is possible for developers to created code that is more complicated than it needs to be. In such cases, this less-than-elegant code is more likely to cause other issues. For most developers, finding an elegant solution is a greater challenge than simply solving a problem.",
+            "url": "https://www.techopedia.com/definition/14357/elegant-solution",
+            "id": 112     
+        },        
+        {
+            "name": "Ergonomics",
+            "definition": "The science of refining the design of products to optimize them for human use. Human characteristics, such as height, weight, and proportions are considered, as well as information about human hearing, sight, temperature preferences, and so on.",
+            "url": "https://en.wikipedia.org/wiki/Human_factors_and_ergonomics",
+            "id": 108     
+        },        
+        {
+            "name": "Exploratory engineering",
+            "definition": "Exploratory engineering is a term coined by K. Eric Drexler to describe the process of designing and analyzing detailed hypothetical models of systems that are not feasible with current technologies or methods, but do seem to be clearly within the bounds of what science considers to be possible within the narrowly defined scope of operation of the hypothetical system model. It usually results in paper or video prototypes, or (more likely nowadays) computer simulations that are as convincing as possible to those that know the relevant science, given the lack of experimental confirmation. By analogy with protoscience, it might be considered a form of protoengineering.",
+            "url": "https://en.wikipedia.org/wiki/Exploratory_engineering",
+            "id": 113     
+        },        
+        {
+            "name": "Exploratory model",
+            "definition": "The exploratory model is an experimental, research-based systems development method used to develop and design a computer system or product. The exploratory model is based on planning and reviewing potential scenarios and approaches until the one that appears to be optimal is selected.",
+            "url": "https://www.techopedia.com/definition/16383/exploratory-model",
+            "id": 114     
+        },        
+        {
+            "name": "Extreme programming (XP)",
+            "definition": "A software development methodology intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent releases in short development cycles, intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted. \n\n Other elements of extreme programming include: programming in pairs or doing extensive code review, unit testing of all code, not programming features until they are actually needed, a flat management structure, code simplicity and clarity, expecting changes in the customer's requirements as time passes and the problem is better understood, and frequent communication with the customer and among programmers.",
+            "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+            "id": 115     
+        },        
+        {
+            "name": "Feature creep",
+            "definition": "Feature creep is the excessive ongoing expansion or addition of new features in a product, especially in computer software, video games and consumer and business electronics. These extra features go beyond the basic function of the product and can result in software bloat and over-complication, rather than simple design. The definition of what qualifies as "feature creep" does vary among end users, where what is perceived as such by some users may be considered practical functionality by others. \n\n The most common cause of feature creep is the desire to provide the consumer with a more useful or desirable product, in order to increase sales or distribution. However, once the product reaches the point at which it does everything that it is designed to do, the manufacturer is left with the choice between adding functions some users might consider unneeded (sometimes at the cost of efficiency), and sticking with the old version (at the cost of a perceived lack of improvement). \n\n Another major cause of feature creep might be a compromise from a committee which decides to implement multiple, different viewpoints or use cases in the same product. Then, as more features are added to support each approach, it might be necessary to have cross-conversion features between the multiple paradigms, further complicating the total features.",
+            "url": "https://en.wikipedia.org/wiki/Feature_creep",
+            "id": 116     
+        },        
+        {
+            "name": "Functional specification",
+            "definition": "A functional specification (also, functional spec, specs, functional specifications document (FSD), functional requirements specification) in systems engineering and software development is a document that specifies the functions that a system or component must perform (often part of a requirements specification). \\n The documentation typically describes what is needed by the system user as well as requested properties of inputs and outputs (e.g. of the software system). A functional specification is the more technical response to a matching requirements document, e.g. the Product Requirements Document ‘PRD’. Thus it picks up the results of the requirements analysis stage. On more complex systems multiple levels of functional specifications will typically nest to each other, e.g. on the system level, on the module level and on the level of technical details.",
+            "url": "https://en.wikipedia.org/wiki/Functional_specification",
+            "id": 117     
+        },        
+        {
+            "name": "Gantt chart",
+            "definition": "A Gantt chart is a type of bar chart that illustrates a project schedule, named after its popularizer, Henry Gantt (1861–1919), who designed such a chart around the years 1910–1915. Modern Gantt charts also show the dependency relationships between activities and the current schedule status.",
+            "url": "https://en.wikipedia.org/wiki/Gantt_chart",
+            "id": 118     
+        },        
+        {
+            "name": "Genetic programming (GP)",
+            "definition": "A model of programming which uses biological principles to handle a complex problem, most appropriately with problems in which there are a large number of fluctuating variables, such as those related to artificial intelligence. Genetic programming involves techniques to create algorithms that can program themselves by simulating biological breeding and Darwinian evolution. Instead of programming a model that can solve a particular problem, genetic programming only provides a general objective and lets the model figure out the details itself.",
+            "url": "https://en.wikipedia.org/wiki/Genetic_programming",
+            "id": 119     
+        },        
+        {
+            "name": "Generic programming",
+            "definition": "Generic programming is a style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed for specific types provided as parameters. This approach, pioneered by the ML programming language in 1973, permits writing common functions or types that differ only in the set of types on which they operate when used, thus reducing duplication. Such software entities are known as generics in Ada, C#, Delphi, Eiffel, F#, Java, Nim, Python, Go, Rust, Swift, TypeScript and Visual Basic .NET. They are known as parametric polymorphism in ML, Scala, Julia, and Haskell (the Haskell community also uses the term "generic" for a related but somewhat different concept); templates in C++ and D; and parameterized types in the influential 1994 book Design Patterns. \n\n The term 'generic programming' was originally coined by David Musser and Alexander Stepanov in a more specific sense than the above, to describe a programming paradigm whereby fundamental requirements on types are abstracted from across concrete examples of algorithms and data structures and formalized as concepts, with generic functions implemented in terms of these concepts, typically using language genericity mechanisms as described above.",
+            "url": "https://en.wikipedia.org/wiki/Generic_programming",
+            "id": 120     
+        },        
+        {
+            "name": "Gold code",
+            "definition": "Program source code that is ready for commercial distribution. Gold code is the final form of software code before the software's commercial release. A software usually undergoes several development phases before it becomes gold code. First, software functions are individually developed and tested with each newly added function. Then, a graphical user interface is added so that users can perform functions via several means, including buttons, task bars and keyboard shortcuts. Finally, a team tests different function sequences to ensure there are no hidden bugs. \n\n When a vendor says its product ‘has gone gold’, it means the source code has been compiled into an executable program ready for sale. The next steps are to turn it into an installable product and create a CD or DVD ‘golden master’ (GM) for the disc manufacturer or into a file for Web downloads.",
+            "url": "https://www.techopedia.com/definition/16387/gold-code",
+            "id": 121     
+        },        
+        {
+            "name": "Patch vs Hotfix vs Coldfix vs Bugfix",
+            "definition": "Patches are often temporary fixes between full releases of software packages. Patches are used to correct both large and small issues that may or may not require fixing a software bug, installing new drivers, addressing new security vulnerabilities, addressing software stability issues or upgrading the software. Generally, patches are automatic updates that self-install packages in various sizes and are delivered on a set schedule. They can be included in the product’s new version release with additional updates and fixes. \n\n Hotfixes can also solve many of the same issues as a patch, but it is applied to a ‘hot’ system—a live system—to fix an issue immediately and without creating system downtimes or outages. Normally, you’ll create a hotfix quickly, as an urgent measure against issues that need to be fixed immediately and outside of your normal development flow. Unlike patches, hotfixes address very specific issues like adding a new feature, bug, or security fix or changing database schema. Importantly, hotfixes are not always publicly released, in contrast to patches. \n\n Where a hotfix is executed quickly without restarting any systems or hardware, a coldfix is just the opposite. Implementing a coldfix requires users to log out of the software while entire systems need to be rebooted for fixes to go into effect. They’re normally announced several days ahead of time to give users advanced notice the service will be unavailable while the fix is completed. Notices generally include estimated times the service will be back online. \n\n A bugfix sounds a lot like a hotfix, but the difference lies in the timing and execution of the correction. Bugfixes generally describe issues that are found and resolved during production or testing phases or even after deployment as part of the normal release cycle of a product. Hotfixes are applied only after the product has been released and is live. Implementing a bugfix, also known as a program temporary fix (PTF), can be as simple as adding missing parentheses in a piece of code. But the fix can become quite challenging if the symptoms don’t clearly point to a cause. Once you’ve uncovered the root cause and issued a bug fix, it’s not uncommon for your programmers to find that one bugfix can actually introduce a new bug.",
+            "url": "https://www.bmc.com/blogs/patch-hotfix-coldfix-bugfix/",
+            "id": 122     
+        },        
+        {
+            "name": "Integrated development environment (IDE)",
+            "definition": "A software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools and a debugger. Some IDEs, such as NetBeans and Eclipse, contain the necessary compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not. \n\n The boundary between an IDE and other parts of the broader software development environment is not well-defined; sometimes a version control system or various tools to simplify the construction of a graphical user interface (GUI) are integrated. Many modern IDEs also have a class browser, an object browser, and a class hierarchy diagram for use in object-oriented software development.",
+            "url": "https://en.wikipedia.org/wiki/Integrated_development_environment",
+            "id": 123     
+        },        
+        {
+            "name": "Independent software vendor (ISV)",
+            "definition": "An independent software vendor, or ISV, is an individual or organization that develops, markets, and sells software solutions that run on one or more computer hardware providers like Macintosh, operating systems like iOS, or cloud platforms like Amazon Web Services. \n\n Computer hardware providers, operating systems, and cloud platforms will all test independent software vendors who want to offer their software solutions on their marketplace. But they’ll only allow, or ISV certify, the independent software vendors who can offer the most relevant and best software solutions on their marketplaces. \n\n For example, Microsoft, a company that develops computer hardware (Xbox), operating systems (Windows), and a cloud platform (Azure), offers silver and gold ISV certifications to independent software vendors whose products can pass their rigorous quality tests and prove they can offer the top software solutions to Microsoft’s customers on each of their marketplaces.",
+            "url": "https://en.wikipedia.org/wiki/Independent_software_vendor",
+            "id": 124     
+        },        
+        {
+            "name": "Joint application development (JAD)",
+            "definition": "Joint Application Development in short JAD is the process which is used to design and develop computer based system/solutions. It collects requirements side by side as per business needs while developing new information systems for a company that means JAD involves the client or end-users in designing and development process. It also comprises of approaches for improving the quality of specification and user participation through a successive collaborative workshops called JAD sessions. Since client is involved throughout the development process it leads to faster development times and greater client satisfaction.",
+            "url": "https://en.wikipedia.org/wiki/Joint_application_design",
+            "id": 125     
+        },           
         # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 111     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 112     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 108     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 113     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 114     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 115     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 116     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 117     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 118     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 119     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 120     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 121     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 122     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 123     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 124     
-        # },        
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 125     
-        # },           # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 126      
-        # },           # {
+        # },     
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 127    
-        # },           # {
+        #     "id": 127      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 128    
-        # },           # {
+        #     "id": 128      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 129     
-        # },           # {
+        #     "id": 129      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 130      
-        # },           # {
+        # },   
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 131      
-        # },           # {
+        # },     
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 132      
-        # },           # {
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 133     
-        # },           # {
+        #     "id": 133      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 134      
-        # },           # {
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 135      
-        # },           # {
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 136      
-        # },           # {
+        # },     
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 137      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 138      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 139      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 140      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 141      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 142      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 143      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 144      
-        # },           # {
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id":      
-        # },           # {
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 145      
-        # },           # {
+        #     "id": 138      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 146      
-        # },           # {
+        #     "id": 139      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 147      
-        # },           # {
+        #     "id": 140      
+        # },     
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 148      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 149      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 150      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 151      
-        # },           # {
+        #     "id":      
+        # },   
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 152      
-        # },           # {
+        #     "id":      
+        # },     
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 153      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 154      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 155      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 156      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 157      
-        # },           # {
+        #     "id":      
+        # },     
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 158      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 159      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 160      
-        # },           # {
+        #     "id":      
+        # }, 
+        # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 161      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 162      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 163      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 164      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 165     
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 166      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 167      
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 168     
-        # },           # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 169     
-        # },        
-
+        #     "id":      
+        # }, 
     ]
 
     return random.choice(word_list)
