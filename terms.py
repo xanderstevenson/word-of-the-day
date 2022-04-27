@@ -810,36 +810,36 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Spaghetti_code",
             "id": 131      
         },     
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 132      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 133      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 134      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 135      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 136      
-        # },     
+        {
+            "name": "Polymorphism",
+            "definition": "Polymorphism is an object-oriented programming concept that refers to the ability of a variable, function or object to take on multiple forms. A language that features polymorphism allows developers to program in the general rather than program in the specific. \n\n In a programming language that exhibits polymorphism, objects of classes belonging to the same hierarchical tree (inherited from a common base class) may possess functions bearing the same name, but each having different behaviors. \n\n In effect, polymorphism cuts down the work of the developer because he can now create a sort of general class with all the attributes and behaviors that he envisions for it. When the time comes for the developer to create more specific subclasses with certain unique attributes and behaviors, the developer can simply alter code in the specific portions where the behaviors differ. All other portions of the code can be left as is. \n\nTo know whether an object is polymorphic, you can perform a simple test. If the object successfully passes multiple is-a or instanceof tests, it’s polymorphic.",
+            "url": "https://en.wikipedia.org/wiki/Polymorphism_(computer_science)",
+            "id": 132      
+        }, 
+        {
+            "name": "Duck typing",
+            "definition": "Duck typing in computer programming is an application of the duck test—‘If it walks like a duck and it quacks like a duck, then it must be a duck’—to determine whether an object can be used for a particular purpose. With nominative typing, an object is of a given type if it is declared to be (or if a type's association with the object is inferred through mechanisms such as object inheritance). \n\n In duck typing, an object is of a given type if it has all methods and properties required by that type. Duck typing can be viewed as a usage-based structural equivalence between a given object and the requirements of a type.",
+            "url": "https://en.wikipedia.org/wiki/Duck_typing",
+            "id": 133      
+        }, 
+        {
+            "name": "Pseudocode",
+            "definition": "In computer science, pseudocode is a plain language description of the steps in an algorithm or another system. Pseudocode often uses structural conventions of a normal programming language, but is intended for human reading rather than machine reading. It typically omits details that are essential for machine understanding of the algorithm, such as variable declarations and language-specific code. \n\n  The purpose of using pseudocode is that it is easier for people to understand than conventional programming language code, and that it is an efficient and environment-independent description of the key principles of an algorithm. It is commonly used in textbooks and scientific publications to document algorithms and in planning of software and other algorithms. \n\n No broad standard for pseudocode syntax exists, as a program in pseudocode is not an executable program; however, certain limited standards exist (such as for academic assessment). Pseudocode resembles skeleton programs, which can be compiled without errors. Flowcharts, drakon-charts and Unified Modelling Language (UML) charts can be thought of as a graphical alternative to pseudocode, but need more space on paper. Languages such as HAGGIS bridge the gap between pseudocode and code written in programming languages.",
+            "url": "https://en.wikipedia.org/wiki/Pseudocode",
+            "id": 134      
+        }, 
+        {
+            "name": "Rapid application development (RAD",
+            "definition": "Rapid application development (RAD), also called rapid application building (RAB), is both a general term for adaptive software development approaches, and the name for James Martin's method of rapid development. In general, RAD approaches to software development put less emphasis on planning and more emphasis on an adaptive process. Prototypes are often used in addition to or sometimes even instead of design specifications. \n\n RAD is especially well suited for (although not limited to) developing software that is driven by user interface requirements. Graphical user interface builders are often called rapid application development tools. Other approaches to rapid development include the adaptive, agile, spiral, and unified models.",
+            "url": "https://en.wikipedia.org/wiki/Rapid_application_development",
+            "id": 135      
+        }, 
+        {
+            "name": "Iterative and incremental development",
+            "definition": "Iterative and incremental development is any combination of both iterative design or iterative method and incremental build model for development. Usage of the term began in software development, with a long-standing combination of the two terms iterative and incremental having been widely suggested for large development efforts. For example, the 1985 DOD-STD-2167 mentions (in section 4.1.2): ‘During software development, more than one iteration of the software development cycle may be in progress at the same time.’ and "This process may be described as an 'evolutionary acquisition' or 'incremental build' approach." In software, the relationship between iterations and increments is determined by the overall software development process. \n\n The basic idea behind this method is to develop a system through repeated cycles (iterative) and in smaller portions at a time (incremental), allowing software developers to take advantage of what was learned during development of earlier parts or versions of the system. Learning comes from both the development and use of the system, where possible key steps in the process start with a simple implementation of a subset of the software requirements and iteratively enhance the evolving versions until the full system is implemented. At each iteration, design modifications are made and new functional capabilities are added, incrementally.",
+            "url": "https://en.wikipedia.org/wiki/Iterative_and_incremental_development",
+            "id": 136      
+        },     
         # {
         #     "name": "",
         #     "definition": "",
