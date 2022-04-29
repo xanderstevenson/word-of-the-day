@@ -986,19 +986,19 @@ def return_word():
         }, 
         {
             "name": "Composite pattern",
-            "definition": "In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly. \n\n The Composite design pattern is one of the twenty-three well-known GoF design patterns that describe how to solve recurring design problems to design flexible and reusable object-oriented software, that is, objects that are easier to implement, change, test, and reuse.",
+            "definition": "In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to 'compose' objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly. \n\n The Composite design pattern is one of the twenty-three well-known GoF design patterns that describe how to solve recurring design problems to design flexible and reusable object-oriented software, that is, objects that are easier to implement, change, test, and reuse.",
             "url": "https://en.wikipedia.org/wiki/Composite_pattern",
             "id": 161      
         }, 
+        {
+            "name": "Unicorn developer",
+            "definition": "A unicorn developer is defined as highly experienced specialist with a wide and diverse range of skills, and is thus a very rare, almost mythical, creature. A good example of a unicorn developer is a ‘true full-stack developer’ experienced in back-end development, front-end development, as well as architecting cloud environments and web infrastructure. Another example of a unicorn would be someone who is excellent at both design and development (an artist and engineer par excellence). Usually, building a good team is much better for a company than searching for a unicorn.",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "id": 162      
+        }, 
         # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 162      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
+        #     "name": "This changes everything",
+        #     "definition": "Nothing has changed. Pure marketing. Outside of Silicon Valley this can mean curing cancer, eliminating Malaria and solving world hunger but within SV it means a bigger iPhone, an iPhone the size of a tablet or an iPhone strapped to your wrist. Synonyms include ‘This changes everything. Again’ and ‘Changing the world’.",
         #     "url": "",
         #     "id": 163      
         # }, 
