@@ -840,119 +840,385 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Iterative_and_incremental_development",
             "id": 136      
         },     
+        {
+            "name": "Rational Unified Process (RUP)",
+            "definition": "A web-enabled program development methodology that is said to be like an online mentor that provides guidelines, templates, and examples for all aspects and stages of program development. RUP is an iterative software development process framework created by the Rational Software Corporation, a division of IBM since 2003. It is not a single concrete prescriptive process, but rather an adaptable process framework, intended to be tailored by the development organizations and software project teams that will select the elements of the process that are appropriate for their needs. RUP is a specific implementation of the Unified Process.",
+            "url": "https://en.wikipedia.org/wiki/Rational_Unified_Process",
+            "id": 137      
+        }, 
+        {
+            "name": "Refactoring",
+            "definition": "In computer programming and software design, code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. Refactoring is intended to improve the design, structure, and/or implementation of the software (its non-functional attributes), while preserving its functionality. Potential advantages of refactoring may include improved code readability and reduced complexity; these can improve the source code's maintainability and create a simpler, cleaner, or more expressive internal architecture or object model to improve extensibility. Another potential goal for refactoring is improved performance; software engineers face an ongoing challenge to write programs that perform faster or use less memory. \n\n Typically, refactoring applies a series of standardised basic micro-refactorings, each of which is (usually) a tiny change in a computer program's source code that either preserves the behaviour of the software, or at least does not modify its conformance to functional requirements. Many development environments provide automated support for performing the mechanical aspects of these basic refactorings. If done well, code refactoring may help software developers discover and fix hidden or dormant bugs or vulnerabilities in the system by simplifying the underlying logic and eliminating unnecessary levels of complexity. If done poorly, it may fail the requirement that external functionality not be changed, and may thus introduce new bugs.",
+            "url": "https://en.wikipedia.org/wiki/Code_refactoring",
+            "id": 138     
+        }, 
+        {
+            "name": "Rewrite",
+            "definition": "A rewrite in computer programming is the act or result of re-implementing a large portion of existing functionality without re-use of its source code. When the rewrite is not using existing code at all, it is common to speak of a rewrite from scratch. \n\n A piece of software is typically rewritten when one or more of the following apply: \n\n - its source code is not available or is only available under an incompatible license \n - its code cannot be adapted to a new target platform \n - its existing code has become too difficult to handle and extend \n - the task of debugging it seems too complicated \n - the programmer finds it difficult to understand its source code \n - developers learn new techniques or wish to do a big feature overhaul which requires much change \n - developers learn that new codes written may extend content options that can fix or overwrite previous problems \n - the programming language of the source code has to be changed \n\n Several software engineers, such as Joel Spolsky have warned against total rewrites, especially under schedule constraints or competitive pressures. While developers may initially welcome the chance to correct historical design mistakes, a rewrite also discards those parts of the design that work as required. A rewrite commits the development team to deliver not just new features, but all those that exist in the previous code, while potentially introducing new bugs or regressions of previously fixed bugs. A rewrite also interferes with the tracking of unfixed bugs in the old version. \n\n The incremental rewrite is an alternative approach, in which developers gradually replace the existing code with calls into a new implementation, expanding that implementation until it fully replaces the old one. This approach avoids a broad loss of functionality during the rewrite. Cleanroom software engineering is another approach, which requires the team to work from an exhaustive written specification of the software's functionality, without access to its code.",
+            "url": "https://en.wikipedia.org/wiki/Rewrite_(programming)",
+            "id": 139      
+        }, 
+        {
+            "name": "Regression testing",
+            "definition": "Regression testing (rarely, non-regression testing) is re-running functional and non-functional tests to ensure that previously developed and tested software still performs after a change. If not, that would be called a regression. \n\n Changes that may require regression testing include bug fixes, software enhancements, configuration changes, and even substitution of electronic components. As regression test suites tend to grow with each found defect, test automation is frequently involved. Sometimes a change impact analysis is performed to determine an appropriate subset of tests (non-regression analysis).",
+            "url": "https://en.wikipedia.org/wiki/Regression_testing",
+            "id": 140      
+        },     
+        {
+            "name": "Software development kit (SDK)",
+            "definition": "A software development kit (SDK) is a collection of software development tools in one installable package. They facilitate the creation of applications by having a compiler, debugger and sometimes a software framework. They are normally specific to a hardware platform and operating system combination. To create applications with advanced functionalities such as advertisements, push notifications, etc; most application software developers use specific software development kits. \n\n Some SDKs are required for developing a platform-specific app. For example, the development of an Android app on the Java platform requires a Java Development Kit. For iOS applications (apps) the iOS SDK is required. For Universal Windows Platform the .NET Framework SDK might be used. There are also SDKs that add additional features and can be installed in apps to provide analytics, data about application activity, and monetization options. \n\n An SDK can take the form of application programming interfaces (APIs) in the form of on-device libraries of reusable functions used to interface to a particular programming language, or it may be as complex as hardware-specific tools that can communicate with a particular embedded system. Common tools include debugging facilities and other utilities, often presented in an integrated development environment (IDE). SDKs may include sample software and/or technical notes along with documentation, and tutorials to help clarify points made by the primary reference material. \n\n SDKs often include licenses that make them unsuitable for building software intended to be developed under an incompatible license. For example, a proprietary SDK is generally incompatible with free software development, while a GPL-licensed SDK could be incompatible with proprietary software development, for legal reasons. However, SDKs built under the GNU Lesser General Public License (LGPL) are typically usable for proprietary development. In cases where the underlying technology is new, SDKs may include hardware.",
+            "url": "https://en.wikipedia.org/wiki/Software_development_kit",
+            "id": 141      
+        }, 
+        {
+            "name": "Service pack",
+            "definition": "In computing, a service pack comprises a collection of updates, fixes, or enhancements to a software program delivered in the form of a single installable package. Companies often release a service pack when the number of individual patches to a given program reaches a certain (arbitrary) limit, or the software release has shown to be stabilized with a limited number of remaining issues based on users' feedback and bug reports. \n\n In large software applications such as office suites, operating systems, database software, or network management, it is not uncommon to have a service pack issued within the first year or two of a product's release. Installing a service pack is easier and less error-prone than installing many individual patches, even more so when updating multiple computers over a network, where service packs are common. \n\n Service packs are usually numbered, and thus shortly referred to as SP1, SP2, SP3 etc. They may also bring, besides bug fixes, entirely new features, as is the case of SP2 of Windows XP (e.g. Windows Security Center), or SP3 and SP4 of the heavily database dependent Trainz 2009: World Builder Edition.",
+            "url": "https://en.wikipedia.org/wiki/Service_pack",
+            "id": 142      
+        }, 
+        {
+            "name": "Shotgun debugging",
+            "definition": "Shotgun debugging can be defined as a process of making relatively un-directed changes to software in the hope that a bug will be perturbed out of existence. It can also mean using the approach of trying several possible solutions of hardware or software problem at the same time, in the hope that one of the solutions (typically source code modifications) will work. \n\n Shotgun debugging has a relatively low success rate and can be very time-consuming, except when used as an attempt to work around programming language features that one may be using improperly. When combined with domain expertise and a strong intuition for the underlying codebase, it can be a good starting point to gut-solve a buggy piece of code a few times before formally researching the corresponding error message. When used in this way, it may be a valuable technique that is faster than browsing through the Internet searching a particular error message every time. \n\n Shotgun debugging can occur when working with multi-threaded applications. Attempting to debug a race condition by adding debugging code to the application is likely to change the speed of one thread in relation to another and could cause the problem to disappear. This is known as a Heisenbug. Although apparently a solution to the problem, it is a fix by pure chance and anything else that changes the behavior of the threads could cause it to resurface — for example on a computer with a different scheduler. Code added to any part of the program could easily revert the effect of the ‘fix’.",
+            "url": "https://en.wikipedia.org/wiki/Shotgun_debugging",
+            "id": 143      
+        }, 
+        {
+            "name": "Programming by permutation",
+            "definition": "Programming by permutation, sometimes called ‘programming by accident’ or ‘shotgunning’, is an approach to software development wherein a programming problem is solved by iteratively making small changes (permutations) and testing each change to see if it behaves as desired. This approach sometimes seems attractive when the programmer does not fully understand the code and believes that one or more small modifications may result in code that is correct. \n\n Programming by permutation gives little or no assurance about the quality of the code produced—it is the polar opposite of formal verification. Programmers are often compelled to program by permutation when an API is insufficiently documented. This lack of clarity drives others to copy and paste from reference code which is assumed to be correct, but was itself written as a result of programming by permutation. In some cases where the programmer can logically explain that exactly one out of a small set of variations must work, programming by permutation leads to correct code (which then can be verified) and makes it unnecessary to think about the other (wrong) variations.",
+            "url": "https://en.wikipedia.org/wiki/Programming_by_permutation",
+            "id": 144      
+        },   
+        {
+            "name": "Sanity testing",
+            "definition": "In software development, a sanity test (a form of software testing which offers ‘quick, broad, and shallow testing’) evaluates the result of a subset of application functionality to determine whether it is possible and reasonable to proceed with further testing of the entire application. Sanity tests may sometimes be used interchangeably with smoke tests insofar as both terms denote tests which determine whether it is possible and reasonable to continue testing further. \n\n On the other hand, a distinction is sometimes made that a smoke test is a non-exhaustive test that ascertains whether the most crucial functions of a program work before proceeding with further testing whereas a sanity test refers to whether specific functionality such as a particular bug fix works as expected without testing the wider functionality of the software. In other words, a sanity test determines whether the intended result of a code change works correctly while a smoke test ensures that nothing else important was broken in the process. Sanity testing and smoke testing avoid wasting time and effort by quickly determining whether an application is too flawed to merit more rigorous QA testing, but needs more developer debugging. \n\n Groups of sanity tests are often bundled together for automated unit testing of functions, libraries, or applications prior to merging development code into a testing or trunk version control branch, for automated building, or for continuous integration and continuous deployment.",
+            "url": "https://en.wikipedia.org/wiki/Sanity_check#Software_development",
+            "id": 145      
+        },     
+        {
+            "name": "Smoke testing",
+            "definition": "In computer programming and software testing, smoke testing (also confidence testing, sanity testing, build verification test (BVT) and build acceptance test) is preliminary testing to reveal simple failures severe enough to, for example, reject a prospective software release. Smoke tests are a subset of test cases that cover the most important functionality of a component or system, used to aid assessment of whether main functions of the software appear to work correctly. \n\n When used to determine if a computer program should be subjected to further, more fine-grained testing, a smoke test may be called an intake test. Alternatively, it is a set of tests run on each new build of a product to verify that the build is testable before the build is released into the hands of the test team. \n\n Smoke tests frequently run quickly, giving benefits of faster feedback, rather than running more extensive test suites, which would naturally take much longer. A daily build and smoke test is among industry best practices. Smoke testing is also done by testers before accepting a build for further testing. Microsoft claims that after code reviews, ‘smoke testing is the most cost-effective method for identifying and fixing defects in software’. \n\n One can perform smoke tests either manually or using an automated tool. In the case of automated tools, the process that generates the build will often initiate the testing. Smoke tests can be functional tests or unit tests. Functional tests exercise the complete program with various inputs. Unit tests exercise individual functions, subroutines, or object methods. Functional tests may comprise a scripted series of program inputs, possibly even with an automated mechanism for controlling mouse movements. Unit tests can be implemented either as separate functions within the code itself, or else as a driver layer that links to the code without altering the code being tested.",
+            "url": "https://en.wikipedia.org/wiki/Smoke_testing_(software)",
+            "id": 146      
+        }, 
+        {
+            "name": "Synchronize and stabilize",
+            "definition": "Synchronize-and-stabilize is a software life cycle development model. It allows the teams to work efficiently in parallel on different individual application modules. This is done while frequently synchronizing the work as individual’s and as members of parallel teams and periodically stabilizing and/or debugging the code through out the development process. \n\n This model has several advantages over the classic waterfall model, which follows a sequential method. It has proven to be a more flexible model when compared to other life cycle development models. The distinguishing feature of the synchronize and stabilize model is allowing changes and modifications at any point in the software development process.",
+            "url": "https://www.techopedia.com/definition/26121/synchronize-and-stabilize",
+            "id": 147      
+        }, 
+        {
+            "name": "Total cost of ownership (TCO)",
+            "definition": "A financial estimate intended to help buyers and owners determine the direct and indirect costs of a product or service. It is a management accounting concept that can be used in full cost accounting or even ecological economics where it includes social costs. TCO is applied to the analysis of information technology products, seeking to quantify the financial impact of deploying a product over its life cycle. This includes software and hardware as well as training, warranties, licenses, migration expenses, risks, testing costs, backup and recovery, decommissioning and much more. \n\n A TCO analysis includes total cost of acquisition and operating costs, as well as costs related to replacement or upgrades at the end of the life cycle. A TCO analysis is used to gauge the viability of any capital investment. An enterprise may use it as a product/process comparison tool. It is also used by credit markets and financing agencies. TCO directly relates to an enterprise's asset and/or related systems total costs across all projects and processes, thus giving a picture of the profitability over time.",
+            "url": "https://en.wikipedia.org/wiki/Total_cost_of_ownership",
+            "id": 148      
+        },     
+        {
+            "name": "Write-only code",
+            "definition": "Write-only code is source code so arcane, complex, or ill-structured that it cannot be reliably modified or even comprehended by anyone with the possible exception of the author. Similarly, write-only language is a pejorative term for a programming language alleged to have syntax or semantics sufficiently dense and bizarre that any routine of significant size is too difficult to understand by other programmers and cannot be safely edited.",
+            "url": "https://en.wikipedia.org/wiki/Write-only_language",
+            "id": 149      
+        }, 
+        {
+            "name": "Rubber duck debugging",
+            "definition": "In software engineering, rubber duck debugging is a method of debugging code by articulating a problem in spoken or written natural language. The name is a reference to a story in the book The Pragmatic Programmer in which a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line-by-line, to the duck. Many other terms exist for this technique, often involving different (usually) inanimate objects, or pets such as a dog or a cat. \n\n .Many programmers have had the experience of explaining a problem to someone else, possibly even to someone who knows nothing about programming, and then hitting upon the solution in the process of explaining the problem. In describing what the code is supposed to do and observing what it actually does, any incongruity between these two becomes apparent. More generally, teaching a subject forces its evaluation from different perspectives and can provide a deeper understanding. By using an inanimate object, the programmer can try to accomplish this without having to interrupt anyone else. This approach has been taught in computer science and software engineering courses.",
+            "url": "https://en.wikipedia.org/wiki/Rubber_duck_debugging",
+            "id": 150      
+        }, 
+        {
+            "name": "White hat vs. Black hat vs. Grey Hat",
+            "definition": "A white hat (or a white hat hacker) is an ethical security hacker. Ethical hacking is a term meant to imply a broader category than just penetration testing. Under the owner's consent, white hat hackers aim to identify any vulnerabilities the current system has. Contrasted with the black hat, a malicious hacker, the name comes from Western films, where heroic and antagonistic cowboys might traditionally wear a white and a black hat, respectively. There is a third kind of hacker known as a grey hat who hacks with good intentions but at times without permission.",
+            "url": "https://en.wikipedia.org/wiki/White_hat_(computer_security)",
+            "id": 151      
+        }, 
+        {
+            "name": "Black/White/Gray box testing",
+            "definition": "A black-box tester is unaware of the internal structure of the application to be tested, while a white-box tester has access to the internal structure of the application. A gray-box tester partially knows the internal structure, which includes access to the documentation of internal data structures as well as the algorithms used.",
+            "url": "https://en.wikipedia.org/wiki/Gray_box_testing",
+            "id": 152      
+        }, 
+        {
+            "name": "Anonymization",
+            "definition": "Data anonymization is a type of information sanitization whose intent is privacy protection. It is the process of removing personally identifiable information from data sets, so that the people whom the data describe remain anonymous. \n\n Data anonymization has been defined as a ‘process by which personal data is altered in such a way that a data subject can no longer be identified directly or indirectly, either by the data controller alone or in collaboration with any other party.’ Data anonymization may enable the transfer of information across a boundary, such as between two departments within an agency or between two agencies, while reducing the risk of unintended disclosure, and in certain environments in a manner that enables evaluation and analytics post-anonymization.",
+            "url": "",
+            "id": 153      
+        }, 
+        {
+            "name": "Bot",
+            "definition": "An Internet bot, web robot, robot or simply bot, is a software application that runs automated tasks (scripts) over the Internet, usually with the intent to emulate human activity on the Internet, such as messaging, on a large scale. An Internet bot plays the client role in a client–server model whereas the server role is usually played by web servers. Internet bots are able to perform tasks, that are simple and repetitive, much faster than a person could ever do. The most extensive use of bots is for web crawling, in which an automated script fetches, analyzes and files information from web servers. More than half of all web traffic is generated by bots. \n\n Efforts by web servers to restrict bots vary. Some servers have a robots.txt file that contains the rules governing bot behavior on that server. Any bot that does not follow the rules could, in theory, be denied access to or removed from, the affected website. If the posted text file has no associated program/software/app, then adhering to the rules is entirely voluntary. There would be no way to enforce the rules or to ensure that a bot's creator or implementer reads or acknowledges the robots.txt file. Some bots are ‘good’ – e.g. search engine spiders – while others are used to launch malicious attacks on, for example, political campaigns.",
+            "url": "https://en.wikipedia.org/wiki/Internet_bot",
+            "id": 154      
+        },   
+        {
+            "name": "Botnet",
+            "definition": "A botnet is a number of Internet-connected devices, each of which runs one or more bots. Botnets can be used to perform Distributed Denial-of-Service (DDoS) attacks, steal data, send spam, and allow the attacker to access the device and its connection. The owner can control the botnet using command and control (C&C) software. The word ‘botnet’ is a portmanteau of the words ‘robot’ and ‘network’. The term is usually used with a negative or malicious connotation. \n\n A botnet is a logical collection of Internet-connected devices, such as computers, smartphones or Internet of things (IoT) devices whose security have been breached and control ceded to a third party. Each compromised device, known as a ‘bot’, is created when a device is penetrated by software from a malware (malicious software) distribution. \n\n The controller of a botnet is able to direct the activities of these compromised computers through communication channels formed by standards-based network protocols, such as IRC and Hypertext Transfer Protocol (HTTP). Botnets are increasingly rented out by cyber criminals as commodities for a variety of purposes",
+            "url": "https://en.wikipedia.org/wiki/Botnet",
+            "id": 155      
+        },     
+        {
+            "name": "Buffer overflow",
+            "definition": "In information security and programming, a buffer overflow, or buffer overrun, is an anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations. \n\n Buffers are areas of memory set aside to hold data, often while moving it from one section of a program to another, or between programs. Buffer overflows can often be triggered by malformed inputs; if one assumes all inputs will be smaller than a certain size and the buffer is created to be that size, then an anomalous transaction that produces more data could cause it to write past the end of the buffer. If this overwrites adjacent data or executable code, this may result in erratic program behavior, including memory access errors, incorrect results, and crashes. \n\n Exploiting the behavior of a buffer overflow is a well-known security exploit. On many systems, the memory layout of a program, or the system as a whole, is well defined. By sending in data designed to cause a buffer overflow, it is possible to write into areas known to hold executable code and replace it with malicious code, or to selectively overwrite data pertaining to the program's state, therefore causing behavior that was not intended by the original programmer. Buffers are widespread in operating system (OS) code, so it is possible to make attacks that perform privilege escalation and gain unlimited access to the computer's resources. The famed Morris worm in 1988 used this as one of its attack techniques.",
+            "url": "https://en.wikipedia.org/wiki/Buffer_overflow",
+            "id": 156      
+        }, 
+        {
+            "name": "Doxing",
+            "definition": "Doxing or doxxing is the act of publicly revealing previously private personal information about an individual or organization, usually via the Internet. Methods employed to acquire such information include searching publicly available databases and social media websites, hacking, social engineering and through websites specializing in revealing IP addresses through a fake link. Doxing may be carried out for reasons such as online shaming, extortion, and vigilante aid to law enforcement. It also may be associated with hacktivism.",
+            "url": "https://en.wikipedia.org/wiki/Doxing",
+            "id": 157      
+        }, 
+        {
+            "name": "OAuth",
+            "definition": "OAuth (Open Authorization) is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords. Generally, OAuth provides clients a ‘secure delegated access’ to server resources on behalf of a resource owner. It specifies a process for resource owners to authorize third-party access to their server resources without providing credentials. \n\n Designed specifically to work with Hypertext Transfer Protocol (HTTP), OAuth essentially allows access tokens to be issued to third-party clients by an authorization server, with the approval of the resource owner. The third party then uses the access token to access the protected resources hosted by the resource server. In particular, OAuth 2.0 provides specific authorization flows for web applications, desktop applications, mobile phones, and smart devices.",
+            "url": "https://en.wikipedia.org/wiki/OAuth",
+            "id": 158      
+        },     
+        {
+            "name": "Tor",
+            "definition": "Tor, short for The Onion Router, is free and open-source software for enabling anonymous communication. It directs Internet traffic through a free, worldwide, volunteer overlay network, consisting of more than six thousand relays, to conceal a user's location and usage from anyone performing network surveillance or traffic analysis. Using Tor makes it more difficult to trace a user's Internet activity. Tor's intended use is to protect the personal privacy of its users, as well as their freedom and ability to communicate confidentially through IP address anonymity using Tor exit nodes.",
+            "url": "https://en.wikipedia.org/wiki/Tor_(network)",
+            "id": 159      
+        }, 
+        {
+            "name": "Troll",
+            "definition": "In internet slang, a troll is a person who posts inflammatory, insincere, digressive, extraneous, or off-topic messages in an online community (such as social media (Twitter, Facebook, Instagram, etc.), a newsgroup, forum, chat room, online video game, or blog), with the intent of provoking readers into displaying emotional responses, or manipulating others' perception. This is typically for the troll's amusement, or to achieve a specific result such as disrupting a rival's online activities or manipulating a political process. Even so, Internet trolling can also be defined as purposefully causing confusion or harm to other users online, for no reason at all. \n\n Application of the term troll is subjective. At times the word is incorrectly used to refer to anyone with controversial, or differing, opinions. Some readers may characterize a post as trolling, while others may regard the same post as a legitimate contribution to the discussion, even if controversial. More potent acts of trolling are blatant harassment or off-topic banter. The advice to ignore rather than engage with a troll is sometimes phrased as ‘Please don't feed the trolls.’",
+            "url": "https://en.wikipedia.org/wiki/Internet_troll",
+            "id": 160      
+        }, 
+        {
+            "name": "Composite pattern",
+            "definition": "In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly. \n\n The Composite design pattern is one of the twenty-three well-known GoF design patterns that describe how to solve recurring design problems to design flexible and reusable object-oriented software, that is, objects that are easier to implement, change, test, and reuse.",
+            "url": "https://en.wikipedia.org/wiki/Composite_pattern",
+            "id": 161      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 137      
+        #     "id": 162      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 163      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 138      
+        #     "id": 164      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 139      
+        #     "id": 165      
+        # }, 
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 166      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 140      
-        # },     
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id":      
+        #     "id": 167      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 168      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 169      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
-        # },   
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id":      
-        # },     
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id":      
+        #     "id": 170      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 171      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 172      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 173      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
-        # },     
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id":      
+        #     "id": 174      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 175      
+        # }, 
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 176      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 177      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id":      
+        #     "id": 178      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 179      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 180      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 181      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 182      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 183      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 184      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 185      
+        # }, 
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 186      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 187      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 188      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 189      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 190      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 191      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 192      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 193      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 194      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 195      
+        # }, 
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 196      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 197      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 198      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 199      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 200      
         # }, 
     ]
 
