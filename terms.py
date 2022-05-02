@@ -620,7 +620,7 @@ def return_word():
         },        
         {
             "name": "Responsive design",
-            "definition": "Responsive web design (RWD) or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction. /n/n A responsive design adapts the web-page layout to the viewing environment by using techniques such as fluid proportion-based grids, flexible images, and CSS3 media queries, an extension of the @media rule, in the following ways: \n - The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points. \n - Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element. \n - Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, e.g. width of the rendering surface (browser window width or a physical display size). \n - Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone. \n\n Responsive web design became more important as users of mobile devices came to account for the majority of web site visitors",
+            "definition": "Responsive web design (RWD) or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction. \n\n A responsive design adapts the web-page layout to the viewing environment by using techniques such as fluid proportion-based grids, flexible images, and CSS3 media queries, an extension of the @media rule, in the following ways: \n\n - The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points. \n - Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element. \n - Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, e.g. width of the rendering surface (browser window width or a physical display size). \n - Responsive layouts automatically adjust and adapt to any device screen size, whether it is a desktop, a laptop, a tablet, or a mobile phone. \n\n Responsive web design became more important as users of mobile devices came to account for the majority of web site visitors",
             "url": "https://en.wikipedia.org/wiki/Responsive_web_design",
             "id": 101     
         },        
@@ -722,7 +722,7 @@ def return_word():
         },        
         {
             "name": "Functional specification",
-            "definition": "A functional specification (also, functional spec, specs, functional specifications document (FSD), functional requirements specification) in systems engineering and software development is a document that specifies the functions that a system or component must perform (often part of a requirements specification). \\n The documentation typically describes what is needed by the system user as well as requested properties of inputs and outputs (e.g. of the software system). A functional specification is the more technical response to a matching requirements document, e.g. the Product Requirements Document ‘PRD’. Thus it picks up the results of the requirements analysis stage. On more complex systems multiple levels of functional specifications will typically nest to each other, e.g. on the system level, on the module level and on the level of technical details.",
+            "definition": "A functional specification (also, functional spec, specs, functional specifications document (FSD), functional requirements specification) in systems engineering and software development is a document that specifies the functions that a system or component must perform (often part of a requirements specification).\n\n The documentation typically describes what is needed by the system user as well as requested properties of inputs and outputs (e.g. of the software system). A functional specification is the more technical response to a matching requirements document, e.g. the Product Requirements Document ‘PRD’. Thus it picks up the results of the requirements analysis stage. On more complex systems multiple levels of functional specifications will typically nest to each other, e.g. on the system level, on the module level and on the level of technical details.",
             "url": "https://en.wikipedia.org/wiki/Functional_specification",
             "id": 117     
         },        
@@ -996,124 +996,125 @@ def return_word():
             "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "id": 162      
         }, 
-        # {
-        #     "name": "This changes everything",
-        #     "definition": "Nothing has changed. Pure marketing. Outside of Silicon Valley this can mean curing cancer, eliminating Malaria and solving world hunger but within SV it means a bigger iPhone, an iPhone the size of a tablet or an iPhone strapped to your wrist. Synonyms include ‘This changes everything. Again’ and ‘Changing the world’.",
-        #     "url": "",
-        #     "id": 163      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 164      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 165      
-        # }, 
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 166      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 167      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 168      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 169      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 170      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 171      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 172      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 173      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 174      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 175      
-        # }, 
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 176      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 177      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 178      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 179      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 180      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 181      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 182      
-        # }, 
+        {
+            "name": "This changes everything",
+            "definition": "Nothing has changed. Pure marketing. Outside of Silicon Valley this can mean curing cancer, eliminating Malaria and solving world hunger but within SV it means a bigger iPhone, an iPhone the size of a tablet or an iPhone strapped to your wrist. Synonyms include ‘This changes everything. Again’ and ‘Changing the world’.",
+            "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/this-changes-everything.jpeg?raw=true",
+            "id": 163      
+        }, 
+        {
+            "name": "Code ninja",
+            "definition": "Code ninjas, also referred to as ninja developers, don’t limit themselves to just one programming language or one technology stack; they are ‘developer polyglots.’ The ninja is an expert in a particular programming language, but is comfortable using any other language. They know how to navigate the various stacks in order to solve whatever technical challenge they come across. Organizations seek the most talented professionals for the lowest possible salary, but the type of knowledge a code ninja possesses comes with a steep price tag. That’s because they’re essentially full stack developers who can work within various technology stacks – a skillset that is in increasing demand and very well-compensated! Though the code ninja has broad knowledge rather than deep expertise in one or two areas, gaining knowledge across the aforementioned skill-sets takes years devotion. There is no such thing as a junior or semi-senior code ninja; you either are one, or you aren’t...yet.’ \n\n 'Code ninja’ can also be a euphemism used by recruiters who don't actually know what specifically they want in a software engineer, just someone who can pretty much do everything and anything that's handed to them.",
+            "url": "https://www.codeninjas.com/",
+            "id": 164      
+        }, 
+        {
+            "name": "Brogrammer",
+            "definition": "‘Brogrammer’, a portmanteau of bro and programmer, is a slang term for a computer programmer who engages in stereotypically male-oriented activities and macho behavior. It is often used pejoratively, but some programmers self-describe themselves as a brogrammer positively as a word for ‘sociable or outgoing programmer’, and it also tends to represent a subculture within the greater tech industry. Brogrammer culture has been said to have created an entry barrier based on adherence to the image presented by its participants, rather than ability. It can be viewed as antithetical to geek culture, which emphasizes ability and passion for field over image.",
+            "url": "https://en.wikipedia.org/wiki/Brogrammer",
+            "id": 165      
+        }, 
+        {
+            "name": "Vanity metrics",
+            "definition": "Vanity metrics are metrics that make you look good to others but do not help you understand your own performance in a way that informs future strategies. These metrics are exciting to point to if you want to appear to be improving, but they often aren’t actionable and aren’t related to anything you can control or repeat in a meaningful way. Vanity metrics are most often contrasted against actionable metrics, which is data that helps you make decisions and helps your business reach its goals or grow. It is important to mention: Any metric can be a vanity metric. There just happen to be some telltale signs. They are hollow metrics that look nice on the surface but hold little substance. For example, 10,000 total registered accounts might seem impressive, but that number loses face quickly if there are only 100 active monthly users.",
+            "url": "https://www.tableau.com/learn/articles/vanity-metrics",
+            "id": 166      
+        }, 
+        {
+            "name": "DINK (Duel Income, No Kids)",
+            "definition": "‘DINK’ is an acronym that stands for ‘double income, no kids’ or ‘dual income, no kids’. It describes a couple without children living together while both partners are receiving an income; because both of their wages are coming into the same household, they are free to live more comfortably than couples who live together and spend their money on raising their children.",
+            "url": "https://en.wikipedia.org/wiki/DINK",
+            "id": 167      
+        }, 
+        {
+            "name": "Wantrepreneur",
+            "definition": "Someone who would like to start a business and thinks and talks about doing so, but never gets started or manages to get any ideas off the ground. A wantrepeneur may also desire to start a company so he or she can garner social proof from it all, as opposed to an entrepreneur who has an innovative idea that could possibly make money.",
+            "url": "https://theinvestorsbook.com/wantrepreneur.html",
+            "id": 168      
+        }, 
+        {
+            "name": "Vaporware",
+            "definition": "In the computer industry, vaporware (or vapourware) is a product, typically computer hardware or software, that is announced to the general public but is late or never actually manufactured nor officially cancelled. Generally used to describe something that is inexistent. ‘The snake oil of tech’",
+            "url": "https://en.wikipedia.org/wiki/Vaporware",
+            "id": 169      
+        }, 
+        {
+            "name": "Bootstrapping",
+            "definition": "Bootstrapping is a self-starting process that is supposed to proceed without external input. For various definitions, click 'Learn More', below.",
+            "url": "https://en.wikipedia.org/wiki/Bootstrapping_(disambiguation)",
+            "id": 170      
+        }, 
+        {
+            "name": "Imagineering",
+            "definition": "Devising and/or implementing a new or highly imaginative concept or technology. Originated at and often associated with Disney, ‘imagineer’ is a term to describe creative people such as architects, writers, interior designers, illustrators, concept artists, landscapers, archivists, costume designers, theatre technicians, special effects experts, graphic designers and more.",
+            "url": "https://en.wikipedia.org/wiki/Imagineering",
+            "id": 171      
+        }, 
+        {
+            "name": "Digital nomad",
+            "definition": "Digital nomads are people who conduct their life in a nomadic manner while engaging in remote work using digital telecommunications technology. Such people generally have minimal material possessions and work remotely in temporary housing, hotels, cafes, public libraries, co-working spaces, or recreational vehicles, using Wi-Fi, smartphones or mobile hotspots to access the Internet. \n\n Some digital nomads are perpetual travelers, while others are only nomadic for a short period of time. While some nomads travel through various countries, others focus on one area. Some may engage in vandwelling. In 2020, a research study found that 10.9 million American workers described themselves as digital nomads, an increase of 49% from 2019. Digital nomads are often younger remote workers, backpackers, retired or semi-retired persons, snowbirds, and/or entrepreneurs.",
+            "url": "https://en.wikipedia.org/wiki/Digital_nomad",
+            "id": 172      
+        }, 
+        {
+            "name": "Mechatronics",
+            "definition": "Mechatronics, also called mechatronics engineering, is an interdisciplinary branch of engineering that focuses on the integration of mechanical, electronic and electrical engineering systems, and also includes a combination of robotics, electronics, computer science, telecommunications, systems, control, and product engineering. \n\n As technology advances over time, various subfields of engineering have succeeded in both adapting and multiplying. The intention of mechatronics is to produce a design solution that unifies each of these various subfields. Originally, the field of mechatronics was intended to be nothing more than a combination of mechanics and electronics, hence the name being a portmanteau of mechanics and electronics; however, as the complexity of technical systems continued to evolve, the definition had been broadened to include more technical areas. \n\n The word mechatronics originated in Japanese-English and was created by Tetsuro Mori, an engineer of Yaskawa Electric Corporation. The word mechatronics was registered as trademark by the company in Japan with the registration number of ’46-32714’ in 1971. The company later released the right to use the word to the public, and the word began being used globally. Currently the word is translated into many languages and is considered an essential term for advanced automated industry. Many people treat mechatronics as a modern buzzword synonymous with automation, robotics and electromechanical engineering.",
+            "url": "https://en.wikipedia.org/wiki/Mechatronics",
+            "id": 173      
+        }, 
+        {
+            "name": "Growth hacking",
+            "definition": "Growth hacking is a subfield of marketing focused on the rapid growth of a company. It is referred to as both a process and a set of cross-disciplinary (digital) skills. The goal is to regularly conduct A/B testing that will lead to improving the customer journey, and replicate and scale the ideas that work and modify or abandon the ones that don't before investing a lot of resources. It started in relation to early-stage startups that need rapid growth within short time on tight budgets, and also reached bigger corporate companies. \n\n A growth hacking team is made up of marketers, developers, engineers and product managers that specifically focus on building and engaging the user base of a business. Growth hacking is not just a process for marketers. It can be applied to product development and to the continuous improvement of products as well as to growing an existing customer base. As such, it’s equally useful to everyone from product developers, to engineers, to designers, to salespeople and to managers.",
+            "url": "https://en.wikipedia.org/wiki/Growth_hacking",
+            "id": 174      
+        }, 
+        {
+            "name": "The Woz",
+            "definition": "Stephen Gary Wozniak, also known by his nickname ‘Woz’, is an American electronics engineer, computer programmer, inventor, philanthropist, and technology entrepreneur. In 1976, with business partner Steve Jobs, he co-founded Apple Inc., which later became the world's largest information technology company by revenue and the largest company in the world by market capitalization. Through his work at Apple in the 1970s and 1980s, he is widely recognized as one of the prominent pioneers of the personal-computer revolution.",
+            "url": "https://en.wikipedia.org/wiki/Steve_Wozniak",
+            "id": 175      
+        }, 
+            "name": "Protective incompetence",
+            "definition": "Being bad at something you don't like to do, so you don't have to do it.",
+            "url": "http://www.paulgraham.com/start.html",
+            "id": 176      
+        }, 
+        {
+            "name": "I/O",
+            "definition": "In computing, input/output (I/O, or informally io or IO) is the communication between an information processing system, such as a computer, and the outside world, possibly a human or another information processing system. Inputs are the signals or data received by the system and outputs are the signals or data sent from it. The term can also be used as part of an action; to ‘perform I/O’ is to perform an input or output operation. \n\n I/O devices are the pieces of hardware used by a human (or other system) to communicate with a computer. For instance, a keyboard or computer mouse is an input device for a computer, while monitors and printers are output devices. Devices for communication between computers, such as modems and network cards, typically perform both input and output operations.",
+            "url": "https://en.wikipedia.org/wiki/Input/output",
+            "id": 177      
+        }, 
+        {
+            "name": "Dogfooding",
+            "definition": "Eating your own dog food or “dogfooding” is the practice of using one's own products or services. This can be a way for an organization to test its products in real-world usage using product management techniques. Hence dogfooding can act as quality control, and eventually a kind of testimonial advertising. Once in the market, dogfooding can demonstrate developers' confidence in their own products.",
+            "url": "https://en.wikipedia.org/wiki/Eating_your_own_dog_food",
+            "id": 178      
+        }, 
+        {
+            "name": "SWOT analysis",
+            "definition": "SWOT analysis (or SWOT matrix) is a strategic planning and strategic management technique used to help a person or organization identify strengths, weaknesses, opportunities, and threats related to business competition or project planning. It is sometimes called situational assessment or situational analysis. Additional acronyms using the same components include TOWS and WOTS-UP. \n\n This technique is designed for use in the preliminary stages of decision-making processes and can be used as a tool for evaluation of the strategic position of organizations of many kinds (for-profit enterprises, local and national governments, NGOs, etc.). It is intended to identify the internal and external factors that are favorable and unfavorable to achieving the objectives of the venture or project. Users of a SWOT analysis often ask and answer questions to generate meaningful information for each category to make the tool useful and identify their competitive advantage. SWOT has been described as a tried-and-true tool of strategic analysis, but has also been criticized for its limitations, and alternatives have been developed.",
+            "url": "https://en.wikipedia.org/wiki/SWOT_analysis",
+            "id": 179      
+        }, 
+        {
+            "name": "Bricked",
+            "definition": "The word ‘brick’, when used in reference to consumer electronics, describes an electronic device such as a mobile device, game console, or router that, due to corrupted firmware, a hardware problem, or other damage, can no longer function, and thus is ‘bricked’. The device becomes as technologically useful as a brick, hence the name.",
+            "url": "https://en.wikipedia.org/wiki/Brick_(electronics)",
+            "id": 180      
+        }, 
+        {
+            "name": "Rollback",
+            "definition": "Rollback describes the process of returning a hardware product or software program back to an earlier, working state or version after encountering issues with a later version.",
+            "url": "https://en.wikipedia.org/wiki/Rollback_(data_management)",
+            "id": 181      
+        }, 
+        {
+            "name": "Pistol ship",
+            "definition": "In software jargon, ‘pistol ship’ (also ‘ship from the hip’) is used to describe the dangerous practice of publishing unchecked code. Shipping’ code is another way of saying ‘deploying’ or ‘delivering’ code, and to ‘pistol ship’ code is to ship it without checking it for errors or bugs. To do so is often an act of pride and/or laziness.",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "id": 182      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
