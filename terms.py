@@ -1115,71 +1115,72 @@ def return_word():
             "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "id": 182      
         }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 183      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 184      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 185      
-        # }, 
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 186      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 187      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 188      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 189      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 190      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 191      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 192      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 193      
-        # }, 
+        {
+            "name": "Pair programming",
+            "definition": "Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. \n\n While reviewing, the observer also considers the ‘strategic’ direction of the work, coming up with ideas for improvements and likely future problems to address. This is intended to free the driver to focus all of their attention on the ‘tactical’ aspects of completing the current task, using the observer as a safety net and guide.",
+            "url": "https://en.wikipedia.org/wiki/Pair_programming",
+            "id": 183      
+        }, 
+        {
+            "name": "AWK",
+            "definition": "AWK (awk) is a domain-specific language designed for text processing and typically used as a data extraction and reporting tool. Like sed and grep, it is a filter, and is a standard feature of most Unix-like operating systems. \n\n AWK was created at Bell Labs in the 1970s, and its name is derived from the surnames of its authors: Alfred Aho, Peter Weinberger, and Brian Kernighan. The acronym is pronounced the same as the bird auk, which is on the cover of The AWK Programming Language. When written in all lowercase letters, as awk, it refers to the Unix or Plan 9 program that runs scripts written in the AWK programming language.",
+            "url": "https://en.wikipedia.org/wiki/AWK",
+            "id": 184      
+        }, 
+        {
+            "name": "grep",
+            "definition": "grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. Its name comes from the ed command g/re/p (globally search for a regular expression and print matching lines), which has the same effect. grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9. In December 2003, the Oxford English Dictionary Online added draft entries for "grep" as both a noun and a verb.",
+            "url": "https://en.wikipedia.org/wiki/Grep",
+            "id": 185      
+        }, 
+        {
+            "name": "Pipe (|)",
+            "definition": "A pipe is an inter-process communication mechanism originating in Unix, which directs the output (standard out and, optionally, standard error) of one process to the input (standard in) of another. In this way, a series of commands can be ‘piped’ together, giving users the ability to quickly perform complex multi-stage processing from the command line or as part of a Unix shell script (‘bash file’). In most Unix shells (command interpreters), this is represented by the vertical bar character, | \n\n  For example: \n\n command1 | command2 | command3",
+            "url": "https://en.wikipedia.org/wiki/Pipeline_(Unix)",
+            "id": 186      
+        }, 
+        {
+            "name": "Technical debt",
+            "definition": "In software development, technical debt (also known as design debt or code debt) is the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer. \n\n Analogous with monetary debt, if technical debt is not repaid, it can accumulate ‘interest’, making it harder to implement changes. Unaddressed technical debt increases software entropy and cost of further rework. Similarly to monetary debt, technical debt is not necessarily a bad thing, and sometimes (e.g. as a proof-of-concept) is required to move projects forward. On the other hand, some experts claim that the ‘technical debt’ metaphor tends to minimize the ramifications, which results in insufficient prioritization of the necessary work to correct it. \n\n As a change is started on a codebase, there is often the need to make other coordinated changes in other parts of the codebase or documentation. Changes required that are not completed are considered debt, and until paid, will incur interest on top of interest, making it cumbersome to build a project. Although the term is used in software development primarily, it can also be applied to other professions.",
+            "url": "https://en.wikipedia.org/wiki/Technical_debt",
+            "id": 187      
+        }, 
+        {
+            "name": "https://en.wikipedia.org/wiki/Application_streaming",
+            "definition": "Application streaming is a form of on-demand software distribution. In these scenarios, only essential portions of an application's code need to be installed on the computer: while the end user performs actions in the application, the necessary code and files are delivered over the network as and when they are required. \n\n Application streaming provides an extremely accurate metric of actual application usage, and rather than install the same applications on every client machine in the company, only the programs users actually want to run are delivered. As a result, licensing fees can often be reduced. \n\n Application streaming is a related concept to application virtualization, where applications are run directly from a virtual machine on a central server that is completely separate from the local system. By contrast, application streaming runs the program locally, but still involves the centralized storage of application code.",
+            "url": "https://en.wikipedia.org/wiki/Application_streaming",
+            "id": 188      
+        }, 
+        {
+            "name": "Amara's law",
+            "definition": "An adage about forecasting the effects of technology. The law has been used in explaining nanotechnology. ‘We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run,’ coined by Roy Amara, past president of The Institute for the Future.",
+            "url": "https://en.wikipedia.org/wiki/Roy_Amara",
+            "id": 189      
+        }, 
+        {
+            "name": "Application service provider (ASP)",
+            "definition": "An application service provider (ASP), also known as Apps on tap, is a business providing computer-based services to customers over a network; such as access to a particular software application (such as customer relationship management) using a standard protocol (such as HTTP). \n\n The need for ASPs has evolved from the increasing costs of specialized software that have far exceeded the price range of small to medium-sized businesses. As well, the growing complexities of software have led to huge costs in distributing the software to end-users. Through ASPs, the complexities and costs of such software can be cut down. In addition, the issues of upgrading have been eliminated from the end-firm by placing the onus on the ASP to maintain up-to-date services, 24 x 7 technical support, physical and electronic security and in-built support for business continuity and flexible working.",
+            "url": "https://en.wikipedia.org/wiki/Application_service_provider",
+            "id": 190      
+        }, 
+        {
+            "name": "Augmented reality (AR)",
+            "definition": "Augmented reality (AR) is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information, sometimes across multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. AR can be defined as a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects. \n\n The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment). This experience is seamlessly interwoven with the physical world such that it is perceived as an immersive aspect of the real environment. In this way, augmented reality alters one's ongoing perception of a real-world environment, whereas virtual reality completely replaces the user's real-world environment with a simulated one. Augmented reality is related to two largely synonymous terms: mixed reality and computer-mediated reality.",
+            "url": "https://en.wikipedia.org/wiki/Augmented_reality",
+            "id": 191      
+        }, 
+        {
+            "name": "Virtual reality",
+            "definition": "Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world. Applications of virtual reality include entertainment (particularly video games), education (such as medical or military training) and business (such as virtual meetings). Other distinct types of VR-style technology include augmented reality and mixed reality, sometimes referred to as extended reality or XR.",
+            "url": "https://en.wikipedia.org/wiki/Virtual_reality",
+            "id": 192      
+        }, 
+        {
+            "name": "Abandonware",
+            "definition": "Abandonware is a product, typically software, ignored by its owner and manufacturer, and for which no official support is available. \n\n Within an intellectual rights contextual background, abandonware is a software (or hardware) sub-case of the general concept of orphan works. Museums and various organizations dedicated to preserving this software continue to provide legal access. \n\n The term ‘abandonware’ is broad, and encompasses many types of old software. Definitions of ‘abandoned’ vary, but in general it is like any item that is abandoned – it is ignored by the owner, and as such product support and possibly copyright enforcement are also ‘abandoned’.",
+            "url": "https://en.wikipedia.org/wiki/Abandonware",
+            "id": 193      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
