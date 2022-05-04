@@ -1,4 +1,8 @@
 # WORD OF THE DAY BOT
+<p align="center">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot.png' width="250" height="300" border="10">
+</p>
+
 
 Anyone can join the Word of the Day by going here --> webexteams://im?space=82b37a80-98ac-11ec-86e2-5bbd30807931
 
