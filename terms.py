@@ -1223,125 +1223,125 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Application_binary_interface",
             "id": 200      
         }, 
+        {
+            "name": "Arduino",
+            "definition": "Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices. Its hardware products are licensed under a CC BY-SA license, while software is licensed under the GNU Lesser General Public License (LGPL) or the GNU General Public License (GPL), permitting the manufacture of Arduino boards and software distribution by anyone. Arduino boards are available commercially from the official website or through authorized distributors. \n\n Arduino board designs use a variety of microprocessors and controllers. The boards are equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards ('shields') or breadboards (for prototyping) and other circuits. The boards feature serial communications interfaces, including Universal Serial Bus (USB) on some models, which are also used for loading programs. The microcontrollers can be programmed using the C and C++ programming languages, using a standard API which is also known as the Arduino language, inspired by the Processing language and used with a modified version of the Processing IDE. In addition to using traditional compiler toolchains, the Arduino project provides an integrated development environment (IDE) and a command line tool developed in Go. \n\n The Arduino project began in 2005 as a tool for students at the Interaction Design Institute Ivrea, Italy, aiming to provide a low-cost and easy way for novices and professionals to create devices that interact with their environment using sensors and actuators. Common examples of such devices intended for beginner hobbyists include simple robots, thermostats and motion detectors. The name Arduino comes from a bar in Ivrea, Italy, where some of the founders of the project used to meet. The bar was named after Arduin of Ivrea, who was the margrave of the March of Ivrea and King of Italy from 1002 to 1014.",
+            "url": "https://en.wikipedia.org/wiki/Arduino",
+            "id": 201      
+        }, 
+        {
+            "name": "Above the fold",
+            "definition": "The part of a Web page that is visible without scrolling. The fold is an invisible line simulating where a newspaper is folded. This is a design consideration when laying out a Web page so that all the important information can be seen at once. The majority of monitors today have at least 1,080 lines of resolution, and the page size above the fold is roughly a thousand vertical lines. Contrast with ‘below the fold’, which is the non-visible content that must be scrolled to be seen.",
+            "url": "https://en.wikipedia.org/wiki/Above_the_fold#In_web_design",
+            "id": 202      
+        }, 
+        {
+            "name": "Absolute address",
+            "definition": "An explicit identification of hardware, such as a memory location, peripheral device, or location within a device. For example, memory byte 107,443, disk drive 2 and sector 238 are absolute addresses. Although the action may have been initiated through many ‘layers of abstraction’ at a higher level, some instruction in some software routine must use an absolute address to activate every hardware component in the computer. Absolute coding is writing programming code that refers to fixed locations.",
+            "url": "https://en.wikipedia.org/wiki/Memory_address#absolute_address",
+            "id": 203      
+        }, 
+        {
+            "name": "Path",
+            "definition": "A path is a string of characters used to uniquely identify a location in a directory structure. It is composed by following the directory tree hierarchy in which components, separated by a delimiting character, represent each directory. The delimiting character is most commonly the slash (‘/‘), the backslash character (‘\’), or colon (‘:’), though some operating systems may use a different delimiter. Paths are used extensively in computer science to represent the directory/file relationships common in modern operating systems and are essential in the construction of Uniform Resource Locators (URLs). Resources can be represented by either absolute or relative paths. \n\n An absolute or full path points to the same location in a file system, regardless of the current working directory. To do that, it must include the root directory. By contrast, a relative path starts from some given working directory, avoiding the need to provide the full absolute path. A filename can be considered as a relative path based at the current working directory. If the working directory is not the file's parent directory, a file not found error will result if the file is addressed by its name.",
+            "url": "https://en.wikipedia.org/wiki/Path_(computing)",
+            "id": 204      
+        }, 
+        {
+            "name": "Garbage collection (GC)",
+            "definition": "In computer science, garbage collection (GC) is a form of automatic memory management. The garbage collector attempts to reclaim memory which was allocated by the program, but is no longer referenced—also called garbage. Garbage collection was invented by American computer scientist John McCarthy around 1959 to simplify manual memory management in Lisp. \n\n Garbage collection relieves the programmer from performing manual memory management where the programmer specifies what objects to deallocate and return to the memory system and when to do so. Other similar techniques include stack allocation, region inference, memory ownership, and combinations of multiple techniques. Garbage collection may take a significant proportion of total processing time in a program and, as a result, can have significant influence on performance. \n\n Resources other than memory, such as network sockets, database handles, user interaction windows, file and device descriptors, are not typically handled by garbage collection. Methods for managing such resources, particularly destructors, may suffice to manage memory as well, leaving no need for GC. Some GC systems allow such other resources to be associated with a region of memory that, when collected, causes the work of reclaiming these resources.",
+            "url": "https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)",
+            "id": 205      
+        }, 
+        {
+            "name": "AMD (Advanced Micro Devices, Inc.)",
+            "definition": "An American multinational semiconductor company based in Santa Clara, California, that develops computer processors and related technologies for business and consumer markets. While it initially manufactured its own processors, the company later outsourced its manufacturing, a practice known as going fabless, after GlobalFoundries was spun off in 2009. AMD's main products include microprocessors, motherboard chipsets, embedded processors, graphics processors, and FPGAs for servers, workstations, personal computers, and embedded system applications.",
+            "url": "https://en.wikipedia.org/wiki/Advanced_Micro_Devices",
+            "id": 206      
+        }, 
+        {
+            "name": "ARM",
+            "definition": "The most widely used microprocessors worldwide. Designed by ARM Holdings plc, Cambridge, England (www.arm.com), the company was founded in 1990 by Acorn Computers, Apple and VLSI Technology. The ARM brand originally stood for Acorn RISC Machine and later Advanced RISC Machine. \n\n In 2016, ARM was acquired by Japan-based Softbank, which agreed to sell the company to NVIDIA in 2020 for $40 billion, pending U.S. and U.K. approval. As of 2022, the deal is still pending due to U.S. antitrust concerns. \n\n Low Power Requirements - ARM chips are 32-bit and 64-bit RISC-based CPUs that are known for their low cost but primarily for their low power requirements. In some cases, an ARM-based smartphone using five watts of battery can perform as well or better than a CISC-based desktop computer requiring more than 100 watts. \n\n Manufactured under license from ARM by more than a dozen semiconductor companies, billions of ARM-based devices are made every year, including smartphones, tablets, e-book readers, TVs and myriad other consumer and industrial products. Apple surprised the industry in 2020 by using its new ARM-based chip in its laptop and desktop computers. \n\n Very often, multiple ARM processing cores make up the CPU in a system-on-chip (SoC). For example, Qualcomm's Snapdragon and NVIDIA's Tegra are ARM-based smartphone and tablet SoCs.",
+            "url": "https://en.wikipedia.org/wiki/ARM_architecture_family",
+            "id": 207      
+        }, 
+        {
+            "name": "Array vs. List",
+            "definition": "Array \n\n In computer science, an array type is a data type that represents a collection of elements (values or variables), each selected by one or more indices (identifying keys) that can be computed at run time during program execution. Such a collection is usually called an array variable, array value, or simply array. By analogy with the mathematical concepts vector and matrix, array types with one and two indices are often called vector type and matrix type, respectively. More generally, a multidimensional array type can be called a tensor type. \n\n List \n\n In computer science, a list or sequence is an abstract data type that represents a finite number of ordered values, where the same value may occur more than once. An instance of a list is a computer representation of the mathematical concept of a tuple or finite sequence; the (potentially) infinite analog of a list is a stream. Lists are a basic example of containers, as they contain other values. If the same value occurs multiple times, each occurrence is considered a distinct item. \n\n Similarities between Lists and Arrays \n\n They can look the same: [3,4,3,6,3]. Both are used for storing data. Both are mutable. Both can be indexed and iterated through. Both can be sliced \n\n Differences \n\n The main difference between these two data types is the operation you can perform on them. Arrays are specially optimized for arithmetic computations so if you’re going to perform similar operations you should consider using an array instead of a list. Lists are easier to modify while arrays are more difficult. In comparison to the list, an array has a more compact in-memory size. List memory allocation is dynamic and random, while array memory allocation is static and continuous. Also lists are containers for elements having differing data types (heterogeneous) but arrays are used as containers for elements of the same data type (homogeneous).",
+            "url": "https://learnpython.com/blog/python-array-vs-list/",
+            "id": 208      
+        }, 
+        {
+            "name": "Artificial empathy (AE)",
+            "definition": "Artificial empathy (AE) or computational empathy is the development of AI systems—such as companion robots or virtual agents—that can detect emotions and respond to them in an empathic way. \n\n Although such technology can be perceived as scary or threatening, it could also have a significant advantage over humans for roles in which emotional expression can be important, such as in the health care sector. For example, care-givers who perform emotional labor above and beyond the requirements of paid labor can experience chronic stress or burnout, and can become desensitized to patients. \n\n A broader definition of artificial empathy is ‘the ability of nonhuman models to predict a person's internal state (e.g., cognitive, affective, physical) given the signals (s)he emits (e.g., facial expression, voice, gesture) or to predict a person's reaction (including, but not limited to internal states) when he or she is exposed to a given set of stimuli (e.g., facial expression, voice, gesture, graphics, music, etc.)’.",
+            "url": "https://en.wikipedia.org/wiki/Artificial_empathy",
+            "id": 209      
+        }, 
+        {
+            "name": "Service set",
+            "definition": "In IEEE 802.11 wireless local area networking standards (including Wi-Fi), a service set is a group of wireless network devices which share a service set identifier (SSID)—typically the natural language label that users see as a network name. (For example, all of the devices that together form and use a Wi‑Fi network called Foo are a service set.) A service set forms a logical network of nodes operating with shared link-layer networking parameters; they form one logical network segment. A service set is either a basic service set (BSS) or an extended service set (ESS). \n\n Basic service set \n\n A basic service set is a subgroup, within a service set, of devices that share physical-layer medium access characteristics (e.g. radio frequency, modulation scheme, security settings) such that they are wirelessly networked. The basic service set is defined by a basic service set identifier (BSSID) shared by all devices within it. A basic service set should not be confused with the coverage area of an access point, known as the basic service area (BSA). \n\n An infrastructure BSS is created by an infrastructure device called an access point (AP) for other devices to join. The Wi‑Fi segments of common home and business networks are examples of this type. \n\n An independent BSS (IBSS), or ad hoc network, is created by peer devices among themselves without network infrastructure. A temporary network created by a cellular telephone to share its Internet access with other devices is a common example. \n\n A mesh basic service set (MBSS) forms a self-contained network of mesh stations that share a mesh profile. Each node may also be an access point hosting its own basic service set, for example using the mesh BSS to provide Internet access for local users. From the point of view of a wireless client, an IEEE 802.11s wireless mesh network appears as a conventional infrastructure mode topology, and is centrally configured as such. The formation of the mesh's BSS, as well as wireless traffic management (including path selection and forwarding) is negotiated between the nodes of the mesh infrastructure. The mesh's BSS is distinct from the networks (which may also be wireless) used by a mesh's redistribution points to communicate with one another. \n\n Extended service set \n\n An extended service set (ESS) is a wireless network, created by multiple access points, which appears to users as a single, seamless network, such as a network covering a home or office that is too large for reliable coverage by a single access point. It is a set of one or more infrastructure basic service sets on a common logical network segment (i.e. same IP subnet and VLAN). Key to the concept is that the participating basic service sets appear as a single network to the logical link control layer. \n\n Thus, from the perspective of the logical link control layer, stations within an ESS may communicate with one another, and mobile stations may move transparently from one participating basic service set to another (within the same ESS). Extended service sets make possible distribution services such as centralized authentication. From the perspective of the link layer, all stations within an ESS are all on the same link, and transfer from one BSS to another is transparent to logical link control.",
+            "url": "https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Basic_service_set_types",
+            "id": 210      
+        }, 
+        {
+            "name": "Asimov's laws",
+            "definition": "The famous author of science fiction Isaac Asimov (1920-1992) conceived three important principles pertaining to robots in the 1940s, known as ‘Asimov's Three Laws of Robotics’. The first law is ‘a robot must never harm human beings or, through inaction, allow a human being to be harmed’. The second law is ‘a robot must obey the orders from human beings except where such orders conflict with the first law’, and the third law is ‘a robot must protect its own existence as long as such protection does not conflict with the first and second laws’.",
+            "url": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+            "id": 211      
+        }, 
+        {
+            "name": "ASP.NET",
+            "definition": "ASP.NET is an open-source, server-side web-application framework designed for web development to produce dynamic web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, applications and services. The name stands for Active Server Pages Network Enabled Technologies.",
+            "url": "https://en.wikipedia.org/wiki/ASP.NET",
+            "id": 212      
+        }, 
+        {
+            "name": "Assignment statement",
+            "definition": "In programming, a compiler directive that places a value into a variable. For example, counter=0 creates a variable named counter and fills it with zeros. The VARIABLE=VALUE syntax is common among programming languages.",
+            "url": "https://en.wikipedia.org/wiki/Assignment_(computer_science)",
+            "id": 213      
+        }, 
+        {
+            "name": "Public-key cryptography",
+            "definition": "Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys. Each pair consists of a public key (which may be known to others) and a private key (which may not be known by anyone except the owner). The generation of such key pairs depends on cryptographic algorithms which are based on mathematical problems termed one-way functions. Effective security requires keeping the private key private; the public key can be openly distributed without compromising security. \n\n In such a system, any person can encrypt a message using the intended receiver's public key, but that encrypted message can only be decrypted with the receiver's private key. This allows, for instance, a server program to generate a cryptographic key intended for a suitable symmetric-key cryptography, then to use a client's openly-shared public key to encrypt that newly generated symmetric key. The server can then send this encrypted symmetric key over an insecure channel to the client; only the client can decrypt it using the client's private key (which pairs with the public key used by the server to encrypt the message). With the client and server both having the same symmetric key, they can safely use symmetric key encryption (likely much faster) to communicate over otherwise-insecure channels. This scheme has the advantage of not having to manually pre-share symmetric keys (a fundamentally difficult problem) while gaining the higher data throughput advantage of symmetric-key cryptography. \n\n With public-key cryptography, robust authentication is also possible. A sender can combine a message with a private key to create a short digital signature on the message. Anyone with the sender's corresponding public key can combine that message with a claimed digital signature; if the signature matches the message, the origin of the message is verified (i.e., it must have been made by the owner of the corresponding private key).",
+            "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+            "id": 214      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 215      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 216      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 217      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 218      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 219      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
+        #     "id": 220      
         # }, 
         # {
         #     "name": "",
