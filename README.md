@@ -11,11 +11,17 @@ Next we want to create a message to post in the Webex space that will contain th
 
 ## Building the App in Python
 
+Create a virtual environment and start building your code inside of it. 
+
 I use Python and the requests library to do all the work for this app. You can see that the code is pretty simple -> https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/chatops.py The main ingredient is the Adaptive Card we created, some if/else statements and a simple requests function for posting to a Webex room. I import 'return_word' function from a file in the same directory called 'terms'. This is also a Python module and basically picks a random entry from a list to post with the card to the Webex room each time the chatops.py module is run.
+
+## Create a Bot to Post the Message to the Webex Space
+
+Go to [Webex for Developers / My Apps](https://developer.webex.com/my-apps) and 'Create a New App' (You'll need to be logged in to do this). Choose 'Create a Bot'. Follow all the steps and create the bot. You'll then get a Bot Access Token. Save this as the TEAMS_ACCESS_TOKEN variable in the '~/.bashrc' file with the line export TEAMS_ACCESS_TOKEN="<Bot Access Token Goes Here>". Use the command 'source ~/.bashrc' to load the variable into the environment. You can check this worked with the command 'echo $TEAMS_ACCESS_TOKEN'.
 
 ## Running the App from your Local Console (for debugging)
 
-To run app from console make sure you're in the virtual environment venv and that the TEAMS_ACCESS_TOKEN environmental variable is available in the environment. You can check this with the command 'echo $TEAMS_ACCESS_TOKEN'. For me, I store that variable in he .bashrc file, so if nothing shows up, I use the command 'source ~/.bashrc' to load it. This time 'echo $TEAMS_ACCESS_TOKEN' will reveal the token. Okay, now I can run the command 'python chatops.py' or 'python3 chatops.py' to run the app locally (since the Python verrsion is 3.8.10). Everytime I run this command, a new random word of the day will appear in the Webex space. I only use this for testing purppses.
+Now I can run the command 'python chatops.py' or 'python3 chatops.py' to run the app locally (since the Python verrsion is 3.8.10). Everytime I run this command, a new random word of the day will appear in the Webex space. I only use this for testing purppses.
 
 ## Running the App on Schedule (Using GitHub Workflows and Actions)
 
