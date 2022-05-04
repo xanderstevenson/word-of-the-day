@@ -1130,7 +1130,7 @@ def return_word():
         }, 
         {
             "name": "grep",
-            "definition": "grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. Its name comes from the ed command g/re/p (globally search for a regular expression and print matching lines), which has the same effect. grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9. In December 2003, the Oxford English Dictionary Online added draft entries for "grep" as both a noun and a verb.",
+            "definition": "grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. Its name comes from the ed command g/re/p (globally search for a regular expression and print matching lines), which has the same effect. grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9. In December 2003, the Oxford English Dictionary Online added draft entries for 'grep' as both a noun and a verb.",
             "url": "https://en.wikipedia.org/wiki/Grep",
             "id": 185      
         }, 
