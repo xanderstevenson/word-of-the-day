@@ -1181,46 +1181,646 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Abandonware",
             "id": 193      
         }, 
+        {
+            "name": "Architecture neutral",
+            "definition": "Software that is designed without regard to the target platform. Software is often written to maximize the performance of a specific hardware platform, but such software must be modified to make it run on other hardware. It is always a tradeoff. The more specialized the software, the faster the hardware performance but the more difficult to make the software work on other platforms.",
+            "url": "https://en.wikipedia.org/wiki/Architecture_Neutral_Distribution_Format",
+            "id": 194      
+        }, 
+        {
+            "name": "Intermediate language (IL)",
+            "definition": "A language that is generated from programming source code, but that cannot be directly executed by the CPU. Also called ‘bytecode’, ‘p-code’, ‘pseudocode’ or ‘pseudo language’, the intermediate language (IL) is platform independent. It can be run in any computer environment that has a runtime engine for the language. \n\n In order to execute the intermediate language program, it must be interpreted a line at a time into machine language when it is run or compiled entirely into machine language just before it is run or compiled entirely ahead of time and run when required. \n\n Visual Basic and Java are notable examples of programming languages that generate an intermediate language. Microsoft's .NET and Common Language Infrastructure (CLI), the ECMA standard version of .NET, also generate an intermediate language.",
+            "url": "https://en.wikipedia.org/wiki/Intermediate_representation#Intermediate_language",
+            "id": 195      
+        }, 
+            "name": "Cross-platform software",
+            "definition": "In computing, cross-platform software (also called multi-platform software, platform-agnostic software, or platform-independent software) is computer software that is designed to work in several computing platforms. Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. For example, a cross-platform application may run on Microsoft Windows, Linux, and macOS. Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One, Kivy, Qt, Flutter, NativeScript, Xamarin, Phonegap, Ionic, and React Native.",
+            "url": "https://en.wikipedia.org/wiki/Cross-platform_software",
+            "id": 196      
+        }, 
+        {
+            "name": "Coding best practices",
+            "definition": "Coding best practices are a set of informal rules that the software development community employs to help improve software quality.Many computer programs remain in use for long periods of time so any rules need to facilitate both initial development and subsequent maintenance and enhancement by people other than the original authors. \n\n There are a few best practices when it comes to learning how to code, and they center around these 7 concepts: \n\n 1. Variable naming conventions \n 2. Class and function naming conventions \n 3. Clear and concise comments \n 4. Indentations \n	 5. Portability \n 6. Reusability and scalability \n 7. Testing",
+            "url": "https://en.wikipedia.org/wiki/Coding_best_practices",
+            "id": 197      
+        }, 
+        {
+            "name": "Best current practice (BCP)",
+            "definition": "A Best Current Practice (BCP) is a de facto level of performance in engineering and information technology. It is more flexible than a standard, since techniques and tools are continually evolving. The Internet Engineering Task Force publishes Best Current Practice documents in a numbered document series. Each document in this series is paired with the currently valid Request for Comments (RFC) document. BCP was introduced in RFC-1818. \n\n BCPs are document guidelines, processes, methods, and other matters not suitable for standardization. The Internet standards process itself is defined in a series of BCPs, as is the formal organizational structure of the IETF, Internet Engineering Steering Group, Internet Architecture Board, and other groups involved in that process. \n\n IETF's separate Standard Track (STD) document series defines the fully standardized network protocols of the Internet, such as the Internet Protocol, the Transmission Control Protocol, and the Domain Name System. Each RFC number refers to a specific version of a document Standard Track, but the BCP number refers to the most recent revision of the document. Thus, citations often reference both the BCP number and the RFC number. Example citations for BCPs are: BCP 38, RFC 2827.",
+            "url": "https://en.wikipedia.org/wiki/Best_current_practice",
+            "id": 198      
+        }, 
+        {
+            "name": "Abend",
+            "definition": "(ABnormal END) Pronounced ‘ab-end’. An abend is an unexpected termination that causes the computer, smartphone or tablet to stop responding. The abend occurs either when the processor is presented with instructions or data it cannot recognize, or a program tries to address memory beyond a defined boundary. Abends are generally the result of erroneous software logic in the application or operating system.",
+            "url": "https://www.pcmag.com/encyclopedia/term/abend",
+            "id": 199      
+        }, 
+        {
+            "name": "Application binary interface (ABI)",
+            "definition": "A specification for a specific hardware platform combined with the operating system. It is one step beyond the application program interface (API), which defines the calls from the application to the operating system. The ABI defines the API plus the machine language for a particular CPU family. An API does not ensure runtime compatibility, but an ABI does, because it defines the machine format.",
+            "url": "https://en.wikipedia.org/wiki/Application_binary_interface",
+            "id": 200      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 194      
+        #     "id": 2      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 195      
-        # }, 
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 196      
+        #     "id": 2      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 197      
+        #     "id": 2      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 198      
+        #     "id": 2      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 199      
+        #     "id": 2      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 200      
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 2      
+        # }, 
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 300      
         # }, 
     ]
 
