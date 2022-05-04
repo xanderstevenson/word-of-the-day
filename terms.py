@@ -3,7 +3,7 @@ import random
 
 ##                        ATTENTION DEVELOPERS!!
 ##     Hi, please add new definitions to the end of the list. 
-##     A Wikipedia entry is the default url unless it is lacking or absent.
+##     A Wikipedia entry is the default url unless it is lacking, absent or clearly outdone.
 
 
 
@@ -1193,7 +1193,8 @@ def return_word():
             "definition": "A language that is generated from programming source code, but that cannot be directly executed by the CPU. Also called ‘bytecode’, ‘p-code’, ‘pseudocode’ or ‘pseudo language’, the intermediate language (IL) is platform independent. It can be run in any computer environment that has a runtime engine for the language. \n\n In order to execute the intermediate language program, it must be interpreted a line at a time into machine language when it is run or compiled entirely into machine language just before it is run or compiled entirely ahead of time and run when required. \n\n Visual Basic and Java are notable examples of programming languages that generate an intermediate language. Microsoft's .NET and Common Language Infrastructure (CLI), the ECMA standard version of .NET, also generate an intermediate language.",
             "url": "https://en.wikipedia.org/wiki/Intermediate_representation#Intermediate_language",
             "id": 195      
-        }, 
+        },
+        { 
             "name": "Cross-platform software",
             "definition": "In computing, cross-platform software (also called multi-platform software, platform-agnostic software, or platform-independent software) is computer software that is designed to work in several computing platforms. Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. For example, a cross-platform application may run on Microsoft Windows, Linux, and macOS. Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One, Kivy, Qt, Flutter, NativeScript, Xamarin, Phonegap, Ionic, and React Native.",
             "url": "https://en.wikipedia.org/wiki/Cross-platform_software",
@@ -1307,12 +1308,12 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
             "id": 214      
         }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 215      
-        # }, 
+        {
+            "name": "Astroturfing",
+            "definition": "Astroturfing is the practice of masking the sponsors of a message or organization (e.g., political, advertising, religious or public relations) to make it appear as though it originates from and is supported by grassroots participants. It is a practice intended to give the statements or organizations credibility by withholding information about the source's financial connection. The term astroturfing is derived from AstroTurf, a brand of synthetic carpeting designed to resemble natural grass, as a play on the word ‘grassroots’. The implication behind the use of the term is that instead of a ‘true’ or ‘natural’ grassroots effort behind the activity in question, there is a ‘fake’ or ‘artificial’ appearance of support.",
+            "url": "https://en.wikipedia.org/wiki/Astroturfing",
+            "id": 215      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
