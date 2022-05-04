@@ -41,9 +41,6 @@ if __name__ == '__main__':
     "content": {
             "type": "AdaptiveCard",
             "version": "1.2",
-            # "backgroundImage": {
-            #         "url": "https://st.depositphotos.com/1131998/1433/v/950/depositphotos_14331897-stock-illustration-gray-technology-background.jpg"
-            # },
     "body": [
             {
             "type": "TextBlock",
@@ -68,19 +65,15 @@ if __name__ == '__main__':
             "isSubtle": True,
             "color": "Good",
             "weight": "Bolder",
-        #     "wrap": True
             },
     # code block for definition
             {
             "type": "TextBlock",
             "text": definition,
             "size": "Medium",
-        #     "separator": True,
             "horizontalAlignment": "Center",
             "fontType": "Default",
             "isSubtle": True,
-        #     "color": "Accent",
-        #     "weight": "Bolder",
             "wrap": True
             },
             {
@@ -93,7 +86,6 @@ if __name__ == '__main__':
                 "title": wiki_link_text,
                 "style": "positive",
                 "horizontalAlignment": "Center",
-                # "iconUrl": "https://pubhub.devnetcloud.com/media/support/site/images/cwd.png"
                 }
             ]
 
@@ -112,14 +104,6 @@ if __name__ == '__main__':
             "weight": "Lighter",
             "wrap": True
             },
-
-
-            # {
-            #     "type": "Image",
-            #     "url": "https://developer.webex.com/static/images/hero1.3E5fuG8.png",
-            #     "size": "Small",
-            #     "height": "50px"
-            # }
     ],
 
         }
