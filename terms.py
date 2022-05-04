@@ -1074,6 +1074,7 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Steve_Wozniak",
             "id": 175      
         }, 
+        {
             "name": "Protective incompetence",
             "definition": "Being bad at something you don't like to do, so you don't have to do it.",
             "url": "http://www.paulgraham.com/start.html",
