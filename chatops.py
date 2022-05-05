@@ -80,7 +80,6 @@ if __name__ == '__main__':
             {
             "type":"ActionSet",
             "horizontalAlignment": "Center",
-            "wrap": True,
             "actions": [
                 {
                 "type": "Action.OpenUrl",
