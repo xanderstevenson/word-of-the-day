@@ -65,6 +65,7 @@ if __name__ == '__main__':
             "isSubtle": True,
             "color": "Good",
             "weight": "Bolder",
+            "wrap": True,
             },
     # code block for definition
             {
