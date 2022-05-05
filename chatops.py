@@ -65,6 +65,7 @@ if __name__ == '__main__':
             "isSubtle": True,
             "color": "Good",
             "weight": "Bolder",
+            "wrap": True,
             },
     # code block for definition
             {
@@ -96,7 +97,6 @@ if __name__ == '__main__':
             "type": "TextBlock",
             "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
             "size": "Small",
-        #     "separator": True,
             "horizontalAlignment": "Center",
             "fontType": "Default",
             "isSubtle": True,
