@@ -1,7 +1,7 @@
 # WORD OF THE DAY BOT
 
 <p align="center">
-<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced.png  border="10">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced.png >
 </p>
 
 
