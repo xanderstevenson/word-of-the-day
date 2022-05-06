@@ -41,3 +41,7 @@ One key component in my workflow is this line 'TEAMS_ACCESS_TOKEN: ${{ secrets.T
 Now we want to connect the Workflow we created with the repo and the code we want to run. In my word-of-the-day-bot GitHub repo, I click on the Actions tab and click on 'New workflow' and find my workflow listed amongst all the recommended and prebuilt workflows in a section titled 'By Alexander Stevenson'. If you've already done this, you can go back a step to Actions and click 'Select workflow' to pick the workflow you want.
 
 If everything is setup correctly, the code will run completely and the Webex space will receive a new message. If not, you'll get an email to the address associated with your GitHub account. You can also click on the 'Actions' tab in your code repo and you'll see a detailed description of why your code failed.
+
+## Other Considerations
+
+I had created an empty __init__.py file in the root directory out of habit. Before Python 3.3 this was done to to make Python treat the directories as containing packages and facilitate importing between modules. From Python 3.3+ Implicit Namespace Packages are supported which allows the creation of a package without an __init__.py file. This however only applies to empty __init__.py files. So empty __init__.py files are no longer necessary and can be omitted.
