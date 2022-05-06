@@ -1016,7 +1016,7 @@ def return_word():
         }, 
         {
             "name": "Vanity metrics",
-            "definition": "Vanity metrics are metrics that make you look good to others but do not help you understand your own performance in a way that informs future strategies. These metrics are exciting to point to if you want to appear to be improving, but they often aren’t actionable and aren’t related to anything you can control or repeat in a meaningful way. Vanity metrics are most often contrasted against actionable metrics, which is data that helps you make decisions and helps your business reach its goals or grow. It is important to mention: Any metric can be a vanity metric. There just happen to be some telltale signs. They are hollow metrics that look nice on the surface but hold little substance. For example, 10,000 total registered accounts might seem impressive, but that number loses face quickly if there are only 100 active monthly users.",
+            "definition": "Vanity metrics are metrics that make you look good to others but do not help you understand your own performance in a way that informs future strategies. These metrics are exciting to point to if you want to appear to be improving, but they often aren’t actionable and aren’t related to anything you can control or repeat in a meaningful way. Vanity metrics are most often contrasted against actionable metrics, which is data that helps you make decisions and helps your business reach its goals or grow. \n\n It is important to mention: Any metric can be a vanity metric. There just happen to be some telltale signs. They are hollow metrics that look nice on the surface but hold little substance. For example, 10,000 total registered accounts might seem impressive, but that number loses face quickly if there are only 100 active monthly users.",
             "url": "https://www.tableau.com/learn/articles/vanity-metrics",
             "id": 166      
         }, 
@@ -1314,215 +1314,215 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Astroturfing",
             "id": 215      
         }, 
+        {
+            "name": "Active cooling",
+            "definition": "Active cooling is a heat-reducing mechanism that is typically implemented in electronic devices and indoor buildings to ensure proper heat transfer and circulation from within. Unlike its counterpart passive cooling, active cooling is entirely dependent on energy consumption in order to operate. It uses various mechanical systems that consume energy to dissipate heat. It is commonly implemented in systems that are unable to maintain their temperature through passive means. \n\n Active cooling systems are usually powered through the use of electricity or thermal energy but it's possible for some systems to be powered by solar energy or even hydroelectric energy. They need to be well-maintained and sustainable in order for them to perform its necessary tasks or the possibility of damages within objects could occur. Various applications of commercial active cooling systems include indoor air conditioners, computer fans, and heat pumps.",
+            "url": "https://en.wikipedia.org/wiki/Computer_cooling",
+            "id": 216      
+        }, 
+        {
+            "name": "Passive cooling",
+            "definition": "Passive cooling is a design approach that focuses on heat gain control and heat dissipation in order to lower the thermal temperature, with low or no energy consumption. This approach works either by preventing heat from entering the interior (heat gain prevention) or by removing heat from the structure (natural cooling). \n\n Passive heatsink cooling involves attaching a block of machined or extruded metal to the part that needs cooling. A thermal adhesive may be used. More commonly for a personal computer CPU, a clamp holds the heatsink directly over the chip, with a thermal grease or thermal pad spread between. This block has fins and ridges to increase its surface area. The heat conductivity of metal is much better than that of air, and it radiates heat better than the component that it is protecting (usually an integrated circuit or CPU). Fan-cooled aluminium heatsinks were originally the norm for desktop computers, but nowadays many heatsinks feature copper base-plates or are entirely made of copper.",
+            "url": "https://en.wikipedia.org/wiki/Computer_cooling#Passive_cooling",
+            "id": 217      
+        }, 
+        {
+            "name": "Active Directory (AD)",
+            "definition": "An advanced, hierarchical network directory service that comes with Windows servers and used for managing permissions and user access to network resources. Introduced in Windows 2000, Active Directory is a domain-based network that is structured like the Internet's Domain Naming System (DNS). Using the LDAP directory access protocol, a company's workgroups (departments, sections, offices, etc.) are assigned domain names similar to Web addresses, and any LDAP-compliant Windows, Mac, Unix or Linux client can access them. \n\n Initially, Active Directory was used only for centralized domain management. However, Active Directory eventually became an umbrella title for a broad range of directory-based identity-related services. Active Directory can function in a heterogeneous, enterprise network and encompass other directories including NDS and NIS+. Cisco supports Active Directory in its IOS router operating system.",
+            "url": "https://en.wikipedia.org/wiki/Active_Directory",
+            "id": 218      
+        }, 
+        {
+            "name": "Ambient network",
+            "definition": "Ambient networks is a network integration design that seeks to solve problems relating to switching between networks to maintain contact with the outside world. This project aims to develop a network software-driven infrastructure that will run on top of all current or future network physical infrastructures to provide a way for devices to connect to each other, and through each other to the outside world. \n\n Example: \n\n Alice has a PAN, a Personal Area Network on her body: she has a Bluetooth enabled PDA, mobile phone and laptop that she is carrying, and are all currently turned on, and forming a network. Her laptop also has the ability to connect using an available WLAN, and her mobile phone has the ability to connect through GPRS, though GPRS is slower and much more costly for Alice to use. She is now on the move, and her laptop is downloading her emails using the GPRS connection on the mobile: \n\n  Laptop → (Bluetooth) → Mobile → (GPRS) → Mobile phone network \n\n While walking, she passes into an area covered by a free WLAN hotspot: Her PAN now immediately starts to initiate a connection with the hotspot. This is called ‘merging’ of the networks (that of the hotspot and that of her PAN). Once this merging is complete, the downloading of her email continues totally unaffected, but instead of using the expensive and slow GPRS connection, it is now using the newly established WLAN connection. If she now wants to browse the web with her PDA, the PDA will also use the WLAN connection of the laptop: \n\n PDA → (bluetooth) → Laptop → (WLAN) → Hotspot.",
+            "url": "https://en.wikipedia.org/wiki/Ambient_network",
+            "id": 219      
+        }, 
+        {
+            "name": "Ambient intelligence (AmI)",
+            "definition": "In computing, ambient intelligence (AmI) refers to electronic environments that are sensitive and responsive to the presence of people. Ambient intelligence was a projection on the future of consumer electronics, telecommunications and computing that was originally developed in the late 1990s by Eli Zelkha and his team at Palo Alto Ventures for the time frame 2010–2020. \n\n Ambient intelligence would allow devices to work in concert to support people in carrying out their everyday life activities, tasks and rituals in an intuitive way using information and intelligence that is hidden in the network connecting these devices (for example: The Internet of Things). As these devices grew smaller, more connected and more integrated into our environment, the technological framework behind them would disappear into our surroundings until only the user interface remains perceivable by users. \n\n The ambient intelligence paradigm builds upon pervasive computing, ubiquitous computing, profiling, context awareness, and human-centric computer interaction design, of which, is characterized by systems and technologies that are embedded, context aware, personalized, adaptive and anticipatory. A typical context of ambient intelligence environment is home, but may also be extended to work spaces (offices, co-working), public spaces (based on technologies such as smart street lights), and hospital environments.",
+            "url": "https://en.wikipedia.org/wiki/Ambient_intelligence",
+            "id": 220      
+        }, 
+        {
+            "name": "Acceptable use policy (AUP)",
+            "definition": "An acceptable use policy (AUP), acceptable usage policy, Internet use policy IUP), or fair use policy is a set of rules applied by the owner, creator or administrator of a computer network website, or service. That restricts the ways in which the network, website or system may be used and sets guidelines as to how it should be used. AUP documents are written for corporations, businesses, universities, schools, internet service providers (ISPs), and website owners, often to reduce the potential for legal action that may be taken by a user, and often with little prospect of enforcement. \n\n Acceptable use policies are an integral part of the framework of information security policies; it is often common practice to ask new members of an organization to sign an AUP before they are given access to its information systems. For this reason, an AUP must be concise and clear. While at the same time covering the most important points about what users are, and are not allowed to do with the IT systems of an organization, it should refer users to the more comprehensive security policy where relevant. It should also, and very notably define what sanctions will be applied if a user breaks the AUP. Compliance with this policy should as usual, be measured by regular audits.",
+            "url": "https://en.wikipedia.org/wiki/Acceptable_use_policy",
+            "id": 221     
+        }, 
+        {
+            "name": "Autonomous system (Internet)",
+            "definition": "An autonomous system (AS) is a collection of connected Internet Protocol (IP) routing prefixes under the control of one or more network operators on behalf of a single administrative entity or domain, that presents a common and clearly defined routing policy to the Internet. Each AS is assigned an autonomous system number (ASN), for use in Border Gateway Protocol (BGP) routing. Autonomous System Numbers are assigned to Local Internet Registries (LIRs) and end user organizations by their respective Regional Internet Registries (RIRs), which in turn receive blocks of ASNs for reassignment from the Internet Assigned Numbers Authority (IANA). The IANA also maintains a registry of ASNs which are reserved for private use (and should therefore not be announced to the global Internet). \n\n Originally, the definition required control by a single entity, typically an Internet service provider (ISP) or a very large organization with independent connections to multiple networks, that adhered to a single and clearly defined routing policy. In March 1996, the newer definition came into use because multiple organizations can run BGP using private AS numbers to an ISP that connects all those organizations to the Internet. Even though there may be multiple autonomous systems supported by the ISP, the Internet only sees the routing policy of the ISP. That ISP must have an officially registered ASN. \n\n The number of unique autonomous networks in the routing system of the Internet exceeded 5,000 in 1999, 30,000 in late 2008, 35,000 in mid-2010, 42,000 in late 2012, 54,000 in mid-2016 and 60,000 in early 2018. The number of allocated ASNs exceeded 100,000 as of March 2021.",
+            "url": "https://en.wikipedia.org/wiki/Autonomous_system_(Internet)",
+            "id": 222      
+        }, 
+        {
+            "name": "Actuator",
+            "definition": "An actuator is a component of a machine that is responsible for moving and controlling a mechanism or system, for example by opening a valve. In simple terms, it is a ‘mover’. \n\n An actuator requires a control signal and a source of energy. The control signal is relatively low energy and may be electric voltage or current, pneumatic, or hydraulic fluid pressure, or even human power. Its main energy source may be an electric current, hydraulic pressure, or pneumatic pressure. When it receives a control signal, an actuator responds by converting the source's energy into mechanical motion. In the electric, hydraulic, and pneumatic sense, it is a form of automation or automatic control. \n\n An actuator is a mechanism by which a control system acts upon to perform an operation or task. The control system can be simple (a fixed mechanical or electronic system), software-based (e.g. a printer driver, robot control system), a human, or any other input. Along with sensors and controllers, actuators are an integral component in IoT (Internet of Things) interactions.",
+            "url": "https://en.wikipedia.org/wiki/Actuator",
+            "id": 223      
+        }, 
+        {
+            "name": "Transceiver",
+            "definition": "In radio communication, a transceiver is an electronic device which is a combination of a radio transmitter and a receiver, hence the name. It can both transmit and receive radio waves using an antenna, for communication purposes. These two related functions are often combined in a single device to reduce manufacturing costs. The term is also used for other devices which can both transmit and receive through a communications channel, such as optical transceivers which transmit and receive light in optical fiber systems, and bus transceivers which transmit and receive digital data in computer data buses.",
+            "url": "https://en.wikipedia.org/wiki/Transceiver",
+            "id": 224      
+        }, 
+        {
+            "name": "Application delivery controller (ADC)",
+            "definition": "Software running in commodity hardware or a specialized appliance that provides load balancing, authentication and accounting for application servers. Primarily a load balancer with enhanced features, an ADC resides in the DMZ behind the firewall or router and before the servers or web farm. You’ll often find these in a datacenter, as part of an application delivery network (ADN), that helps perform common tasks, such as those done by web accelerators to remove load from the web servers themselves.",
+            "url": "https://en.wikipedia.org/wiki/Application_delivery_controller",
+            "id": 225      
+        }, 
+        {
+            "name": "Application integration",
+            "definition": "1. Translating data and commands from the format of one application into the format of another. It is essentially data and command conversion on an ongoing basis between two or more incompatible systems. Implementing application integration has traditionally been done by tedious programming, or occasionally one package might support the interfaces of one or two other packages. However, the trend today is to use message brokers, applications servers and other specialized integration products that provide a common connecting point. Since the advent of the Web, these pre-packaged ‘middleware’ solutions have become widely used to Web enable the enterprise. \n\n 2. Redesigning disparate information systems into one system that uses a common set of data structures and rules.",
+            "url": "https://en.wikipedia.org/wiki/Enterprise_application_integration",
+            "id": 226      
+        }, 
+        {
+            "name": "Middleware",
+            "definition": "Software that functions as a conversion or translation layer. Middleware is also a consolidator and integrator. It can be described as ‘software glue’. Custom-programmed middleware solutions have been developed for decades to enable one application to interface with another, which either runs on a different platform or comes from a different vendor. \n\n Today, there is a diverse group of middleware products including: transaction processing monitor (TP Monitor), messaging middleware, distributed processing, distributed database middleware, database middleware, common interfaces, application server middleware, universal computing, network logon and enterprise integration. For example illustrations, see https://www.pcmag.com/encyclopedia/term/middleware",
+            "url": "https://en.wikipedia.org/wiki/Middleware",
+            "id": 227      
+        }, 
+        {
+            "name": "Message broker",
+            "definition": "A message broker (also known as an integration broker or interface engine) is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver. Message brokers are elements in telecommunication or computer networks where software applications communicate by exchanging formally-defined messages. Message brokers are a building block of message-oriented middleware (MOM) but are typically not a replacement for traditional middleware like MOM and remote procedure call (RPC). \n\n A message broker is an architectural pattern for message validation, transformation, and routing. It mediates communication among applications, minimizing the mutual awareness that applications should have of each other in order to be able to exchange messages, effectively implementing decoupling. \n\n The primary purpose of a broker is to take incoming messages from applications and perform some action on them. Message brokers can decouple end-points, meet specific non-functional requirements, and facilitate reuse of intermediary functions. For example, a message broker may be used to manage a workload queue or message queue for multiple receivers, providing reliable storage, guaranteed message delivery and perhaps transaction management.",
+            "url": "https://en.wikipedia.org/wiki/Message_broker",
+            "id": 228      
+        }, 
+        {
+            "name": "Network programmability",
+            "definition": "Network programmability is the use of software to deploy, manage, and troubleshoot network elements. A programmable network is driven by an intelligent software stack that can take action based on business requests or network events. Network programmability can help communication service providers adapt to new trends including internet of things (IoT), 5G and edge computing. \n\n Complementary to network programmability is Software Defined Networking (SDN), which not only separates the control plane and forwarding plane of network elements but also provides (application programming interfaces) APIs to control and manage them.",
+            "url": "https://www.redhat.com/en/blog/architects-guide-network-programmability",
+            "id": 229      
+        }, 
+        {
+            "name": "Proxy server",
+            "definition": "In computer networking, a proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource. Instead of connecting directly to a server that can fulfill a request for a resource, such as a file or web page, the client directs the request to the proxy server, which evaluates the request and performs the required network transactions. \n\n This serves as a method to simplify or control the complexity of the request, or provide additional benefits such as load balancing, privacy, or security. Proxies were devised to add structure and encapsulation to distributed systems. A proxy server thus functions on behalf of the client when requesting service, potentially masking the true origin of the request to the resource server.",
+            "url": "https://en.wikipedia.org/wiki/Proxy_server",
+            "id": 230      
+        }, 
+        {
+            "name": "Geo-fence",
+            "definition": "A geofence is a virtual perimeter for a real-world geographic area. A geo-fence could be dynamically generated (as in a radius around a point location) or match a predefined set of boundaries (such as school zones or neighborhood boundaries). \n\n The use of a geofence is called geofencing, and one example of use involves a location-aware device of a location-based service (LBS) user entering or exiting a geo-fence. This activity could trigger an alert to the device's user as well as messaging to the geo-fence operator. This info, which could contain the location of the device, could be sent to a mobile telephone or an email account. \n\n Geofencing uses technologies like GPS, or even IP address ranges to build their virtual fence. These virtual fences can be used to track the physical location of the device active in the particular region or the fence area. The location of the person using the device is taken as geocoding data and can be used further for advertising purposes.",
+            "url": "https://en.wikipedia.org/wiki/Geo-fence",
+            "id": 231      
+        }, 
+        {
+            "name": "Stack",
+            "definition": "In computing, a solution stack or software stack is a set of software subsystems or components needed to create a complete platform such that no additional software is needed to support applications. Applications are said to "run on" or "run on top of" the resulting platform. \n\n For example, to develop a web application, the architect defines the stack as the target operating system, web server, database, and programming language. Another version of a software stack is operating system, middleware, database, and applications. Regularly, the components of a software stack are developed by different developers independently from one another. \n\n Some components/subsystems of an overall system are chosen together often enough that the particular set is referred to by a name representing the whole, rather than by naming the parts. Typically, the name is an acronym representing the individual components. Notable examples include ELK, LAMP, LAPP, MEAN, MERN and XAMPP. \n\n The term ‘solution stack’ has, historically, occasionally included hardware components as part of a final product, mixing both the hardware and software in layers of support. \n\n A full-stack developer is expected to be able to work in all the layers of the stack. A full-stack web developer can be defined as a developer or engineer who works with both the front and back ends of a website or application. This means they can lead platform builds that involve databases, user-facing websites, and working with clients during the planning phase of projects.",
+            "url": "https://en.wikipedia.org/wiki/Solution_stack",
+            "id": 232      
+        }, 
+        {
+            "name": "Scripting language",
+            "definition": "A scripting language or script language is a programming language for a runtime system that automates the execution of tasks that would otherwise be performed individually by a human operator. Scripting languages are usually interpreted at runtime rather than compiled. \n\n A scripting language's primitives are usually elementary tasks or API calls, and the scripting language allows them to be combined into more programs. Environments that can be automated through scripting include application software, text editors, web pages, operating system shells, embedded systems, and computer games. A scripting language can be viewed as a domain-specific language for a particular environment; in the case of scripting an application, it is also known as an extension language. Scripting languages are also sometimes referred to as very high-level programming languages, as they sometimes operate at a high level of abstraction, or as control languages, particularly for job control languages on mainframes. \n\n The term scripting language is also used in a wider sense, namely, to refer to dynamic high-level programming languages in general; some are strictly interpreted languages, while others use a form of compilation. In this context, the term script refers to a small program in such a language; typically, contained in a single file, and no larger than a few thousand lines of code. \n\n The spectrum of scripting languages ranges from small to large, and from highly domain-specific language to general-purpose programming languages. A language may start as small and highly domain-specific and later develop into a portable and general-purpose language; conversely, a general-purpose language may later develop special domain-specific dialects. \n\n Examples of scripting languages include Bash, PowerShell, Python, JavaScript and Visual Basic for Applications (VBA).",
+            "url": "https://en.wikipedia.org/wiki/Scripting_language",
+            "id": 233      
+        }, 
+        {
+            "name": "Polling",
+            "definition": "Polling, or polled operation, in computer science, refers to actively sampling the status of an external device by a client program as a synchronous activity. Polling is most often used in terms of input/output (I/O), and is also referred to as polled I/O or software-driven I/O. \n\n Polling is a technique to determine, through continuous interrogation, whether a terminal or device is ready to transfer data. Contrast this with event-driven or interrupt-driven techniques, in which the system, when data is ready to be transferred, sends a signal and interrupts the system.",
+            "url": "https://en.wikipedia.org/wiki/Polling_(computer_science)",
+            "id": 234      
+        }, 
+        {
+            "name": "Interrupt",
+            "definition": "In digital computers, an interrupt (sometimes referred to as a trap) is a request for the processor to interrupt currently executing code (when permitted), so that the event can be processed in a timely manner. If the request is accepted, the processor will suspend its current activities, save its state, and execute a function called an interrupt handler (or an interrupt service routine, ISR) to deal with the event. This interruption is often temporary, allowing the software to resume normal activities after the interrupt handler finishes, although the interrupt could instead indicate a fatal error. \n\n Interrupts are commonly used by hardware devices to indicate electronic or physical state changes that require time-sensitive attention. Interrupts are also commonly used to implement computer multitasking, especially in real-time computing. Systems that use interrupts in these ways are said to be interrupt-driven.",
+            "url": "https://en.wikipedia.org/wiki/Interrupt",
+            "id": 235      
+        }, 
+        {
+            "name": "Surface-mount technology",
+            "definition": "Surface-mount technology (SMT) is a method in which the electrical components are mounted directly onto the surface of a printed circuit board (PCB). An electrical component mounted in this manner is referred to as a surface-mount device (SMD). In industry, this approach has largely replaced the through-hole technology construction method of fitting components, in large part because SMT allows for increased manufacturing automation which reduces cost and improves quality. It also allows for more components to fit on a given area of substrate. Both technologies can be used on the same board, with the through-hole technology often used for components not suitable for surface mounting such as large transformers and heat-sinked power semiconductors. \n\n An SMT component is usually smaller than its through-hole counterpart because it has either smaller leads or no leads at all. It may have short pins or leads of various styles, flat contacts, a matrix of solder balls (BGAs), or terminations on the body of the component. \n\n Surface mounting was originally called ‘planar mounting’.",
+            "url": "https://en.wikipedia.org/wiki/Surface-mount_technology",
+            "id": 236      
+        }, 
+        {
+            "name": "Advanced persistent threat (APT)",
+            "definition": "An advanced persistent threat (APT) is a stealthy threat actor, typically a nation state or state-sponsored group, which gains unauthorized access to a computer network and remains undetected for an extended period. In recent times, the term may also refer to non-state-sponsored groups conducting large-scale targeted intrusions for specific goals. \n\n Such threat actors' motivations are typically political or economic. Every major business sector has recorded instances of cyberattacks by advanced actors with specific goals, whether to steal, spy, or disrupt. These targeted sectors include government, defense, financial services, legal services, industrial, telecoms, consumer goods and many more. Some groups utilize traditional espionage vectors, including social engineering, human intelligence and infiltration to gain access to a physical location to enable network attacks. The purpose of these attacks is to install custom malware (malicious software). \n\n The median ‘dwell-time’, the time an APT attack goes undetected, is over 100 days globally.",
+            "url": "https://en.wikipedia.org/wiki/Advanced_persistent_threat",
+            "id": 237      
+        }, 
+        {
+            "name": "Autostereoscopy",
+            "definition": "Autostereoscopy is any method of displaying stereoscopic images (adding binocular perception of 3D depth) without the use of special headgear, glasses, something that affects vision, or anything for eyes on the part of the viewer. Because headgear is not required, it is also called ‘glasses-free 3D’ or ‘glassesless 3D’. \n\n There are two broad approaches currently used to accommodate motion parallax and wider viewing angles: eye-tracking, and multiple views so that the display does not need to sense where the viewer's eyes are located. Examples of autostereoscopic displays technology include lenticular lens, parallax barrier, volumetric display, holographic and light field displays.",
+            "url": "https://en.wikipedia.org/wiki/Autostereoscopy",
+            "id": 238      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 216      
+        #     "id": 239      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 217      
+        #     "id": 240      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 218      
+        #     "id": 241      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 219      
+        #     "id": 242      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 220      
+        #     "id": 243      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 244      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 245      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 246      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 247      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 248      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 249      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
+        #     "id": 250      
         # }, 
         # {
         #     "name": "",
