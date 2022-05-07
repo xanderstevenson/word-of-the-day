@@ -1452,60 +1452,60 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Autostereoscopy",
             "id": 238      
         }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 239      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 240      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 241      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 242      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 243      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 244      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 245      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 246      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 247      
-        # }, 
+        {
+            "name": "Buffer underrun",
+            "definition": "In computing, buffer underrun or buffer underflow is a state occurring when a buffer used to communicate between two devices or processes is fed with data at a lower speed than the data is being read from it. The term is distinct from buffer overflow, a condition where a portion of memory being used as a buffer has a fixed size but is filled with more than that amount of data. This requires the program or device reading from the buffer to pause its processing while the buffer refills. This can cause undesired and sometimes serious side effects because the data being buffered is generally not suited to stop-start access of this kind. \n\n In relation to concurrent programming, a buffer underrun can be considered a form of resource starvation. The terms buffer ‘underrun’ and ‘buffer underflow’ are also used to mean ‘buffer underwrite’, a condition similar to buffer overflow, but where the program is tricked into writing before the beginning of the buffer, overriding potential data there, like permission bits.",
+            "url": "https://en.wikipedia.org/wiki/Buffer_underrun",
+            "id": 239      
+        }, 
+        {
+            "name": "AV storm",
+            "definition": "A serious degradation of system performance when an antivirus scan is scheduled to run at the same time in multiple virtual machines on the same computer. Advanced antivirus programs are aware of virtualization and can limit scans to a maximum number of VMs or coordinate scanning at different intervals.",
+            "url": "https://www.youtube.com/watch?v=GpVRNZaLuRc",
+            "id": 240      
+        }, 
+        {
+            "name": "Artificial life",
+            "definition": "Artificial life (often abbreviated ALife or A-Life) is a field of study wherein researchers examine systems related to natural life, its processes, and its evolution, through the use of simulations with computer models, robotics, and biochemistry. There are three main kinds of alife, named for their approaches: soft, from software; hard, from hardware; and wet, from biochemistry. Artificial life researchers study traditional biology by trying to recreate aspects of biological phenomena. \n\n Artificial life studies the fundamental processes of living systems in artificial environments in order to gain a deeper understanding of the complex information processing that define such systems. These topics are broad, but often include evolutionary dynamics, emergent properties of collective systems, biomimicry, as well as related issues about the philosophy of the nature of life and the use of lifelike properties in artistic works. \n\n The modeling philosophy of artificial life strongly differs from traditional modeling by studying not only ‘life-as-we-know-it’ but also ‘life-as-it-might-be’.",
+            "url": "https://en.wikipedia.org/wiki/Artificial_life",
+            "id": 241      
+        }, 
+        {
+            "name": "Brackets vs. Braces",
+            "definition": "[ ] \n\n Square brackets, or simply ‘brackets’. \n\n Brackets are used in many computer programming languages, primarily for array indexing. But they are also used to denote general tuples, sets and other structures, just as in mathematics. There may be several other uses as well, depending on the language at hand. \n\n { } \n\n Curly brackets, or simply ‘braces’. \n\n In many programming languages, curly brackets enclose groups of statements and create a local scope. Such languages (C, C#, C++ and many others) are therefore called curly bracket languages. They are also used to define structures and enumerated type in these languages. \n\n One way to remember them apart is that braces look like they are ‘bracing’ under enormous pressure, almost buckling.",
+            "url": "https://en.wikipedia.org/wiki/Bracket",
+            "id": 242      
+        }, 
+        {
+            "name": "Angle brackets",
+            "definition": "The ‘<‘and ‘>’ symbols that are on the comma and period keys on the keyboard. Angle brackets are also called ‘chevrons’, ‘pointy brackets’, ‘triangular brackets’, ‘diamond brackets’, ‘tuples’, ‘guillemets’, ‘left and right carets’, ‘broken brackets’, or ‘brokets’. \n\n The ASCII less-than and greater-than characters <> are often used for angle brackets. In most cases only those characters are accepted by computer programs; the Unicode angle brackets are not recognized (for instance in HTML tags). \n\n In C++ chevrons (actually less-than and greater-than) are used to surround arguments to templates. In HTML, chevrons (actually 'greater than' and 'less than' symbols) are used to bracket meta text. For example <b> denotes that the following text should be displayed as bold. Pairs of meta text tags are required – much as brackets themselves are usually in pairs. The end of the bold text segment would be indicated by </b>. This use is sometimes extended as an informal mechanism for communicating mood or tone in digital formats such as messaging, for example adding ‘<sighs>’ at the end of a sentence.",
+            "url": "https://en.wikipedia.org/wiki/Bracket#Angle_brackets",
+            "id": 243      
+        }, 
+        {
+            "name": "AWS Lambda",
+            "definition": "An Amazon AWS service that runs the customer's program code without them having to provision and manage a server in the AWS system. It is a prime example of function as a service (FaaS). \n\n AWS Lambda is an event-driven, serverless computing platform provided by Amazon as a part of Amazon Web Services. It is a computing service that runs code in response to events and automatically manages the computing resources required by that code. It was introduced in November 2014. \n\n Node.js, Python, Java, Go, Ruby and C# (through .NET) are all officially supported, as of 2018. For pricing, AWS Lambda is metered by rounding up to the nearest millisecond with no minimum execution time.",
+            "url": "https://en.wikipedia.org/wiki/AWS_Lambda",
+            "id": 244      
+        }, 
+        {
+            "name": "Software agent",
+            "definition": "In computer science, a software agent is a computer program that acts for a user or other program in a relationship of agency, which derives from the Latin ‘agere’ (to do): an agreement to act on one's behalf. Such ‘action on behalf of’ implies the authority to decide which, if any, action is appropriate. Agents are colloquially known as bots, from robot. They may be embodied, as when execution is paired with a robot body, or as software such as a chatbot executing on a phone (e.g. Siri) or other computing device. Software agents may be autonomous or work together with other agents or people. Software agents interacting with people (e.g. chatbots, human-robot interaction environments) may possess human-like qualities such as natural language understanding and speech, personality or embody humanoid form. \n\n Related and derived concepts include intelligent agents (in particular exhibiting some aspects of artificial intelligence, such as reasoning), autonomous agents (capable of modifying the methods of achieving their objectives), distributed agents (being executed on physically distinct computers), multi-agent systems (distributed agents that work together to achieve an objective that could not be accomplished by a single agent acting alone), and mobile agents (agents that can relocate their execution onto different processors).",
+            "url": "https://en.wikipedia.org/wiki/Software_agent",
+            "id": 245      
+        }, 
+        {
+            "name": "Sorting",
+            "definition": "n computer science, arranging in an ordered sequence is called ‘sorting’. Sorting is a common operation in many applications, and efficient algorithms to perform it have been developed. \n\n The most common uses of sorted sequences are: \n\n Making lookup or search efficient; \n Making merging of sequences efficient; \n Enable processing of data in a defined order; \n\n Common sorting algorithms: \n\n Bubble/Shell sort: Exchange two adjacent elements if they are out of order. Repeat until array is sorted. \n Insertion sort: Scan successive elements for an out-of-order item, then insert the item in the proper place. \n Selection sort: Find the smallest (or biggest) element in the array, and put it in the proper place. Swap it with the value in the first position. Repeat until array is sorted. \n Quick sort: Partition the array into two segments. In the first segment, all elements are less than or equal to the pivot value. In the second segment, all elements are greater than or equal to the pivot value. Finally, sort the two segments recursively. \n Merge sort: Divide the list of elements in two parts, sort the two parts individually and then merge it. \n\n The opposite of sorting, rearranging a sequence of items in a random or meaningless order, is called shuffling.",
+            "url": "https://en.wikipedia.org/wiki/Sorting",
+            "id": 246      
+        }, 
+        {
+            "name": "Isotropic vs. Anisotropic",
+            "definition": "Isotropic and anisotropic are terms that describe whether or not the properties of materials depend on direction. When a property is the same in all directions, the material is isotropic. When a property varies according to direction, the material is anisotropic. The terms come from the Greek isos (equal) and tropos (way). The ‘an’ in ‘anisotropic’ means ‘not’. \n\n Properties that are isotropic in some materials and anisotropic in others include refractive index, absorbance, electrical conductivity, tensile strength, Young’s modulus, etc. \n\n Keep in mind, a material may be isotropic for one property, yet anisotropic for another. For example, a piece of polarized glass is isotropic for mechanical properties, yet anisotropic for light filtration. Also, scale is important. For example, the universe is generally isotropic and homogenous with respect to cosmic blackbody radiation, but when you examine regions more closely, you see heterogeneity and anisotropy. \n\n An isotropic antenna is an omnidirectional antenna: it radiates equal power in all directions, while an anisotropic antenna is a directional antenna: the power level is not the same in all directions.",
+            "url": "https://study.com/learn/lesson/isotropic-anisotropic.html",
+            "id": 247      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
