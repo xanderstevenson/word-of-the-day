@@ -28,7 +28,7 @@ Create a virtual environment and start building your code inside of it.
 
 I use Python and the requests library to do all the work for this app. You can see that the code is pretty simple -> https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/chatops.py The main ingredients are the adaptive card we created, some if/else statements and a simple requests function for posting to a Webex room. I import 'return_word' function from a file in the same directory called 'terms'. This is also a Python module and basically picks a random term from a list to post with the card to the Webex room each time the chatops.py module is run.
 
-## Create a Bot to Post the Message to the Webex Space
+### Create a Bot to Post the Message to the Webex Space
 
 So far you have your Webex Room and you have Python code to post messages to your room. But who will post the messages. That's where the bot comes in.
 
