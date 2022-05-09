@@ -5,7 +5,7 @@
 </p>
 
 
-Anyone can join the Word of the Day by going here --> [JOIN - Word of the Day](https://eurl.io/#3wNrmU0-1)
+Anyone with a Cisco domain account can join the Word of the Day by going here --> [JOIN - Word of the Day](https://eurl.io/#3wNrmU0-1)
 
 
 ## Write code that does stuff to a Webex space / room
