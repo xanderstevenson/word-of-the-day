@@ -34,8 +34,7 @@ I prefer using Adaptive Cards when posting to Webex spaces. If you're starting f
 <img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Card-Designer.png' border="10">
 </p>
 
-
-Next we want to create a message to post in the Webex space that will contain the card we just created. You can test this out with the interactive [Create a Message](https://developer.webex.com/docs/api/v1/messages/create-a-message) on the Webex for Developers page under the 'Try it' tab. Don't forget to paste you Adaptive Card code you saved into the 'attachments' field. Click 'Run' to create the message. When you get it working, click the 'Example' tab and copy the code. You will use this to build your request.
+Next we want to create a message to post in the Webex space that will contain the card we just created. You can test this out with the interactive [Create a Message](https://developer.webex.com/docs/api/v1/messages/create-a-message) on the Webex for Developers page under the 'Try it' tab. Don't forget to paste you Adaptive Card code you saved into the 'attachments' field, as well as the roomID ou saved from the previous API call. Click 'Run' to create the message. When you get it working, click the 'Example' tab and copy the code. You will use this to build your request. 
 
 <h3 align="center">Building the App in Python</h3>
 
