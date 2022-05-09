@@ -66,6 +66,13 @@ In order to run the app on a schedule, we use GitHub workflows. In order to do t
 Next, you want to create a workflow file in the workslows directory. It will contain a name, a trigger, a job, and basic steps (including checkout and run). To learn more about what all this means, check out this tutorial: [How To Build Your First GitHub Actions Workflow](https://www.ipswitch.com/blog/how-to-build-your-first-github-actions-workflow). I also have a 'workflow templates' directory in the '.github' repo that contains the workslow as a template, as well as a properties.json file describing everything. 
 
 This is what mine looks like --> https://github.com/xanderstevenson/.github/blob/default-branch/.github/workflows/wod-workflow.yml
+ 
+It's only 29 lines of code! Automation all day!
+  
+  <p align="center">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Workflow.png  ' border="10">
+</p>
+
 
 One key component in my workflow is this line 'TEAMS_ACCESS_TOKEN: ${{ secrets.TEAMS_ACCESS_TOKEN }}'. I store that in the repo you're reading now under Settings -> Secrets -> Actions. 
 
