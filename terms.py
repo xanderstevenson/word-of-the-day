@@ -1590,24 +1590,24 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle#Feature_complete",
             "id": 261      
         }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 262      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 263      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 264      
-        # }, 
+        {
+            "name": "Release candidate (RC)",
+            "definition": "A release candidate (RC), also known as ‘going silver’, is a beta version with potential to be a stable product, which is ready to release unless significant bugs emerge. In this stage of product stabilization, all product features have been designed, coded and tested through one or more beta cycles with no known showstopper-class bugs. A release is called code complete when the development team agrees that no entirely new source code will be added to this release. There could still be source code changes to fix defects, changes to documentation and data files, and peripheral code for test cases or utilities. Beta testers, if privately selected, will often be credited for using the release candidate as though it were a finished product. Beta testing is conducted in a client's or customer's location and to test the software from a user's perspective.",
+            "url": "",
+            "id": 262      
+        }, 
+        {
+            "name": "Alphanumerish",
+            "definition": "From ‘alphanumeric’, meaning a combination of letters and digits, alphanumerish uses digits and single letters as shorthand for words. It came about as more and more people began to routinely send short messages on tiny pager, PDA and cellphone screens. For example, 2U means ‘to you’ and UR means ‘you are’.",
+            "url": "https://en.wikipedia.org/wiki/SMS_language",
+            "id": 263      
+        }, 
+        {
+            "name": "Fiber Bragg grating",
+            "definition": "A fiber Bragg grating (FBG) is a type of distributed Bragg reflector constructed in a short segment of optical fiber that reflects particular wavelengths of light and transmits all others. This is achieved by creating a periodic variation in the refractive index of the fiber core, which generates a wavelength-specific dielectric mirror. Hence a fiber Bragg grating can be used as an inline optical fiber to block certain wavelengths, can be used for sensing applications, or it can be used as wavelength-specific reflector.",
+            "url": "https://en.wikipedia.org/wiki/Fiber_Bragg_grating",
+            "id": 264      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
