@@ -20,7 +20,7 @@ A card similar to the above is posted on a regular schedule to the 'Word of the 
 Cick on the + sign at the top of Webex and select 'Create a Space'. Then name it and click 'Create'. Now the room is created and you should see it appear in the rooms column on the left of Webex. Now, we need the Room ID of the new room. We can get it by using the [Webex for Developers interactive Rooms API](https://developer.webex.com/docs/api/v1/rooms/list-rooms) call. Make sure you're logged in and select to use your personal access token. In the 'sortBy' field, type 'lastactivity'. Click the 'Run' button and a list of the most recent rooms you've interacted with should be returned. 
 
 <p align="center">
-<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Webex4Devs-Room.png' width="40%" height="40%" border="10">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Webex4Devs-Room.png' border="10">
 </p>
 
 
@@ -29,6 +29,11 @@ The room you just created will be on top. Save the id of the room. Later, we wil
 <h3 align="center">Craft the Template of the Message to Be Posted to Your Webex Room</h3>
 
 I prefer using Adaptive Cards when posting to Webex spaces. If you're starting from scratch, you'll definitely need the [Buttons and Cards Designer](https://developer.webex.com/buttons-and-cards-designer) found on Webex for Developers. Play around with it using 'Preview mode' until it looks right and then copy the code with 'Copy card payload'. Save it somewhere.
+
+<p align="center">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Card-Designer.png' border="10">
+</p>
+
 
 Next we want to create a message to post in the Webex space that will contain the card we just created. You can test this out with the interactive [Create a Message](https://developer.webex.com/docs/api/v1/messages/create-a-message) on the Webex for Developers page under the 'Try it' tab. Don't forget to paste you Adaptive Card code you saved into the 'attachments' field. Click 'Run' to create the message. When you get it working, click the 'Example' tab and copy the code. You will use this to build your request.
 
