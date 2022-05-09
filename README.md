@@ -1,7 +1,7 @@
 # WORD OF THE DAY BOT
 
 <p align="center">
-<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced.png' width="614" height="715" border="10">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced.png' width="375" height="437" border="10">
 </p>
 
 
@@ -41,6 +41,14 @@ One key component in my workflow is this line 'TEAMS_ACCESS_TOKEN: ${{ secrets.T
 Now we want to connect the Workflow we created with the repo and the code we want to run. In my word-of-the-day-bot GitHub repo, I click on the Actions tab and click on 'New workflow' and find my workflow listed amongst all the recommended and prebuilt workflows in a section titled 'By Alexander Stevenson'. If you've already done this, you can go back a step to Actions and click 'Select workflow' to pick the workflow you want.
 
 If everything is setup correctly, the code will run completely and the Webex space will receive a new message. If not, you'll get an email to the address associated with your GitHub account. You can also click on the 'Actions' tab in your code repo and you'll see a detailed description of why your code failed.
+
+
+## Layout
+
+<p align="center">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced-labeled.png' width="375" height="437" border="10">
+</p>
+
 
 ## Other Considerations
 
