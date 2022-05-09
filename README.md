@@ -1,4 +1,4 @@
-<p align="center"># WORD OF THE DAY - Webex Space and Bot</p>
+#<p align="center"> WORD OF THE DAY - Webex Space and Bot</p>
 
 
 <img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced.png' width="375" height="437" border="10">
