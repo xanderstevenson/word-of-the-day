@@ -1,7 +1,7 @@
 <h1 align="center">WORD OF THE DAY - Webex Space and Bot</h1>
 
 
-<p align="center">Anyone with a Cisco domain account can join the Word of the Day by going here --> [JOIN - Word of the Day](https://eurl.io/#3wNrmU0-1)</p>
+Anyone with a Cisco domain account can join the Word of the Day by going here --> [JOIN - Word of the Day](https://eurl.io/#3wNrmU0-1)
 
 
 <h2 align="center" color="blue">Layout and Functionality</h2>
