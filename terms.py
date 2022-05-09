@@ -1196,7 +1196,7 @@ def return_word():
         },
         { 
             "name": "Cross-platform software",
-            "definition": "In computing, cross-platform software (also called multi-platform software, platform-agnostic software, or platform-independent software) is computer software that is designed to work in several computing platforms. Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. For example, a cross-platform application may run on Microsoft Windows, Linux, and macOS. Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One, Kivy, Qt, Flutter, NativeScript, Xamarin, Phonegap, Ionic, and React Native.",
+            "definition": "In computing, cross-platform software (also called multi-platform software, platform-agnostic software, or platform-independent software) is computer software that is designed to work in several computing platforms. Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. \n\n For example, a cross-platform application may run on Microsoft Windows, Linux, and macOS. Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One, Kivy, Qt, Flutter, NativeScript, Xamarin, Phonegap, Ionic, and React Native.",
             "url": "https://en.wikipedia.org/wiki/Cross-platform_software",
             "id": 196      
         }, 
@@ -1506,317 +1506,317 @@ def return_word():
             "url": "https://study.com/learn/lesson/isotropic-anisotropic.html",
             "id": 247      
         }, 
+        {
+            "name": "Artificial immune systems (AIS)",
+            "definition": "In artificial intelligence, artificial immune systems (AIS) are a class of computationally intelligent, rule-based machine learning systems inspired by the principles and processes of the vertebrate immune system. The algorithms are typically modeled after the immune system's characteristics of learning and memory for use in problem-solving.",
+            "url": "https://en.wikipedia.org/wiki/Artificial_immune_system",
+            "id": 248      
+        }, 
+        {
+            "name": "Aliasing",
+            "definition": "In computing, aliasing describes a situation in which a data location in memory can be accessed through different symbolic names in the program. Thus, modifying the data through one name implicitly modifies the values associated with all aliased names, which may not be expected by the programmer. As a result, aliasing makes it particularly difficult to understand, analyze and optimize programs. Aliasing analysers intend to make and compute useful information for understanding aliasing in programs.",
+            "url": "https://en.wikipedia.org/wiki/Aliasing_(computing)",
+            "id": 249      
+        }, 
+        {
+            "name": "alias",
+            "definition": "In computing, alias is a command in various command-line interpreters (shells), which enables a replacement of a word by another string. It is mainly used for abbreviating a system command, or for adding default arguments to a regularly used command. alias is available in Unix shells, AmigaDOS, 4DOS/4NT, KolibriOS, Windows PowerShell, ReactOS, and the EFI shell. Aliasing functionality in the MS-DOS and Microsoft Windows operating systems is provided by the DOSKey command-line utility. \n\n An alias will last for the life of the shell session. Regularly used aliases can be set from the shell's rc file (such as .bashrc) so that they will be available upon the start of the corresponding shell session. The alias commands may either be written in the config file directly or sourced from a separate file. \n\n Example: \n\n alias gc='git commit'",
+            "url": "https://en.wikipedia.org/wiki/Alias_(command)",
+            "id": 250      
+        }, 
+        {
+            "name": "Alice (software)",
+            "definition": "An open source, object-oriented development environment for building 3D animations, games and virtual worlds. Running under Windows, Mac and Linux, it is based on Java and is programmed by dragging and dropping predefined functions into a work area. Designed to teach fundamental concepts to novices, such as the relationship between programming statements and objects, Alice is supported by textbooks, tutorials, lessons and tests. \n\n  The software was developed first at University of Virginia in 1994, then Carnegie Mellon (from 1997), by a research group led by Randy Pausch. According to Pausch, the name ‘Alice’ comes from author Lewis Carroll, who wrote Alice’s Adventures in Wonderland. \n\n ‘Carroll was a mathematician, novelist, and photographer. Most important, he could do intellectually difficult things but also realized the most powerful thing was to be able to communicate clearly and in an entertaining way. This inspires our efforts to make something as complex as computer programming easy and fun.’",
+            "url": "https://en.wikipedia.org/wiki/Randy_Pausch",
+            "id": 251      
+        }, 
+        {
+            "name": "",
+            "definition": "In computer science, a high-level programming language is a programming language with strong abstraction from the details of the computer. In contrast to low-level programming languages, it may use natural language elements, be easier to use, or may automate (or even hide entirely) significant areas of computing systems (e.g. memory management), making the process of developing a program simpler and more understandable than when using a lower-level language. The amount of abstraction provided defines how ‘high-level’ a programming language is. \n\n Examples of high-level programming languages in active use today include Python, Visual Basic, Delphi, Perl, PHP, ECMAScript, Ruby, C#, Java and many others. \n\n The terms high-level and low-level are inherently relative. Some decades ago, the C language, and similar languages, were most often considered ‘high-level’, as it supported concepts such as expression evaluation, parameterised recursive functions, and data types and structures, while assembly language was considered ‘low-level’. Today, many programmers might refer to C as low-level, as it lacks a large runtime-system (no garbage collection, etc.), basically supports only scalar operations, and provides direct memory addressing. It, therefore, readily blends with assembly language and the machine level of CPUs and microcontrollers.",
+            "url": "High-level programming language",
+            "id": 252      
+        }, 
+        {
+            "name": "Machine code",
+            "definition": "In computer programming, machine code is any low-level programming language, consisting of machine language instructions, which are used to control a computer's central processing unit (CPU). Each instruction causes the CPU to perform a very specific task, such as a load, a store, a jump, or an arithmetic logic unit (ALU) operation on one or more units of data in the CPU's registers or memory. \n\n Machine code is a strictly numerical language which is designed to run as fast as possible, and may be considered as the lowest-level representation of a compiled or assembled computer program or as a primitive and hardware-dependent programming language. While it is possible to write programs directly in machine code, managing individual bits and calculating numerical addresses and constants manually is tedious and error-prone. For this reason, programs are very rarely written directly in machine code in modern contexts, but may be done for low level debugging, program patching (especially when assembler source is not available) and assembly language disassembly. \n\n The majority of practical programs today are written in higher-level languages or assembly language. The source code is then translated to executable machine code by utilities such as compilers, assemblers, and linkers, with the important exception of interpreted programs, which are not translated into machine code. However, the interpreter itself, which may be seen as an executor or processor performing the instructions of the source code, typically consists of directly executable machine code (generated from assembly or high-level language source code).",
+            "url": "https://en.wikipedia.org/wiki/Machine_code",
+            "id": 253      
+        }, 
+        {
+            "name": "Assembly language",
+            "definition": "In computer programming, assembly language (or assembler language), is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Assembly language usually has one statement per machine instruction (1:1), but constants, comments, assembler directives, symbolic labels of, e.g., memory locations, registers, and macros are generally also supported. \n\n Assembly code is converted into executable machine code by a utility program referred to as an assembler. The term ‘assembler’ is generally attributed to Wilkes, Wheeler and Gill in their 1951 book The Preparation of Programs for an Electronic Digital Computer, who, however, used the term to mean ‘a program that assembles another program consisting of several sections into a single program’. The conversion process is referred to as assembly, as in assembling the source code. The computational step when an assembler is processing a program is called assembly time. Assembly language may also be called symbolic machine code. \n\n Because assembly depends on the machine code instructions, each assembly language is specific to a particular computer architecture.",
+            "url": "",
+            "id": 254      
+        }, 
+        {
+            "name": "Microcode",
+            "definition": "In processor design, microcode is a technique that interposes a layer of computer organization between the central processing unit (CPU) hardware and the programmer-visible instruction set architecture of a computer. Microcode is a layer of hardware-level instructions that implement higher-level machine code instructions or internal finite-state machine sequencing in many digital processing elements. Microcode is used in general-purpose central processing units, although in current desktop CPUs, it is only a fallback path for cases that the faster hardwired control unit cannot handle. \n\n Microcode typically resides in special high-speed memory and translates machine instructions, state machine data or other input into sequences of detailed circuit-level operations. It separates the machine instructions from the underlying electronics so that instructions can be designed and altered more freely. It also facilitates the building of complex multi-step instructions, while reducing the complexity of computer circuits. Writing microcode is often called microprogramming and the microcode in a particular processor implementation is sometimes called a microprogram.",
+            "url": "https://en.wikipedia.org/wiki/Microcode",
+            "id": 255      
+        }, 
+        {
+            "name": "Optical computer",
+            "definition": "A computer in which all internal circuits use light instead of electricity. Long predicted, an all-optical computer is not expected for some time as there are enormous hurdles to overcome. However, there are definite advantages of optical circuits over electrical ones. Light beams are neither affected by external radiation, nor by themselves. In fact, light beams can cross each other, allowing for simpler travel paths between inputs and outputs.",
+            "url": "https://en.wikipedia.org/wiki/Optical_computing",
+            "id": 256      
+        }, 
+        {
+            "name": "AWGTHTGTTA",
+            "definition": "Internet slang for 'Are we going to have to go through this again?'",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "id": 257      
+        }, 
+        {
+            "name": "AX Wi-Fi",
+            "definition": "Another name for 802.11ax \n\n IEEE 802.11ax, officially marketed by the Wi-Fi Alliance as Wi-Fi 6 (2.4 GHz and 5 GHz) and Wi-Fi 6E (6 GHz), is an IEEE standard for wireless local-area networks (WLANs) and the successor of 802.11ac. It is also known as High Efficiency Wi-Fi, for the overall improvements to Wi-Fi 6 clients under dense environments. It is designed to operate in license-exempt bands between 1 and 7.125 GHz, including the 2.4 and 5 GHz bands already in common use as well as the much wider 6 GHz band (5.925–7.125 GHz in the US). \n\n The main goal of this standard is enhancing throughput-per-area in high-density scenarios, such as corporate offices, shopping malls and dense residential apartments. While the nominal data rate improvement against 802.11ac is only 37%, the overall throughput improvement (over an entire network) is 300% (hence High Efficiency).  This also translates to 75% lower latency. \n\n The quadrupling of overall throughput is made possible by a higher spectral efficiency. The key feature underpinning 802.11ax is orthogonal frequency-division multiple access (OFDMA), which is equivalent to cellular technology applied into Wi-Fi. Other improvements on spectrum utilization are better power-control methods to avoid interference with neighboring networks, higher order 1024‑QAM, up-link direction added with the down-link of MIMO and MU-MIMO to further increase throughput, as well as dependability improvements of power consumption and security protocols such as Target Wake Time and WPA3.",
+            "url": "https://en.wikipedia.org/wiki/Wi-Fi_6",
+            "id": 258      
+        }, 
+        {
+            "name": "Alpha testing",
+            "definition": "The alpha phase of the release life cycle is the first phase of software testing (alpha is the first letter of the Greek alphabet, used as the number 1). In this phase, developers generally test the software using white-box techniques. Additional validation is then performed using black-box or gray-box techniques, by another testing team. Moving to black-box testing inside the organization is known as alpha release. \n\n Alpha software is not thoroughly tested by the developer before it is released to customers. Alpha software may contain serious errors, and any resulting instability could cause crashes or data loss. Alpha software may not contain all of the features that are planned for the final version. In general, external availability of alpha software is uncommon in proprietary software, while open source software often has publicly available alpha versions. The alpha phase usually ends with a feature freeze, indicating that no more features will be added to the software. At this time, the software is said to be feature complete. A beta test is carried out following acceptance testing at the supplier's site (alpha test) and immediately before the general release of the software as a product. In general an alpha version or release of a software package intends to do something particular, mostly does so, yet isn't guaranteed to do so fully.",
+            "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha",
+            "id": 259      
+        }, 
+        {
+            "name": "Beta testing",
+            "definition": "Beta, named after the second letter of the Greek alphabet, is the software development phase following alpha. Software in the beta stage is also known as betaware. A beta phase generally begins when the software is feature complete but likely to contain a number of known or unknown bugs. Software in the beta phase will generally have many more bugs in it than completed software and speed or performance issues, and may still cause crashes or data loss. The focus of beta testing is reducing impacts to users, often incorporating usability testing. The process of delivering a beta version to the users is called beta release and is typically the first time that the software is available outside of the organization that developed it. Software beta releases can be either public or private, depending on whether they are openly available or only available to a limited audience. Beta version software is often useful for demonstrations and previews within an organization and to prospective customers. Some developers refer to this stage as a preview, preview release, prototype, technical preview or technology preview (TP), or early access. \n\n Beta testers are people who actively report issues of beta software. They are usually customers or representatives of prospective customers of the organization that develops the software. Beta testers tend to volunteer their services free of charge but often receive versions of the product they test, discounts on the release version, or other incentives. \n\n Some software is kept in so-called perpetual beta, where new features are continually added to the software without establishing a final "stable" release. As the Internet has facilitated rapid and inexpensive distribution of software, companies have begun to take a looser approach to use of the word beta.",
+            "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta",
+            "id": 260      
+        }, 
+        {
+            "name": "Feature complete (FC)",
+            "definition": "A feature complete (FC) version of a piece of software has all of its planned or primary features implemented but is not yet final due to bugs, performance or stability issues. This occurs at the end of alpha testing of development. Usually a feature complete software still has to undergo beta testing and bug fixing, as well as performance or stability enhancing before it can go to release candidate, and finally gold status.",
+            "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle#Feature_complete",
+            "id": 261      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 248      
+        #     "id": 262      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 249      
+        #     "id": 263      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 250      
+        #     "id": 264      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 265      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 266      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 267      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 268      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 269      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 270      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 271      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 272      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 273      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 274      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 275      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 276      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 277      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 278      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 279      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 280      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 281      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 282      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 283      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 284      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 285      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 286      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 287      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 288      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 289      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 290      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 291      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 292      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 293      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 294      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 295      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 296      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 297      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
+        #     "id": 298      
         # }, 
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 2      
+        #     "id": 299      
         # }, 
         # {
         #     "name": "",
