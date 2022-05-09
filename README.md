@@ -12,7 +12,7 @@ Anyone with a Cisco domain account can join the Word of the Day by going here --
 
 I prefer using Adaptive Cards when posting to Webex spaces. If you're starting from scratch, you'll definitely need the [Buttons and Cards Designer](https://developer.webex.com/buttons-and-cards-designer) found on Webex for Developers. Play around with it using 'Preview mode' until it looks right and then copy the code with 'Copy card payload'. Save it somewhere.
 
-Next we want to create a message to post in the Webex space that will contain the card we just created. You can test this out with the interactive [Create a Messag](https://developer.webex.com/docs/api/v1/messages/create-a-message) on the Webex for Developers page under the 'Try it' tab. Don't forget to paste you Adaptive Card code you saved into the 'attachments' field. Click 'Run' to create the message. When you get it working, click the 'Example' tab and copy the code. You will use this to build your request.
+Next we want to create a message to post in the Webex space that will contain the card we just created. You can test this out with the interactive [Create a Message](https://developer.webex.com/docs/api/v1/messages/create-a-message) on the Webex for Developers page under the 'Try it' tab. Don't forget to paste you Adaptive Card code you saved into the 'attachments' field. Click 'Run' to create the message. When you get it working, click the 'Example' tab and copy the code. You will use this to build your request.
 
 ## Building the App in Python
 
