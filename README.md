@@ -5,7 +5,7 @@
 </p>
 
 
-Anyone can join the Word of the Day by going here --> [webexteams://im?space=82b37a80-98ac-11ec-86e2-5bbd30807931](webexteams://im?space=82b37a80-98ac-11ec-86e2-5bbd30807931)
+Anyone can join the Word of the Day by going here --> [JOIN - Word of the Day](webexteams://im?space=82b37a80-98ac-11ec-86e2-5bbd30807931)
 
 
 ## Write code that does stuff to a Webex space / room
