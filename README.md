@@ -1,4 +1,5 @@
-<h1 align="center">WORD OF THE DAY </br> - Webex Space and Bot - </br> How to Create and Automate a Webex Space</h1>
+<h1 align="center">WORD OF THE DAY</h1>
+<h2>Webex Space and Bot - </br> How to Create and Automate a Webex Space</h2>
 
 
 
