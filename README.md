@@ -53,6 +53,9 @@ Go to [Webex for Developers / My Apps](https://developer.webex.com/my-apps) and 
   <h2 align="center">Running the App from your Local Console (for debugging)</h2>
 
 Now I can run the command 'python chatops.py' or 'python3 chatops.py' to run the app locally (since the Python verrsion is 3.8.10). Everytime I run this command, a new random word of the day will appear in the Webex space. I only use this for testing purppses.
+  
+  ```(venv) alexstev@ALEXSTEV-M-FCUD wod % python chatops.py
+your message was successfully posted to Webex Teams ```
 
   <h2 align="center">Running the App on Schedule (Using GitHub Workflows and Actions)</h2>
 
