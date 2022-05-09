@@ -1,10 +1,10 @@
-<h1 align="center"> WORD OF THE DAY - Webex Space and Bot</h1>
+<h1 align="center">WORD OF THE DAY - Webex Space and Bot</h1>
 
 
 Anyone with a Cisco domain account can join the Word of the Day by going here --> [JOIN - Word of the Day](https://eurl.io/#3wNrmU0-1)
 
 
-## Layout and Functionality
+<h2 align="center">Layout and Functionality</h2>
 
 <p align="center">
 <img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced-labeled.png' width="375" height="437" border="10">
