@@ -54,7 +54,8 @@ Go to [Webex for Developers / My Apps](https://developer.webex.com/my-apps) and 
 
 Now I can run the command 'python chatops.py' or 'python3 chatops.py' to run the app locally (since the Python verrsion is 3.8.10). Everytime I run this command, a new random word of the day will appear in the Webex space. I only use this for testing purppses.
   
-```(venv) alexstev@ALEXSTEV-M-FCUD wod % python chatops.py
+```
+(venv) alexstev@ALEXSTEV-M-FCUD wod % python chatops.py
 your message was successfully posted to Webex Teams 
 ```
 
