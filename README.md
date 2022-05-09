@@ -8,6 +8,15 @@
 Anyone with a Cisco domain account can join the Word of the Day by going here --> [JOIN - Word of the Day](https://eurl.io/#3wNrmU0-1)
 
 
+## Layout and Functionality
+
+<p align="center">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced-labeled.png' width="375" height="437" border="10">
+</p>
+
+A card similar to the above is posted on a regular schedule to the 'Word of the Day' Webex room. A random word is chosen each time from hundreds of the most cutting-edge and interesting terms relevant to development, coding, networking, cloud computing and the sociology of technology. The word is in green font. A multi-word/sentence definition is provided below that. Below the definition is a button whith green font that is clickable and will take the user to the source and/or more information on the word of the day.
+
+
 ## Write Code that Posts to a Webex Space / Room
 
 ### Creat the Webex Room
@@ -51,14 +60,6 @@ One key component in my workflow is this line 'TEAMS_ACCESS_TOKEN: ${{ secrets.T
 Now we want to connect the Workflow we created with the repo and the code we want to run. In my word-of-the-day-bot GitHub repo, I click on the Actions tab and click on 'New workflow' and find my workflow listed amongst all the recommended and prebuilt workflows in a section titled 'By Alexander Stevenson'. If you've already done this, you can go back a step to Actions and click 'Select workflow' to pick the workflow you want.
 
 If everything is setup correctly, the code will run completely and the Webex space will receive a new message. If not, you'll get an email to the address associated with your GitHub account. You can also click on the 'Actions' tab in your code repo and you'll see a detailed description of why your code failed.
-
-
-## Layout
-
-<p align="center">
-<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced-labeled.png' width="375" height="437" border="10">
-</p>
-
 
 ## Other Considerations
 
