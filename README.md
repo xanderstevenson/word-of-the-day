@@ -20,7 +20,7 @@ A card similar to the above is posted on a regular schedule to the 'Word of the 
 Cick on the + sign at the top of Webex and select 'Create a Space'. Then name it and click 'Create'. Now the room is created and you should see it appear in the rooms column on the left of Webex. Now, we need the Room ID of the new room. We can get it by using the [Webex for Developers interactive Rooms API](https://developer.webex.com/docs/api/v1/rooms/list-rooms) call. Make sure you're logged in and select to use your personal access token. In the 'sortBy' field, type 'lastactivity'. Click the 'Run' button and a list of the most recent rooms you've interacted with should be returned. 
 
 <p align="center">
-<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Webex4Devs-Room.png' width="50%" height="50%" border="10">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Webex4Devs-Room.png' width="25%" height="25%" border="10">
 </p>
 
 
