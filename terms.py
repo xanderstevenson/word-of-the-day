@@ -1716,72 +1716,72 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Dribbleware",
             "id": 282      
         }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 283      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 284      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 285      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 286      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 287      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 288      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 289      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 290      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 291      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 292      
-        # }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 293      
-        # }, 
+        {
+            "name": "Evolware",
+            "definition": "A future computing architecture that can modify its own circuitry to improve performance for solving the problems it is given. As far fetched as it sounds, self modification of hardware is already possible. For example, FPGAs are a type of logic chip that can be reprogrammed in place. Exactly how that would be done is based on some pretty complicated software.",
+            "url": "https://www.youtube.com/watch?v=Raw6AYil79Q",
+            "id": 283      
+        }, 
+        {
+            "name": "Expireware",
+            "definition": "Software with a built-in expiration, which is determined by some number of days after installation or by a specific number of user sessions.",
+            "url": "https://de.wikipedia.org/wiki/Expireware",
+            "id": 284      
+        }, 
+        {
+            "name": "Greenware",
+            "definition": "An umbrella term for environment friendly hardware and software. For example, e-books that hold the equivalent of thousands of sheets of paper are greenware.",
+            "url": "https://en.wikipedia.org/wiki/Greenware_(computing)",
+            "id": 285      
+        }, 
+        {
+            "name": "https://en.wikipedia.org/wiki/Careware",
+            "definition": "Careware (also called charityware, helpware, or goodware) is software licensed in a way that benefits a charity. Some careware is distributed free, and the author suggests that some payment be made to either a nominated charity, or a charity of the user's choice. Commercial careware, on the other hand, includes a levy for charity on top of the distribution charge. It can also be a barter of some kind, or even a pledge to be kind to strangers.",
+            "url": "https://en.wikipedia.org/wiki/Careware",
+            "id": 286      
+        }, 
+        {
+            "name": "Donationware",
+            "definition": "Donationware is a licensing model that supplies fully operational unrestricted software to the user and requests an optional donation be paid to the programmer or a third-party beneficiary (usually a non-profit). The amount of the donation may also be stipulated by the author, or it may be left to the discretion of the user, based on individual perceptions of the software's value. Since donationware comes fully operational (i.e. not crippleware/Freemium) when payment is optional, it is a type of freeware. Sometimes referred to as ‘guiltware’.",
+            "url": "https://en.wikipedia.org/wiki/Donationware",
+            "id": 287      
+        }, 
+        {
+            "name": "Freemium",
+            "definition": "Freemium, a portmanteau of the words ‘free’ and ‘premium’, is a pricing strategy by which a basic product or service is provided free of charge, but money (a premium) is charged for additional features, services, or virtual (online) or physical (offline) goods that expand the functionality of the free version of the software. This business model has been used in the software industry since the 1980s. A subset of this model used by the video game industry is called free-to-play.",
+            "url": "https://en.wikipedia.org/wiki/Freemium",
+            "id": 288      
+        }, 
+        {
+            "name": "Grid computing",
+            "definition": "Grid computing is the use of widely distributed computer resources to reach a common goal. A computing grid can be thought of as a distributed system with non-interactive workloads that involve many files. Grid computing is distinguished from conventional high-performance computing systems such as cluster computing in that grid computers have each node set to perform a different task/application. Grid computers also tend to be more heterogeneous and geographically dispersed (thus not physically coupled) than cluster computers. Although a single grid can be dedicated to a particular application, commonly a grid is used for a variety of purposes. Grids are often constructed with general-purpose grid middleware software libraries. Grid sizes can be quite large. Grid computing software is sometimes referred to as 'griddleware'",
+            "url": "https://en.wikipedia.org/wiki/Grid_computing",
+            "id": 289      
+        }, 
+        {
+            "name": "Nagware",
+            "definition": "Nagware (also known as begware, annoyware or a nagscreen) is a pejorative term for shareware that persistently reminds the user to purchase a license. It usually does this by popping up a message when the user starts the program, or intermittently while the user is using the application. These messages can appear as windows obscuring part of the screen, or as message boxes that can quickly be closed. Some nagware keeps the message up for a certain time period, forcing the user to wait to continue to use the program. Unlicensed programs that support printing may superimpose a watermark on the printed output, typically stating that the output was produced by an unlicensed copy. \n\n Some titles display a dialog box with payment information and a message that paying will remove the notice, which is usually displayed either upon startup or after an interval while the application is running. These notices are designed to annoy the user into paying.",
+            "url": "https://en.wikipedia.org/wiki/Shareware#Nagware",
+            "id": 290      
+        }, 
+        {
+            "name": "Push technology",
+            "definition": "Push technology or server push, is a style of Internet-based communication where the request for a given transaction is initiated by the publisher or central server. It is contrasted with pull/get, where the request for the transmission of information is initiated by the receiver or client. \n\n Push services are often based on information preferences expressed in advance. This is called a publish/subscribe model. A client ‘subscribes’ to various information ‘channels’ provided by a server; whenever new content is available on one of those channels, the server pushes that information out to the client. \n\n Push is sometimes emulated with a polling technique, particularly under circumstances where a real push is not possible, such as sites with security policies that require rejection of incoming HTTP/S requests.",
+            "url": "https://en.wikipedia.org/wiki/Push_technology",
+            "id": 291      
+        }, 
+        {
+            "name": "Computer-supported cooperative work (CSCW)",
+            "definition": "Computer-supported cooperative work (CSCW) is the study of how people utilize technology collaboratively, often towards a shared goal. CSCW addresses how computer systems can support collaborative activity and coordination. More specifically, the field of CSCW seeks to analyze and draw connections between currently understood human psychological and social behaviors and available collaborative tools, or groupware. Often the goal of CSCW is to help promote and utilize technology in a collaborative way, and help create new tools to succeed in that goal. These parallels allow CSCW research to inform future design patterns or assist in the development of entirely new tools.",
+            "url": "https://en.wikipedia.org/wiki/Computer-supported_cooperative_work",
+            "id": 292      
+        }, 
+        {
+            "name": "BI software (Business Intelligence software)",
+            "definition": "Software that enables users to obtain enterprise-wide information more easily. Such products are considered a step up from the typical decision support tools because they more tightly integrate querying, reporting, OLAP, data mining and data warehousing functions. \n\n Many products claim BI capabilities, but the end goal is to let users slice and dice the information from their organization's numerous databases without having to wait for their IT departments to develop complex queries. \n\n Business intelligence was the 1990s buzzword for the management information system (MIS) of the 1970s and the decision support system (DSS) and executive information system (EIS) of the 1980s. MIS implementations often failed because the hardware was too slow and the software was not sophisticated. Countless DSS, EIS and OLAP tools followed, which added functionality, but were often point solutions to the problem. BI implies yet more integration and ease of use (of course, no matter what the subject, every new approach in the information field is touted as the one providing more integration and greater ease of use).",
+            "url": "https://en.wikipedia.org/wiki/Predictive_analytics",
+            "id": 293      
+        }, 
         # {
         #     "name": "",
         #     "definition": "",
