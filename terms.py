@@ -1818,36 +1818,36 @@ def return_word():
             "url": "https://www.techopedia.com/definition/15390/big-mother",
             "id": 299      
         }, 
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 300      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 301      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 302      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 303      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 304      
-        # },
+        {
+            "name": "Forward chaining",
+            "definition": "In AI, a form of reasoning that starts with what is known and works toward a solution. Known as bottom-up approach. Contrast with backward chaining.",
+            "url": "https://en.wikipedia.org/wiki/Forward_chaining",
+            "id": 300      
+        },
+        {
+            "name": "Backward chaining",
+            "definition": "In AI, a form of reasoning that starts with the conclusion and works backward. The goal is broken into many subgoals or sub-subgoals which can be solved more easily. Known as top-down approach. Contrast with forward chaining.",
+            "url": "https://en.wikipedia.org/wiki/Backward_chaining",
+            "id": 301      
+        },
+        {
+            "name": "No-code development platform (NCDP)",
+            "definition": "No-code development platforms (NCDPs) allow programmers and non-programmers to create application software through graphical user interfaces and configuration instead of traditional computer programming. No-code development platforms are closely related to low-code development platforms as both are designed to expedite the application development process. \n\n However, unlike low-code, no-code development platforms require no code writing at all, generally offering prebuilt templates that businesses can build apps with. These platforms have both increased in popularity as companies deal with the parallel trends of an increasingly mobile workforce and a limited supply of competent software developers. \n\n No-code development platforms are closely related to visual programming languages.",
+            "url": "https://en.wikipedia.org/wiki/No-code_development_platform",
+            "id": 302      
+        },
+        {
+            "name": "Visual programming",
+            "definition": "Developing programs with tools that allow menus, buttons, icons and other screen components to be selected from a palette. Also called a ‘GUI builder’, visual programming tools allow the user interface elements to be dragged, dropped and resized the way objects are drawn in graphics programs. Traditional source code may be completely eliminated, or it may be embedded within the graphics components. \n\n Many programming environments include a visual editor for the user interface. Although the program logic is written in a traditional language, the screen elements are programmed visually.",
+            "url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+            "id": 303      
+        },
+        {
+            "name": "Brochureware",
+            "definition": "A website that advertises a product but contains only the equivalent of a paper brochure with no interaction. A website can be much more elaborate. For example, it can zoom into images for more detail, make recommendations based on user input, provide downloads of software demos, compute and process the sale and remember the questions users asked the last time they visited. All this is missing in brochureware.",
+            "url": "https://en.wikipedia.org/wiki/Brochureware",
+            "id": 304      
+        },
         # {
         #     "name": "",
         #     "definition": "",
