@@ -829,7 +829,7 @@ def return_word():
             "id": 134      
         }, 
         {
-            "name": "Rapid application development (RAD",
+            "name": "Rapid application development (RAD)",
             "definition": "Rapid application development (RAD), also called rapid application building (RAB), is both a general term for adaptive software development approaches, and the name for James Martin's method of rapid development. In general, RAD approaches to software development put less emphasis on planning and more emphasis on an adaptive process. Prototypes are often used in addition to or sometimes even instead of design specifications. \n\n RAD is especially well suited for (although not limited to) developing software that is driven by user interface requirements. Graphical user interface builders are often called rapid application development tools. Other approaches to rapid development include the adaptive, agile, spiral, and unified models.",
             "url": "https://en.wikipedia.org/wiki/Rapid_application_development",
             "id": 135      
@@ -1848,161 +1848,161 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Brochureware",
             "id": 304      
         },
+        {
+            "name": "Blook",
+            "definition": "(BLog bOOK) \n\n (1) A collection of blog postings that is published as a printed book. \n\n (2) Chapters in a printed book that have been sequentially posted to a blog.",
+            "url": "https://en.wikipedia.org/wiki/Blook",
+            "id": 305      
+        },
+        {
+            "name": "Blue/Black screen of death (BSoD)",
+            "definition": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
+            "url": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
+            "id": 306      
+        },
+        {
+            "name": "Microarray",
+            "definition": "A multiplex lab-on-a-chip semiconductor device that is used to detect the DNA makeup of a human cell. DNA chains comprise molecules that pair with each other, and micro arrays contain millions of DNA strands designed to mate with their other half as the liquefied human cells are poured over them. This ‘hybridization’ process is then detectable by a laser. \n\n Micro arrays are revolutionizing medicine by being able to pinpoint a very specific disease or the susceptibility to it. Also called ‘biochips’, Affymetrix (www.affymetrix.com) pioneered this technology with its GeneChip family. See Human Genome Project.",
+            "url": "https://en.wikipedia.org/wiki/Microarray",
+            "id": 307      
+        },
+        {
+            "name": "Hard coding",
+            "definition": "Hard coding (also hard-coding or hardcoding) is the software development practice of embedding data directly into the source code of a program or other executable object, as opposed to obtaining the data from external sources or generating it at runtime. Hard-coded data typically can only be modified by editing the source code and recompiling the executable, although it can be changed in memory or on disk using a debugger or hex editor. \n\n Data that are hard-coded is best for unchanging pieces of information, such as physical constants, version numbers and static text elements. Softcoded data, on the other hand, encode arbitrary information through user input, text files, INI files, HTTP server responses, configuration files, preprocessor macros, external constants, databases, command-line arguments, and are determined at runtime.",
+            "url": "https://en.wikipedia.org/wiki/Hard_coding",
+            "id": 308      
+        },
+        {
+            "name": "HTTP return codes",
+            "definition": "A status code that is returned from the Web server (HTTP server) to the client program, typically the browser. It indicates the status of the request and reports errors and necessary information so that the client software can respond. \n\n Examples include: \n\n 200 - OK \n 303 - Redirected \n 404 - Not found \n 500 - Internal error",
+            "url": "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",
+            "id": 309      
+        },
+        {
+            "name": "BSON (Binary JSON)",
+            "definition": "BSON is a computer data interchange format. The name ‘BSON’ is based on the term JSON and stands for ‘Binary JSON’. It is a binary form for representing simple or complex data structures including associative arrays (also known as name-value pairs), integer indexed arrays, and a suite of fundamental scalar types. BSON originated in 2009 at MongoDB. \n\n Several scalar data types are of specific interest to MongoDB and the format is used both as a data storage and network transfer format for the MongoDB database, but it can be used independently outside of MongoDB. Implementations are available in a variety of languages such as C, C++, C#, D, Delphi, Erlang, Go, Haskell, Java, JavaScript, Julia, Lua, OCaml, Perl, PHP, Python, Ruby, Rust, Scala, Smalltalk, and Swift.",
+            "url": "https://en.wikipedia.org/wiki/BSON",
+            "id": 310      
+        },
+        {
+            "name": "Die",
+            "definition": "A die, in the context of integrated circuits, is an unpackaged, bare chip, a small block or square of semiconducting material (silicone) on which a given functional circuit is fabricated. Typically, integrated circuits are produced in large batches on a single wafer of electronic-grade silicon (EGS) or other semiconductor (such as GaAs) through processes such as photolithography. The wafer is cut (diced) into many pieces, each containing one copy of the circuit. Each of these pieces is called a die. \n\n There are three commonly used plural forms: dice, dies and die. To simplify handling and integration onto a printed circuit board, most dies are packaged in various forms.",
+            "url": "https://en.wikipedia.org/wiki/Die_(integrated_circuit)",
+            "id": 311      
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 305      
+        #     "id": 312      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 306      
+        #     "id": 313      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 307      
+        #     "id": 314      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 308      
+        #     "id": 315      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 309      
+        #     "id": 316      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 310      
+        #     "id": 317      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 318      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 319      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 320      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 321      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 322      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 323      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 324      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 325      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 326      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 327      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 328      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 329      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
+        #     "id": 330      
         # },
         # {
         #     "name": "",
