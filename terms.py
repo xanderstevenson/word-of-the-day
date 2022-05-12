@@ -1890,66 +1890,66 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Die_(integrated_circuit)",
             "id": 311      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 312      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 313      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 314      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 315      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 316      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 317      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 318      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 319      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 320      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 321      
-        # },
+        {
+            "name": "Bluetooth Low Energy (Bluetooth LE or BLE)",
+            "definition": "Bluetooth Low Energy (Bluetooth LE, colloquially BLE, formerly marketed as Bluetooth Smart) is a wireless personal area network technology used extensively in IoT (Internet of Things). \n\n Using smaller batteries, Bluetooth LE devices can operate for months or years before requiring replacement. Operating in the 2.4GHz frequency band, Bluetooth LE supports peer-to-peer and star topologies. It is independent of classic Bluetooth and has no compatibility, but Bluetooth Basic Rate/Enhanced Data Rate (BR/EDR) and LE can coexist. \n\n Products with the ‘Smart only’ branding are Bluetooth LE only, while ‘Smart Ready’ devices support both classic Bluetooth and Bluetooth LE. \n\n Until 2020, the primary audio codec in Bluetooth had been the subband codec (SBC). Bluetooth LE Audio introduced the Low Complexity Communications Codec (LC3) that promises better quality using less energy. As a result, products such as hearing aids can use smaller batteries.",
+            "url": "https://en.wikipedia.org/wiki/Bluetooth_Low_Energy",
+            "id": 312      
+        },
+        {
+            "name": "Baseband",
+            "definition": "Electronic data in their original form. Baseband refers to analog or digital data before being intermixed with other data (multiplexing and modulation). \n\n For example, the output of an analog microphone is baseband. When an FM station's carrier frequency is stripped away in the radio (demodulated), the original audio signal that you hear is the baseband signal. (frequency modulation). \n\n Ethernet transmission is considered baseband, because signals are not intermixed and occupy the full bandwidth of the line. In fact, ‘base’ is part of the Ethernet version name (see 10Base-T and 100Base-T). \n\n When a compressed digital audio signal such as MP3 is transcoded to another format, it is decompressed back to the original bit rate (the baseband signal) before it is compressed into the new format (baseband processing).",
+            "url": "https://en.wikipedia.org/wiki/Baseband",
+            "id": 313      
+        },
+        {
+            "name": "Baselining",
+            "definition": "Baselining is a method for analyzing computer network performance. The method is marked by comparing current performance to a historical metric, or ‘baseline’. If the performance of a network switch or other network components is measured over a period of time, that performance figure can be used as a comparative baseline for configuration changes. \n\n Baselining is useful for many performance management tasks, including: \n\n a) Monitoring daily network performance \n b) Measuring trends in network performance \n c) Assessing whether network performance is meeting requirements laid out in a service agreement",
+            "url": "https://www.pcmag.com/encyclopedia/term/baselining",
+            "id": 314      
+        },
+        {
+            "name": "Bastion host",
+            "definition": "A bastion host is a special-purpose computer on a network specifically designed and configured to withstand attacks, so named by analogy to the military fortification. The computer generally hosts a single application or process, for example, a proxy server or load balancer, and all other services are removed or limited to reduce the threat to the computer. \n\n It is hardened in this manner primarily due to its location and purpose, which is either on the outside of a firewall or inside of a demilitarized zone (DMZ) and usually involves access from untrusted networks or computers. These computers are also equipped with special networking interfaces to withstand high-bandwidth attacks through the internet.",
+            "url": "",
+            "id": 315      
+        },
+        {
+            "name": "Bistable",
+            "definition": "Pronounced ‘bye-stable’. With regard to electronics, it refers to technologies that maintain their binary state without power, although they require power to change it. For example, non-volatile storage, such as flash memory, maintains its 0 or 1 state without power. A flip-flop is a bistable circuit, and E Ink and cholesteric LCDs are bistable display technologies.",
+            "url": "https://en.wikipedia.org/wiki/Flip-flop_(electronics)",
+            "id": 316      
+        },
+        {
+            "name": "BLUF (bottom line up front)",
+            "definition": "BLUF (bottom line up front) is the practice of beginning a message with its key information (the 'bottom line'). This provides the reader with the most important information first. By extension, that information is also called a BLUF. It differs from an abstract or executive summary in that it is simpler and more concise, similar to a thesis statement, and it resembles the inverted pyramid practice in journalism. \n\n BLUF is a standard in U.S. military communication whose aim is to make military messages precise and powerful. It differs from an older, more-traditional style in which conclusions and recommendations are included at the end, following the arguments and considerations of facts. The BLUF concept is not exclusive to writing since it can also be used in conversations and interviews.",
+            "url": "https://en.wikipedia.org/wiki/BLUF_(communication)",
+            "id": 317      
+        },
+        {
+            "name": "Bug compatibility",
+            "definition": "Computer hardware or software is said to be bug compatible if it exactly replicates even an undesirable feature of a previous version. An aspect of maintaining backward compatibility with an older system is that such systems' client programs often do not only depend on their specified interfaces but also bugs and unintended behaviour. That must also be preserved by the newer replacement.",
+            "url": "https://en.wikipedia.org/wiki/Bug_compatibility",
+            "id": 318      
+        },
+        {
+            "name": "Software rot",
+            "definition": "Software rot, also known as code rot, software erosion, software decay, or software entropy is either a slow deterioration of software quality over time or its diminishing responsiveness that will eventually lead to software becoming faulty, unusable, or in need of upgrade. This is not a physical phenomenon: the software does not actually decay, but rather suffers from a lack of being responsive and updated with respect to the changing environment in which it resides. \n\n A related concept, ‘bit rot’, also called ‘format rot’, is the inability to access digital data because hardware and software do not exist to read the format. For example, files saved on tape cartridges might not be retrievable because the drives are not available. Although computers no longer come with a built-in floppy disk drive, floppies are still readable because an external drive can be plugged into a PC via USB. \n\n One way to prevent archival bit rot is to be aware of format changes. Whenever a file format is updated, the application that reads it will also be changed. Within a few years of such an occurrence, users should open important documents and save them in the new format.",
+            "url": "https://en.wikipedia.org/wiki/Software_rot",
+            "id": 319      
+        },
+        {
+            "name": "Silicon Slopes",
+            "definition": "Silicon Slopes refers to the area surrounding Lehi, Utah where dozens of tech start-ups are centralized. Served by the Salt Lake City International Airport and less than a two-hour flight from Silicon Valley, CA, Silicon Slopes has been recognized in news media as an emerging force in the technology sector. \n\n The region encompasses a cluster of information technology, software development, and hardware manufacturing and research firms along the Wasatch Front. Some of the better known companies with facilities at Silicon Slopes are memory process technology companies SanDisk and Intel/Micron Technology joint venture IM Flash Technologies, e-commerce company eBay, data analysis software firm Adobe Systems, and banking and technology services company Zions Bank.",
+            "url": "https://en.wikipedia.org/wiki/Silicon_Slopes",
+            "id": 320      
+        },
+        {
+            "name": "Places with ‘Silicon’ names",
+            "definition": "Places with ‘Silicon’ names \n\n The following list contains places with ‘Silicon’ names, that is, places with nicknames inspired by the ‘Silicon Valley’ nickname given to part of the San Francisco Bay Area: \n\n Silicon Beach - Southern California, USA \n Silicon Alley - New York City, USA \n Philicon Valley - Philadelphia, USA \n Silicon Forest - Northern Oregon, USA \n Silicon Hills - Austin, Texas, USA \n Silicon Desert - Phoenix, Arizona, USA \n Silicon Slopes - Salt Lake City, USA \n Silicon Mountain - Colorado, USA \n Silicon Peach, Atlanta, USA \n Silicon Border - Mexicali, Mexico \n Silicon Valley North - Ottawa, Ontario, Canada \n Silicon Glen - Scotland, USA \n Silicon Gorge - South West England \n Silicon Fen (Cambridge Cluster) - Cambridge, England \n Silicon Wadi - Israel \n Silicon Saxony - Dresden, Germany \n Silicon Cape - Cape Town, South Africa \n Silicon Lagoon - Lagos, Nigeria \n Silicon Mountain - Buea, Cameroon \n Silicon Savannah - Nairobi, Kenya \n Silicon Island - Kyushu, Japan \n Silicon Peninsula - Dalian, China \n Silicon Valley of India / Silicon Valley of Asia / Silicon Plateau - Bangalore, India \n Brazilian Silicon Valley - Campinas, Brazil \n Chilecon Valley - Santiago, Chile \n Mexican Silicon Valley/Silicon Valley South - Jalisco, Mexico \n Silicon Docks - Dublin, Ireland \n\n Apologies to any we have missed!",
+            "url": "https://en.wikipedia.org/wiki/List_of_technology_centers",
+            "id": 321      
+        },
         # {
         #     "name": "",
         #     "definition": "",
