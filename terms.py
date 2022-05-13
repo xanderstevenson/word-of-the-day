@@ -602,7 +602,7 @@ def return_word():
         },        
         {
             "name": "Meta element",
-            "definition": "Meta elements are tags used in HTML and XHTML documents to provide structured metadata about a Web page. They are part of a web page's head section. Multiple Meta elements with different attributes can be used on the same page. Meta elements can be used to specify page description, keywords and any other metadata not provided through the other head elements and attributes. The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata within the HTML document. e.g. \n\n <meta name='generator' content='MediaWiki 1.39.0-wmf.7'> \n <meta name='referrer' content='origin-when-cross-origin'>",
+            "definition": "Meta elements are tags used in HTML and XHTML documents to provide structured metadata about a Web page. They are part of a web page's head section. Multiple Meta elements with different attributes can be used on the same page. Meta elements can be used to specify page description, keywords and any other metadata not provided through the other head elements and attributes. The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata within the HTML document. Two examples: \n\n <meta name='generator' content='MediaWiki 1.39.0-wmf.7'> \n <meta name='referrer' content='origin-when-cross-origin'>",
             "url": "https://en.wikipedia.org/wiki/Meta_element",
             "id": 98     
         },        
@@ -1004,7 +1004,7 @@ def return_word():
         }, 
         {
             "name": "Code ninja",
-            "definition": "Code ninjas, also referred to as ninja developers, don’t limit themselves to just one programming language or one technology stack; they are ‘developer polyglots.’ The ninja is an expert in a particular programming language, but is comfortable using any other language. They know how to navigate the various stacks in order to solve whatever technical challenge they come across. Organizations seek the most talented professionals for the lowest possible salary, but the type of knowledge a code ninja possesses comes with a steep price tag. That’s because they’re essentially full stack developers who can work within various technology stacks – a skillset that is in increasing demand and very well-compensated! Though the code ninja has broad knowledge rather than deep expertise in one or two areas, gaining knowledge across the aforementioned skill-sets takes years devotion. There is no such thing as a junior or semi-senior code ninja; you either are one, or you aren’t...yet.’ \n\n 'Code ninja’ can also be a euphemism used by recruiters who don't actually know what specifically they want in a software engineer, just someone who can pretty much do everything and anything that's handed to them.",
+            "definition": "Code ninjas, also referred to as ninja developers, don’t limit themselves to just one programming language or one technology stack; they are ‘developer polyglots.’ The ninja is an expert in a particular programming language, but is comfortable using any other language. They know how to navigate the various stacks in order to solve whatever technical challenge they come across. \n\n Organizations seek the most talented professionals for the lowest possible salary, but the type of knowledge a code ninja possesses comes with a steep price tag. That’s because they’re essentially full stack developers who can work within various technology stacks – a skillset that is in increasing demand and very well-compensated! Though the code ninja has broad knowledge rather than deep expertise in one or two areas, gaining knowledge across the aforementioned skill-sets takes years devotion. There is no such thing as a junior or semi-senior code ninja; you either are one, or you aren’t...yet.’ \n\n 'Code ninja’ can also be a euphemism used by recruiters who don't actually know what specifically they want in a software engineer, just someone who can pretty much do everything and anything that's handed to them.",
             "url": "https://www.codeninjas.com/",
             "id": 164      
         }, 
@@ -1980,149 +1980,149 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Bring_your_own_device",
             "id": 326      
         },
+        {
+            "name": "Standard operating environment (SOE)",
+            "definition": "A uniform configuration of hardware and software throughout an organization. It is designed to eliminate software and data incompatibilities and improve troubleshooting. It implies the use of the same primary applications and Web browser as well as the same operating system, database management system and other system software.",
+            "url": "https://en.wikipedia.org/wiki/Standard_Operating_Environment",
+            "id": 327      
+        },
+        {
+            "name": "Source-to-source compiler (S2S compiler)",
+            "definition": "A source-to-source translator, source-to-source compiler (S2S compiler), transcompiler, or transpiler is a type of translator that takes the source code of a program written in a programming language as its input and produces an equivalent source code in the same or a different programming language. A source-to-source translator converts between programming languages that operate at approximately the same level of abstraction, while a traditional compiler translates from a higher level programming language to a lower level programming language. \n\n For example, a source-to-source translator may perform a translation of a program from Python to JavaScript, while a traditional compiler translates from a language like C to assembler or Java to bytecode. An automatic parallelizing compiler will frequently take in a high level language program as an input and then transform the code and annotate it with parallel code annotations (e.g., OpenMP) or language constructs (e.g. Fortran's forall statements).",
+            "url": "https://en.wikipedia.org/wiki/Source-to-source_compiler",
+            "id": 328      
+        },
+        {
+            "name": "CoffeeScript",
+            "definition": "CoffeeScript is a programming language that compiles to JavaScript. Inspired by Ruby, Python, and Haskell it was created by Jeremy Ashkenas in an effort to enhance JavaScript's brevity and readability. Specific additional features include list comprehension and destructuring assignment. \n\n In 2011, Brendan Eich, who created the JavaScript programming language and co-founded Mozilla, referenced CoffeeScript as an influence on his thoughts about the future of JavaScript. \n\n CoffeeScript supports a form of Literate Programming, using the .coffee.md or .litcoffee file extension. This allows CoffeeScript source code to be written in Markdown. The compiler will treat any indented blocks (Markdown's way of indicating source code) as code, and ignore the rest as comments. \n\n The LiveScript programming language is an indirect descendant of CoffeeScript.",
+            "url": "https://en.wikipedia.org/wiki/CoffeeScript",
+            "id": 329      
+        },
+        {
+            "name": "Syntactic sugar",
+            "definition": "In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express. It makes the language ‘sweeter’ for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer. \n\n For example, many programming languages provide special syntax for referencing and updating array elements. Abstractly, an array reference is a procedure of two arguments: an array and a subscript vector, which could be expressed as get_array(Array, vector(i,j)). Instead, many languages provide syntax such as Array[i,j]. Similarly an array element update is a procedure consisting of three arguments, for example set_array(Array, vector(i,j), value), but many languages provide syntax such as Array[i,j] = value. \n\n A construct in a language is syntactic sugar if it can be removed from the language without any effect on what the language can do: functionality and expressive power will remain the same. \n\n Language processors, including compilers and static analyzers, often expand sugared constructs into more fundamental constructs before processing, a process sometimes called ‘desugaring’.",
+            "url": "https://en.wikipedia.org/wiki/Syntactic_sugar",
+            "id": 330      
+        },
+        {
+            "name": "TypeScript",
+            "definition": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs. \n\n TypeScript may be used to develop JavaScript applications for both client-side and server-side execution. Multiple options are available for transpilation. The default TypeScript Checker can be used, or a compiler can be invoked to convert TypeScript to JavaScript.",
+            "url": "https://en.wikipedia.org/wiki/TypeScript",
+            "id": 331      
+        },
+        {
+            "name": "Copyleft",
+            "definition": "Copyleft is the practice of granting the right to freely distribute and modify intellectual property with the requirement that the same rights be preserved in derivative works created from that property and also includes the source code. Copyleft in the form of licenses can be used to maintain copyright conditions for works ranging from computer software, to documents, art, scientific discoveries and even certain patents. Copyleft is an arrangement whereby software or artistic work may be used, modified, and distributed freely on condition that anything derived from it is bound by the same conditions.",
+            "url": "https://en.wikipedia.org/wiki/Copyleft",
+            "id": 332      
+        },
+        {
+            "name": "Cord-cutting",
+            "definition": "In broadcast television, cord-cutting refers to the pattern of viewers cancelling their subscriptions to multichannel television services available over cable or satellite, dropping pay television channels or reducing the number of hours of subscription TV viewed in response to competition from rival media available over the Internet. This content is either free or significantly cheaper than the same content provided via cable. \n\n A ‘cord cutter’ is person who switches from a pay TV subscription (cable, satellite or telephone company) to an Internet-based streaming service such as Netflix. A ‘cord never’ or ‘never-connected’ is someone who never had such a subscription, while ‘cord shavers’ are subscribers who have reduced their pay TV fees by eliminating certain channels. A ‘cord stacker’ is someone who subscribes to both pay TV and one or more streaming services.",
+            "url": "https://en.wikipedia.org/wiki/Cord-cutting",
+            "id": 333      
+        },
+        {
+            "name": "Anti-laser",
+            "definition": "A reverse laser. Also called a ‘coherent perfect absorber (CPA)’, it accepts laser light and converts it to heat or electricity. In 2011, a team at Yale University built the first working model. Coherent perfect absorbers can be used to build absorptive interferometers, which could be useful in detectors, transducers, and optical switches. \n\n Another potential application is in radiology, where the principle of the CPA might be used to precisely target electromagnetic radiation inside human tissues for therapeutic or imaging purposes. Moreover, the CPA concept might be exploited to achieve perfect focusing of acoustic or electromagnetic signals on receivers even when they are embedded in complex environments.",
+            "url": "https://en.wikipedia.org/wiki/Coherent_perfect_absorber",
+            "id": 334      
+        },
+        {
+            "name": "Change request",
+            "definition": "A change request (aka Change Control Request, or CCR) is a document containing a call for an adjustment of a system; it is of great importance in the change management process. It can be a petition for modifying the behavior of a system due to normal business changes or because there is a bug in the system.",
+            "url": "",
+            "id": 335      
+        },
+        {
+            "name": "Hot swapping (software)",
+            "definition": "Hot swapping can also refer to the ability to alter the running code of a program without needing to interrupt its execution. Interactive programming is a programming paradigm that makes extensive use of hot swapping, so the programming activity becomes part of the program flow itself. \n\n Only a few programming languages support hot swapping natively, including Pike, Lisp, Erlang, Smalltalk, Visual Basic 6 (Not VB.net), Java and most recently Elm and Elixir. Microsoft Visual Studio supports a kind of hot swapping called Edit and Continue, which is supported by C#, VB.NET and C/C++ when running under a debugger. \n\n Hot swapping is the central method in live coding, where programming is an integral part of the runtime process. In general, all programming languages used in live coding, such as SuperCollider, TidalCycles, or Extempore support hot swapping. \n\n Some web-based frameworks, such as Django, support detecting module changes and reloading them on the fly. However, although the same as hotswapping for most intents and purposes, this is technically just a cache purge, triggered by a new file. This does not apply to markup and programming languages such as HTML and PHP respectively, in the general case, as these files are normally re-interpreted on each use by default. There are a few CMSs and other PHP-based frameworks (such as Drupal) that employ caching, however. In these cases, similar abilities and exceptions apply.",
+            "url": "https://en.wikipedia.org/wiki/Hot_swapping#Software",
+            "id": 336      
+        },
+        {
+            "name": "Chaos theory",
+            "definition": "Chaos theory is an interdisciplinary scientific theory and branch of mathematics focused on underlying patterns and deterministic laws, of dynamical systems, that are highly sensitive to initial conditions, that were once thought to have completely random states of disorder and irregularities. Chaos theory states that within the apparent randomness of chaotic complex systems, there are underlying patterns, interconnectedness, constant feedback loops, repetition, self-similarity, fractals, and self-organization. \n\n A process in a chaotic system seems to produce random outputs when repeated, but are not random. The difference is due to minute variations of the inputs that ultimately cause changes in the outputs. The more nuances are captured, the more chaotic a system may appear, because those exact same input conditions are not repeated the next time.",
+            "url": "https://en.wikipedia.org/wiki/Chaos_theory",
+            "id": 337      
+        },
+        {
+            "name": "Cobrowsing",
+            "definition": "Cobrowsing (short for collaborative browsing), is the act of synchronizing browser access to the same sites. As one user browses the Web, the other users trail along automatically and link to and view the same pages from their own Web browsers. For example, call center agents might use collaborative browsing to help customers navigate the company website. It is typically accomplished with a browser extension.",
+            "url": "https://en.wikipedia.org/wiki/Cobrowsing",
+            "id": 338      
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 327      
+        #     "id": 339      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 328      
+        #     "id": 340      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 329      
+        #     "id": 341      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 330      
+        #     "id": 342      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 343      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 344      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 345      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 346      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 347      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 348      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 349      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
+        #     "id": 350      
         # },
         # {
         #     "name": "",
