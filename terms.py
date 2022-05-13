@@ -854,7 +854,7 @@ def return_word():
         }, 
         {
             "name": "Rewrite",
-            "definition": "A rewrite in computer programming is the act or result of re-implementing a large portion of existing functionality without re-use of its source code. When the rewrite is not using existing code at all, it is common to speak of a rewrite from scratch. \n\n A piece of software is typically rewritten when one or more of the following apply: \n\n - its source code is not available or is only available under an incompatible license \n - its code cannot be adapted to a new target platform \n - its existing code has become too difficult to handle and extend \n - the task of debugging it seems too complicated \n - the programmer finds it difficult to understand its source code \n - developers learn new techniques or wish to do a big feature overhaul which requires much change \n - developers learn that new codes written may extend content options that can fix or overwrite previous problems \n - the programming language of the source code has to be changed \n\n Several software engineers, such as Joel Spolsky have warned against total rewrites, especially under schedule constraints or competitive pressures. While developers may initially welcome the chance to correct historical design mistakes, a rewrite also discards those parts of the design that work as required. A rewrite commits the development team to deliver not just new features, but all those that exist in the previous code, while potentially introducing new bugs or regressions of previously fixed bugs. A rewrite also interferes with the tracking of unfixed bugs in the old version. \n\n The incremental rewrite is an alternative approach, in which developers gradually replace the existing code with calls into a new implementation, expanding that implementation until it fully replaces the old one. This approach avoids a broad loss of functionality during the rewrite. Cleanroom software engineering is another approach, which requires the team to work from an exhaustive written specification of the software's functionality, without access to its code.",
+            "definition": "A rewrite in computer programming is the act or result of re-implementing a large portion of existing functionality without re-use of its source code. When the rewrite is not using existing code at all, it is common to speak of a rewrite from scratch. \n\n A piece of software is typically rewritten when one or more of the following apply: \n\n 1) its source code is not available or is only available under an incompatible license \n 2) its code cannot be adapted to a new target platform \n 3) its existing code has become too difficult to handle and extend \n 4) the task of debugging it seems too complicated \n 5) the programmer finds it difficult to understand its source code \n 6) developers learn new techniques or wish to do a big feature overhaul which requires much change \n 7) developers learn that new codes written may extend content options that can fix or overwrite previous problems \n 8) the programming language of the source code has to be changed \n\n Several software engineers, such as Joel Spolsky have warned against total rewrites, especially under schedule constraints or competitive pressures. While developers may initially welcome the chance to correct historical design mistakes, a rewrite also discards those parts of the design that work as required. A rewrite commits the development team to deliver not just new features, but all those that exist in the previous code, while potentially introducing new bugs or regressions of previously fixed bugs. A rewrite also interferes with the tracking of unfixed bugs in the old version. \n\n The incremental rewrite is an alternative approach, in which developers gradually replace the existing code with calls into a new implementation, expanding that implementation until it fully replaces the old one. This approach avoids a broad loss of functionality during the rewrite. Cleanroom software engineering is another approach, which requires the team to work from an exhaustive written specification of the software's functionality, without access to its code.",
             "url": "https://en.wikipedia.org/wiki/Rewrite_(programming)",
             "id": 139      
         }, 
@@ -1040,7 +1040,7 @@ def return_word():
         }, 
         {
             "name": "Bootstrapping",
-            "definition": "Bootstrapping is a self-starting process that is supposed to proceed without external input. For various definitions, click 'Learn More', below.",
+            "definition": "Bootstrapping is a self-starting process that is supposed to proceed without external input. For various examples, click 'Learn More', below.",
             "url": "https://en.wikipedia.org/wiki/Bootstrapping_(disambiguation)",
             "id": 170      
         }, 
@@ -1939,47 +1939,47 @@ def return_word():
             "id": 319      
         },
         {
-            "name": "Silicon Slopes",
-            "definition": "Silicon Slopes refers to the area surrounding Lehi, Utah where dozens of tech start-ups are centralized. Served by the Salt Lake City International Airport and less than a two-hour flight from Silicon Valley, CA, Silicon Slopes has been recognized in news media as an emerging force in the technology sector. \n\n The region encompasses a cluster of information technology, software development, and hardware manufacturing and research firms along the Wasatch Front. Some of the better known companies with facilities at Silicon Slopes are memory process technology companies SanDisk and Intel/Micron Technology joint venture IM Flash Technologies, e-commerce company eBay, data analysis software firm Adobe Systems, and banking and technology services company Zions Bank.",
-            "url": "https://en.wikipedia.org/wiki/Silicon_Slopes",
-            "id": 320      
-        },
-        {
             "name": "Places with ‘Silicon’ names",
             "definition": "Places with ‘Silicon’ names \n\n The following list contains places with ‘Silicon’ names, that is, places with nicknames inspired by the ‘Silicon Valley’ nickname given to part of the San Francisco Bay Area: \n\n Silicon Beach - Southern California, USA \n Silicon Alley - New York City, USA \n Philicon Valley - Philadelphia, USA \n Silicon Forest - Northern Oregon, USA \n Silicon Hills - Austin, Texas, USA \n Silicon Desert - Phoenix, Arizona, USA \n Silicon Slopes - Salt Lake City, USA \n Silicon Mountain - Colorado, USA \n Silicon Peach, Atlanta, USA \n Silicon Border - Mexicali, Mexico \n Silicon Valley North - Ottawa, Ontario, Canada \n Silicon Glen - Scotland, USA \n Silicon Gorge - South West England \n Silicon Fen (Cambridge Cluster) - Cambridge, England \n Silicon Wadi - Israel \n Silicon Saxony - Dresden, Germany \n Silicon Cape - Cape Town, South Africa \n Silicon Lagoon - Lagos, Nigeria \n Silicon Mountain - Buea, Cameroon \n Silicon Savannah - Nairobi, Kenya \n Silicon Island - Kyushu, Japan \n Silicon Peninsula - Dalian, China \n Silicon Valley of India / Silicon Valley of Asia / Silicon Plateau - Bangalore, India \n Brazilian Silicon Valley - Campinas, Brazil \n Chilecon Valley - Santiago, Chile \n Mexican Silicon Valley/Silicon Valley South - Jalisco, Mexico \n Silicon Docks - Dublin, Ireland \n\n Apologies to any we have missed!",
             "url": "https://en.wikipedia.org/wiki/List_of_technology_centers",
+            "id": 320      
+        },
+        {
+            "name": "Boilerplate code",
+            "definition": "In computer programming, boilerplate code, or simply boilerplate, are sections of code that are repeated in multiple places with little to no variation. When using languages that are considered verbose, the programmer must write a lot of boilerplate code to accomplish only minor functionality. \n\n The need for boilerplate can be reduced through high-level mechanisms such as metaprogramming (which has the computer automatically write the needed boilerplate code or insert it at compile time), convention over configuration (which provides good default values, reducing the need to specify program details in every project) and model-driven engineering (which uses models and model-to-code generators, eliminating the need for manual boilerplate code).",
+            "url": "https://en.wikipedia.org/wiki/Boilerplate_code",
             "id": 321      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 322      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 323      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 324      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 325      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 326      
-        # },
+        {
+            "name": "Burn-in",
+            "definition": "To test a new electronic system by running it for some length of time. Although electronics can give out at any time, weak components often fail within the first few hours of use. For example, when a computer is built to order, it is often turned on and allowed to run for several hours before being released to the customer.",
+            "url": "https://en.wikipedia.org/wiki/Burn-in",
+            "id": 322      
+        },
+        {
+            "name": "Error correcting code (ECC)",
+            "definition": "In computing, telecommunication, information theory, and coding theory, an error correction code, sometimes error correcting code, (ECC) is used for controlling errors in data over unreliable or noisy communication channels.[1][2] The central idea is the sender encodes the message with redundant information in the form of an ECC. The redundancy allows the receiver to detect a limited number of errors that may occur anywhere in the message, and often to correct these errors without retransmission. The American mathematician Richard Hamming pioneered this field in the 1940s and invented the first error-correcting code in 1950: the Hamming (7,4) code. \n\n ECC contrasts with error detection in that errors that are encountered can be corrected, not simply detected. The advantage is that a system using ECC does not require a reverse channel to request retransmission of data when an error occurs. The downside is that there is a fixed overhead that is added to the message, thereby requiring a higher forward-channel bandwidth. ECC is therefore applied in situations where retransmissions are costly or impossible, such as one-way communication links and when transmitting to multiple receivers in multicast. Long-latency connections also benefit; in the case of a satellite orbiting around Uranus, retransmission due to errors can create a delay of five hours. ECC information is usually added to mass storage devices to enable recovery of corrupted data, is widely used in modems, and is used on systems where the primary memory is ECC memory.",
+            "url": "https://en.wikipedia.org/wiki/Error_correction_code",
+            "id": 323      
+        },
+        {
+            "name": "Behavior-driven development (BDD)",
+            "definition": "Software development that focuses on the way an application should ultimately behave and which focuses on and builds toward that goal. Behavior driven development (BDD) pays attention to the objectives of the business and collaborates with the users regarding the appearance and function of the app. It encourages teams to use conversation and concrete examples to formalize a shared understanding of how the application should behave.",
+            "url": "https://en.wikipedia.org/wiki/Behavior-driven_development",
+            "id": 324      
+        },
+        {
+            "name": "Test-driven development (TDD)",
+            "definition": "Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. This is as opposed to software being developed first and test cases created later. \n\n Software engineer Kent Beck, who is credited with having developed or ‘rediscovered’ the technique, stated in 2003 that TDD encourages simple designs and inspires confidence. Programmers also apply the concept to improving and debugging legacy code developed with older techniques.",
+            "url": "",
+            "id": 325      
+        },
+        {
+            "name": "BYOD",
+            "definition": "(Bring Your Own Device) Refers to employees who bring their personal devices to work, whether laptop, smartphone or tablet, in order to interface to the corporate network. A huge amount of company data is accessed using employee-owned equipment.",
+            "url": "https://en.wikipedia.org/wiki/Bring_your_own_device",
+            "id": 326      
+        },
         # {
         #     "name": "",
         #     "definition": "",
