@@ -350,7 +350,7 @@ def return_word():
         },          
         {
             "name": "Colo (Colocation Centre)",
-            "definition": "A colocation center (also spelled co-location, or colo) or 'carrier hotel', is a type of data centre where equipment, space, and bandwidth are available for rental to retail customers. Colocation facilities provide space, power, cooling, and physical security for the server, storage, and networking equipment of other firms and also connect them to a variety of telecommunications and network service providers with a minimum of cost and complexity.",
+            "definition": "A colocation center (also spelled co-location, or colo) or 'carrier hotel', is a type of data centre where equipment, space, and bandwidth are available for rental to retail customers. Colocation facilities provide space, power, cooling, and physical security for the server, storage, and networking equipment of other firms and also connect them to a variety of telecommunications and network service providers with a minimum of cost and complexity. \n\n Colocation eliminates having to build a secure facility that provides power and air conditioning for company-owned servers. In addition, colocation centers are often located near major Internet connecting points and can provide access to multiple Tier 1 Internet backbones. Although most equipment monitoring is performed remotely by the customer, a colocation datacenter may offer equipment maintenance and troubleshooting arrangements.",
             "url": "https://en.wikipedia.org/wiki/Colocation_centre",
             "id": 56     
         },          
@@ -997,8 +997,8 @@ def return_word():
             "id": 162      
         }, 
         {
-            "name": "This changes everything",
-            "definition": "Nothing has changed. Pure marketing. Outside of Silicon Valley this can mean curing cancer, eliminating Malaria and solving world hunger but within SV it means a bigger iPhone, an iPhone the size of a tablet or an iPhone strapped to your wrist. Synonyms include ‘This changes everything. Again’ and ‘Changing the world’.",
+            "name": "'This changes everything'",
+            "definition": "Nothing has changed. Pure marketing. Outside of Silicon Valley (SV) this can mean curing cancer, eliminating Malaria and solving world hunger but within SV it means a bigger iPhone, an iPhone the size of a tablet or an iPhone strapped to your wrist. Synonyms include ‘This changes everything. Again’ and ‘Changing the world’.",
             "url": "https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/this-changes-everything.jpeg?raw=true",
             "id": 163      
         }, 
@@ -2052,54 +2052,54 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Cobrowsing",
             "id": 338      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 339      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 340      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 341      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 342      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 343      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 344      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 345      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 346      
-        # },
+        {
+            "name": "Cache coherency",
+            "definition": "Managing a cache so that data are not lost or overwritten. For example, when data are updated in a cache but not yet transferred to the target memory or disk, the chance of corruption is greater. Accomplished by well-designed algorithms that keep track of every read and write event, cache coherency is even more critical in symmetric multiprocessing (SMP) where memory is shared by multiple processors.",
+            "url": "https://en.wikipedia.org/wiki/Cache_coherence",
+            "id": 339      
+        },
+        {
+            "name": "Qi (standard)",
+            "definition": "Pronounced ‘chee’ from Chinese, meaning ‘life force’, Developed by the Wireless Power Consortium (WPC) (www.wirelesspowerconsortium.com), Qi is an open interface standard that defines wireless power transfer methods from. Introduced in 2009, Qi is based on ‘closely coupled’ electromagnetic induction that requires the device to be aligned on top of the coil on the charging pad.  \n\n Under development at the WPC are a ‘medium-coupled’ version of Qi that operates at a distance of up to approximately 15mm and a loosely-coupled version (Qi 3D) that can be up to 50mm apart. Typical applications are in vehicles and for mounting under table and desktop surfaces. Hundreds of devices are are already Qi certified, including Google Nexus and Samsung phones. Loosely coupled products not certified by the WPC have also been announced.",
+            "url": "https://en.wikipedia.org/wiki/Qi_(standard)",
+            "id": 340      
+        },
+        {
+            "name": "Comfort noise",
+            "definition": "A very low-volume auditory tone injected into the receiving end of voice over IP (VoIP) communications to prevent the listener from thinking the line went dead. There was always a slight background noise in analog phone lines. However, digital methods have replaced analog, and without the comfort noise, the line can seem disconnected during pauses in conversation, or when someone is on hold (without music) or when the other party puts the phone down for a moment.",
+            "url": "https://en.wikipedia.org/wiki/Comfort_noise",
+            "id": 341      
+        },
+        {
+            "name": "BeiDou",
+            "definition": "A satellite-based radio navigation system developed by the China Space Science and Technology Group. Pronounced ‘by-dough’, there have been three independent BeiDou systems. Using four GEO satellites, BeiDou-1 started in 2000 and ended in 2012. BeiDou-2, originally known as COMPASS, began in 2007 and was designed for five GEO, 27 MEO and three IGSO (geosynchronous) satellites. Completed in 2020, BeiDou-3 uses three GEO, three IGSO and 24 MEO satellites. Accuracy is within inches. This third iteration of the Beidou Navigation Satellite System provides for global coverage for timing and navigation, offering an alternative to Russia's GLONASS, the European Galileo positioning system, and the US's GPS. \n\n BeiDou is Chinese for ‘Big Dipper’. The North Star, which has been used for centuries for navigation, is located in the Big Dipper.",
+            "url": "https://en.wikipedia.org/wiki/BeiDou",
+            "id": 342      
+        },
+        {
+            "name": "Cleanroom software engineering",
+            "definition": "The cleanroom software engineering process is a software development process intended to produce software with a certifiable level of reliability. The cleanroom process was originally developed by Harlan Mills and several of his colleagues, including Alan Hevner, at IBM. The focus of the cleanroom process is on defect prevention, rather than defect removal. \n\n The name ‘cleanroom’ was chosen to evoke the cleanrooms used in the electronics industry to prevent the introduction of defects during the fabrication of semiconductors. The cleanroom process first saw use in the mid to late 1980s. Demonstration projects within the military began in the early 1990s. Recent work on the cleanroom process has examined fusing cleanroom with the automated verification capabilities provided by specifications expressed in CSP. \n\n The basic principles of the cleanroom process are: \n\n Software development based on formal methods \n Incremental implementation under statistical quality control \n Statistically sound testing",
+            "url": "https://en.wikipedia.org/wiki/Cleanroom_software_engineering",
+            "id": 343      
+        },
+        {
+            "name": "Cramming (fraud)",
+            "definition": "Cramming is a form of fraud in which small charges are added to a bill by a third party without the subscriber's consent, approval, authorization or disclosure. These may be disguised as a tax, some other common fee or a bogus service, and may be several dollars or even just a few cents. The crammer's intent is that the subscriber will overlook and ultimately pay these small charges without them knowing what it's all about.",
+            "url": "https://en.wikipedia.org/wiki/Cramming_(fraud)",
+            "id": 344      
+        },
+        {
+            "name": "Camel case",
+            "definition": "The spelling of a hardware or software product with multiple capital letters; for example, ‘BlackBerry’, ‘InterBase’ and ‘CardSpace’. Also called 'BumpyCaps’, ‘CamelCaps’, ‘InterCaps’ and ‘MixedCase’. CamelCase purists claim that the word always begins with lower case, such as ‘camelCase’ and not ‘CamelCase’.",
+            "url": "https://en.wikipedia.org/wiki/Camel_case",
+            "id": 345      
+        },
+        {
+            "name": "LoRa (LOngRAnge)",
+            "definition": "LoRa and LoRaWAN together define a Low Power, Wide Area (LPWA) networking protocol designed to wirelessly connect battery operated ‘things’ to the internet in regional, national or global networks, and targets key Internet of things (IoT) requirements such as bi-directional communication, end-to-end security, mobility and localization services. The low power, low bit rate, and IoT use distinguish this type of network from a wireless WAN that is designed to connect users or businesses, and carry more data, using more power. The LoRaWAN data rate ranges from 0.3 kbit/s to 50 kbit/s per channel. \n\n LoRa (from ‘long range’) is the physical proprietary radio modulation technique. It is based on spread-spectrum modulation techniques derived from chirp spread spectrum (CSS) technology. It was developed by Cycleo (patent 9647718-B2), a company of Grenoble, France, later acquired by Semtech. \n\n LoRaWAN defines the software communication protocol and system architecture. The continued development of the LoRaWAN protocol is managed by the open, non-profit LoRa Alliance, of which SemTech is a founding member.",
+            "url": "https://en.wikipedia.org/wiki/LoRa",
+            "id": 346      
+        },
         # {
         #     "name": "",
         #     "definition": "",
