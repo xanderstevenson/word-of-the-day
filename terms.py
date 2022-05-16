@@ -2078,7 +2078,7 @@ def return_word():
         },
         {
             "name": "Cleanroom software engineering",
-            "definition": "The cleanroom software engineering process is a software development process intended to produce software with a certifiable level of reliability. The cleanroom process was originally developed by Harlan Mills and several of his colleagues, including Alan Hevner, at IBM. The focus of the cleanroom process is on defect prevention, rather than defect removal. \n\n The name ‘cleanroom’ was chosen to evoke the cleanrooms used in the electronics industry to prevent the introduction of defects during the fabrication of semiconductors. The cleanroom process first saw use in the mid to late 1980s. Demonstration projects within the military began in the early 1990s. Recent work on the cleanroom process has examined fusing cleanroom with the automated verification capabilities provided by specifications expressed in CSP. \n\n The basic principles of the cleanroom process are: \n\n Software development based on formal methods \n Incremental implementation under statistical quality control \n Statistically sound testing",
+            "definition": "The cleanroom software engineering process is a software development process intended to produce software with a certifiable level of reliability. The cleanroom process was originally developed by Harlan Mills and several of his colleagues, including Alan Hevner, at IBM. The focus of the cleanroom process is on defect prevention, rather than defect removal. \n\n The name ‘cleanroom’ was chosen to evoke the cleanrooms used in the electronics industry to prevent the introduction of defects during the fabrication of semiconductors. The cleanroom process first saw use in the mid to late 1980s. Demonstration projects within the military began in the early 1990s. Recent work on the cleanroom process has examined fusing cleanroom with the automated verification capabilities provided by specifications expressed in CSP. \n\n The basic principles of the cleanroom process are: \n\n - Software development based on formal methods \n - Incremental implementation under statistical quality control \n - Statistically sound testing",
             "url": "https://en.wikipedia.org/wiki/Cleanroom_software_engineering",
             "id": 343      
         },
@@ -2184,48 +2184,48 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Cloud_Computing_Manifesto",
             "id": 360      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 361      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 362      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 363      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 364      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 365      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 366      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 367      
-        # },
+        {
+            "name": "Cloud bursting",
+            "definition": "In cloud computing, cloud bursting is a configuration that’s set up between a private cloud and a public cloud to deal with peaks in IT demand. If an organization using a private cloud reaches 100 percent of its resource capacity, the overflow traffic is directed to a public cloud so there’s no interruption of services.\n\n In addition to flexibility and self-service functionality, the key advantage to cloud bursting is economical savings. You only pay for the additional resources when there is a demand for those resources - no more spending on extra capacity you’re not using or trying to predict demand peaks and fluctuations. An application can be applied to the private cloud, then burst to the public cloud only when necessary to meet peak demands. \n\n Plus, cloud bursting can also be used to shoulder processing burdens by moving basic applications to the public cloud to free up local resources for business-critical applications. When using cloud bursting, you should consider security and compliance requirements, latency, load balancing, and platform compatibility.",
+            "url": "https://www.atlassian.com/microservices/cloud-computing/cloud-bursting",
+            "id": 361      
+        },
+        {
+            "name": "Cloud spanning",
+            "definition": "Cloud spanning is a type of cloud delivery model in which an application is deployed and executed over multiple simultaneous cloud platforms and infrastructure (including private, public or combination of both environments i.e. hybrid environments). Cloud spanning enables a cloud application to distribute its computations and components across one or more cloud environments.",
+            "url": "https://www.techopedia.com/definition/26534/cloud-spanning",
+            "id": 362      
+        },
+        {
+            "name": "Beamforming",
+            "definition": "Beamforming or spatial filtering directs the signals on transmitters and receivers with multiple antennas to improve transmission speed. It is accomplished by detecting the signals and sending feedback to the transmitter to adjust the phase and amplitude of the signals at its antennas. \n\n Beamforming is a signal processing technique used in sensor arrays for directional signal transmission or reception. This is achieved by combining elements in an antenna array in such a way that signals at particular angles experience constructive interference while others experience destructive interference. Beamforming can be used at both the transmitting and receiving ends in order to achieve spatial selectivity. The improvement compared with omnidirectional reception/transmission is known as the directivity of the array. \n\n Beamforming can be used for radio or sound waves. It has found numerous applications in radar, sonar, seismology, wireless communications, radio astronomy, acoustics and biomedicine. Adaptive beamforming is used to detect and estimate the signal of interest at the output of a sensor array by means of optimal (e.g. least-squares) spatial filtering and interference rejection.",
+            "url": "https://en.wikipedia.org/wiki/Beamforming",
+            "id": 363      
+        },
+        {
+            "name": "Biomimetics",
+            "definition": "Biomimetics, or biomimicry, is imitating nature in man-made systems. Examples are a film similar to the coating on a moth's eyeballs that minimizes screen glare, a directional microphone that mimics the moving hairs on crickets, and a waterproof coating that emulates the grooves and wax coating on a butterfly's wings. \n\n A very notable example is the Eastgate Center in Harare, Zimbabwe. Built in 1996, this shopping and office complex was constructed using principles discovered in termite mounds in the desert. Termites maintain an almost perfectly uniform temperature for their food inside their tunnels, even though outside temperatures range from near freezing at night to over 100 degrees Fahrenheit in the day. The even temperature is accomplished by continuously opening and closing a series of vents throughout the day. Eastgate uses 10% of the energy of a traditional building to keep cool.",
+            "url": "https://en.wikipedia.org/wiki/Biomimetics",
+            "id": 364      
+        },
+        {
+            "name": "Bone conduction",
+            "definition": "Transmitting sound via the bones in the skull to the inner ear. Bone conduction speakers rest against the side of the head near the ears, but not in them. Dating back to the 1920s, bone conduction has been used for hearing aids and is still used for people who cannot tolerate a device inserted in their ears.",
+            "url": "https://en.wikipedia.org/wiki/Bone_conduction",
+            "id": 365      
+        },
+        {
+            "name": "Boss key",
+            "definition": "A boss key, or boss button, is a special keyboard shortcut used in PC games or other programs to hide the program quickly, possibly displaying a special screen that appears to be a normal productivity program (such as a spreadsheet application). One of the earliest implementations was by Friendlyware, a suite of entertainment and general interest programs written in BASIC and sold with the original IBM AT and XT computers from 1982 to 1985. When activated (by pressing F10), an ASCII bar graph with generic ‘Productivity’ and ‘Time’ labels appeared. Pressing F10 again would return to the Friendlyware application.",
+            "url": "https://en.wikipedia.org/wiki/Boss_key",
+            "id": 366      
+        },
+        {
+            "name": "Btrfs",
+            "definition": "An advanced Linux file system designed for the ultra-large storage requirements of the 21st century. Btrfs features includes ‘copy-on-write’ (COW) (which makes a copy of the data when modified by another application or user), dynamic resizing, along with RAID, compression and snapshot support. Also called ‘B-Tree FS’, ‘Butter FS’ and ‘Butterface’.",
+            "url": "https://en.wikipedia.org/wiki/Btrfs",
+            "id": 367      
+        },
         # {
         #     "name": "",
         #     "definition": "",
