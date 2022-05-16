@@ -1088,7 +1088,7 @@ def return_word():
         }, 
         {
             "name": "Dogfooding",
-            "definition": "Eating your own dog food or “dogfooding” is the practice of using one's own products or services. This can be a way for an organization to test its products in real-world usage using product management techniques. Hence dogfooding can act as quality control, and eventually a kind of testimonial advertising. Once in the market, dogfooding can demonstrate developers' confidence in their own products.",
+            "definition": "Eating your own dog food or 'dogfooding' is the practice of using one's own products or services. This can be a way for an organization to test its products in real-world usage using product management techniques. Hence dogfooding can act as quality control, and eventually a kind of testimonial advertising. Once in the market, dogfooding can demonstrate developers' confidence in their own products.",
             "url": "https://en.wikipedia.org/wiki/Eating_your_own_dog_food",
             "id": 178      
         }, 
@@ -1196,7 +1196,7 @@ def return_word():
         },
         { 
             "name": "Cross-platform software",
-            "definition": "",
+            "definition": "In computing, cross-platform software (also called multi-platform software, platform-agnostic software, or platform-independent software) is computer software that is designed to work in several computing platforms. Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. \n\n For example, a cross-platform application may run on Microsoft Windows, Linux, and macOS. Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One, Kivy, Qt, Flutter, NativeScript, Xamarin, Phonegap, Ionic, and React Native.",
             "url": "https://en.wikipedia.org/wiki/Cross-platform_software",
             "id": 196      
         }, 
@@ -1856,7 +1856,7 @@ def return_word():
         },
         {
             "name": "Blue/Black screen of death (BSoD)",
-            "definition": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
+            "definition": "A blue screen of death (BSoD), officially known as a stop error or blue screen error, is an error screen that the Windows operating system displays in the event of a fatal system error. It indicates a system crash, in which the operating system has reached a critical condition where it can no longer operate safely, e.g., hardware failure or an unexpected termination of a crucial process. \n\n The black screen of death (BSoD) is a fatal system error displayed by some versions of the Microsoft Windows operating system after encountering a critical system error which can cause the system to shut down.",
             "url": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
             "id": 306      
         },
@@ -2100,24 +2100,24 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/LoRa",
             "id": 346      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 347      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 348      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 349      
-        # },
+        {
+            "name": "Preparedness paradox",
+            "definition": "The preparedness paradox is the proposition that if a society or individual acts effectively to mitigate a potential disaster such as a pandemic, natural disaster or other catastrophe so that it causes less harm, the avoided danger will be perceived as having been much less serious because of the limited damage actually caused. \n\n The paradox is the incorrect perception that there had been no need for careful preparation as there was little harm, although in reality the limitation of the harm was due to preparation. Several cognitive biases can consequently hamper proper preparation for future risks.",
+            "url": "https://en.wikipedia.org/wiki/Preparedness_paradox",
+            "id": 347      
+        },
+        {
+            "name": "Shebang (or Hashbang)",
+            "definition": "In computing, a shebang is the character sequence consisting of the characters number sign and exclamation mark (#!) at the beginning of a script. It is also called sharp-exclamation, sha-bang, hashbang, pound-bang, or hash-pling. \n\n When a text file with a shebang is used as if it is an executable in a Unix-like operating system, the program loader mechanism parses the rest of the file's initial line as an interpreter directive. The loader executes the specified interpreter program, passing to it as an argument using the path that was initially used when attempting to run the script, so that the program may use the file as input data. For example, if a script is named with the path path/to/script, and it starts with the following line, #!/bin/sh, then the program loader is instructed to run the program /bin/sh, passing path/to/script as the first argument. In Linux, this behavior is the result of both kernel and user-space code. \n\n The shebang line is usually ignored by the interpreter, because the ‘#’ character is a comment marker in many scripting languages; some language interpreters that do not use the hash mark to begin comments still may ignore the shebang line in recognition of its purpose.",
+            "url": "https://en.wikipedia.org/wiki/Shebang_(Unix)",
+            "id": 348      
+        },
+        {
+            "name": "POSIX (Portable Operating System Interface))",
+            "definition": "The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system- and user-level application programming interfaces (API), along with command line shells and utility interfaces, for software compatibility (portability) with variants of Unix and other operating systems. POSIX is also a trademark of the IEEE. POSIX is intended to be used by both application and system developers.",
+            "url": "https://en.wikipedia.org/wiki/POSIX",
+            "id": 349      
+        },
         # {
         #     "name": "",
         #     "definition": "",
