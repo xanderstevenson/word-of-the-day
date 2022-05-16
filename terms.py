@@ -1088,7 +1088,7 @@ def return_word():
         }, 
         {
             "name": "Dogfooding",
-            "definition": "Eating your own dog food or “dogfooding” is the practice of using one's own products or services. This can be a way for an organization to test its products in real-world usage using product management techniques. Hence dogfooding can act as quality control, and eventually a kind of testimonial advertising. Once in the market, dogfooding can demonstrate developers' confidence in their own products.",
+            "definition": "Eating your own dog food or 'dogfooding' is the practice of using one's own products or services. This can be a way for an organization to test its products in real-world usage using product management techniques. Hence dogfooding can act as quality control, and eventually a kind of testimonial advertising. Once in the market, dogfooding can demonstrate developers' confidence in their own products.",
             "url": "https://en.wikipedia.org/wiki/Eating_your_own_dog_food",
             "id": 178      
         }, 
@@ -1196,7 +1196,7 @@ def return_word():
         },
         { 
             "name": "Cross-platform software",
-            "definition": "",
+            "definition": "In computing, cross-platform software (also called multi-platform software, platform-agnostic software, or platform-independent software) is computer software that is designed to work in several computing platforms. Some cross-platform software requires a separate build for each platform, but some can be directly run on any platform without special preparation, being written in an interpreted language or compiled to portable bytecode for which the interpreters or run-time packages are common or standard components of all supported platforms. \n\n For example, a cross-platform application may run on Microsoft Windows, Linux, and macOS. Cross-platform software may run on many platforms, or as few as two. Some frameworks for cross-platform development are Codename One, Kivy, Qt, Flutter, NativeScript, Xamarin, Phonegap, Ionic, and React Native.",
             "url": "https://en.wikipedia.org/wiki/Cross-platform_software",
             "id": 196      
         }, 
@@ -1856,7 +1856,7 @@ def return_word():
         },
         {
             "name": "Blue/Black screen of death (BSoD)",
-            "definition": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
+            "definition": "A blue screen of death (BSoD), officially known as a stop error or blue screen error, is an error screen that the Windows operating system displays in the event of a fatal system error. It indicates a system crash, in which the operating system has reached a critical condition where it can no longer operate safely, e.g., hardware failure or an unexpected termination of a crucial process. \n\n The black screen of death (BSoD) is a fatal system error displayed by some versions of the Microsoft Windows operating system after encountering a critical system error which can cause the system to shut down.",
             "url": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
             "id": 306      
         },
@@ -2100,149 +2100,149 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/LoRa",
             "id": 346      
         },
+        {
+            "name": "Preparedness paradox",
+            "definition": "The preparedness paradox is the proposition that if a society or individual acts effectively to mitigate a potential disaster such as a pandemic, natural disaster or other catastrophe so that it causes less harm, the avoided danger will be perceived as having been much less serious because of the limited damage actually caused. \n\n The paradox is the incorrect perception that there had been no need for careful preparation as there was little harm, although in reality the limitation of the harm was due to preparation. Several cognitive biases can consequently hamper proper preparation for future risks.",
+            "url": "https://en.wikipedia.org/wiki/Preparedness_paradox",
+            "id": 347      
+        },
+        {
+            "name": "Shebang (or Hashbang)",
+            "definition": "In computing, a shebang is the character sequence consisting of the characters number sign and exclamation mark (#!) at the beginning of a script. It is also called sharp-exclamation, sha-bang, hashbang, pound-bang, or hash-pling. \n\n When a text file with a shebang is used as if it is an executable in a Unix-like operating system, the program loader mechanism parses the rest of the file's initial line as an interpreter directive. The loader executes the specified interpreter program, passing to it as an argument using the path that was initially used when attempting to run the script, so that the program may use the file as input data. For example, if a script is named with the path path/to/script, and it starts with the following line, #!/bin/sh, then the program loader is instructed to run the program /bin/sh, passing path/to/script as the first argument. In Linux, this behavior is the result of both kernel and user-space code. \n\n The shebang line is usually ignored by the interpreter, because the ‘#’ character is a comment marker in many scripting languages; some language interpreters that do not use the hash mark to begin comments still may ignore the shebang line in recognition of its purpose.",
+            "url": "https://en.wikipedia.org/wiki/Shebang_(Unix)",
+            "id": 348      
+        },
+        {
+            "name": "POSIX (Portable Operating System Interface))",
+            "definition": "The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system- and user-level application programming interfaces (API), along with command line shells and utility interfaces, for software compatibility (portability) with variants of Unix and other operating systems. POSIX is also a trademark of the IEEE. POSIX is intended to be used by both application and system developers.",
+            "url": "https://en.wikipedia.org/wiki/POSIX",
+            "id": 349      
+        },
+        {
+            "name": "Compound document",
+            "definition": "A single document that contains a combination of data structures such as text, graphics, spreadsheets, sound and video clips. The document may embed the additional data types or reference external files by pointers of some kind. SGML and HTML are examples of compound document formats.",
+            "url": "https://en.wikipedia.org/wiki/Compound_document",
+            "id": 350      
+        },
+        {
+            "name": "Parkerian Hexad",
+            "definition": "Six fundamental, atomic, non-overlapping attributes of information that are protected by information security measures. Defined by Donn B. Parker, renowned security consultant and writer; they are: confidentiality, possession, integrity, authenticity, availability and utility. \n\n The Parkerian Hexad adds three additional attributes to the three classic security attributes of the CIA triad (confidentiality, integrity, availability).",
+            "url": "https://en.wikipedia.org/wiki/Parkerian_Hexad",
+            "id": 351      
+        },
+        {
+            "name": "CIA triad",
+            "definition": "The CIA triad of confidentiality, integrity, and availability is at the heart of information security. \n\n The members of the classic InfoSec triad—confidentiality, integrity, and availability—are interchangeably referred to in the literature as security attributes, properties, security goals, fundamental aspects, information criteria, critical information characteristics and basic building blocks. \n\n The triad seems to have first been mentioned in a National Institute of Standards and Technology (NIST) publication in 1977.",
+            "url": "https://en.wikipedia.org/wiki/Information_security#Key_concepts",
+            "id": 352      
+        },
+        {
+            "name": "Clamshell",
+            "definition": "A portable device comprising two parts hinged together. Flip phones and laptop computers are sometimes called clamshells because they 'open and close like a clam.'",
+            "url": "https://en.wikipedia.org/wiki/Clamshell_design",
+            "id": 353      
+        },
+        {
+            "name": "Exception handling",
+            "definition": "In computing and computer programming, exception handling is the process of responding to the occurrence of exceptions – anomalous or exceptional conditions requiring special processing – during the execution of a program. In general, an exception breaks the normal flow of execution and executes a pre-registered exception handler; the details of how this is done depend on whether it is a hardware or software exception and how the software exception is implemented. \n\n Exception handling, if provided, is facilitated by specialized programming language constructs, hardware mechanisms like interrupts, or operating system (OS) inter-process communication (IPC) facilities like signals. Some exceptions, especially hardware ones, may be handled so gracefully that execution can resume where it was interrupted. \n\n Software exception handling and the support provided by software tools differs somewhat from what is understood by exception handling in hardware, but similar concepts are involved. In programming language mechanisms for exception handling, the term exception is typically used in a specific sense to denote a data structure storing information about an exceptional condition. One mechanism to transfer control, or raise an exception, is known as a throw. The exception is said to be thrown. Execution is transferred to a ‘catch’.",
+            "url": "https://en.wikipedia.org/wiki/Exception_handling",
+            "id": 354      
+        },
+        {
+            "name": "Dark web",
+            "definition": "The dark web is the World Wide Web content that exists on darknets: overlay networks that use the Internet but require specific software, configurations, or authorization to access. Through the dark web, private computer networks can communicate and conduct business anonymously without divulging identifying information, such as a user's location. The dark web forms a small part of the deep web, the part of the Web not indexed by web search engines, although sometimes the term deep web is mistakenly used to refer specifically to the dark web. \n\n The darknets which constitute the dark web include small, friend-to-friend peer-to-peer networks, as well as large, popular networks such as Tor, Freenet, I2P, and Riffle operated by public organizations and individuals. Users of the dark web refer to the regular web as Clearnet due to its unencrypted nature. The Tor dark web or onionland uses the traffic anonymization technique of onion routing under the network's top-level domain suffix .onion.",
+            "url": "https://en.wikipedia.org/wiki/Dark_web",
+            "id": 355      
+        },
+        {
+            "name": "Concurrent computing",
+            "definition": "Concurrent computing is a form of computing in which several computations are executed concurrently—during overlapping time periods—instead of sequentially—with one completing before the next starts. \n\n This is a property of a system—whether a program, computer, or a network—where there is a separate execution point or 'thread of control' for each process. A concurrent system is one where a computation can advance without waiting for all other computations to complete. \n\n Concurrent computing is a form of modular programming. In its paradigm an overall computation is factored into subcomputations that may be executed concurrently. Pioneers in the field of concurrent computing include Edsger Dijkstra, Per Brinch Hansen, and C.A.R. Hoare.",
+            "url": "https://en.wikipedia.org/wiki/Concurrent_computing",
+            "id": 356      
+        },
+        {
+            "name": "Open / closed architecture",
+            "definition": "Open architecture is a type of computer architecture or software architecture intended to make adding, upgrading, and swapping components with other computers easy. Open architecture systems may use a standardized system bus or they may incorporate a proprietary bus standard such as that used on the Apple II, with up to a dozen slots that allow multiple hardware manufacturers to produce add-ons, and for the user to freely install them. \n\n By contrast, closed architectures, if they are expandable at all, have one or two ‘expansion ports’ using a proprietary connector design that may require a license fee from the manufacturer, or enhancements may only be installable by technicians with specialized tools or training. \n\n Computer platforms may include systems with both open and closed architectures.",
+            "url": "https://en.wikipedia.org/wiki/Open_architecture",
+            "id": 357      
+        },
+        {
+            "name": "Open platform",
+            "definition": "In computing, an open platform describes a software system which is based on open standards, such as published and fully documented external application programming interfaces (API) that allow using the software to function in other ways than the original programmer intended, without requiring modification of the source code. Using these interfaces, a third party could integrate with the platform to add functionality. The opposite is a closed platform. \n\n An open platform does not mean it is open source, however most open platforms have multiple implementations of APIs. An open platform can consist of software components or modules that are either proprietary or open source or both. \n\n Using an open platform, a developer could add features or functionality that the platform vendor had not completed or had not conceived of. An open platform allows the developer to change existing functionality, as the specifications are publicly available open standards.",
+            "url": "https://en.wikipedia.org/wiki/Open_platform",
+            "id": 358      
+        },
+        {
+            "name": "Cloud broker",
+            "definition": "Cloud Broker is an entity that manages the use, performance and delivery of cloud services, and negotiates relationships between cloud providers and cloud consumers. As cloud computing evolves, the integration of cloud services may be too complex for cloud consumers to manage alone. \n\n In such cases, ‘a cloud consumer may request cloud services from a cloud broker, instead of contacting a cloud provider directly,’ according to NIST Cloud Computing Reference Architecture. \n\n Cloud Brokers provides a single point of entry to manage multiple cloud services for business or technical purposes. The two important unique features of a cloud broker are the ability to provide a single consistent interface to multiple differing cloud providers and the clear visibility that the broker allows into which company is providing the services in the background.",
+            "url": "https://en.wikipedia.org/wiki/Cloud_broker",
+            "id": 359      
+        },
+        {
+            "name": "Cloud Computing Manifesto",
+            "definition": "The Cloud Computing Manifesto is a manifesto containing a ‘public declaration of principles and intentions’ for cloud computing providers and vendors, annotated as ‘a call to action for the worldwide cloud community’ and ‘dedicated belief that the cloud should be open’. It follows the earlier development of the Cloud Computing Bill of Rights which addresses similar issues from the users' point of view. \n\n A declaration of core principles for cloud computing providers. Introduced in 2009 and endorsed by hundreds of hardware and software companies, the Manifesto was created to promote the use of open standards by cloud providers.",
+            "url": "https://en.wikipedia.org/wiki/Cloud_Computing_Manifesto",
+            "id": 360      
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 347      
+        #     "id": 361      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 348      
+        #     "id": 362      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 349      
+        #     "id": 363      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 350      
+        #     "id": 364      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 365      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 366      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 367      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 368      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 369      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
+        #     "id": 370      
         # },
         # {
         #     "name": "",
