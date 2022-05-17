@@ -1735,7 +1735,7 @@ def return_word():
             "id": 285      
         }, 
         {
-            "name": "https://en.wikipedia.org/wiki/Careware",
+            "name": "Careware",
             "definition": "Careware (also called charityware, helpware, or goodware) is software licensed in a way that benefits a charity. Some careware is distributed free, and the author suggests that some payment be made to either a nominated charity, or a charity of the user's choice. Commercial careware, on the other hand, includes a levy for charity on top of the distribution charge. It can also be a barter of some kind, or even a pledge to be kind to strangers.",
             "url": "https://en.wikipedia.org/wiki/Careware",
             "id": 286      
@@ -2286,48 +2286,48 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Splinternet",
             "id": 378      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 379      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 380      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 381      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 382      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 383      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 384      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 385      
-        # },
+        {
+            "name": "Digilanti",
+            "definition": "People who voluntarily police the Internet to make it better and safer. Also called ‘online vigilante’ and ‘digital vigilante’. Digilantis use their expertise to expose spammers, deceitful websites, bogus software and other annoying or harmful scams. Coined from the term ‘digerati’, which means ‘digital elite’.",
+            "url": "https://en.wikipedia.org/wiki/Internet_vigilantism",
+            "id": 379      
+        },
+        {
+            "name": "Digerati",
+            "definition": "The ‘digital elite’. The digerati are people who are extremely knowledgeable about computers. It often refers to the movers and shakers in the industry. Digerati is the high-tech equivalent of ‘literati’, which refers to scholars and intellectuals, or ‘glitterati’, the rich and famous.",
+            "url": "https://en.wikipedia.org/wiki/Digerati",
+            "id": 380      
+        },
+        {
+            "name": "Magic",
+            "definition": "In the context of computer programming, magic is an informal term for abstraction; it is used to describe code that handles complex tasks while hiding that complexity to present a simple interface. The term is somewhat tongue-in-cheek, and often carries bad connotations, implying that the true behavior of the code is not immediately apparent. \n\n ‘Magic’ refers to procedures which make calculations based on data not clearly provided to them, by accessing other modules, memory positions or global variables that they are not supposed to (in other words, they are not referentially transparent). According to most recent software architecture models, even when using structured programming, it is usually preferred to make each function behave the same way every time the same arguments are passed to it, thereby following one of the basic principles of functional programming. When a function breaks this rule, it is often said to contain ‘magic’.",
+            "url": "https://en.wikipedia.org/wiki/Magic_(programming)",
+            "id": 381      
+        },
+        {
+            "name": "Lurker",
+            "definition": "In Internet culture, a lurker is typically a member of an online community who observes, but does not participate. The exact definition depends on context. Lurkers make up a large proportion of all users in online communities. Lurking allows users to learn the conventions of an online community before they participate, improving their socialization when they eventually ‘de-lurk’. However, a lack of social contact while lurking sometimes causes loneliness or apathy among lurkers. \n\n Lurkers are referred to using many names, including browsers, read-only participants, non-public participants, legitimate peripheral participants, vicarious learners, or sleepers.",
+            "url": "https://en.wikipedia.org/wiki/Lurker",
+            "id": 382      
+        },
+        {
+            "name": "Dirty data",
+            "definition": "Dirty data, also known as rogue data, are inaccurate, incomplete or inconsistent data, especially in a computer system or database. \n\n Dirty data can contain such mistakes as spelling or punctuation errors, incorrect data associated with a field, incomplete or outdated data, or even data that has been duplicated in the database. They can be cleaned through a process known as data cleansing.",
+            "url": "https://en.wikipedia.org/wiki/Dirty_data",
+            "id": 383      
+        },
+        {
+            "name": "Data furnace",
+            "definition": "The data furnace is a proposed method of heating residential homes or offices by running computers in them, which release considerable amounts of waste heat. Data furnaces can theoretically be cheaper than storing computers in huge data centers because the higher cost of electricity in residential areas (when compared to industrial zones) can be offset by charging the home owner for the heat that the data center gives off. \n\n With a large-scale, distributed deployment of data furnaces (DFs), the machines can be used as local caches, thereby removing some burden from the large, national datacenters. They can also be used to distribute massive computational processing that is required by various industries and sciences.",
+            "url": "https://en.wikipedia.org/wiki/Data_furnace",
+            "id": 384      
+        },
+        {
+            "name": "Dangling pointer",
+            "definition": "Dangling pointers and wild pointers in computer programming are links or pointers to an instruction, table element, index item, etc. that no longer contains the same content. If the reference is not a currently valid address, or if it is valid but there is no content in that location, it may cause the computer to crash if the software is not programmed carefully.",
+            "url": "https://en.wikipedia.org/wiki/Dangling_pointer",
+            "id": 385      
+        },
         # {
         #     "name": "",
         #     "definition": "",
