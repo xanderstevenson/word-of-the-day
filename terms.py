@@ -2078,7 +2078,7 @@ def return_word():
         },
         {
             "name": "Cleanroom software engineering",
-            "definition": "The cleanroom software engineering process is a software development process intended to produce software with a certifiable level of reliability. The cleanroom process was originally developed by Harlan Mills and several of his colleagues, including Alan Hevner, at IBM. The focus of the cleanroom process is on defect prevention, rather than defect removal. \n\n The name ‘cleanroom’ was chosen to evoke the cleanrooms used in the electronics industry to prevent the introduction of defects during the fabrication of semiconductors. The cleanroom process first saw use in the mid to late 1980s. Demonstration projects within the military began in the early 1990s. Recent work on the cleanroom process has examined fusing cleanroom with the automated verification capabilities provided by specifications expressed in CSP. \n\n The basic principles of the cleanroom process are: \n\n Software development based on formal methods \n Incremental implementation under statistical quality control \n Statistically sound testing",
+            "definition": "The cleanroom software engineering process is a software development process intended to produce software with a certifiable level of reliability. The cleanroom process was originally developed by Harlan Mills and several of his colleagues, including Alan Hevner, at IBM. The focus of the cleanroom process is on defect prevention, rather than defect removal. \n\n The name ‘cleanroom’ was chosen to evoke the cleanrooms used in the electronics industry to prevent the introduction of defects during the fabrication of semiconductors. The cleanroom process first saw use in the mid to late 1980s. Demonstration projects within the military began in the early 1990s. Recent work on the cleanroom process has examined fusing cleanroom with the automated verification capabilities provided by specifications expressed in CSP. \n\n The basic principles of the cleanroom process are: \n\n - Software development based on formal methods \n - Incremental implementation under statistical quality control \n - Statistically sound testing",
             "url": "https://en.wikipedia.org/wiki/Cleanroom_software_engineering",
             "id": 343      
         },
@@ -2184,293 +2184,287 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Cloud_Computing_Manifesto",
             "id": 360      
         },
+        {
+            "name": "Cloud bursting",
+            "definition": "In cloud computing, cloud bursting is a configuration that’s set up between a private cloud and a public cloud to deal with peaks in IT demand. If an organization using a private cloud reaches 100 percent of its resource capacity, the overflow traffic is directed to a public cloud so there’s no interruption of services.\n\n In addition to flexibility and self-service functionality, the key advantage to cloud bursting is economical savings. You only pay for the additional resources when there is a demand for those resources - no more spending on extra capacity you’re not using or trying to predict demand peaks and fluctuations. An application can be applied to the private cloud, then burst to the public cloud only when necessary to meet peak demands. \n\n Plus, cloud bursting can also be used to shoulder processing burdens by moving basic applications to the public cloud to free up local resources for business-critical applications. When using cloud bursting, you should consider security and compliance requirements, latency, load balancing, and platform compatibility.",
+            "url": "https://www.atlassian.com/microservices/cloud-computing/cloud-bursting",
+            "id": 361      
+        },
+        {
+            "name": "Cloud spanning",
+            "definition": "Cloud spanning is a type of cloud delivery model in which an application is deployed and executed over multiple simultaneous cloud platforms and infrastructure (including private, public or combination of both environments i.e. hybrid environments). Cloud spanning enables a cloud application to distribute its computations and components across one or more cloud environments.",
+            "url": "https://www.techopedia.com/definition/26534/cloud-spanning",
+            "id": 362      
+        },
+        {
+            "name": "Beamforming",
+            "definition": "Beamforming or spatial filtering directs the signals on transmitters and receivers with multiple antennas to improve transmission speed. It is accomplished by detecting the signals and sending feedback to the transmitter to adjust the phase and amplitude of the signals at its antennas. \n\n Beamforming is a signal processing technique used in sensor arrays for directional signal transmission or reception. This is achieved by combining elements in an antenna array in such a way that signals at particular angles experience constructive interference while others experience destructive interference. Beamforming can be used at both the transmitting and receiving ends in order to achieve spatial selectivity. The improvement compared with omnidirectional reception/transmission is known as the directivity of the array. \n\n Beamforming can be used for radio or sound waves. It has found numerous applications in radar, sonar, seismology, wireless communications, radio astronomy, acoustics and biomedicine. Adaptive beamforming is used to detect and estimate the signal of interest at the output of a sensor array by means of optimal (e.g. least-squares) spatial filtering and interference rejection.",
+            "url": "https://en.wikipedia.org/wiki/Beamforming",
+            "id": 363      
+        },
+        {
+            "name": "Biomimetics",
+            "definition": "Biomimetics, or biomimicry, is imitating nature in man-made systems. Examples are a film similar to the coating on a moth's eyeballs that minimizes screen glare, a directional microphone that mimics the moving hairs on crickets, and a waterproof coating that emulates the grooves and wax coating on a butterfly's wings. \n\n A very notable example is the Eastgate Center in Harare, Zimbabwe. Built in 1996, this shopping and office complex was constructed using principles discovered in termite mounds in the desert. Termites maintain an almost perfectly uniform temperature for their food inside their tunnels, even though outside temperatures range from near freezing at night to over 100 degrees Fahrenheit in the day. The even temperature is accomplished by continuously opening and closing a series of vents throughout the day. Eastgate uses 10% of the energy of a traditional building to keep cool.",
+            "url": "https://en.wikipedia.org/wiki/Biomimetics",
+            "id": 364      
+        },
+        {
+            "name": "Bone conduction",
+            "definition": "Transmitting sound via the bones in the skull to the inner ear. Bone conduction speakers rest against the side of the head near the ears, but not in them. Dating back to the 1920s, bone conduction has been used for hearing aids and is still used for people who cannot tolerate a device inserted in their ears.",
+            "url": "https://en.wikipedia.org/wiki/Bone_conduction",
+            "id": 365      
+        },
+        {
+            "name": "Boss key",
+            "definition": "A boss key, or boss button, is a special keyboard shortcut used in PC games or other programs to hide the program quickly, possibly displaying a special screen that appears to be a normal productivity program (such as a spreadsheet application). One of the earliest implementations was by Friendlyware, a suite of entertainment and general interest programs written in BASIC and sold with the original IBM AT and XT computers from 1982 to 1985. When activated (by pressing F10), an ASCII bar graph with generic ‘Productivity’ and ‘Time’ labels appeared. Pressing F10 again would return to the Friendlyware application.",
+            "url": "https://en.wikipedia.org/wiki/Boss_key",
+            "id": 366      
+        },
+        {
+            "name": "Btrfs",
+            "definition": "An advanced Linux file system designed for the ultra-large storage requirements of the 21st century. Btrfs features includes ‘copy-on-write’ (COW) (which makes a copy of the data when modified by another application or user), dynamic resizing, along with RAID, compression and snapshot support. Also called ‘B-Tree FS’, ‘Butter FS’ and ‘Butterface’.",
+            "url": "https://en.wikipedia.org/wiki/Btrfs",
+            "id": 367      
+        },
+        {
+            "name": "Gender changer",
+            "definition": "A gender changer or ‘gender-bender’, is a hardware device placed between two cable connectors of the same type and gender. An example is a cable connector shell with either two female or two male connectors on it (male-to-male or female-to-female), used to correct the mismatches that result when interconnecting two devices or cables with the same gender of connector.",
+            "url": "https://en.wikipedia.org/wiki/Gender_changer",
+            "id": 368      
+        },
+        {
+            "name": "Capacitor",
+            "definition": "An electronic component that stores an electric charge and releases it when required. It comes in a huge variety of sizes and types for use in regulating power as well as for conditioning, smoothing and isolating signals. Capacitors are made from many different materials, and virtually every electrical and electronic system uses them. \n\n Capacitors act like tiny storage batteries that charge and discharge rapidly. Made of two plates separated by a thin insulator or sometimes air, when one plate is charged negative and the other positive, a charge builds up and remains after the current is removed. When power is required, the circuit is switched to conduct current between the plates, and the charge is released.",
+            "url": "https://en.wikipedia.org/wiki/Capacitor",
+            "id": 369      
+        },
+        {
+            "name": "Automata-based programming (Shalyto's approach)",
+            "definition": "Automata-based programming is a programming technology. Its defining characteristic is the use of finite state machines to describe program behavior. The transition graphs of state machines are used in all stages of software development (specification, implementation, debugging and documentation). Automata-based programming technology was introduced by Anatoly Shalyto in 1991. \n\n The main approach to automata-based programming is to construct computer programs the same way the automation of technological processes (and other kinds of processes too) is done. Switch-technology was developed to support automata-based programming. Automata-based programming is considered to be rather general purpose program development methodology than just another one finite state machine implementation.",
+            "url": "https://en.wikipedia.org/wiki/Automata-based_programming_(Shalyto%27s_approach)",
+            "id": 370      
+        },
+        {
+            "name": "Cellular automaton",
+            "definition": "A state machine that consists of an array of cells, each of which can be in one of a finite number of possible states. The cells are updated synchronously in discrete time steps, according to a local, identical interaction rule. The state of a cell at the next time step is determined by the current states of a surrounding neighborhood of cells. \n\n The transitions are usually specified in the form of a rule table that defines the cell's next state for each possible neighborhood configuration. The cellular array (grid) is typically from one to three dimensions. Highly parallel, locally connected and using simple elemental units, cellular automata can perform so-called cellular computing.",
+            "url": "https://en.wikipedia.org/wiki/Cellular_automaton",
+            "id": 371      
+        },
+        {
+            "name": "Channel coding",
+            "definition": "Encoding a communications channel to ensure error-free transmission. Channel coding modifies the outgoing message, which is known as ‘forward error correction’ (FEC). At the receiving end, the channel coding bits are used to verify the validity of the message and correct most errors. Channel coding improves the signal-to-noise ratio (SNR). \n\n Convolutional Codes \n Convolutional codes were introduced in 1955 by Peter Elias. The input bits are transformed by predefined algorithms and decoded at the receiving end. Viterbi and BCJR are the common convolutional algorithms. See Viterbi decoder. \n\n LDPC \n Introduced by Robert Gallager in 1960 and rediscovered more than 30 years later, the low-density parity check (LDPC) method creates a block parity bit that takes little processing to decode. Also known as ‘Gallager codes’. \n\n Turbo Codes \n Turbo codes were introduced in 1993 by Claude Berrou and were licensed by France Telecom until 2013. There are several turbo code variations; however, the primary method passes the input bits through two convolutional decoders. The two decoders exchange probabilistic information to assist each other similar to the way a turbo engine works. \n\n Polar Codes \n Polar codes were introduced in 2009 by Turkish professor Erdal Arikan. Creating a ‘virtual channel’ that is the polar opposite of the main transmission stream, polar codes require more processing at both ends. However, they offer high performance and have been adopted by the 3GPP for the 5G New Radio (NR) control channels.",
+            "url": "https://en.wikipedia.org/wiki/Error_correction_code#Forward_error_correction",
+            "id": 372     
+        },
+        {
+            "name": "Collapsed backbone",
+            "definition": "A network configuration that provides a backbone in a centralized location, to which all subnetworks are attached. A collapsed backbone is implemented in a router or switch that uses a high-speed backplane that can handle the simultaneous traffic of all or most of its ports at full wire speed.",
+            "url": "https://en.wikipedia.org/wiki/Backbone_network#Collapsed_backbone",
+            "id": 373      
+        },
+        {
+            "name": "Dynamic frequency scaling",
+            "definition": "Dynamic frequency scaling (also known as CPU throttling) is a power management technique in computer architecture whereby the frequency of a microprocessor can be automatically adjusted ‘on the fly’ depending on the actual needs, to conserve power and reduce the amount of heat generated by the chip. Dynamic frequency scaling helps preserve battery on mobile devices and decrease cooling cost and noise on quiet computing settings, or can be useful as a security measure for overheated systems (e.g. after poor overclocking). \n\n Dynamic frequency scaling almost always appear in conjunction with dynamic voltage scaling, since higher frequencies require higher supply voltages for the digital circuit to yield correct results. The combined topic is known as dynamic voltage and frequency scaling (DVFS). \n\n Processor throttling is also known as ‘automatic underclocking’. Automatic overclocking (boosting) is also technically a form of dynamic frequency scaling, but it's relatively new and usually not discussed with throttling.",
+            "url": "https://en.wikipedia.org/wiki/Dynamic_frequency_scaling",
+            "id": 374      
+        },
+        {
+            "name": "Computational sprinting",
+            "definition": "Pushing a chip beyond its normal operating mode in order to perform a short burst of computations that lasts only a few seconds. Decompressing a file or decoding an image takes an enormous amount of arithmetic operations that if speeded up would allow a smartphone or similar device to perform the function as if it were a desktop computer. After the sprint, the hardware has to rest so the heat cannot melt the ultra-fine lines and minuscule elements in the chip.",
+            "url": "https://www.computer.org/csdl/proceedings-article/hpca/2012/06169031/12OmNBNM8Re",
+            "id": 375      
+        },
+        {
+            "name": "Cupertino effect",
+            "definition": "An incorrect AutoCorrect insertion. The term comes from the case where typing ‘cooperation’ produced the word ‘Cupertino’ as the correct spelling (Cupertino is a town in California, and its name is often used as a metonym for Apple Inc., as the firm's corporate headquarters are located in the city.)",
+            "url": "https://en.wikipedia.org/wiki/Cupertino_effect",
+            "id": 377      
+        },
+        {
+            "name": "Splinternet",
+            "definition": "The splinternet (also referred to as cyber-balkanization or internet balkanization) is a characterization of the Internet as splintering and dividing due to various factors, such as technology, commerce, politics, nationalism, religion, and divergent national interests. ‘Powerful forces are threatening to balkanise it, writes the Economist weekly, and it may soon splinter along geographic and commercial boundaries. \n\n The Chinese government erected the ‘Great Firewall’ for political reasons, and Russia has enacted the Sovereign Internet Law that allows it to partition itself from the rest of the Internet, while other nations, such as the US and Australia, discuss plans to create similar firewalls.",
+            "url": "https://en.wikipedia.org/wiki/Splinternet",
+            "id": 378      
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 361      
+        #     "id": 379      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 362      
+        #     "id": 380      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 363      
+        #     "id": 381      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 364      
+        #     "id": 382      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 365      
+        #     "id": 383      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 366      
+        #     "id": 384      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 367      
+        #     "id": 385      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 368      
+        #     "id": 386      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 369      
+        #     "id": 387      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 370      
+        #     "id": 388      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 389      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 390      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 391      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 392      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 393      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 394      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 395      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 396      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 397      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 398      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 399      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
