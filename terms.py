@@ -2226,251 +2226,245 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Btrfs",
             "id": 367      
         },
+        {
+            "name": "Gender changer",
+            "definition": "A gender changer or ‘gender-bender’, is a hardware device placed between two cable connectors of the same type and gender. An example is a cable connector shell with either two female or two male connectors on it (male-to-male or female-to-female), used to correct the mismatches that result when interconnecting two devices or cables with the same gender of connector.",
+            "url": "https://en.wikipedia.org/wiki/Gender_changer",
+            "id": 368      
+        },
+        {
+            "name": "Capacitor",
+            "definition": "An electronic component that stores an electric charge and releases it when required. It comes in a huge variety of sizes and types for use in regulating power as well as for conditioning, smoothing and isolating signals. Capacitors are made from many different materials, and virtually every electrical and electronic system uses them. \n\n Capacitors act like tiny storage batteries that charge and discharge rapidly. Made of two plates separated by a thin insulator or sometimes air, when one plate is charged negative and the other positive, a charge builds up and remains after the current is removed. When power is required, the circuit is switched to conduct current between the plates, and the charge is released.",
+            "url": "https://en.wikipedia.org/wiki/Capacitor",
+            "id": 369      
+        },
+        {
+            "name": "Automata-based programming (Shalyto's approach)",
+            "definition": "Automata-based programming is a programming technology. Its defining characteristic is the use of finite state machines to describe program behavior. The transition graphs of state machines are used in all stages of software development (specification, implementation, debugging and documentation). Automata-based programming technology was introduced by Anatoly Shalyto in 1991. \n\n The main approach to automata-based programming is to construct computer programs the same way the automation of technological processes (and other kinds of processes too) is done. Switch-technology was developed to support automata-based programming. Automata-based programming is considered to be rather general purpose program development methodology than just another one finite state machine implementation.",
+            "url": "https://en.wikipedia.org/wiki/Automata-based_programming_(Shalyto%27s_approach)",
+            "id": 370      
+        },
+        {
+            "name": "Cellular automaton",
+            "definition": "A state machine that consists of an array of cells, each of which can be in one of a finite number of possible states. The cells are updated synchronously in discrete time steps, according to a local, identical interaction rule. The state of a cell at the next time step is determined by the current states of a surrounding neighborhood of cells. \n\n The transitions are usually specified in the form of a rule table that defines the cell's next state for each possible neighborhood configuration. The cellular array (grid) is typically from one to three dimensions. Highly parallel, locally connected and using simple elemental units, cellular automata can perform so-called cellular computing.",
+            "url": "https://en.wikipedia.org/wiki/Cellular_automaton",
+            "id": 371      
+        },
+        {
+            "name": "Channel coding",
+            "definition": "Encoding a communications channel to ensure error-free transmission. Channel coding modifies the outgoing message, which is known as ‘forward error correction’ (FEC). At the receiving end, the channel coding bits are used to verify the validity of the message and correct most errors. Channel coding improves the signal-to-noise ratio (SNR). \n\n Convolutional Codes \n Convolutional codes were introduced in 1955 by Peter Elias. The input bits are transformed by predefined algorithms and decoded at the receiving end. Viterbi and BCJR are the common convolutional algorithms. See Viterbi decoder. \n\n LDPC \n Introduced by Robert Gallager in 1960 and rediscovered more than 30 years later, the low-density parity check (LDPC) method creates a block parity bit that takes little processing to decode. Also known as ‘Gallager codes’. \n\n Turbo Codes \n Turbo codes were introduced in 1993 by Claude Berrou and were licensed by France Telecom until 2013. There are several turbo code variations; however, the primary method passes the input bits through two convolutional decoders. The two decoders exchange probabilistic information to assist each other similar to the way a turbo engine works. \n\n Polar Codes \n Polar codes were introduced in 2009 by Turkish professor Erdal Arikan. Creating a ‘virtual channel’ that is the polar opposite of the main transmission stream, polar codes require more processing at both ends. However, they offer high performance and have been adopted by the 3GPP for the 5G New Radio (NR) control channels.",
+            "url": "https://en.wikipedia.org/wiki/Error_correction_code#Forward_error_correction",
+            "id": 372     
+        },
+        {
+            "name": "Collapsed backbone",
+            "definition": "A network configuration that provides a backbone in a centralized location, to which all subnetworks are attached. A collapsed backbone is implemented in a router or switch that uses a high-speed backplane that can handle the simultaneous traffic of all or most of its ports at full wire speed.",
+            "url": "https://en.wikipedia.org/wiki/Backbone_network#Collapsed_backbone",
+            "id": 373      
+        },
+        {
+            "name": "Dynamic frequency scaling",
+            "definition": "Dynamic frequency scaling (also known as CPU throttling) is a power management technique in computer architecture whereby the frequency of a microprocessor can be automatically adjusted ‘on the fly’ depending on the actual needs, to conserve power and reduce the amount of heat generated by the chip. Dynamic frequency scaling helps preserve battery on mobile devices and decrease cooling cost and noise on quiet computing settings, or can be useful as a security measure for overheated systems (e.g. after poor overclocking). \n\n Dynamic frequency scaling almost always appear in conjunction with dynamic voltage scaling, since higher frequencies require higher supply voltages for the digital circuit to yield correct results. The combined topic is known as dynamic voltage and frequency scaling (DVFS). \n\n Processor throttling is also known as ‘automatic underclocking’. Automatic overclocking (boosting) is also technically a form of dynamic frequency scaling, but it's relatively new and usually not discussed with throttling.",
+            "url": "https://en.wikipedia.org/wiki/Dynamic_frequency_scaling",
+            "id": 374      
+        },
+        {
+            "name": "Computational sprinting",
+            "definition": "Pushing a chip beyond its normal operating mode in order to perform a short burst of computations that lasts only a few seconds. Decompressing a file or decoding an image takes an enormous amount of arithmetic operations that if speeded up would allow a smartphone or similar device to perform the function as if it were a desktop computer. After the sprint, the hardware has to rest so the heat cannot melt the ultra-fine lines and minuscule elements in the chip.",
+            "url": "https://www.computer.org/csdl/proceedings-article/hpca/2012/06169031/12OmNBNM8Re",
+            "id": 375      
+        },
+        {
+            "name": "Cupertino effect",
+            "definition": "An incorrect AutoCorrect insertion. The term comes from the case where typing ‘cooperation’ produced the word ‘Cupertino’ as the correct spelling (Cupertino is a town in California, and its name is often used as a metonym for Apple Inc., as the firm's corporate headquarters are located in the city.)",
+            "url": "https://en.wikipedia.org/wiki/Cupertino_effect",
+            "id": 377      
+        },
+        {
+            "name": "Splinternet",
+            "definition": "The splinternet (also referred to as cyber-balkanization or internet balkanization) is a characterization of the Internet as splintering and dividing due to various factors, such as technology, commerce, politics, nationalism, religion, and divergent national interests. ‘Powerful forces are threatening to balkanise it, writes the Economist weekly, and it may soon splinter along geographic and commercial boundaries. \n\n The Chinese government erected the ‘Great Firewall’ for political reasons, and Russia has enacted the Sovereign Internet Law that allows it to partition itself from the rest of the Internet, while other nations, such as the US and Australia, discuss plans to create similar firewalls.",
+            "url": "https://en.wikipedia.org/wiki/Splinternet",
+            "id": 378      
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 368      
+        #     "id": 379      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 369      
+        #     "id": 380      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 370      
+        #     "id": 381      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 382      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 383      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 384      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 385      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 386      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 387      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 388      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 389      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 390      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 391      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 392      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 393      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 394      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 395      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 396      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 397      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 398      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 399      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 3      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
