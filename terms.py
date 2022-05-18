@@ -1010,7 +1010,7 @@ def return_word():
         }, 
         {
             "name": "Brogrammer",
-            "definition": "‘Brogrammer’, a portmanteau of bro and programmer, is a slang term for a computer programmer who engages in stereotypically male-oriented activities and macho behavior. It is often used pejoratively, but some programmers self-describe themselves as a brogrammer positively as a word for ‘sociable or outgoing programmer’, and it also tends to represent a subculture within the greater tech industry. Brogrammer culture has been said to have created an entry barrier based on adherence to the image presented by its participants, rather than ability. It can be viewed as antithetical to geek culture, which emphasizes ability and passion for field over image.",
+            "definition": "‘Brogrammer’, a portmanteau of bro and programmer, is a slang term for a computer programmer who engages in stereotypically male-oriented activities and macho behavior. \n\n It is often used pejoratively, but some programmers self-describe themselves as a brogrammer positively as a word for ‘sociable or outgoing programmer’, and it also tends to represent a subculture within the greater tech industry. \n\n Brogrammer culture has been said to have created an entry barrier based on adherence to the image presented by its participants, rather than ability. It can be viewed as antithetical to geek culture, which emphasizes ability and passion for field over image.",
             "url": "https://en.wikipedia.org/wiki/Brogrammer",
             "id": 165      
         }, 
@@ -2424,54 +2424,48 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Last_mile_(telecommunications)",
             "id": 401      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 402     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 403     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 404     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 405      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 406      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 407      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 408      
-        # },
+        {
+            "name": "Metafile",
+            "definition": "A file that contains other files. It generally refers to graphics files that can hold vector drawings and bitmaps. For example, Windows Metafiles (WMFs) and Enhanced Metafiles (EMFs) can store pictures in vector graphics and bitmap formats as well as text. A Computer Graphics Metafile (CGM) also stores both types of graphics. See Windows Metafile and CGM. \n\n A metafile that can hold a variety of audio and video formats or any mix of audio, video and text is often called a ‘container’. For example, AVI, MPEG and Ogg are A/V container formats.",
+            "url": "https://en.wikipedia.org/wiki/Container_format_(computing)",
+            "id": 402     
+        },
+        {
+            "name": "Markup language",
+            "definition": "A set of labels that are embedded within text to distinguish individual elements or groups of elements for display or identification purposes. The labels are typically known as ‘tags’. \n\n For rendering (displaying and printing), markup languages indicate where font and other layout changes start and stop. For content identification, markup languages turn a text document into the equivalent of a database record in which individual data elements can be located for processing. In a database, elements are placed in a predefined structure. In a document, data elements reside in a freeform structure like text and must be identified with tags that mark their beginning and end. \n\n SGML is the granddaddy markup language that served as the foundation for HTML and XML. HTML is used for rendering the document, and XML is used for identifying the content of the document.",
+            "url": "https://en.wikipedia.org/wiki/Markup_language",
+            "id": 403     
+        },
+        {
+            "name": "Marshalling",
+            "definition": "In computer science, marshalling or marshaling (US spelling) is the process of transforming the memory representation of an object into a data format suitable for storage or transmission. It is typically used when data must be moved between different parts of a computer program or from one program to another. \n\n Marshalling can be somewhat similar or synonymous to serialization. Marshalling is describing an intent or process to transfer some object from a client to server, intent is to have the same object that is present in one running program, to be present in another running program, i.e. object on a client to be transferred to and present on the server. Serialization does not necessarily have this intent since it is only concerned about transforming data into a, for example, stream of bytes. One could say that marshalling might be done in some other way from serialization, but some form of serialization is usually used.",
+            "url": "https://en.wikipedia.org/wiki/Marshalling_(computer_science)",
+            "id": 404     
+        },
+        {
+            "name": "Captology",
+            "definition": "(Computers As Persuasive TechnOLOGY) Captology refers to using computers to change people's attitudes and behavior. With regard to e-commerce, for instance, customer reviews alongside products encourage people to make purchases, as well as the convenience of ‘1-Click Ordering’, using Amazon as an example. The term was coined by B.J. Fogg in his 2003 book entitled ‘Persuasive Technology: Using Computers to Change What We Think and Do.’ \n\n MACrosuasion and MICrosuasion \n\n Fogg defines macrosuasion as being the overall persuasive goal of the product (buy more, return again, share this information, etc.). The small elements within the software that help achieve the macrosuasion goal (default buttons, hints, positive feedback, etc.) are called microsuasion.",
+            "url": "https://en.wikipedia.org/wiki/Captology",
+            "id": 405      
+        },
+        {
+            "name": "Machine learning",
+            "definition": "An application of artificial intelligence (AI). Machine learning systems ‘learn’ about a subject by being fed a huge amount of data samples. The machine learning software, which is mostly implemented using a ‘neural network’ architecture, keeps modifying its own data relationships in the training stages in order to improve the data recognition capability of the resulting AI that performs the actual processing. ‘Deep learning’ is the most intense form of machine learning, which uses many layers of recognition. See deep learning and neural network. \n\n Machine learning (ML) is used to develop pattern recognition systems (face, handwriting, voice, etc.) in many areas, including search engines, medical diagnosis, ad serving, spam filtering and sales forecasting. Today's virtual assistants are the result of both machine learning and handcrafting’, the latter providing predefined frameworks for responses. \n\n The final algorithm from multiple machine learning phases is generally much more difficult, if not impossible, to flow chart and debug than the routine ‘if this-do that’ logic in regular data processing applications. As more samples become available and more fine tuning is applied, the resulting recognition system becomes more accurate.",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "id": 406      
+        },
+        {
+            "name": "Mosquito noise",
+            "definition": "A distortion that appears near crisp edges of objects in MPEG and other video frames that are compressed with the discrete cosine transform (DCT). It occurs at decompression when the decoding engine has to approximate the discarded data by inverting the transform model. The mosquito noise appears as random aliasing in these areas and requires sophisticated detection circuits to eliminate it. As TVs get larger, mosquito noise and other artifacts become more noticeable.",
+            "url": "https://en.wikipedia.org/wiki/Compression_artifact#Mosquito_noise",
+            "id": 407      
+        },
+        {
+            "name": "Microprocessor",
+            "definition": "A microprocessor is a computer processor where the data processing logic and control is included on a single integrated circuit, or a small number of integrated circuits. The microprocessor contains the arithmetic, logic, and control circuitry required to perform the functions of a computer's central processing unit. \n\n The integrated circuit is capable of interpreting and executing program instructions and performing arithmetic operations. The microprocessor is a multipurpose, clock-driven, register-based, digital integrated circuit that accepts binary data as input, processes it according to instructions stored in its memory, and provides results (also in binary form) as output. \n\n Before microprocessors, small computers had been built using racks of circuit boards with many medium- and small-scale integrated circuits. The integration of a whole CPU onto a single or a few integrated circuits greatly reduced the cost of processing power. \n\n Microarchitecture, the basic design of a microprocessor, includes the design of the instruction pipeline and execution techniques, number and style of on-board caches and caching techniques and type and speed of the system bus. The microarchitecture also defines the process technology and base materials used for the construction of transistors, electronic components and interconnects.",
+            "url": "https://en.wikipedia.org/wiki/Microprocessor",
+            "id": 408      
+        },
         # {
         #     "name": "",
         #     "definition": "",
