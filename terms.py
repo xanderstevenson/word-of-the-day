@@ -788,7 +788,7 @@ def return_word():
         }, 
         {
             "name": "Lean software development",
-            "definition": "Lean software development is a translation of lean manufacturing principles and practices to the software development domain. Adapted from the Toyota Production System, it is emerging with the support of a pro-lean subculture within the agile community. Lean offers a solid conceptual framework, values and principles, as well as good practices, derived from experience, that support agile organizations. \n\n Lean development can be summarized by seven principles, very close in concept to lean manufacturing principles: \n 1. Eliminate waste \n 2. Amplify learning \n 3. Decide as late as possible \n 4. Deliver as fast as possible \n 5. Empower the team \n 6. Build integrity in \n 7. Optimize the whole \n",
+            "definition": "Lean software development is a translation of lean manufacturing principles and practices to the software development domain. Adapted from the Toyota Production System, it is emerging with the support of a pro-lean subculture within the agile community. Lean offers a solid conceptual framework, values and principles, as well as good practices, derived from experience, that support agile organizations. \n\n Lean development can be summarized by seven principles, very close in concept to lean manufacturing principles: \n\n 1. Eliminate waste \n 2. Amplify learning \n 3. Decide as late as possible \n 4. Deliver as fast as possible \n 5. Empower the team \n 6. Build integrity in \n 7. Optimize the whole \n",
             "url": "https://en.wikipedia.org/wiki/Lean_software_development",
             "id": 128      
         }, 
@@ -1760,7 +1760,7 @@ def return_word():
         }, 
         {
             "name": "Nagware",
-            "definition": "Nagware (also known as begware, annoyware or a nagscreen) is a pejorative term for shareware that persistently reminds the user to purchase a license. It usually does this by popping up a message when the user starts the program, or intermittently while the user is using the application. These messages can appear as windows obscuring part of the screen, or as message boxes that can quickly be closed. Some nagware keeps the message up for a certain time period, forcing the user to wait to continue to use the program. Unlicensed programs that support printing may superimpose a watermark on the printed output, typically stating that the output was produced by an unlicensed copy. \n\n Some titles display a dialog box with payment information and a message that paying will remove the notice, which is usually displayed either upon startup or after an interval while the application is running. These notices are designed to annoy the user into paying.",
+            "definition": "Nagware (also known as begware, annoyware or a nagscreen) is a pejorative term for shareware that persistently reminds the user to purchase a license. It usually does this by popping up a message when the user starts the program, or intermittently while the user is using the application. \n\n These messages can appear as windows obscuring part of the screen, or as message boxes that can quickly be closed. Some nagware keeps the message up for a certain time period, forcing the user to wait to continue to use the program. Unlicensed programs that support printing may superimpose a watermark on the printed output, typically stating that the output was produced by an unlicensed copy. \n\n Some titles display a dialog box with payment information and a message that paying will remove the notice, which is usually displayed either upon startup or after an interval while the application is running. These notices are designed to annoy the user into paying.",
             "url": "https://en.wikipedia.org/wiki/Shareware#Nagware",
             "id": 290      
         }, 
@@ -2328,89 +2328,179 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Dangling_pointer",
             "id": 385      
         },
+        {
+            "name": "Framekiller",
+            "definition": "A framekiller (or framebuster or framebreaker) is a technique used by websites and web applications to prevent their web pages from being displayed within a frame. A frame is a subdivision of a Web browser window and can act like a smaller window. A framekiller is usually JavaScript code embedded in a Web page used to prevent a website from being loaded from within a frameset without permission or as an attack, as with clickjacking.",
+            "url": "https://en.wikipedia.org/wiki/Framekiller",
+            "id": 386      
+        },
+        {
+            "name": "Priority queue",
+            "definition": "In computer science, a priority queue is an abstract data-type similar to a regular queue or stack data structure in which each element additionally has a ‘priority’ associated with it. In a priority queue, an element with high priority is served before an element with low priority. In some implementations, if two elements have the same priority, they are served according to the order in which they were enqueued; in other implementations ordering of elements with the same priority remains undefined. \n\n While coders often implement priority queues with heaps, they are conceptually distinct from heaps. A priority queue is a concept like ‘a list’ or ‘a map’; just as a list can be implemented with a linked list or with an array, a priority queue can be implemented with a heap or with a variety of other methods such as an unordered array.",
+            "url": "https://en.wikipedia.org/wiki/Priority_queue",
+            "id": 387      
+        },
+        {
+            "name": "FIFO",
+            "definition": "In computing and in systems theory, FIFO is an acronym for first in, first out (the first in is the first out) is a method for organizing the manipulation of a data structure (often, specifically a data buffer) where the oldest (first) entry, or ‘head’ of the queue, is processed first. \n\n Such processing is analogous to servicing people in a queue area on a first-come, first-served (FCFS) basis, i.e. in the same sequence in which they arrive at the queue's tail. \n\n FCFS is also the jargon term for the FIFO operating system scheduling algorithm, which gives every process central processing unit (CPU) time in the order in which it is demanded. FIFO's opposite is LIFO, last-in-first-out, where the youngest entry or ‘top of the stack’ is processed first. A priority queue is neither FIFO or LIFO but may adopt similar behaviour temporarily or by default. Queueing theory encompasses these methods for processing data structures, as well as interactions between strict-FIFO queues.",
+            "url": "https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)",
+            "id": 388      
+        },
+        {
+            "name": "Fair queuing",
+            "definition": "Fair queuing is a family of scheduling algorithms used in some process and network schedulers. The algorithm is designed to achieve fairness when a limited resource is shared, for example to prevent flows with large packets or processes that generate small jobs from consuming more throughput or CPU time than other flows or processes. \n\n Fair queuing is implemented in some advanced network switches and routers.",
+            "url": "https://en.wikipedia.org/wiki/Fair_queuing",
+            "id": 389      
+        },
+        {
+            "name": "Weighted round robin",
+            "definition": "Weighted round robin (WRR) is a network scheduler for data flows, but also used to schedule processes. \n\n Weighted round robin is a generalisation of round-robin scheduling. It serves a set of queues or tasks. Whereas round-robin cycles over the queues or tasks and gives one service opportunity per cycle, weighted round robin offers to each a fixed number of opportunities, as specified by the configured weight which serves to influence the portion of capacity received by each queue or task. In computer networks, a service opportunity is the emission of one packet, if the selected queue is non-empty. \n\n If all packets have the same size, WRR is the simplest approximation of generalized processor sharing (GPS). Several variations of WRR exist. The main ones are the classical WRR, and the interleaved WRR.",
+            "url": "https://en.wikipedia.org/wiki/Weighted_round_robin",
+            "id": 390      
+        },
+        {
+            "name": "Griddleware",
+            "definition": "Griddleware is grid computing software, which distributes a single problem to multiple computers and assembles the results. \n\n Grid computing is the use of widely distributed computer resources to reach a common goal. A computing grid can be thought of as a distributed system with non-interactive workloads that involve many files. \n\n Grid computing is distinguished from conventional high-performance computing systems such as cluster computing in that grid computers have each node set to perform a different task/application. Grid computers also tend to be more heterogeneous and geographically dispersed (thus not physically coupled) than cluster computers. \n\n Although a single grid can be dedicated to a particular application, commonly a grid is used for a variety of purposes. Grids are often constructed with general-purpose grid middleware software libraries. Grid sizes can be quite large.",
+            "url": "https://www.pcmag.com/encyclopedia/term/griddleware",
+            "id": 391      
+        },
+        {
+            "name": "Gold-chipped supercomputer",
+            "definition": "A reference to chip-enabled credit and debit cards that have superseded the cards that had only magnetic stripes. However, the term is misleading and downright erroneous. There is no more than a few pennies worth of gold in the chip, if that, and the processors used in these cards are low-end microcontrollers that hardly qualify as supercomputers. In fact, they are at the other end of the spectrum.",
+            "url": "https://en.wikipedia.org/wiki/Smart_card",
+            "id": 392      
+        },
+        {
+            "name": "Glocalization",
+            "definition": "(GLObal loCALIZATION) Specializing a website or product for a particular country by translating everything into that language. It also refers to targeting the contents to the culture of the country.",
+            "url": "https://en.wikipedia.org/wiki/Glocalization",
+            "id": 393      
+        },
+        {
+            "name": "Electromagnetic hypersensitivity",
+            "definition": "A claimed sensitivity to and adverse reaction from wireless signals. Also called ‘gadget allergies’, symptoms can be headaches, nausea, ringing in the ear (tinnitus), fatigue, irritability, fainting and pain throughout the body. In order to feel improvement, some people have moved into remote areas; however, it is difficult to avoid wireless signals no matter where one lives on the planet. It remains a controversial subject.",
+            "url": "https://en.wikipedia.org/wiki/Electromagnetic_hypersensitivity",
+            "id": 394      
+        },
+        {
+            "name": "initRD",
+            "definition": "(INITial RAM Disk) The first file system loaded in a Linux operating system. In desktop computers, the initrd is temporary and another ‘root’ file system is loaded. In embedded systems, initrd is the only file system.",
+            "url": "https://en.wikipedia.org/wiki/Initial_ramdisk",
+            "id": 395      
+        },
+        {
+            "name": "Infoxication",
+            "definition": "Information overload (also known as infobesity, infoxication, information anxiety, and information explosion) is the difficulty in understanding an issue and effectively making decisions when one has too much information (TMI) about that issue, and is generally associated with the excessive quantity of daily information. \n\n Information overload can also be a symptom of the high-tech age, where there is (potentially) too much information for one person to absorb in a world of expanding digital technology. Information overload primarily comes from the gigantic amount of content on the Internet, including search engine results, blogs and social media. Web pages bombard the senses with ads, and junk email (spam) adds chaos. Combine the digital information with the traditional sources such as TV, magazines, newsletters and junk postal mail, and information overload is a fact of modern life in the developed world",
+            "url": "https://en.wikipedia.org/wiki/Information_overload",
+            "id": 396      
+        },
+        {
+            "name": "Data smog",
+            "definition": "How information overload from the Internet can make it increasingly difficult to separate fact from fiction. The amount of information and disinformation on the Web and social media grows every year, potentially making the act of separating fact from fiction an arduous task of ever-increasing difficulty.",
+            "url": "https://en.wikipedia.org/wiki/Data_Smog",
+            "id": 397      
+        },
+        {
+            "name": "Idempotent",
+            "definition": "An operation that produces the same results no matter how many times it is performed. For example, a database query that does not change any data in the database is idempotent. \n\n Functions can be designed as idempotent if all that is desired is to ensure a certain operation has been completed. For example, with an idempotent delete function, if a request to delete a file is successfully completed for one program, all subsequent requests to delete that file from other programs would return the same success confirmation message. In a non-idempotent delete function, an error would be returned for the second and subsequent requests indicating that the file was not there.",
+            "url": "https://en.wikipedia.org/wiki/Idempotence",
+            "id": 398      
+        },
+        {
+            "name": "Kludge",
+            "definition": "Spelled ‘kludge’ or ‘kluge’ and pronounced ‘klooj’, it is a workaround or quick-and-dirty solution that is clumsy, inelegant, inefficient, difficult to extend and hard to maintain. This term is used in diverse fields such as computer science, aerospace engineering, Internet slang, evolutionary neuroscience, and government.",
+            "url": "https://en.wikipedia.org/wiki/Kludge",
+            "id": 399      
+        },
+        {
+            "name": "Lazy loading",
+            "definition": "Lazy loading (also known as asynchronous loading) is a design pattern commonly used in computer programming and mostly in web design and development to defer initialization of an object until the point at which it is needed. \n\n It can contribute to efficiency in the program's operation if properly and appropriately used. This makes it ideal in use cases where network content is accessed and initialization times are to be kept at a minimum, such as in the case of web pages. For example, deferring loading of images on a web page until they are needed can make the initial display of the web page faster. The opposite of lazy loading is eager loading.",
+            "url": "https://en.wikipedia.org/wiki/Lazy_loading",
+            "id": 400      
+        },
+        {
+            "name": "Last mile",
+            "definition": "The connection between the customer and the telephone company, cable company or ISP. The last mile has traditionally used copper-based telephone wire or coaxial cable, but optical fiber is increasingly used, and wireless technologies offer an alternative. Also called ‘first mile’.",
+            "url": "https://en.wikipedia.org/wiki/Last_mile_(telecommunications)",
+            "id": 401      
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 386      
+        #     "id": 402     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 387      
+        #     "id": 403     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 388      
+        #     "id": 404     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 389      
+        #     "id": 4      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 390      
+        #     "id": 405      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 391      
+        #     "id": 406      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 392      
+        #     "id": 407      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 393      
+        #     "id": 408      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 394      
+        #     "id": 409      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 395      
+        #     "id": 410      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 396      
+        #     "id": 411     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 397      
+        #     "id": 412     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 398      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 399      
+        #     "id": 4     
         # },
         # {
         #     "name": "",
@@ -2428,7 +2518,31 @@ def return_word():
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
         # },
         # {
         #     "name": "",
@@ -2441,6 +2555,378 @@ def return_word():
         #     "definition": "",
         #     "url": "",
         #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 4      
         # },
         # {
         #     "name": "",
