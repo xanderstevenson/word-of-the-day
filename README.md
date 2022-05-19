@@ -1,5 +1,7 @@
 <h1 align="center">WORD OF THE DAY</h1>
-<h1 align="center">Webex Space and Bot</br> How to Create and Automate a Webex Space</h1>
+<h1 align="center">A Webex Space and Bot</br> How to Create and Automate a Webex Space</h1>
+
+![image](https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Logo-Design.mp4)
 
 <p align="center">Anyone with a Cisco domain account can join the Word of the Day by going here --> (https://eurl.io/#3wNrmU0-1)</p>
 
@@ -95,12 +97,13 @@ I used a variety of resources to find the most cutting-edge terms but without ge
 
 <h4 align="center">Sources (not all-inclusive)</h4>
 
-[Network Programmability and Automation Fundamentals](https://www.ciscopress.com/store/network-programmability-and-automation-fundamentals-9780135183656) from Cisco Press
-[PCMag Encyclopedia](https://www.pcmag.com/encyclopedia)
-[TOP 50 IT & TECHNOLOGY BUZZWORDS 2022 YOU MUST KNOW](https://dataissacred.com/top-50-it-technology-buzzwords-2022-you-must-know/)
-[Software development: Glossary](https://www.techtarget.com/whatis/reference/Software-development-Glossary)
+- [Network Programmability and Automation Fundamentals](https://www.ciscopress.com/store/network-programmability-and-automation-fundamentals-9780135183656) from Cisco Press
+- [PCMag Encyclopedia](https://www.pcmag.com/encyclopedia)
+- [TOP 50 IT & TECHNOLOGY BUZZWORDS 2022 YOU MUST KNOW](https://dataissacred.com/top-50-it-technology-buzzwords-2022-you-must-know/)
+- [Software development: Glossary](https://www.techtarget.com/whatis/reference/Software-development-Glossary)
 
 
-<h3 align="center">__init__.py</h3>
+
+<h3 align="center">Codebase Updates</h3>
 
 I had created an empty __init__.py file in the root directory out of habit. Before Python 3.3 this was done to to make Python treat the directories as containing packages and facilitate importing between modules. From Python 3.3+ Implicit Namespace Packages are supported which allows the creation of a package without an __init__.py file. This however only applies to empty __init__.py files. So empty __init__.py files are no longer necessary and can be omitted.
