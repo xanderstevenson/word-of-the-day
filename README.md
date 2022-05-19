@@ -1,7 +1,7 @@
 <h1 align="center">WORD OF THE DAY</h1>
 <h1 align="center">A Webex Space and Bot</br> How to Create and Automate a Webex Space</h1>
 
-![image](https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Logo-Design.mp4)
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Logo-Design.gif' width="375" height="437" border="10">
 
 <p align="center">Anyone with a Cisco domain account can join the Word of the Day by going here --> (https://eurl.io/#3wNrmU0-1)</p>
 
