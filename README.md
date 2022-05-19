@@ -1,5 +1,5 @@
 <h1 align="center">WORD OF THE DAY</h1>
-<p align="center"><img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Logo-Design.gif' width="300" height="300" border="10"></p>
+<p align="center"><img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Logo-Design.gif' width="150" height="150" border="10"></p>
 <h1 align="center">A Webex Space and Bot</br> How to Create and Automate a Webex Space</h1>
 
 
