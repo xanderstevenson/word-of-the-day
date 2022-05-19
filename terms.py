@@ -236,7 +236,7 @@ def return_word():
         },  
         {
             "name": "Site reliability engineering (SRE)",
-            "definition": "Site reliability engineering (SRE) is a set of principles and practices which incorporates aspects of software engineering and applies them to infrastructure and operations problems.The main goals are to create scalable and highly reliable software systems. Site reliability engineering is closely related to DevOps, a set of practices that combine software development and IT operations, and SRE has also been described as a specific implementation of DevOps. However, while DevOps is focused on getting code to production, SRE ensures that the code running in production works properly.",
+            "definition": "Site reliability engineering (SRE) is a set of principles and practices which incorporates aspects of software engineering and applies them to infrastructure and operations problems.The main goals are to create scalable and highly reliable software systems. \n\n Site reliability engineering is closely related to DevOps, a set of practices that combine software development and IT operations, and SRE has also been described as a specific implementation of DevOps. However, while DevOps is focused on getting code to production, SRE ensures that the code running in production works properly.",
             "url": "https://en.wikipedia.org/wiki/Site_reliability_engineering",
             "id": 37     
         },  
@@ -788,7 +788,7 @@ def return_word():
         }, 
         {
             "name": "Lean software development",
-            "definition": "Lean software development is a translation of lean manufacturing principles and practices to the software development domain. Adapted from the Toyota Production System, it is emerging with the support of a pro-lean subculture within the agile community. Lean offers a solid conceptual framework, values and principles, as well as good practices, derived from experience, that support agile organizations. \n\n Lean development can be summarized by seven principles, very close in concept to lean manufacturing principles: \n\n 1. Eliminate waste \n 2. Amplify learning \n 3. Decide as late as possible \n 4. Deliver as fast as possible \n 5. Empower the team \n 6. Build integrity in \n 7. Optimize the whole \n",
+            "definition": "Lean software development is a translation of lean manufacturing principles and practices to the software development domain. Adapted from the Toyota Production System, it is emerging with the support of a pro-lean subculture within the agile community. Lean offers a solid conceptual framework, values and principles, as well as good practices, derived from experience, that support agile organizations. \n\n Lean development can be summarized by seven principles, very close in concept to lean manufacturing principles: \n\n \n 1. Eliminate waste \n 2. Amplify learning \n 3. Decide as late as possible \n 4. Deliver as fast as possible \n 5. Empower the team \n 6. Build integrity in \n 7. Optimize the whole \n",
             "url": "https://en.wikipedia.org/wiki/Lean_software_development",
             "id": 128      
         }, 
@@ -1496,7 +1496,7 @@ def return_word():
         }, 
         {
             "name": "Sorting",
-            "definition": "n computer science, arranging in an ordered sequence is called ‘sorting’. Sorting is a common operation in many applications, and efficient algorithms to perform it have been developed. \n\n The most common uses of sorted sequences are: \n\n Making lookup or search efficient; \n Making merging of sequences efficient; \n Enable processing of data in a defined order; \n\n Common sorting algorithms: \n\n Bubble/Shell sort: Exchange two adjacent elements if they are out of order. Repeat until array is sorted. \n Insertion sort: Scan successive elements for an out-of-order item, then insert the item in the proper place. \n Selection sort: Find the smallest (or biggest) element in the array, and put it in the proper place. Swap it with the value in the first position. Repeat until array is sorted. \n Quick sort: Partition the array into two segments. In the first segment, all elements are less than or equal to the pivot value. In the second segment, all elements are greater than or equal to the pivot value. Finally, sort the two segments recursively. \n Merge sort: Divide the list of elements in two parts, sort the two parts individually and then merge it. \n\n The opposite of sorting, rearranging a sequence of items in a random or meaningless order, is called shuffling.",
+            "definition": "In computer science, arranging in an ordered sequence is called ‘sorting’. Sorting is a common operation in many applications, and efficient algorithms to perform it have been developed. \n\n The most common uses of sorted sequences are: \n\n 1. Making lookup or search efficient; \n 2. Making merging of sequences efficient; \n 3. Enable processing of data in a defined order; \n\n Common sorting algorithms: \n\n Bubble/Shell sort: Exchange two adjacent elements if they are out of order. Repeat until array is sorted. \n\n Insertion sort: Scan successive elements for an out-of-order item, then insert the item in the proper place. \n\n Selection sort: Find the smallest (or biggest) element in the array, and put it in the proper place. Swap it with the value in the first position. Repeat until array is sorted. \n\n Quick sort: Partition the array into two segments. In the first segment, all elements are less than or equal to the pivot value. In the second segment, all elements are greater than or equal to the pivot value. Finally, sort the two segments recursively. \n\n Merge sort: Divide the list of elements in two parts, sort the two parts individually and then merge it. \n\n The opposite of sorting, rearranging a sequence of items in a random or meaningless order, is called shuffling.",
             "url": "https://en.wikipedia.org/wiki/Sorting",
             "id": 246      
         }, 
@@ -1639,7 +1639,7 @@ def return_word():
             "id": 269      
         }, 
         {
-            "name": "https://en.wikipedia.org/wiki/Blind_signature",
+            "name": "Blind signature",
             "definition": "A method used with digital signatures when the privacy of the sender's message is extremely important and when the signing is applied to the message by a third party rather than the message creator. Before handing the message over for signing, the sender uses a blinding algorithm to scramble the message. A blind signature allows a third party to sign a message and verify that the message came from a particular sender but without them knowing the message contents.",
             "url": "https://en.wikipedia.org/wiki/Blind_signature",
             "id": 270      
@@ -1754,7 +1754,7 @@ def return_word():
         }, 
         {
             "name": "Grid computing",
-            "definition": "Grid computing is the use of widely distributed computer resources to reach a common goal. A computing grid can be thought of as a distributed system with non-interactive workloads that involve many files. Grid computing is distinguished from conventional high-performance computing systems such as cluster computing in that grid computers have each node set to perform a different task/application. Grid computers also tend to be more heterogeneous and geographically dispersed (thus not physically coupled) than cluster computers. Although a single grid can be dedicated to a particular application, commonly a grid is used for a variety of purposes. Grids are often constructed with general-purpose grid middleware software libraries. Grid sizes can be quite large. Grid computing software is sometimes referred to as 'griddleware'",
+            "definition": "Grid computing is the use of widely distributed computer resources to reach a common goal. A computing grid can be thought of as a distributed system with non-interactive workloads that involve many files. Grid computing is distinguished from conventional high-performance computing systems such as cluster computing in that grid computers have each node set to perform a different task/application. \n\n Grid computers also tend to be more heterogeneous and geographically dispersed (thus not physically coupled) than cluster computers. Although a single grid can be dedicated to a particular application, commonly a grid is used for a variety of purposes. Grids are often constructed with general-purpose grid middleware software libraries. Grid sizes can be quite large. Grid computing software is sometimes referred to as 'griddleware’.",
             "url": "https://en.wikipedia.org/wiki/Grid_computing",
             "id": 289      
         }, 
@@ -2466,83 +2466,83 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Microprocessor",
             "id": 408      
         },
+        {
+            "name": "Nomophobia",
+            "definition": "(No Mobile PHOBIA) The anxiety some people feel when they cannot get a signal from a cellphone tower, run out of battery or forget to take their phone.",
+            "url": "https://en.wikipedia.org/wiki/Nomophobia",
+            "id": 409      
+        },
+        {
+            "name": "Neologism",
+            "definition": "A new meaning for an existing word, otherwise known as semantic shifting, or semantic extension. The high-tech field routinely creates new meanings for words. Before 1980, there was no doubt that a ‘mouse’ referred only to a furry rodent. \n\n A neologism may also refer to a relatively recent or isolated term, word, or phrase that may be in the process of entering common use, but that has not been fully accepted into mainstream language. Neologisms are often driven by changes in culture and technology.",
+            "url": "https://en.wikipedia.org/wiki/Neologism",
+            "id": 410      
+        },
+        {
+            "name": "Uniform Resource Identifier (URI)",
+            "definition": "A Uniform Resource Identifier (URI) is a unique sequence of characters that identifies a logical or physical resource used by web technologies. Some URIs provide a means of locating and retrieving information resources on a network (either on the Internet or on another private network, such as a computer filesystem or an Intranet); these are Uniform Resource Locators (URLs), a specific type of URI. Examples of URIs include: \n\n https://john.doe@www.example.com:123/forum/questions/?tag=networking&order=newest#top \n\n mailto:John.Doe@example.com \n\n tel:+1-816-555-1212 \n\n telnet://192.0.2.16:80/",
+            "url": "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier",
+            "id": 411     
+        },
+        {
+            "name": "NaaS",
+            "definition": "(Network as a Service) A communications carrier that leases its network and billing systems to application service providers (ASPs) and other Web service organizations. \n\n NaaS brings software defined networking (SDN), programmable networking and API-based operation to WAN services, transport, hybrid cloud, multi-cloud, Private Network Interconnect, and Internet Exchanges. \n\n Historic definitions focused on fundamental concepts of NaaS including: NaaS describes services for network transport connectivity. NaaS involves the optimization of resource allocations by considering network and computing resources as a unified whole.",
+            "url": "https://en.wikipedia.org/wiki/Network_as_a_service",
+            "id": 412     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 409      
+        #     "id": 413     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 410      
+        #     "id": 414      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 411     
+        #     "id": 415      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 412     
+        #     "id": 416      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 417      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 418      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 419      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 420      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4     
+        #     "id": 421     
         # },
         # {
         #     "name": "",
