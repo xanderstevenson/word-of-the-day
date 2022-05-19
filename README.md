@@ -4,7 +4,7 @@
 <p align="center">Anyone with a Cisco domain account can join the Word of the Day by going here --> (https://eurl.io/#3wNrmU0-1)</p>
 
 </br>
-<p align="center"><h1>How to Create and Automate a Webex Space</h1></p>
+<p align="center"><h1 align="center">How to Create and Automate a Webex Space</h1></p>
 
 
 
