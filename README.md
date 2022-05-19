@@ -3,6 +3,11 @@
 
 <p align="center">Anyone with a Cisco domain account can join the Word of the Day by going here --> (https://eurl.io/#3wNrmU0-1)</p>
 
+<h2 align="center">Intro & Purpose</h2>
+
+Before my career in information technology, I was an educator. I began teaching inner-city kids in a summer camp, where I learned, practiced and taught many valuable lessons, including the importance of having fun and in keeping a positive daily routine. Later, I taught for the government and was inspired by the use of technology to save lives (both government and civilian). This was a catalyst for leading me back to computer technology (I was a programmer and technophile as a child). Finally, after earning a Master's in Education and while teaching aborad, I learned how to utilize Information and Communications Technology (ICT), in a daily routine, in order to transfer knowledge to students, essentially using some of the very technologies which serve to distract them, to teach them and to provide them the tools to teach themsleves.
+
+Daily, incremental presentation of relevant and challenging information is efficient, fun and provides a foundation for learning, communication and confidence which extends beyond the walls of classroom and corporate office alike.
 
 <h2 align="center">Layout and Functionality</h2>
 
@@ -80,6 +85,22 @@ Now we want to connect the Workflow we created with the repo and the code we wan
 
 If everything is setup correctly, the code will run completely and the Webex space will receive a new message. If not, you'll get an email to the address associated with your GitHub account. You can also click on the 'Actions' tab in your code repo and you'll see a detailed description of why your code failed.
 
-  <h2 align="center">Other Considerations</h2>
+<h2 align="center">Other Considerations</h2>
+
+<h3 align="center">Word Choice and Sources</h3>
+
+For this project, words were chosen which are relevant to modern and future technologies. I also deliberately chose words which have cross-functional use in network and software development. Additionally, I chose a mix of words which will be of interest to a wide range of IT professionals, i.e., engineers, managers, human resources personnel, testers, programmers, developers, cybersecurity, etc..
+
+I used a variety of resources to find the most cutting-edge terms but without getting too deep or technical. Neither did I choose words which would be too common or simple. Last but not least, I tried to compile a list of words that will make anyone who uses them sound smart. Well, not really. Actually, humor is a common theme. Trying to hard to sound smart usually has the opposite effect.
+
+<h4 align="center">Sources (not all-inclusive)</h4>
+
+[Network Programmability and Automation Fundamentals](https://www.ciscopress.com/store/network-programmability-and-automation-fundamentals-9780135183656) from Cisco Press
+[PCMag Encyclopedia](https://www.pcmag.com/encyclopedia)
+[TOP 50 IT & TECHNOLOGY BUZZWORDS 2022 YOU MUST KNOW](https://dataissacred.com/top-50-it-technology-buzzwords-2022-you-must-know/)
+[Software development: Glossary](https://www.techtarget.com/whatis/reference/Software-development-Glossary)
+
+
+<h3 align="center">__init__.py</h3>
 
 I had created an empty __init__.py file in the root directory out of habit. Before Python 3.3 this was done to to make Python treat the directories as containing packages and facilitate importing between modules. From Python 3.3+ Implicit Namespace Packages are supported which allows the creation of a package without an __init__.py file. This however only applies to empty __init__.py files. So empty __init__.py files are no longer necessary and can be omitted.

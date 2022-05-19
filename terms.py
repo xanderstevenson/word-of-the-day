@@ -2550,34 +2550,34 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Denial-of-service_attack#Permanent_denial-of-service_attacks",
             "id": 422     
         },
+        {
+            "name": "Query language",
+            "definition": "Query languages, data query languages or database query languages (DQLs) are computer languages used to make queries in databases and information systems. It may be in the form of typed commands such as the widely used Structured Query Language (SQL), a predefined query menu or a query by example (QBE). Query languages are usually included in DBMSs, and stand-alone packages are available for interrogating non-DBMS files.",
+            "url": "https://en.wikipedia.org/wiki/Query_language",
+            "id": 423     
+        },
+        {
+            "name": "Recursion",
+            "definition": "In programming, the ability of a subroutine or program module to call itself. Recursion is used to write routines that solve problems by repeatedly processing the output of the same process.",
+            "url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
+            "id": 424      
+        },
         # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 423     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 424      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
+        #     "name": "Re-entrant code",
+        #     "definition": "A programming routine that can be used by multiple programs simultaneously. It is used in operating systems and other system software as well as in multithreading, where concurrent events are taking place. It is written so that none of its code is modifiable (no values are changed) and it does not keep track of anything. The calling programs keep track of their own progress (variables, flags, etc.), thus one copy of the re-entrant routine can be shared by any number of users or processes. \n\n Conceptually, re-entrant coding is as if several people were each baking a cake from a single copy of a recipe on the wall. Everyone follows the master recipe but keeps track of their individual progress by jotting down the step they are working on so they can pick up where they left off. The master recipe is never disturbed.",
+        #     "url": "https://en.wikipedia.org/wiki/Reentrancy_(computing)",
         #     "id": 425      
         # },
         # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
+        #     "name": "Rasterisation",
+        #     "definition": "Rasterization (or rasterisation) is the task of taking an image described in a vector graphics format (shapes) and converting it into a raster image (a series of pixels, dots or lines, which, when displayed together, create the image which was represented via shapes). \n\n The rasterized image may then be displayed on a computer display, video display or printer, or stored in a bitmap file format. Rasterization may refer to the technique of drawing 3D models, or the conversion of 2D rendering primitives such as polygons, line segments into a rasterized format. \n\n The term is derived from German Raster ('framework, schema'), from the Latin rāstrum, ‘scraper, rake’.",
+        #     "url": "https://en.wikipedia.org/wiki/Rasterisation",
         #     "id": 426      
         # },
         # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
+        #     "name": "Race condition",
+        #     "definition": "A race condition or race hazard is the condition of an electronics, software, or other system where the system's substantive behavior is dependent on the sequence or timing of other uncontrollable events. It becomes a bug when one or more of the possible behaviors is undesirable. \n\n The term race condition was already in use by 1954, for example in David A. Huffman's doctoral thesis ‘The synthesis of sequential switching circuits’. \n\n Race conditions can occur especially in logic circuits, multithreaded, or distributed software programs.",
+        #     "url": "https://en.wikipedia.org/wiki/Race_condition",
         #     "id": 427      
         # },
         # {
