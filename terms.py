@@ -2490,173 +2490,173 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Network_as_a_service",
             "id": 412     
         },
+        {
+            "name": "Orthogonality",
+            "definition": "In computer programming, orthogonality means that operations change just one thing without affecting others. The term is most-frequently used regarding assembly instruction sets, as orthogonal instruction set. \n\n Orthogonality in a programming language means that a relatively small set of primitive constructs can be combined in a relatively small number of ways to build the control and data structures of the language. It is associated with simplicity; the more orthogonal the design, the fewer exceptions. This makes it easier to learn, read and write programs in a programming language. The meaning of an orthogonal feature is independent of context; the key parameters are symmetry and consistency (for example, a pointer is an orthogonal concept).",
+            "url": "https://en.wikipedia.org/wiki/Orthogonality_(programming)",
+            "id": 413     
+        },
+        {
+            "name": "Ordinateur",
+            "definition": "The word ordinateur means ‘organizer’ in French, but it also means ‘computer’. Considering how much a computer is used to organize time and information rather than solving mathematical problems (computing), ‘organizer’ might have been the more accurate word in English. \n\n Although in Latin America the word for computer is ‘computadora’, in Spain it is ‘ordenador’, the same as the French word.",
+            "url": "https://en.wiktionary.org/wiki/ordinateur",
+            "id": 414      
+        },
+        {
+            "name": "Out-of-band data",
+            "definition": "In computer networking, out-of-band (OOB) data is the data transferred through a stream that is independent from the main in-band data stream. An out-of-band data mechanism provides a conceptually independent channel, which allows any data sent via that mechanism to be kept separate from in-band data. The out-of-band data mechanism should be provided as an inherent characteristic of the data channel and transmission protocol, rather than requiring a separate channel and endpoints to be established. The term ‘out-of-band data’ probably derives from out-of-band signaling, as used in the telecommunications industry. \n\n Out-of-band data transmitted with the primary data stream is considered a control signal and demands immediate attention. The receiving side must pass the out-of-band data to the appropriate software routine in front of any other data that has been buffered and not yet processed, because the command must be executed as soon as possible.",
+            "url": "https://en.wikipedia.org/wiki/Out-of-band_data",
+            "id": 415      
+        },
+        {
+            "name": "Onboard intelligence",
+            "definition": "The capability of a device to solve a problem itself without passing the request to another computer in the network. Onboard intelligence also refers to artificial intelligence that's built into a device design, rather than outsourced to remote technology.",
+            "url": "https://www.techopedia.com/definition/33391/onboard-intelligence",
+            "id": 416      
+        },
+        {
+            "name": "OAM multiplexing",
+            "definition": "(Orbital Angular Momentum multiplexing) Transmitting multiple beams (channels) over the same light frequency in an optical fiber. The channels are differentiated based on their spiral rotation (angular momentum).",
+            "url": "https://en.wikipedia.org/wiki/Orbital_angular_momentum_multiplexing",
+            "id": 417      
+        },
+        {
+            "name": "Prosumer",
+            "definition": "A prosumer is an individual who both consumes and produces. The term is a portmanteau of the words producer and consumer. \n\n Prosumers have been defined as ‘individuals who consume and produce value, either for self-consumption or consumption by others, and can receive implicit or explicit incentives from organizations involved in the exchange’. \n\n Research has identified six types of prosumers: DIY prosumers, self-service prosumers, customizing prosumers, collaborative prosumers, monetised prosumers, and economic prosumers. \n\n Identifiable trends and movements outside of the mainstream economy that have adopted prosumer terminology and techniques include: \n\n 1. the open source software movement creates software on their own, prime example is the successful operating system Linux which now dominates the server domain \n\n 2. a Do It Yourself (DIY) approach as a means of economic self-sufficiency or simply as a way to survive on diminished income \n\n 3. Fablab movement, self-fabrication capabilities especially 3d printing \n\n 4. self-sufficient barter networks \n\n 5. the voluntary simplicity movement that seeks personal, social, and environmental goals through prosumer activities such as growing one's own food, repairing clothing and appliances rather than buying new items and playing musical instruments rather than listening to recorded music \n",
+            "url": "https://en.wikipedia.org/wiki/Prosumer",
+            "id": 418      
+        },
+        {
+            "name": "Problem-oriented language",
+            "definition": "A computer language designed to handle a particular class of problem. For example, COBOL was designed for business, FORTRAN for scientific and GPSS for simulation.",
+            "url": "http://www.forth.org/POL.pdf",
+            "id": 419      
+        },
+        {
+            "name": "Primitive data type",
+            "definition": "In computer science, primitive data types are a set of basic data types from which all other data types are constructed. Specifically it often refers to the limited set of data representations in use by a particular processor, which all compiled programs must use. Strings (alphanumeric characters), integers and Boolean (yes/no) are examples of primitive data types. \n\n Most processors support a similar set of primitive data types, although the specific representations vary. More generally ‘primitive data types’ may refer to the standard data types built into a programming language. Data types which are not primitive are referred to as derived or composite data types.",
+            "url": "https://en.wikipedia.org/wiki/Primitive_data_type",
+            "id": 420      
+        },
+        {
+            "name": "Poisson distribution",
+            "definition": "A statistical method developed by the 18th century French mathematician S. D. Poisson, which is used for predicting the probable distribution of a series of events. For example, when the average transaction volume in a communications system can be estimated, Poisson distribution is used to determine the probable minimum and maximum number of transactions that can occur within a given time period.",
+            "url": "https://en.wikipedia.org/wiki/Poisson_distribution",
+            "id": 421     
+        },
+        {
+            "name": "Phlashing",
+            "definition": "Hacking the software in flash memory firmware. Phlashing takes advantages of code vulnerabilities in embedded systems and renders the device inoperable. From ‘flashing’, which means to install an operating system into flash memory. \n\n Phlashing may also refer to a permanent denial of service (DoS) attack that exploits a vulnerability in network-based firmware updates. Such an attack is currently theoretical but if carried out could damage and render the target device inoperable, to the point where its hardware would need to be replaced for it to be usable.",
+            "url": "https://en.wikipedia.org/wiki/Denial-of-service_attack#Permanent_denial-of-service_attacks",
+            "id": 422     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 413     
+        #     "id": 423     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 414      
+        #     "id": 424      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 415      
+        #     "id": 425      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 416      
+        #     "id": 426      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 417      
+        #     "id": 427      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 418      
+        #     "id": 428      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 419      
+        #     "id": 429      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 420      
+        #     "id": 430      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 421     
+        #     "id": 431     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 432     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 433     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 434      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 435      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 436      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 437      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 438      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 439      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
+        #     "id": 440      
         # },
         # {
         #     "name": "",
