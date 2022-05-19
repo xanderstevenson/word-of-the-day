@@ -2562,78 +2562,78 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
             "id": 424      
         },
-        # {
-        #     "name": "Re-entrant code",
-        #     "definition": "A programming routine that can be used by multiple programs simultaneously. It is used in operating systems and other system software as well as in multithreading, where concurrent events are taking place. It is written so that none of its code is modifiable (no values are changed) and it does not keep track of anything. The calling programs keep track of their own progress (variables, flags, etc.), thus one copy of the re-entrant routine can be shared by any number of users or processes. \n\n Conceptually, re-entrant coding is as if several people were each baking a cake from a single copy of a recipe on the wall. Everyone follows the master recipe but keeps track of their individual progress by jotting down the step they are working on so they can pick up where they left off. The master recipe is never disturbed.",
-        #     "url": "https://en.wikipedia.org/wiki/Reentrancy_(computing)",
-        #     "id": 425      
-        # },
-        # {
-        #     "name": "Rasterisation",
-        #     "definition": "Rasterization (or rasterisation) is the task of taking an image described in a vector graphics format (shapes) and converting it into a raster image (a series of pixels, dots or lines, which, when displayed together, create the image which was represented via shapes). \n\n The rasterized image may then be displayed on a computer display, video display or printer, or stored in a bitmap file format. Rasterization may refer to the technique of drawing 3D models, or the conversion of 2D rendering primitives such as polygons, line segments into a rasterized format. \n\n The term is derived from German Raster ('framework, schema'), from the Latin rāstrum, ‘scraper, rake’.",
-        #     "url": "https://en.wikipedia.org/wiki/Rasterisation",
-        #     "id": 426      
-        # },
-        # {
-        #     "name": "Race condition",
-        #     "definition": "A race condition or race hazard is the condition of an electronics, software, or other system where the system's substantive behavior is dependent on the sequence or timing of other uncontrollable events. It becomes a bug when one or more of the possible behaviors is undesirable. \n\n The term race condition was already in use by 1954, for example in David A. Huffman's doctoral thesis ‘The synthesis of sequential switching circuits’. \n\n Race conditions can occur especially in logic circuits, multithreaded, or distributed software programs.",
-        #     "url": "https://en.wikipedia.org/wiki/Race_condition",
-        #     "id": 427      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 428      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 429      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 430      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 431     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 432     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 433     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 434      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 435      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 436      
-        # },
+        {
+            "name": "Re-entrant code",
+            "definition": "A programming routine that can be used by multiple programs simultaneously. It is used in operating systems and other system software as well as in multithreading, where concurrent events are taking place. It is written so that none of its code is modifiable (no values are changed) and it does not keep track of anything. The calling programs keep track of their own progress (variables, flags, etc.), thus one copy of the re-entrant routine can be shared by any number of users or processes. \n\n Conceptually, re-entrant coding is as if several people were each baking a cake from a single copy of a recipe on the wall. Everyone follows the master recipe but keeps track of their individual progress by jotting down the step they are working on so they can pick up where they left off. The master recipe is never disturbed.",
+            "url": "https://en.wikipedia.org/wiki/Reentrancy_(computing)",
+            "id": 425      
+        },
+        {
+            "name": "Rasterisation",
+            "definition": "Rasterization (or rasterisation) is the task of taking an image described in a vector graphics format (shapes) and converting it into a raster image (a series of pixels, dots or lines, which, when displayed together, create the image which was represented via shapes). \n\n The rasterized image may then be displayed on a computer display, video display or printer, or stored in a bitmap file format. Rasterization may refer to the technique of drawing 3D models, or the conversion of 2D rendering primitives such as polygons, line segments into a rasterized format. \n\n The term is derived from German Raster ('framework, schema'), from the Latin rāstrum, ‘scraper, rake’.",
+            "url": "https://en.wikipedia.org/wiki/Rasterisation",
+            "id": 426      
+        },
+        {
+            "name": "Race condition",
+            "definition": "A race condition or race hazard is the condition of an electronics, software, or other system where the system's substantive behavior is dependent on the sequence or timing of other uncontrollable events. It becomes a bug when one or more of the possible behaviors is undesirable. \n\n The term race condition was already in use by 1954, for example in David A. Huffman's doctoral thesis ‘The synthesis of sequential switching circuits’. \n\n Race conditions can occur especially in logic circuits, multithreaded, or distributed software programs.",
+            "url": "https://en.wikipedia.org/wiki/Race_condition",
+            "id": 427      
+        },
+        {
+            "name": "Lint",
+            "definition": "Lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs. The term originates from a Unix utility that examined C language source code. \n\n Lint-like tools are especially useful for dynamically typed languages like JavaScript and Python. Because the compilers of such languages typically do not enforce as many and as strict rules prior to execution, linter tools can also be used as simple debuggers for finding common errors (e.g. syntactic discrepancies) as well as hard-to-find errors such as heisenbugs (drawing attention to suspicious code as ‘possible errors’). Lint-like tools generally perform static analysis of source code. \n\n Lint-like tools have also been developed for other aspects of language, including grammar and style guides.",
+            "url": "https://en.wikipedia.org/wiki/Lint_(software)",
+            "id": 428      
+        },
+        {
+            "name": "Systems programmer",
+            "definition": "In the IT department of a large organization, systems programmers are technical experts on some or all of the computer's system software (operating systems, networks, DBMSs, etc.). They are responsible for the efficient performance of the computer systems. \n\n In a user organization, systems programmers generally do not write applications. However, they may write utility programs that are used behind the scenes and often perform technical tasks that integrate vendors' software. They also act as technical advisors to systems analysts, application programmers and operations personnel. For example, they would know whether additional tasks could be added to the existing hardware and would recommend conversion to new system software (OS, DBMS, etc.) in order to optimize performance. \n\n In mainframe environments, there is typically one systems programmer to 10 or more application programmers, and systems programmers generally enjoy higher salaries. In smaller environments, users rely on vendors or consultants for systems programming assistance. In fact, end users are actually performing systems programmer functions when they install new software or hardware on their own computers.",
+            "url": "https://en.wikipedia.org/wiki/Systems_programming",
+            "id": 429      
+        },
+        {
+            "name": "Spiral development",
+            "definition": "A software development method that combines elements of agile development and the waterfall method, the latter associated with the traditional system development life cycle (SDLC). The spiral method conforms to the SDLC by including version releases and concurrent documentation and testing. However, like the agile method, it provides incremental, staged improvements in functionality.",
+            "url": "https://en.wikipedia.org/wiki/Spiral_model",
+            "id": 430      
+        },
+        {
+            "name": "Five nines",
+            "definition": "Refers to 99.999 percent uptime that many network providers are fond of stating as the reliability of their networks. Whether five nines is truly what is delivered at all times may be debatable, because that means no more than 26 seconds of downtime per month. In any event, five nines means that everything in the datacenter is fully redundant, including AC power, air conditioning, network equipment and computer hardware. \n\n Nines ratings range from a maximum of 72 hours of downtime per month (one nine) to no more than 2.6 milliseconds per month (nine nines).",
+            "url": "https://en.wikipedia.org/wiki/High_availability#Percentage_calculation",
+            "id": 431     
+        },
+        {
+            "name": "6DOF",
+            "definition": "(6 Degrees Of Freedom) The amount of motion supported in a robotics or virtual reality system. Six degrees provides X, Y and Z (horizontal, vertical and depth) and pitch, yaw and roll. Three degrees of freedom (3DOF) provides X, Y and Z only.",
+            "url": "https://en.wikipedia.org/wiki/Six_degrees_of_freedom",
+            "id": 432     
+        },
+        {
+            "name": "Secure code",
+            "definition": "Program source code that is written to withstand attacks. The amount of effort that goes into writing a secure program is substantially greater than writing code without such concern. Normally, programmers deal with a solution to a data processing or transmission task without worrying about every line of code being a potential attack vector.",
+            "url": "https://en.wikipedia.org/wiki/Secure_coding",
+            "id": 433     
+        },
+        {
+            "name": "Software-defined networking (SDN)",
+            "definition": "Software-defined networking (SDN) technology is an approach to network management that enables dynamic, programmatically efficient network configuration in order to improve network performance and monitoring, making it more like cloud computing than traditional network management. \n\n SDN is meant to address the static architecture of traditional networks and attempts to centralize network intelligence in one network component by disassociating the forwarding process of network packets (data plane) from the routing process (control plane). The control plane consists of one or more controllers, which are considered the brain of the SDN network where the whole intelligence is incorporated.",
+            "url": "https://en.wikipedia.org/wiki/Software-defined_networking",
+            "id": 434      
+        },
+        {
+            "name": "Scraping",
+            "definition": "Extracting data from output sent to the screen or printer rather than from the original files or databases. Scraping is a way to obtain data from any source without having access to the original file, but only at the time it is being printed or displayed. Scraping differs from capturing the screen. A screen capture creates an image of the screen, whereas scraping extracts the actual text.",
+            "url": "https://en.wikipedia.org/wiki/Data_scraping",
+            "id": 435      
+        },
+        {
+            "name": "Sanitization",
+            "definition": "To remove sensitive data from an information system, a database or an extract from a database. \n\n The main strategies for erasing personal data from devices are physical destruction, cryptographic erasure, and data erasure. While the term data sanitization may lead some to believe that it only includes data on electronic media, the term also broadly covers physical media, such as paper copies. These data types are termed soft for electronic files and hard for physical media paper copies. Data sanitization methods are also applied for the cleaning of sensitive data, such as through heuristic-based methods, machine-learning based methods, and k-source anonymity.",
+            "url": "https://en.wikipedia.org/wiki/Data_sanitization",
+            "id": 436      
+        },
         # {
         #     "name": "",
         #     "definition": "",
