@@ -2676,36 +2676,36 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Shadow_IT",
             "id": 443     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 444      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 445      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 446      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 447      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 448      
-        # },
+        {
+            "name": "10-foot user interface",
+            "definition": "In computing, 10-foot user interface (’10-foot UI’), also known as a 3-meter user interface (especially for international marketing), is a graphical user interface designed for televisions. Compared to desktop computer and smartphone user interfaces, it uses text and other interface elements which are much larger in order to accommodate a typical television viewing distance of 10 feet (3 meters). Additionally, the limitations of a television's remote control necessitate extra user experience considerations to minimize user effort.",
+            "url": "https://en.wikipedia.org/wiki/10-foot_user_interface",
+            "id": 444      
+        },
+        {
+            "name": "Coupled",
+            "definition": "The degree to which hardware and software components are linked together and dependent upon each other. In programming, coupling refers to the degree of direct knowledge that one component has of another.",
+            "url": "https://en.wikipedia.org/wiki/Loose_coupling#In_programming",
+            "id": 445      
+        },
+        {
+            "name": "Throbber",
+            "definition": "A throbber, also known as a loading icon, is an animated graphical control element used to show that a computer program is performing an action in the background (such as downloading content, conducting intensive calculations or communicating with an external device). In contrast to a progress bar, a throbber does not indicate how much of the action has been completed.",
+            "url": "https://en.wikipedia.org/wiki/Throbber",
+            "id": 446      
+        },
+        {
+            "name": "Upconvert",
+            "definition": "To convert one set of values to a higher set of values. For example, HDTV sets upconvert broadcast TV (480i) and DVD content (480i or 480p) to the highest format the set supports (720p, 1080i or 1080p). A/V receivers also provide upconversion. \n\n Also called ‘upscaling’. In a home theater, the DVD player, A/V receiver and HDTV provide upconversion capabilities. If the units are all of similar quality, it may make little difference which one performs the upconversion. For example, if the HDTV does the best job, the DVD and receiver upconversion can be turned off. Contrast with downconvert.",
+            "url": "https://en.wikipedia.org/wiki/Video_scaler",
+            "id": 447      
+        },
+        {
+            "name": "Unified Computing System (UCS)",
+            "definition": "Cisco Unified Computing System (UCS) is a data center server computer product line composed of server hardware, virtualization support, switching fabric, and management software, introduced in 2009 by Cisco Systems. The products are marketed for scalability by integrating many components of a data center that can be managed as a single unit. \n\n The Cisco fabric interconnects (FI) provide network connectivity for the chassis, blade servers and rack servers connected to it through different speeds of Ethernet and Fibre Channel over Ethernet (FCoE). Management of the system devices is handled by the UCS Manager software integrated with fabric interconnects. \n\n Cisco UCS supports several hypervisors including VMware ESXi, Microsoft Hyper-V and Citrix Systems' Xen server. Virtual machines can be moved from one physical chassis to another, applications may be moved between virtual machines, and management may even be conducted remotely from an iPhone using SiMU - Simple iPhone Management of UCS. In addition to the embedded software, administrators may also manage the system from VMware's vSphere. \n\n In 2017 Cisco announced a partnership with Docker to include its enterprise software in UCS products to directly provide operating-system-level virtualization (containerization). Also in 2017, Cisco announced a cloud-hosted management offering for UCS infrastructure called Cisco Intersight. This platform augmented the UCS management platform.",
+            "url": "https://en.wikipedia.org/wiki/Cisco_Unified_Computing_System",
+            "id": 448      
+        },
         # {
         #     "name": "",
         #     "definition": "",
