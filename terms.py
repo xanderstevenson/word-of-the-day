@@ -2706,42 +2706,42 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Cisco_Unified_Computing_System",
             "id": 448      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 449      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 450      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 451     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 452     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 453     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 454      
-        # },
+        {
+            "name": "Vampire device",
+            "definition": "An electronic device that draws current even though the power switch is turned off. A huge majority of electronic equipment today qualifies as vampire devices because they continue to use electricity to power LEDs as well as perform routine processing. \n\n For example, many AC to DC power adapters use current even though their target devices are turned off. The only way to kill the power to vampire devices is to unplug them from the wall or plug them into a power strip that can be turned off.",
+            "url": "https://www.duke-energy.com/energy-education/energy-savings-and-efficiency/energy-vampires",
+            "id": 449      
+        },
+        {
+            "name": "Virtual appliance",
+            "definition": "A virtual appliance is the software equivalent of a hardware device that performs a fixed set of functions. It is a pre-configured virtual machine image, ready to run on a hypervisor; virtual appliances are a subset of the broader class of software appliances. Installation of a software appliance on a virtual machine and packaging that into an image creates a virtual appliance. \n\n The regular process of deploying a new application in a virtualized computer is to set up a new virtual machine (VM) partition, install the operating system and then the application. The processes are time consuming and configuration mistakes can be made. In contrast, virtual appliance deployment is faster because the appliance image (application and OS) is copied to the virtual machine pre-installed and pre-configured. The application and OS have already been tested together, and running the software is less error prone.",
+            "url": "https://en.wikipedia.org/wiki/Virtual_appliance",
+            "id": 450      
+        },
+        {
+            "name": "Vertical / Horizontal market software",
+            "definition": "Vertical market software packages are designed for a particular industry such as banking, insurance or manufacturing. Horizontal market software packages, on the other hand, such as word processors and spreadsheets, are used in all industries (banking, insurance, etc.). Such products are also called ‘productivity software’.",
+            "url": "https://en.wikipedia.org/wiki/Vertical_market_software",
+            "id": 451     
+        },
+        {
+            "name": "x86",
+            "definition": "The world's predominant hardware platform for laptops, desktops and servers. The x86 line was developed by Intel and includes the Core, Xeon, Pentium, Atom and original 8086 family (hence the ’86’). With an even greater market share than x86, ARM is the hardware platform for mobile devices and appliances (see ARM). \n\n AMD also manufactures x86 CPUs with brands such as Athlon, Sempron and Opteron. Although Intel and AMD are primary sources, x86 chips are also made by others. \n\n The term ‘x86’ may also refer to 32-bits when contrasting 32-bit with 64-bit hardware for Windows PCs (see x64).",
+            "url": "https://en.wikipedia.org/wiki/X86",
+            "id": 452     
+        },
+        {
+            "name": "Proof of stake (PoS)",
+            "definition": "Proof-of-stake (PoS) protocols are a class of consensus mechanisms for blockchains that work by selecting validators in proportion to their quantity of holdings in the associated cryptocurrency. This is done to avoid the computational cost of proof-of-work schemes.",
+            "url": "https://en.wikipedia.org/wiki/Proof_of_stake",
+            "id": 453     
+        },
+        {
+            "name": "Proof of work",
+            "definition": "Proof-of-work (PoW) is a form of cryptographic proof in which one party (the prover) proves to others (the verifiers) that a certain amount of a specific computational effort has been expended. Verifiers can subsequently confirm this expenditure with minimal effort on their part.",
+            "url": "https://en.wikipedia.org/wiki/Proof_of_work",
+            "id": 454      
+        },
         # {
         #     "name": "",
         #     "definition": "",
@@ -2752,205 +2752,205 @@ def return_word():
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 456      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 457      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 458      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 459      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 460      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 461     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 462     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 463     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 464      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 465      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 466      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 467      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 468      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 469      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 470      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 471     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 472     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 473     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 474      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 475      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 476      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 477      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 478      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 479      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 480      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 481     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 482     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 483     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 484      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 485      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 486      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 487      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 488      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 489      
         # },
 
 

@@ -108,6 +108,16 @@ I used a variety of resources to find the most cutting-edge terms but without ge
 - [Software development: Glossary](https://www.techtarget.com/whatis/reference/Software-development-Glossary)
 
 
+<h3 align="center">Transform Wikipedia Article to MP3 Files</h3>
+
+By clicking on the 'Learn More' button on each Word of the Day message, users are taken to a webpage which will provide an even deeper definition. The vadt majority of the time, this will be a Wikipedia article. Personally, I plan on reading the entire article so that I can truly grok each term.
+
+A colleague of ours at Cisco, John Capobianco, has developed a package called wikitrola, which will transform any Wikipedia page into an MP3 file. 
+
+- [wikitrola](https://pypi.org/project/wiktrola/): package on PyPI
+- [wiktrola - Transform Any Wikipedia Article into MP3](https://www.youtube.com/watch?v=HbHaZRWq3_I): instruction video on YouTube
+
+If you have neither the time, patience nor desire to read the Wikipedia article, just use wikitrola and you can listen to it while multitasking or relaxing.
 
 <h3 align="center">Codebase Updates</h3>
 
