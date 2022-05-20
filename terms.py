@@ -2634,119 +2634,119 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Data_sanitization",
             "id": 436      
         },
+        {
+            "name": "Softlifting",
+            "definition": "Making illegal copies of purchased software for a few family members or friends. Also called ‘softloading’, it is software piracy on a small scale per transaction, and it is often thought to cause little harm. However, because softlifting is so common, it greatly contributes to the total damage brought about by software piracy worldwide.",
+            "url": "https://en.wikipedia.org/wiki/Copyright_infringement",
+            "id": 437      
+        },
+        {
+            "name": "Simplex",
+            "definition": "One way transmission. Contrast with half-duplex (both directions, but one at a time) and full-duplex (both directions simultaneously).",
+            "url": "https://en.wikipedia.org/wiki/Simplex_communication",
+            "id": 438      
+        },
+        {
+            "name": "Shovelware",
+            "definition": "The many ‘extra’ programs pre-installed on some PCs that offer little value (they are ‘shoveled’ in without regard to quality). Shovelware first appeared in the late 1980s when tons of shareware programs were copied onto CD-ROMs and advertised in magazines or sold at computer flea markets. The term also applies to multiple software titles sold as a bundle. Shovelware is often geared to first-time buyers, who think they are getting more for their money.",
+            "url": "https://en.wikipedia.org/wiki/Shovelware",
+            "id": 439      
+        },
+        {
+            "name": "Shoulder surfing",
+            "definition": "Looking over someone's shoulder to obtain passwords, PINs and other security codes being entered. Often performed with binoculars, ATMs and other data entry terminals may make it more difficult by requiring a 90 degree viewing angle to read the screen or moving the digit keys around on touchscreens",
+            "url": "https://en.wikipedia.org/wiki/Shoulder_surfing_(computer_security)",
+            "id": 440      
+        },
+        {
+            "name": "Shim",
+            "definition": "Software that allows an older version of a program, framework or protocol to use the newer updated version, or vice versa. A shim is often a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself or redirects the operation elsewhere. Shims can also be used for running programs on different software platforms than they were developed for.",
+            "url": "https://en.wikipedia.org/wiki/Shim_(computing)",
+            "id": 441     
+        },
+        {
+            "name": "Polyfill",
+            "definition": "In web development, a polyfill is code that implements a feature on web browsers that do not support the feature. Most often, it refers to a JavaScript library that implements an HTML5 or CSS web standard, either an established standard (supported by some browsers) on older browsers, or a proposed standard (not supported by any browsers) on existing browsers. \n\n Polyfills allow web developers to use an API regardless of whether or not it is supported by a browser, and usually with minimal overhead. Typically they first check if a browser supports an API, and use it if available, otherwise using their own implementation. Polyfills themselves use other, more supported features, and thus different polyfills may be needed for different browsers. The term is also used as a verb: polyfilling is providing a polyfill for a feature.",
+            "url": "https://en.wikipedia.org/wiki/Polyfill_(programming)",
+            "id": 442     
+        },
+        {
+            "name": "Shadow IT",
+            "definition": "In big organizations, shadow IT refers to information technology (IT) systems deployed by departments other than the central IT department, to work around the perceived or actual shortcomings of the central information systems. Shadow IT often introduces security and compliance concerns. \n\n Shadow IT may also refer to employees selecting their own software applications, especially from a cloud provider (SaaS). The internal IT department is either not aware of the application or does not oversee the software in any manner.",
+            "url": "https://en.wikipedia.org/wiki/Shadow_IT",
+            "id": 443     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 437      
+        #     "id": 444      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 438      
+        #     "id": 445      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 439      
+        #     "id": 446      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 440      
+        #     "id": 447      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 448      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 449      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4     
+        #     "id": 450      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 451     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 452     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 453     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
+        #     "id": 454      
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 4      
+        #     "id": 455      
         # },
         # {
         #     "name": "",
