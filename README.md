@@ -115,7 +115,7 @@ By clicking on the 'Learn More' button on each Word of the Day message, users ar
 A colleague of ours at Cisco, John Capobianco, has developed a package called wikitrola, which will transform any Wikipedia page into an MP3 file. 
 
 - [wikitrola](https://pypi.org/project/wiktrola/): package on PyPI
-- [wiktrola - Transform Any Wikipedia Article into MP3](https://www.youtube.com/watch?v=HbHaZRWq3_I): instruction video on YouTube
+- [wiktrola - Transform Any Wikipedia Article into MP3](https://www.youtube.com/watch?v=HbHaZRWq3_I): instructional video on YouTube
 
 If you have neither the time, patience nor desire to read the Wikipedia article, just use wikitrola and you can listen to it while multitasking or relaxing.
 
