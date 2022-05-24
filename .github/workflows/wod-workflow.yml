@@ -4,7 +4,7 @@
     
  on:
    schedule:
-     - cron: "*/30 * * * *" #runs every 30 minutes
+     - cron: "0 16 * * *" #runs every day at 1600 UTC
 
  jobs:
    build:
