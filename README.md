@@ -7,14 +7,19 @@
 <p align="center"><h1 align="center">How to Create and Automate a Webex Space</h1></p>
 
 
-
-
-
 <h2 align="center">Intro & Purpose</h2>
+<h3 align="center">Intro</h3>
+
 
 Before my career in information technology, I was an educator. I began teaching inner-city kids in a summer camp, where I learned, practiced and taught many valuable lessons, including the importance of having fun and in keeping a positive daily routine. Later, I taught for the government and was inspired by the use of technology to save lives (both government and civilian). This was a catalyst for leading me back to computer technology (I was a programmer and technophile as a child). Finally, after earning a Master's in Education and while teaching aborad, I learned how to utilize Information and Communications Technology (ICT), in a daily routine, in order to transfer knowledge to students, essentially using some of the very technologies which serve to distract them, to teach them and to provide them the tools to teach themsleves.
 
 Daily, incremental presentation of relevant and challenging information is efficient, fun and provides a foundation for learning, communication and confidence which extends beyond the walls of classroom and corporate office alike.
+
+
+<h3 align="center">Purpose</h3>
+
+This project describes how to create a Webex bot which posts to a Webex space you have created. Adaptive Cards will be used to design the message the bot will post. knowledge of Python is necessary in order to program the bot, message and space details. GitHub Secrets, Actions and Workflows will be utilized to automate exactly what and when the bot posts.
+
 
 <h2 align="center">Layout and Functionality</h2>
 
