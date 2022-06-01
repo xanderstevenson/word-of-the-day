@@ -1604,7 +1604,7 @@ def return_word():
         }, 
         {
             "name": "Fiber Bragg grating",
-            "definition": "A fiber Bragg grating (FBG) is a type of distributed Bragg reflector constructed in a short segment of optical fiber that reflects particular wavelengths of light and transmits all others. This is achieved by creating a periodic variation in the refractive index of the fiber core, which generates a wavelength-specific dielectric mirror. Hence a fiber Bragg grating can be used as an inline optical fiber to block certain wavelengths, can be used for sensing applications, or it can be used as wavelength-specific reflector.",
+            "definition": "A Fiber Bragg grating (FBG) is a type of distributed Bragg reflector constructed in a short segment of optical fiber that reflects particular wavelengths of light and transmits all others. This is achieved by creating a periodic variation in the refractive index of the fiber core, which generates a wavelength-specific dielectric mirror. Hence a fiber Bragg grating can be used as an inline optical fiber to block certain wavelengths, can be used for sensing applications, or it can be used as wavelength-specific reflector.",
             "url": "https://en.wikipedia.org/wiki/Fiber_Bragg_grating",
             "id": 264      
         }, 
@@ -2742,72 +2742,72 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Proof_of_work",
             "id": 454      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 455      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 456      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 457      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 458      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 459      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 460      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 461     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 462     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 463     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 464      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 465      
-        # },
+        {
+            "name": "Escape character",
+            "definition": "In computing and telecommunication, an escape character is a character that invokes an alternative interpretation on the following characters in a character sequence. An escape character is a particular case of metacharacters. Generally, the judgement of whether something is an escape character or not depends on the context. \n\n In the telecommunications field, escape characters are used to indicate that the following characters are encoded differently. This is used to alter control characters that would otherwise be noticed and acted on by the underlying telecommunications hardware. In this context, the use of escape characters is often referred to as quoting. \n\n An escape character may not have its own meaning, so all escape sequences are of two or more characters. Escape characters are part of the syntax for many programming languages, data formats, and communication protocols. For a given alphabet an escape character's purpose is to start character sequences (so named escape sequences), which have to be interpreted differently from the same characters occurring without the prefixed escape character. \n\n For example, in many programming languages, an escape character also forms some escape sequences which are referred to as control characters. For example, line break, or newline, has an escape sequence of '\\n'.",
+            "url": "https://en.wikipedia.org/wiki/Escape_character",
+            "id": 455      
+        },
+        {
+            "name": "Indexed vs. Associative arrays",
+            "definition": "An array is a collection of objects that contain a group of variables stored under the same name. All the elements belong to the same data type, i.e. string, integers, or lists. Keys are unique in the case of both indexed and associative arrays. \n\n An indexed array uses indexes to identify its elements. An associative array uses keys to identify its elements. \n\n Indexed arrays store and assign values in a numeric fashion with count starting from zero. It is basically an array wherein each of the keys is associated with its own specific value. \n\n An associative array is stored in the form of key-value pair. This type of array is where the key is stored in the numeric or string format. In an associative array, the association between a key and a value is often known as a ‘mapping’, and the same word mapping may also be used to refer to the process of creating a new association. \n\n The basic approach to building a multi-dimensional array is the same whether it's a normal, indexed array or uses associative indexing. Essentially, you assign an array as the value of an array element. The development of an associative multi-dimensional array is a little more complex, because the keys are often not the ordered integers you find in an indexed array.",
+            "url": "https://en.wikipedia.org/wiki/Associative_array",
+            "id": 456      
+        },
+        {
+            "name": "Relational operator",
+            "definition": "In computer science, a relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3). \n\n In programming languages that include a distinct boolean data type in their type system, like Pascal, Ada, or Java, these operators usually evaluate to true or false, depending on if the conditional relationship between the two operands holds or not. In languages such as C, relational operators return the integers 0 or 1, where 0 stands for false and any non-zero value stands for true. \n\n An expression created using a relational operator forms what is termed a relational expression or a condition.",
+            "url": "https://en.wikipedia.org/wiki/Relational_operator",
+            "id": 457      
+        },
+        {
+            "name": "Hyperconverged infrastructure (HCI)",
+            "definition": "Hyperconverged infrastructure combines compute, storage, and networking in a single system and is used frequently in data centers. Enterprises can choose an appliance from a single vendor or install hardware-agnostic hyperconvergence software on white-box servers.",
+            "url": "https://en.wikipedia.org/wiki/Hyper-converged_infrastructure",
+            "id": 458      
+        },
+        {
+            "name": "Secure access service edge (SASE)",
+            "definition": "Secure access service edge (SASE) is a network architecture that rolls software-defined wide area networking (SD-WAN) and security into a cloud service that promises simplified WAN deployment, improved efficiency and security, and to provide appropriate bandwidth per application.",
+            "url": "https://en.wikipedia.org/wiki/Secure_access_service_edge",
+            "id": 459      
+        },
+        {
+            "name": "alt tag",
+            "definition": "The alt attribute, or alt tag, is the HTML attribute used in HTML and XHTML documents to specify alternative text (alt text) that is to be rendered when the element to which it is applied cannot be rendered. \n\n The alt attribute is used by ‘screen reader’ software so that a person who is listening to the content of a webpage (for instance, a person who is blind) can interact with this element. Additionally, it substitutes the image when copy-pasted as text and makes images more machine-readable, which improves search engine optimization. Every image should have an alt attribute to be accessible, but it need not contain text. It can be an empty or null attribute: alt=‘’.",
+            "url": "https://en.wikipedia.org/wiki/Alt_attribute",
+            "id": 460      
+        },
+        {
+            "name": "Minimum viable product (MVP)",
+            "definition": "The most pared-down version of a product that can be released to the market. When adopting this approach, developers will focus on the core features and functions that are essential. Once the product is released and user feedback is gathered, they will continue to build the complete set of features.",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product",
+            "id": 461     
+        },
+        {
+            "name": "Bounding box",
+            "definition": "The bounding box of an element is the smallest possible rectangle (aligned with the axes of that element's user coordinate system) that entirely encloses it and its descendants.",
+            "url": "https://en.wikipedia.org/wiki/Minimum_bounding_box",
+            "id": 462     
+        },
+        {
+            "name": "Constructor",
+            "definition": "In class-based object-oriented programming, a constructor (abbreviation: ctor) is a special type of subroutine called to create an object. It prepares the new object for use, often accepting arguments that the constructor uses to set required member variables.",
+            "url": "https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)",
+            "id": 463     
+        },
+        {
+            "name": "Artifact",
+            "definition": "An artifact is one of many kinds of tangible by-products produced during the development of software. Some artifacts (e.g., use cases, class diagrams, and other Unified Modeling Language (UML) models, requirements and design documents) help describe the function, architecture, and design of software. Other artifacts are concerned with the process of development itself—such as project plans, business cases, and risk assessments.",
+            "url": "https://en.wikipedia.org/wiki/Artifact_(software_development)",
+            "id": 464      
+        },
+        {
+            "name": "Branching",
+            "definition": "Branching, in version control and software configuration management, is the duplication of an object under version control (such as a source code file or a directory tree). Each object can thereafter be modified separately and in parallel so that the objects become different. In this context the objects are called branches. The users of the version control system can branch any branch. \n\n Branches are also known as trees, streams or codelines. The originating branch is sometimes called the parent branch, the upstream branch (or simply upstream, especially if the branches are maintained by different organizations or individuals), or the backing stream.",
+            "url": "https://en.wikipedia.org/wiki/Branching_(version_control)",
+            "id": 465      
+        },
         # {
         #     "name": "",
         #     "definition": "",
