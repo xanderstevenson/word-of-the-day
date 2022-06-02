@@ -115,7 +115,7 @@ I used a variety of resources to find the most cutting-edge terms but without ge
 
 <h3 align="center">Transform Wikipedia Article to MP3 Files</h3>
 
-By clicking on the 'Learn More' button on each Word of the Day message, users are taken to a webpage which will provide an even deeper definition. The vadt majority of the time, this will be a Wikipedia article. Personally, I plan on reading the entire article so that I can truly grok each term.
+By clicking on the 'Learn More' button on each Word of the Day message, users are taken to a webpage which will provide an even deeper definition. The vast majority of the time, this will be a Wikipedia article. Personally, I plan on reading the entire article so that I can truly grok each term.
 
 A colleague of ours at Cisco, John Capobianco, has developed a package called wikitrola, which will transform any Wikipedia page into an MP3 file. 
 
