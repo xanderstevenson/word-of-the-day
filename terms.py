@@ -2808,30 +2808,30 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Branching_(version_control)",
             "id": 465      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 466      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 467      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 468      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 469      
-        # },
+        {
+            "name": "Management, control and data planes",
+            "definition": "These terms are abstract logical concepts to describe network operations. \n\n The management plane consists of all the functions you use to control and monitor devices. They are mostly logical concepts but SDN (Software Defined Networking) separates them into actual devices. Network programmability involves manipulating the management plane. \n\n The control plane is the part of a network that carries signaling traffic and is responsible for routing. This includes the routing protocols such as Spanning Tree Protocol (STP), Address Resolution Protocol (ARP), Routing Information Protocol (RIP), Dynamic Host Configuration Protocol (DHCP) etc. \n\n The data plane refers to all the functions and processes that forward packets/frames from one interface to another. This includes decrementing Time To Live (TTL), recomputing IP header checksums, decapsulation/encapsulation etc. Sometimes referred to as the forwarding plane.",
+            "url": "https://en.wikipedia.org/wiki/Control_plane",
+            "id": 466      
+        },
+        {
+            "name": "Encapsulation",
+            "definition": "Encapsulation is a technical term with a different meaning depending on if it is used in reference to network or software engineering. \n\n In computer networking, encapsulation is a method of designing modular communication protocols in which logically separate functions in the network are abstracted from their underlying structures by inclusion or information hiding within higher-level objects. In other words, encapsulation ‘takes information from a higher layer and adds a header to it, treating the higher layer information as data’. \n\n In object-oriented programming (OOP) languages, and other related fields, encapsulation refers to one of two related but distinct notions, and sometimes to the combination thereof: \n\n - A language mechanism for restricting direct access to some of the object's components. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing direct access to them by clients in a way that could expose hidden implementation details or violate state invariance maintained by the methods. \n\n - A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.",
+            "url": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)",
+            "id": 467      
+        },
+        {
+            "name": "Object-oriented analysis and design (OOAD)",
+            "definition": "Object-oriented analysis and design (OOAD) is the process of gathering software requirements and developing specifications in terms of a system’s object model and interactions. It is a technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process to guide stakeholder communication and product quality. \n\n OOAD in modern software engineering is typically conducted in an iterative and incremental way. The outputs of OOAD activities are analysis models (for OOA) and design models (for OOD) respectively. The intention is for these to be continuously refined and evolved, driven by key factors like risks and business value.",
+            "url": "https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design",
+            "id": 468      
+        },
+        {
+            "name": "Inheritance", 
+            "definition": "In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation. Using inheritance, a subclass can access the properties and functions of the base class (parent class) it is derived from and can also override those functions or properties. There are different levels and ways to implement inheritance in programming languages: \n\n Single inheritance: A class is inherited from just its parent class \n\n Multiple inheritance: A class is derived from more than one parent class \n\n Multi-level inheritance: A class in inherited from a child class. For example, class C is inherited from a derived class B, which is inherited from parent class A. \n\n Hierarchical inheritance: Multiple child classes or subclasses inherit properties from the same parent class.",
+            "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)",
+            "id": 469      
+        },
         # {
         #     "name": "",
         #     "definition": "",

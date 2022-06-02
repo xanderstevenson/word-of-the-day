@@ -18,7 +18,7 @@ Daily, incremental presentation of relevant and challenging information is effic
 
 <h3 align="center">Purpose</h3>
 
-This project describes how to create a Webex bot which posts to a Webex space you have created. Adaptive Cards will be used to design the message the bot will post. knowledge of Python is necessary in order to program the bot, message and space details. GitHub Secrets, Actions and Workflows will be utilized to automate exactly what and when the bot posts.
+This project describes how to create a Webex bot which posts to a Webex space you have created. Adaptive Cards will be used to design the message the bot will post. Knowledge of Python is necessary in order to program the bot, message and space details. GitHub Secrets, Actions and Workflows will be utilized to automate exactly what and when the bot posts.
 
 
 <h2 align="center">Layout and Functionality</h2>
