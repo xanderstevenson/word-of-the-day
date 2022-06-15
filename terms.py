@@ -1657,7 +1657,7 @@ def return_word():
             "id": 272      
         }, 
         {
-            "name": "A binary large object (BLOB or blob)",
+            "name": "Binary large object (BLOB or blob)",
             "definition": "A binary large object (BLOB or blob) is a collection of binary data stored as a single entity. Blobs are typically images, audio or other multimedia objects, though sometimes binary executable code is stored as a blob. They can exist as persistent values inside some databases or version control system, or exist at runtime as program variables in some programming languages. It is not to be confused with a binary file stored in a file system. \n\n Depending on the implementation and culture around usage, the concept might be alternately referred to as a ‘basic large object’ or ‘binary data type’. The term is used in NoSQL databases, especially in key-value store databases such as Redis. The term is also used by languages that allow runtime manipulation of Blobs, like JavaScript.  \n\n In the world of free and open-source software, the term is also borrowed to refer to proprietary device drivers, which are distributed without their source code, exclusively through binary code; in such use, the term ‘binary blob’ is common. \n\n Contrast with CLOB (Character Large OBject) A database field that holds a large amount of text (character data). A CLOB is also known as a ‘memo field’ in some database programs. ",
             "url": "https://en.wikipedia.org/wiki/Binary_large_object",
             "id": 273      
@@ -1958,7 +1958,7 @@ def return_word():
         },
         {
             "name": "Error correcting code (ECC)",
-            "definition": "In computing, telecommunication, information theory, and coding theory, an error correction code, sometimes error correcting code, (ECC) is used for controlling errors in data over unreliable or noisy communication channels.[1][2] The central idea is the sender encodes the message with redundant information in the form of an ECC. The redundancy allows the receiver to detect a limited number of errors that may occur anywhere in the message, and often to correct these errors without retransmission. The American mathematician Richard Hamming pioneered this field in the 1940s and invented the first error-correcting code in 1950: the Hamming (7,4) code. \n\n ECC contrasts with error detection in that errors that are encountered can be corrected, not simply detected. The advantage is that a system using ECC does not require a reverse channel to request retransmission of data when an error occurs. The downside is that there is a fixed overhead that is added to the message, thereby requiring a higher forward-channel bandwidth. ECC is therefore applied in situations where retransmissions are costly or impossible, such as one-way communication links and when transmitting to multiple receivers in multicast. Long-latency connections also benefit; in the case of a satellite orbiting around Uranus, retransmission due to errors can create a delay of five hours. ECC information is usually added to mass storage devices to enable recovery of corrupted data, is widely used in modems, and is used on systems where the primary memory is ECC memory.",
+            "definition": "In computing, telecommunication, information theory, and coding theory, an error correction code, sometimes error correcting code (ECC), is used for controlling errors in data over unreliable or noisy communication channels. The central idea is the sender encodes the message with redundant information in the form of an ECC. The redundancy allows the receiver to detect a limited number of errors that may occur anywhere in the message, and often to correct these errors without retransmission. The American mathematician Richard Hamming pioneered this field in the 1940s and invented the first error-correcting code in 1950: the Hamming (7,4) code. \n\n ECC contrasts with error detection in that errors that are encountered can be corrected, not simply detected. The advantage is that a system using ECC does not require a reverse channel to request retransmission of data when an error occurs. The downside is that there is a fixed overhead that is added to the message, thereby requiring a higher forward-channel bandwidth. ECC is therefore applied in situations where retransmissions are costly or impossible, such as one-way communication links and when transmitting to multiple receivers in multicast. Long-latency connections also benefit; in the case of a satellite orbiting around Uranus, retransmission due to errors can create a delay of five hours. ECC information is usually added to mass storage devices to enable recovery of corrupted data, is widely used in modems, and is used on systems where the primary memory is ECC memory.",
             "url": "https://en.wikipedia.org/wiki/Error_correction_code",
             "id": 323      
         },
@@ -2832,18 +2832,18 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)",
             "id": 469      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 470      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 471     
-        # },
+        {
+            "name": "Lexical analysis",
+            "definition": "In computer science, lexical analysis, lexing or tokenization is the process of converting a sequence of characters (such as in a computer program or web page) into a sequence of lexical tokens (strings with an assigned and thus identified meaning). A program that performs lexical analysis may be termed a lexer, tokenizer, or scanner, although scanner is also a term for the first stage of a lexer. A lexer is generally combined with a parser, which together analyze the syntax of programming languages, web pages, and so forth.",
+            "url": "https://en.wikipedia.org/wiki/Lexical_analysis",
+            "id": 470      
+        },
+        {
+            "name": "Dynamic typing vs. static typing",
+            "definition": "There are two main differences between dynamic typing and static typing. \n\n First, dynamically-typed languages perform type checking at runtime, while statically typed languages perform type checking at compile time. This means that scripts written in dynamically-typed languages can compile even if they contain errors that will prevent the script from running properly (if at all). If a script written in a statically-typed language contains errors, it will fail to compile until the errors have been fixed. \n\n Second, statically-typed languages require you to declare the data types of your variables before you use them, while dynamically-typed languages do not. Thus, a variable in a dynamically typed language can be reassigned to different data types.",
+            "url": "https://en.wikipedia.org/wiki/Type_system#Type_checking",
+            "id": 471     
+        },
         # {
         #     "name": "",
         #     "definition": "",
