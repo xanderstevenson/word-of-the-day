@@ -2844,36 +2844,36 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Type_system#Type_checking",
             "id": 471     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 472     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 473     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 474      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 475      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 476      
-        # },
+        {
+            "name": "Cliff effect",
+            "definition": "In telecommunications, the (digital) cliff effect or brickwall effect is a sudden loss of digital signal reception. Unlike analog signals, which gradually fade when signal strength decreases or electromagnetic interference or multipath increases, a digital signal provides data which is either perfect or non-existent at the receiving end. It is named for a graph of reception quality versus signal quality, where the digital signal ‘falls off a cliff’ instead of having a gradual rolloff.",
+            "url": "https://en.wikipedia.org/wiki/Cliff_effect",
+            "id": 472     
+        },
+        {
+            "name": "Control flow",
+            "definition": "In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. The emphasis on explicit control flow distinguishes an imperative programming language from a declarative programming language. \n\n Within an imperative programming language, a control flow statement is a statement that results in a choice being made as to which of two or more paths to follow. For non-strict functional languages, functions and language constructs exist to achieve the same result, but they are usually not termed control flow statements.",
+            "url": "https://en.wikipedia.org/wiki/Control_flow",
+            "id": 473     
+        },
+        {
+            "name": "Microframework",
+            "definition": "A microframework is a term used to refer to minimalistic web application frameworks. It is contrasted with full-stack frameworks. \n\n It lacks most of the functionality which is common to expect in a full-fledged web application framework, such as: \n\n • Accounts, authentication, authorization, roles \n • Database abstraction via an object-relational mapping \n • Input validation and input sanitation \n •	Web template engine \n\n Typically, a microframework facilitates receiving an HTTP request, routing the HTTP request to the appropriate controller, dispatching the controller, and returning an HTTP response. Microframeworks are often specifically designed for building the APIs for another service or application.",
+            "url": "https://en.wikipedia.org/wiki/Microframework",
+            "id": 474      
+        },
+        {
+            "name": "Unified API",
+            "definition": "A Unified API combines APIs for multiple providers and gives you a single API to access all their endpoints. It is a ‘meta’ data model designed to enable developers to talk to many other systems’ APIs through one interface. \n\n A Unified API aggregates many APIs in the same software category, making integration easier with a standard endpoint, authentication, and normalized data. This results in a consistent developer experience with less integration hassle. \n\n A good unified API has three things: normalization, flexibility, and transparency.",
+            "url": "https://blog.apideck.com/what-is-a-unified-api",
+            "id": 475      
+        },
+        {
+            "name": "Code on demand",
+            "definition": "In distributed computing, code on demand is any technology that sends executable software code from a server computer to a client computer upon request from the client's software. Some well-known examples of the code on demand paradigm on the web are Java applets, Adobe's ActionScript language for the Flash Player, and JavaScript. \n\n The program code lies inactive on a web server until a user (client) requests a web page that contains a link to the code using the client's web browser. Upon this request, the web page and the program are transported to the user's machine using HTTP. When the page is displayed, the code is started in the browser and executes locally, inside the user's computer until it is stopped (e.g., by the user leaving the web page). \n\n Code on demand is a specific use of mobile code, within the field of code mobility.",
+            "url": "https://en.wikipedia.org/wiki/Code_on_demand",
+            "id": 476      
+        },
         # {
         #     "name": "",
         #     "definition": "",
