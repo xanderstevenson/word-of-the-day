@@ -1,6 +1,5 @@
 import random
 
-
 ##                        ATTENTION DEVELOPERS!!
 ##     Hi, please add new definitions to the end of the list. 
 ##     A Wikipedia entry is the default url unless it is lacking, absent or clearly outdone.
@@ -1898,7 +1897,7 @@ def return_word():
         },
         {
             "name": "Baseband",
-            "definition": "Electronic data in their original form. Baseband refers to analog or digital data before being intermixed with other data (multiplexing and modulation). \n\n For example, the output of an analog microphone is baseband. When an FM station's carrier frequency is stripped away in the radio (demodulated), the original audio signal that you hear is the baseband signal. (frequency modulation). \n\n Ethernet transmission is considered baseband, because signals are not intermixed and occupy the full bandwidth of the line. In fact, ‘base’ is part of the Ethernet version name (see 10Base-T and 100Base-T). \n\n When a compressed digital audio signal such as MP3 is transcoded to another format, it is decompressed back to the original bit rate (the baseband signal) before it is compressed into the new format (baseband processing).",
+            "definition": "Electronic data in their original form. Baseband refers to analog or digital data before being intermixed with other data (multiplexing and modulation). \n\n For example, the output of an analog microphone is baseband. When an FM station's carrier frequency is stripped away in the radio (demodulated), the original audio signal that you hear is the baseband signal (frequency modulation). \n\n Ethernet transmission is considered baseband, because signals are not intermixed and occupy the full bandwidth of the line. In fact, ‘base’ is part of the Ethernet version name (see 10Base-T and 100Base-T). \n\n When a compressed digital audio signal such as MP3 is transcoded to another format, it is decompressed back to the original bit rate (the baseband signal) before it is compressed into the new format (baseband processing).",
             "url": "https://en.wikipedia.org/wiki/Baseband",
             "id": 313      
         },
@@ -2874,60 +2873,60 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Code_on_demand",
             "id": 476      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 477      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 478      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 479      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 480      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 481     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 482     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 483     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 484      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 485      
-        # },
+        {
+            "name": "Brownfield",
+            "definition": "Brownfield development is a term commonly used in the information technology industry to describe problem spaces needing the development and deployment of new software systems in the immediate presence of existing (legacy) software applications/systems. This implies that any new software architecture must take into account and coexist with live software already in situ. \n\n Brownfield development adds a number of improvements to conventional software engineering practices. These traditionally assume a "clean sheet of paper" or "greenfield land" target environment throughout the design and implementation phases of software development. Brownfield extends such traditions by insisting that the context (local landscape) of the system being created be factored into any development exercise. This requires a detailed knowledge of the systems, services and data in the immediate vicinity of the solution under construction.",
+            "url": "https://en.wikipedia.org/wiki/Brownfield_(software_development)",
+            "id": 477      
+        },
+        {
+            "name": "In situ",
+            "definition": "In computer science an in situ operation is one that occurs without interrupting the normal state of a system. For example, a file backup may be restored over a running system, without needing to take the system down to perform the restore. In the context of a database, a restore would allow the database system to continue to be available to users while a restore happened. An in situ upgrade would allow an operating system, firmware or application to be upgraded while the system was still running, perhaps without the need to reboot it, depending on the sophistication of the system. \n\n Another use of the term in-situ that appears in Computer Science focuses primarily on the use of technology and user interfaces to provide continuous access to situationally relevant information in various locations and contexts. Examples include athletes viewing biometric data on smartwatches to improve their performance, a presenter looking at tips on a smart glass to reduce their speaking rate during a speech, or technicians receiving online and stepwise instructions for repairing an engine.",
+            "url": "https://en.wikipedia.org/wiki/In_situ#Computer_science",
+            "id": 478      
+        },
+        {
+            "name": "WebSocket",
+            "definition": "WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. The current API specification allowing web applications to use this protocol is known as WebSockets. It is a living standard maintained by the WHATWG and a successor to The WebSocket API from the W3C. \n\n WebSocket is distinct from HTTP. Both protocols are located at layer 7 in the OSI model and depend on TCP at layer 4. Although they are different, RFC 6455 states that WebSocket ‘is designed to work over HTTP ports 443 and 80 as well as to support HTTP proxies and intermediaries’, thus making it compatible with HTTP. To achieve compatibility, the WebSocket handshake uses the HTTP Upgrade header to change from the HTTP protocol to the WebSocket protocol. \n\n The WebSocket protocol enables interaction between a web browser (or other client application) and a web server with lower overhead than half-duplex alternatives such as HTTP polling, facilitating real-time data transfer from and to the server. This is made possible by providing a standardized way for the server to send content to the client without being first requested by the client, and allowing messages to be passed back and forth while keeping the connection open. In this way, a two-way ongoing conversation can take place between the client and the server. The communications are usually done over TCP port number 443 (or 80 in the case of unsecured connections), which is beneficial for environments that block non-web Internet connections using a firewall. \n\n Most browsers support the WebSocket protocol.",
+            "url": "https://en.wikipedia.org/wiki/WebSocket",
+            "id": 479      
+        },
+        {
+            "name": "Network socket",
+            "definition": "A network socket is a software structure within a network node of a computer network that serves as an endpoint for sending and receiving data across the network. The structure and properties of a socket are defined by an application programming interface (API) for the networking architecture. Sockets are created only during the lifetime of a process of an application running in the node. \n\n Because of the standardization of the TCP/IP protocols in the development of the Internet, the term network socket is most commonly used in the context of the Internet protocol suite, and is therefore often also referred to as Internet socket. In this context, a socket is externally identified to other hosts by its socket address, which is the triad of transport protocol, IP address, and port number. \n\n The term socket is also used for the software endpoint of node-internal inter-process communication (IPC), which often uses the same API as a network socket.",
+            "url": "https://en.wikipedia.org/wiki/Network_socket",
+            "id": 480      
+        },
+        {
+            "name": "Service-oriented architecture",
+            "definition": "In software engineering, SOA (service-oriented architecture) is an architectural style that focus on discrete services instead of a monolithic design. By consequence, it is as well applied in the field of software design where services are provided to the other components by application components, through a communication protocol over a network. A service is a discrete unit of functionality that can be accessed remotely and acted upon and updated independently, such as retrieving a credit card statement online. SOA is also intended to be independent of vendors, products and technologies. \n\n Service orientation is a way of thinking in terms of services and service-based development and the outcomes of services. \n\n A service has four properties according to one of many definitions of SOA: \n\n 1. It logically represents a repeatable business activity with a specified outcome. \n 2. It is self-contained. \n 3. It is a black box for its consumers, meaning the consumer does not have to be aware of the service's inner workings. \n 4. It may be composed of other services. \n\n Different services can be used in conjunction as a service mesh to provide the functionality of a large software application, a principle SOA shares with modular programming. Service-oriented architecture integrates distributed, separately maintained and deployed software components. It is enabled by technologies and standards that facilitate components' communication and cooperation over a network, especially over an IP network. \n\n SOA is related to the idea of an API (application programming interface), an interface or communication protocol between different parts of a computer program intended to simplify the implementation and maintenance of software. An API can be thought of as the service, and the SOA the architecture that allows the service to operate.",
+            "url": "https://en.wikipedia.org/wiki/Service-oriented_architecture",
+            "id": 481     
+        },
+        {
+            "name": "AI winter",
+            "definition": "In the history of artificial intelligence, an AI winter is a period of reduced funding and interest in artificial intelligence research. The term was coined by analogy to the idea of a nuclear winter. The field has experienced several hype cycles, followed by disappointment and criticism, followed by funding cuts, followed by renewed interest years or decades later. \n\n Enthusiasm and optimism about AI has generally increased since its low point in the early 1990s. Beginning about 2012, interest in artificial intelligence (and especially the sub-field of machine learning) from the research and corporate communities led to a dramatic increase in funding and investment.",
+            "url": "https://en.wikipedia.org/wiki/AI_winter",
+            "id": 482     
+        },
+        {
+            "name": "Expert system",
+            "definition": "In artificial intelligence, an expert system is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural code. The first expert systems were created in the 1970s and then proliferated in the 1980s. Expert systems were among the first truly successful forms of artificial intelligence (AI) software. \n\n An expert system is divided into two subsystems: the inference engine and the knowledge base. The knowledge base represents facts and rules. The inference engine applies the rules to the known facts to deduce new facts. Inference engines can also include explanation and debugging abilities.",
+            "url": "https://en.wikipedia.org/wiki/Expert_system",
+            "id": 483     
+        },
+        {
+            "name": "Initialization vector (IV)",
+            "definition": "In cryptography, an initialization vector (IV) or starting variable (SV) is an input to a cryptographic primitive being used to provide the initial state. The IV is typically required to be random or pseudorandom, but sometimes an IV only needs to be unpredictable or unique. Randomization is crucial for some encryption schemes to achieve semantic security, a property whereby repeated usage of the scheme under the same key does not allow an attacker to infer relationships between (potentially similar) segments of the encrypted message. For block ciphers, the use of an IV is described by the modes of operation.",
+            "url": "https://en.wikipedia.org/wiki/Initialization_vector",
+            "id": 484      
+        },
+        {
+            "name": "Block Cipher vs Stream Cipher",
+            "definition": "Block and stream ciphers are two ways that you can encrypt data. Also known as bulk ciphers, they’re two categories of symmetric encryption algorithms. (Reminder: with symmetric encryption, you use the same key to encrypt and decrypt data.) Block and stream ciphers are two separate routes to the same end goal of securing your data. The big difference between the two is how the data gets encrypted — and there are advantages and disadvantages to each method — and the types of environments they operate in. \n\n A block cipher breaks down plaintext messages into fixed-size blocks before converting them into ciphertext using a key. A stream cipher, on the other hand, breaks a plaintext message down into single bits, which then are converted individually into ciphertext using key bits.",
+            "url": "https://www.thesslstore.com/blog/block-cipher-vs-stream-cipher/",
+            "id": 485      
+        },
         # {
         #     "name": "",
         #     "definition": "",
