@@ -1,9 +1,11 @@
 import random
 
 ##                        ATTENTION DEVELOPERS!!
+
 ##     Hi, please add new definitions to the end of the list. 
 ##     A Wikipedia entry is the default url unless it is lacking, absent or clearly outdone.
 
+##     Use SINGLE QUOTES inside the "definition" if quotes are needed. Double quotes nested inside double quotes will throw an error when run.
 
 
 def return_word():
@@ -2059,7 +2061,7 @@ def return_word():
         },
         {
             "name": "Qi (standard)",
-            "definition": "Pronounced ‘chee’ from Chinese, meaning ‘life force’, Developed by the Wireless Power Consortium (WPC) (www.wirelesspowerconsortium.com), Qi is an open interface standard that defines wireless power transfer methods from. Introduced in 2009, Qi is based on ‘closely coupled’ electromagnetic induction that requires the device to be aligned on top of the coil on the charging pad.  \n\n Under development at the WPC are a ‘medium-coupled’ version of Qi that operates at a distance of up to approximately 15mm and a loosely-coupled version (Qi 3D) that can be up to 50mm apart. Typical applications are in vehicles and for mounting under table and desktop surfaces. Hundreds of devices are are already Qi certified, including Google Nexus and Samsung phones. Loosely coupled products not certified by the WPC have also been announced.",
+            "definition": "Pronounced ‘chee’ from Chinese, meaning ‘life force’, Developed by the Wireless Power Consortium (WPC) (www.wirelesspowerconsortium.com), Qi is an open interface standard that defines wireless power transfer methods. Introduced in 2009, Qi is based on ‘closely coupled’ electromagnetic induction that requires the device to be aligned on top of the coil on the charging pad.  \n\n Under development at the WPC are a ‘medium-coupled’ version of Qi that operates at a distance of up to approximately 15mm and a loosely-coupled version (Qi 3D) that can be up to 50mm apart. Typical applications are in vehicles and for mounting under table and desktop surfaces. Hundreds of devices are are already Qi certified, including Google Nexus and Samsung phones. Loosely coupled products not certified by the WPC have also been announced.",
             "url": "https://en.wikipedia.org/wiki/Qi_(standard)",
             "id": 340      
         },
@@ -2112,8 +2114,8 @@ def return_word():
             "id": 348      
         },
         {
-            "name": "POSIX (Portable Operating System Interface))",
-            "definition": "The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system- and user-level application programming interfaces (API), along with command line shells and utility interfaces, for software compatibility (portability) with variants of Unix and other operating systems. POSIX is also a trademark of the IEEE. POSIX is intended to be used by both application and system developers.",
+            "name": "POSIX (Portable Operating System Interface)",
+            "definition": "The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system-level and user-level application programming interfaces (API), along with command line shells and utility interfaces, for software compatibility (portability) with variants of Unix and other operating systems. POSIX is also a trademark of the IEEE. POSIX is intended to be used by both application and system developers.",
             "url": "https://en.wikipedia.org/wiki/POSIX",
             "id": 349      
         },
@@ -2927,48 +2929,48 @@ def return_word():
             "url": "https://www.thesslstore.com/blog/block-cipher-vs-stream-cipher/",
             "id": 485      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 486      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 487      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 488      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 489      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 489      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 490      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 491      
-        # },
+        {
+            "name": "Combinatorial explosion",
+            "definition": "In mathematics, a combinatorial explosion is the rapid growth of the complexity of a problem due to how the combinatorics of the problem is affected by the input, constraints, and bounds of the problem. Combinatorial explosion is sometimes used to justify the intractability of certain problems. Examples of such problems include certain mathematical functions, the analysis of some puzzles and games, and some pathological examples which can be modelled as the Ackermann function.",
+            "url": "https://en.wikipedia.org/wiki/Combinatorial_explosion",
+            "id": 486      
+        },
+        {
+            "name": "Kolmogorov complexity",
+            "definition": "In algorithmic information theory (a subfield of computer science and mathematics), the Kolmogorov complexity of an object, such as a piece of text, is the length of a shortest computer program (in a predetermined programming language) that produces the object as output. It is a measure of the computational resources needed to specify the object, and is also known as algorithmic complexity, Solomonoff–Kolmogorov–Chaitin complexity, program-size complexity, descriptive complexity, or algorithmic entropy. It is named after Andrey Kolmogorov, who first published on the subject in 1963.",
+            "url": "https://en.wikipedia.org/wiki/Kolmogorov_complexity",
+            "id": 487      
+        },
+        {
+            "name": "Inductive reasoning",
+            "definition": "Inductive reasoning is a method of reasoning in which a body of observations is considered to derive a general principle. It consists of making broad generalizations based on specific observations. Inductive reasoning is distinct from deductive reasoning. If the premises are correct, the conclusion of a deductive argument is certain; in contrast, the truth of the conclusion of an inductive argument is probable, based upon the evidence given.",
+            "url": "https://en.wikipedia.org/wiki/Inductive_reasoning#cite_note-1",
+            "id": 488      
+        },
+        {
+            "name": "Bayes' theorem",
+            "definition": "In probability theory and statistics, Bayes' theorem (alternatively Bayes' law or Bayes' rule; recently Bayes–Price theorem), named after Thomas Bayes, describes the probability of an event, based on prior knowledge of conditions that might be related to the event. For example, if the risk of developing health problems is known to increase with age, Bayes' theorem allows the risk to an individual of a known age to be assessed more accurately (by conditioning it on their age) than simply assuming that the individual is typical of the population as a whole. \n\n One of the many applications of Bayes' theorem is Bayesian inference, a particular approach to statistical inference. When applied, the probabilities involved in the theorem may have different probability interpretations. With Bayesian probability interpretation, the theorem expresses how a degree of belief, expressed as a probability, should rationally change to account for the availability of related evidence. Bayesian inference is fundamental to Bayesian statistics, being considered ‘to the theory of probability what Pythagoras's theorem is to geometry.’",
+            "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
+            "id": 489      
+        },
+        {
+            "name": "Posterior probability",
+            "definition": "The posterior probability is a type of conditional probability that results from updating the prior probability with information summarized by the likelihood, through an application of Bayes' theorem. From an epistemological perspective, the posterior probability contains everything there is to know about an uncertain proposition (such as a scientific hypothesis, or parameter values), given prior knowledge and a mathematical model describing the observations available at a particular time. After the arrival of new information, the current posterior probability may serve as the prior in another round of Bayesian updating. \n\n In the context of Bayesian statistics, the posterior probability distribution usually describes the epistemic uncertainty about statistical parameters conditional on a collection of observed data. From a given posterior distribution, various point and interval estimates can be derived, such as the maximum a posteriori (MAP) or the highest posterior density interval (HPDI). But while conceptually simple, the posterior distribution is generally not tractable and therefore needs to be either analytically or numerically approximated.",
+            "url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "id": 489      
+        },
+        {
+            "name": "Monte Carlo method",
+            "definition": "Monte Carlo methods, or Monte Carlo experiments, are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. The underlying concept is to use randomness to solve problems that might be deterministic in principle. They are often used in physical and mathematical problems and are most useful when it is difficult or impossible to use other approaches. Monte Carlo methods are mainly used in three problem classes: optimization, numerical integration, and generating draws from a probability distribution. \n\n In principle, Monte Carlo methods can be used to solve any problem having a probabilistic interpretation. By the law of large numbers, integrals described by the expected value of some random variable can be approximated by taking the empirical mean (a.k.a. the sample mean) of independent samples of the variable. \n\n Despite its conceptual and algorithmic simplicity, the computational cost associated with a Monte Carlo simulation can be staggeringly high. In general the method requires many samples to get a good approximation, which may incur an arbitrarily large total runtime if the processing time of a single sample is high. Although this is a severe limitation in very complex problems, the embarrassingly parallel nature of the algorithm allows this large cost to be reduced (perhaps to a feasible level) through parallel computing strategies in local processors, clusters, cloud computing, GPU, FPGA etc.",
+            "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "id": 490      
+        },
+        {
+            "name": "John McCarthy",
+            "definition": "",
+            "url": "John McCarthy (September 4, 1927 – October 24, 2011) was an American computer scientist and cognitive scientist. He was one of the founders of the discipline of artificial intelligence. He co-authored the document that coined the term ‘artificial intelligence’ (AI), developed the programming language family Lisp, significantly influenced the design of the language ALGOL, popularized time-sharing, and invented garbage collection. \n\n Several Key Theme’s in McCarthy’s Work \n\n - The idea that the world can be represented symbolically for a machine and reasoned about by that machine. \n - The division of the AI problem into two parts: epistemological (representation) and heuristic (search). \n - The importance of formal (mathematical) representation, particularly the use of logic for representation. \n - The use of reification—the conceptual turning of abstract structures (such as situations) into concrete instances that can be reasoned about. The situation calculus, where the state of the universe is compressed into a single constant, is an example of such reification. \n - The development of abstract and general mechanisms (proof checkers, logic, circumscription, common sense) in contrast with domain-specific tools and languages. \n - The relatively complete analysis of artificial domains (programming languages, puzzles, chess) instead of a (necessarily) incomplete analysis of natural situations. \n - The importance of environments for interactive exploration. This is illustrated not so much by an explicit campaign position of McCarthy's as by the systems whose creation he led, such as the AI lab, Lisp, and timesharing. \n\n Awards and honors \n\n - Turing Award from the Association for Computing Machinery (1971) \n - Kyoto Prize (1988) \n - National Medal of Science (USA) in Mathematical, Statistical, and Computational Sciences (1990) \n - Inducted as a Fellow of the Computer History Museum ‘for his co-founding of the fields of Artificial Intelligence (AI) and timesharing systems, and for major contributions to mathematics and computer science’. (1999) \n - Benjamin Franklin Medal in Computer and Cognitive Science from the Franklin Institute (2003) \n - Inducted into IEEE Intelligent Systems' AI's Hall of Fame (2011), for the ‘significant contributions to the field of AI and intelligent systems’.",
+            "id": 491      
+        },
         # {
         #     "name": "",
         #     "definition": "",
