@@ -2971,24 +2971,24 @@ def return_word():
             "url": "John McCarthy (September 4, 1927 – October 24, 2011) was an American computer scientist and cognitive scientist. He was one of the founders of the discipline of artificial intelligence. He co-authored the document that coined the term ‘artificial intelligence’ (AI), developed the programming language family Lisp, significantly influenced the design of the language ALGOL, popularized time-sharing, and invented garbage collection. \n\n Several Key Theme’s in McCarthy’s Work \n\n - The idea that the world can be represented symbolically for a machine and reasoned about by that machine. \n - The division of the AI problem into two parts: epistemological (representation) and heuristic (search). \n - The importance of formal (mathematical) representation, particularly the use of logic for representation. \n - The use of reification—the conceptual turning of abstract structures (such as situations) into concrete instances that can be reasoned about. The situation calculus, where the state of the universe is compressed into a single constant, is an example of such reification. \n - The development of abstract and general mechanisms (proof checkers, logic, circumscription, common sense) in contrast with domain-specific tools and languages. \n - The relatively complete analysis of artificial domains (programming languages, puzzles, chess) instead of a (necessarily) incomplete analysis of natural situations. \n - The importance of environments for interactive exploration. This is illustrated not so much by an explicit campaign position of McCarthy's as by the systems whose creation he led, such as the AI lab, Lisp, and timesharing. \n\n Awards and honors \n\n - Turing Award from the Association for Computing Machinery (1971) \n - Kyoto Prize (1988) \n - National Medal of Science (USA) in Mathematical, Statistical, and Computational Sciences (1990) \n - Inducted as a Fellow of the Computer History Museum ‘for his co-founding of the fields of Artificial Intelligence (AI) and timesharing systems, and for major contributions to mathematics and computer science’. (1999) \n - Benjamin Franklin Medal in Computer and Cognitive Science from the Franklin Institute (2003) \n - Inducted into IEEE Intelligent Systems' AI's Hall of Fame (2011), for the ‘significant contributions to the field of AI and intelligent systems’.",
             "id": 491      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 492      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 493      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 494      
-        # },
+        {
+            "name": "Vendor lock-in",
+            "definition": "In economics, vendor lock-in, also known as proprietary lock-in or customer lock-in, makes a customer dependent on a vendor for products, unable to use another vendor without substantial switching costs. \n\n The use of open standards and alternative options makes systems tolerant of change, so that decisions can be postponed until more information is available or unforeseen events are addressed. Vendor lock-in does the opposite: it makes it difficult to move from one solution to another. \n\n Lock-in costs that create barriers to market entry may result in antitrust action against a monopoly. \n\n Related to vendor lock-in is the concept of technology lock-in, which is a non-monopoly (mere technology), collective (on a society level) kind of lock-in: \n\n Technological lock-in is the idea that the more a society adopts a certain technology, the more unlikely users are to switch. \n\n Examples of technology lock-in: \n\n - The continued prevalence of the QWERTY keyboard layout is said to be caused by technological lock-in. \n Carbon lock-in is the theory that society has become reliant on carbon intensive technologies, thereby hindering renewable energy commercialization. \n Converting one lossy file format into another incurs a generation loss that reduces quality. This is in effect a switching cost. Therefore, if valuable content is encoded in the format, this creates a need for continued compatibility with it.",
+            "url": "https://en.wikipedia.org/wiki/Vendor_lock-in",
+            "id": 492      
+        },
+        {
+            "name": "Bill shock",
+            "definition": "In telecommunications, bill shock is the negative reaction a subscriber can experience if their bill has unexpected charges. Bill shock can happen when, for example, a user grossly overuses data applications without an appropriate data plan, or uses a mobile device while roaming (whether domestically or internationally) without understanding the voice or data roaming charges involved. \n\n Bill shock is the most common compelling event to start managing cloud costs. How to avoid cloud bill shock: \n\n 1. Lock it down. Restrict management console access to a select few individuals and put in a process that routes requests for additions and modifications through to these people. \n 2. Use the monitoring tools and enable monitoring alerts. \n 3. Review your bills regularly.",
+            "url": "https://harness.io/blog/continuous-efficiency-capabilities",
+            "id": 493      
+        },
+        {
+            "name": "Data sovereignty",
+            "definition": "Data sovereignty is the idea that data are subject to the laws and governance structures within the nation it is collected. The concept of data sovereignty is closely linked with data security, cloud computing, network sovereignty and technological sovereignty. As part of Canada's IT strategy for the years 2016–2020, data localization measures were discussed as a way to uphold citizens' privacy. \n\n  A common criticism of data sovereignty brought forward by corporate actors is that it impedes and has the potential to destroy processes in cloud computing. Since cloud storage might be dispersed and disseminated in a variety of locations at any given time, it is argued that governance of cloud computing is difficult under data sovereignty laws. For example, data held in the cloud may be illegal in some jurisdictions but legal in others. \n\n According to Professor Susan Ariel Aaronson, research professor and director of the Digital Trade and Data Governance Hub at George Washington University, governments are seeking to regulate the commercial use of personal data without enacting clear rules governing public sector use. The hoarding of data by nations or firms may reduce data generativity and the public benefits of data analysis. \n\n With the rise of cloud computing, many countries have passed various laws around control and storage of data, which all reflects measures of data sovereignty. More than 100 countries have some sort of data sovereignty laws in place. With self-sovereign identity (SSI) the individual identity holders can fully create and control their credentials, although a nation can still issue a digital identity in that paradigm.",
+            "url": "https://en.wikipedia.org/wiki/Data_sovereignty",
+            "id": 494      
+        },
         # {
         #     "name": "",
         #     "definition": "",
