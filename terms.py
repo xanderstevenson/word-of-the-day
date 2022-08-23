@@ -182,7 +182,7 @@ def return_word():
         },       
         {
             "name": "Bare-metal server",
-            "definition": "a physical computer server that is used by one consumer, or tenant, only.[1] Each server offered for rental is a distinct physical piece of hardware that is a functional server on its own. They are not virtual servers running in multiple pieces of shared hardware.",
+            "definition": "a physical computer server that is used by one consumer, or tenant, only. Each server offered for rental is a distinct physical piece of hardware that is a functional server on its own. They are not virtual servers running in multiple pieces of shared hardware.",
             "url": "https://en.wikipedia.org/wiki/Bare-metal_server",
             "id": 28       
         },       
@@ -681,7 +681,7 @@ def return_word():
         },        
         {
             "name": "Driver",
-            "definition": "In computing, a device driver is a computer program that operates or controls a particular type of device that is attached to a computer or automaton.[1] A driver provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used. \n\n A driver communicates with the device through the computer bus or communications subsystem to which the hardware connects. When a calling program invokes a routine in the driver, the driver issues commands to the device (drives it). Once the device sends data back to the driver, the driver may invoke routines in the original calling program. \n\n Drivers are hardware dependent and operating-system-specific. They usually provide the interrupt handling required for any necessary asynchronous time-dependent hardware interface. \n\n Previously, we have been describing a hardware device driver. Now, a driver in software provides a programming interface to control and manage specific lower level interfaces that are often linked to a specific type of hardware, or other low-level service. In the case of hardware, the specific subclass of drivers controlling physical or virtual hardware devices are known as device drivers. E.g., a client library for connecting to a database is often known as a driver, for example the MySQL native driver for PHP.",
+            "definition": "In computing, a device driver is a computer program that operates or controls a particular type of device that is attached to a computer or automaton. A driver provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used. \n\n A driver communicates with the device through the computer bus or communications subsystem to which the hardware connects. When a calling program invokes a routine in the driver, the driver issues commands to the device (drives it). Once the device sends data back to the driver, the driver may invoke routines in the original calling program. \n\n Drivers are hardware dependent and operating-system-specific. They usually provide the interrupt handling required for any necessary asynchronous time-dependent hardware interface. \n\n Previously, we have been describing a hardware device driver. Now, a driver in software provides a programming interface to control and manage specific lower level interfaces that are often linked to a specific type of hardware, or other low-level service. In the case of hardware, the specific subclass of drivers controlling physical or virtual hardware devices are known as device drivers. E.g., a client library for connecting to a database is often known as a driver, for example the MySQL native driver for PHP.",
             "url": "https://en.wikipedia.org/wiki/Device_driver",
             "id": 111     
         },        
@@ -1245,7 +1245,7 @@ def return_word():
         }, 
         {
             "name": "Path",
-            "definition": "A path is a string of characters used to uniquely identify a location in a directory structure. It is composed by following the directory tree hierarchy in which components, separated by a delimiting character, represent each directory. The delimiting character is most commonly the slash (‘/‘), the backslash character (‘\’), or colon (‘:’), though some operating systems may use a different delimiter. Paths are used extensively in computer science to represent the directory/file relationships common in modern operating systems and are essential in the construction of Uniform Resource Locators (URLs). Resources can be represented by either absolute or relative paths. \n\n An absolute or full path points to the same location in a file system, regardless of the current working directory. To do that, it must include the root directory. By contrast, a relative path starts from some given working directory, avoiding the need to provide the full absolute path. A filename can be considered as a relative path based at the current working directory. If the working directory is not the file's parent directory, a file not found error will result if the file is addressed by its name.",
+            "definition": "A path is a string of characters used to uniquely identify a location in a directory structure. It is composed by following the directory tree hierarchy in which components, separated by a delimiting character, represent each directory. The delimiting character is most commonly the slash (‘/‘), the backslash character ('\’), or colon (‘:’), though some operating systems may use a different delimiter. Paths are used extensively in computer science to represent the directory/file relationships common in modern operating systems and are essential in the construction of Uniform Resource Locators (URLs). Resources can be represented by either absolute or relative paths. \n\n An absolute or full path points to the same location in a file system, regardless of the current working directory. To do that, it must include the root directory. By contrast, a relative path starts from some given working directory, avoiding the need to provide the full absolute path. A filename can be considered as a relative path based at the current working directory. If the working directory is not the file's parent directory, a file not found error will result if the file is addressed by its name.",
             "url": "https://en.wikipedia.org/wiki/Path_(computing)",
             "id": 204      
         }, 
@@ -1269,7 +1269,7 @@ def return_word():
         }, 
         {
             "name": "Array vs. List",
-            "definition": "Array \n\n In computer science, an array type is a data type that represents a collection of elements (values or variables), each selected by one or more indices (identifying keys) that can be computed at run time during program execution. Such a collection is usually called an array variable, array value, or simply array. By analogy with the mathematical concepts vector and matrix, array types with one and two indices are often called vector type and matrix type, respectively. More generally, a multidimensional array type can be called a tensor type. \n\n List \n\n In computer science, a list or sequence is an abstract data type that represents a finite number of ordered values, where the same value may occur more than once. An instance of a list is a computer representation of the mathematical concept of a tuple or finite sequence; the (potentially) infinite analog of a list is a stream. Lists are a basic example of containers, as they contain other values. If the same value occurs multiple times, each occurrence is considered a distinct item. \n\n Similarities between Lists and Arrays \n\n They can look the same: [3,4,3,6,3]. Both are used for storing data. Both are mutable. Both can be indexed and iterated through. Both can be sliced \n\n Differences \n\n The main difference between these two data types is the operation you can perform on them. Arrays are specially optimized for arithmetic computations so if you’re going to perform similar operations you should consider using an array instead of a list. Lists are easier to modify while arrays are more difficult. In comparison to the list, an array has a more compact in-memory size. List memory allocation is dynamic and random, while array memory allocation is static and continuous. Also lists are containers for elements having differing data types (heterogeneous) but arrays are used as containers for elements of the same data type (homogeneous).",
+            "definition": "Array \n\n In computer science, an array type is a data type that represents a collection of elements (values or variables), each selected by one or more indices (identifying keys) that can be computed at run time during program execution. Such a collection is usually called an array variable, array value, or simply array. By analogy with the mathematical concepts vector and matrix, array types with one and two indices are often called vector type and matrix type, respectively. More generally, a multidimensional array type can be called a tensor type. \n\n List \n\n In computer science, a list or sequence is an abstract data type that represents a finite number of ordered values, where the same value may occur more than once. An instance of a list is a computer representation of the mathematical concept of a tuple or finite sequence; the (potentially) infinite analog of a list is a stream. Lists are a basic example of containers, as they contain other values. If the same value occurs multiple times, each occurrence is considered a distinct item. \n\n Similarities between Lists and Arrays \n\n They can look the same: [3,4,3,6,3]. Both are used for storing data. Both are mutable. Both can be indexed and iterated through. Both can be sliced. \n\n Differences \n\n The main difference between these two data types is the operations you can perform on them. Arrays are specially optimized for arithmetic computations so if you’re going to perform similar operations you should consider using an array instead of a list. Lists are easier to modify while arrays are more difficult. In comparison to the list, an array has a more compact in-memory size. List memory allocation is dynamic and random, while array memory allocation is static and continuous. Also, lists are containers for elements having differing data types (heterogeneous) but arrays are used as containers for elements of the same data type (homogeneous).",
             "url": "https://learnpython.com/blog/python-array-vs-list/",
             "id": 208      
         }, 
@@ -1436,7 +1436,7 @@ def return_word():
             "id": 235      
         }, 
         {
-            "name": "Surface-mount technology",
+            "name": "Surface-mount technology (SMT)",
             "definition": "Surface-mount technology (SMT) is a method in which the electrical components are mounted directly onto the surface of a printed circuit board (PCB). An electrical component mounted in this manner is referred to as a surface-mount device (SMD). In industry, this approach has largely replaced the through-hole technology construction method of fitting components, in large part because SMT allows for increased manufacturing automation which reduces cost and improves quality. It also allows for more components to fit on a given area of substrate. Both technologies can be used on the same board, with the through-hole technology often used for components not suitable for surface mounting such as large transformers and heat-sinked power semiconductors. \n\n An SMT component is usually smaller than its through-hole counterpart because it has either smaller leads or no leads at all. It may have short pins or leads of various styles, flat contacts, a matrix of solder balls (BGAs), or terminations on the body of the component. \n\n Surface mounting was originally called ‘planar mounting’.",
             "url": "https://en.wikipedia.org/wiki/Surface-mount_technology",
             "id": 236      
@@ -1479,7 +1479,7 @@ def return_word():
         }, 
         {
             "name": "Angle brackets",
-            "definition": "The ‘<‘and ‘>’ symbols that are on the comma and period keys on the keyboard. Angle brackets are also called ‘chevrons’, ‘pointy brackets’, ‘triangular brackets’, ‘diamond brackets’, ‘tuples’, ‘guillemets’, ‘left and right carets’, ‘broken brackets’, or ‘brokets’. \n\n The ASCII less-than and greater-than characters <> are often used for angle brackets. In most cases only those characters are accepted by computer programs; the Unicode angle brackets are not recognized (for instance in HTML tags). \n\n In C++ chevrons (actually less-than and greater-than) are used to surround arguments to templates. In HTML, chevrons (actually 'greater than' and 'less than' symbols) are used to bracket meta text. For example <b> denotes that the following text should be displayed as bold. Pairs of meta text tags are required – much as brackets themselves are usually in pairs. The end of the bold text segment would be indicated by </b>. This use is sometimes extended as an informal mechanism for communicating mood or tone in digital formats such as messaging, for example adding ‘<sighs>’ at the end of a sentence.",
+            "definition": "Angle brackets are the < and > symbols that are on the comma and period keys on the keyboard. Angle brackets are also called ‘chevrons’, ‘pointy brackets’, ‘triangular brackets’, ‘diamond brackets’, ‘tuples’, ‘guillemets’, ‘left and right carets’, ‘broken brackets’, or ‘brokets’. \n\n The ASCII less-than and greater-than characters <> are often used for angle brackets. In most cases only those characters are accepted by computer programs; the Unicode angle brackets are not recognized (for instance in HTML tags). \n\n In C++, chevrons (actually less-than and greater-than) are used to surround arguments to templates. In HTML, chevrons (actually 'greater than' and 'less than' symbols) are used to bracket meta text. For example <b> denotes that the following text should be displayed as bold. Pairs of meta text tags are required – much as brackets themselves are usually in pairs. The end of the bold text segment would be indicated by </b>. This use is sometimes extended as an informal mechanism for communicating mood or tone in digital formats such as messaging, for example adding <sighs> at the end of a sentence.",
             "url": "https://en.wikipedia.org/wiki/Bracket#Angle_brackets",
             "id": 243      
         }, 
@@ -2973,7 +2973,7 @@ def return_word():
         },
         {
             "name": "Vendor lock-in",
-            "definition": "In economics, vendor lock-in, also known as proprietary lock-in or customer lock-in, makes a customer dependent on a vendor for products, unable to use another vendor without substantial switching costs. \n\n The use of open standards and alternative options makes systems tolerant of change, so that decisions can be postponed until more information is available or unforeseen events are addressed. Vendor lock-in does the opposite: it makes it difficult to move from one solution to another. \n\n Lock-in costs that create barriers to market entry may result in antitrust action against a monopoly. \n\n Related to vendor lock-in is the concept of technology lock-in, which is a non-monopoly (mere technology), collective (on a society level) kind of lock-in: \n\n Technological lock-in is the idea that the more a society adopts a certain technology, the more unlikely users are to switch. \n\n Examples of technology lock-in: \n\n - The continued prevalence of the QWERTY keyboard layout is said to be caused by technological lock-in. \n Carbon lock-in is the theory that society has become reliant on carbon intensive technologies, thereby hindering renewable energy commercialization. \n Converting one lossy file format into another incurs a generation loss that reduces quality. This is in effect a switching cost. Therefore, if valuable content is encoded in the format, this creates a need for continued compatibility with it.",
+            "definition": "In economics, vendor lock-in, also known as proprietary lock-in or customer lock-in, makes a customer dependent on a vendor for products, unable to use another vendor without substantial switching costs. \n\n The use of open standards and alternative options makes systems tolerant of change, so that decisions can be postponed until more information is available or unforeseen events are addressed. Vendor lock-in does the opposite: it makes it difficult to move from one solution to another. \n\n Lock-in costs that create barriers to market entry may result in antitrust action against a monopoly. \n\n Related to vendor lock-in is the concept of technology lock-in, which is a non-monopoly (mere technology), collective (on a society level) kind of lock-in: \n\n Technological lock-in is the idea that the more a society adopts a certain technology, the more unlikely users are to switch. \n\n Examples of technology lock-in: \n\n - The continued prevalence of the QWERTY keyboard layout is said to be caused by technological lock-in. \n\n - Carbon lock-in is the theory that society has become reliant on carbon intensive technologies, thereby hindering renewable energy commercialization. \n\n - Converting one lossy file format into another incurs a generation loss that reduces quality. This is in effect a switching cost. Therefore, if valuable content is encoded in the format, this creates a need for continued compatibility with it.",
             "url": "https://en.wikipedia.org/wiki/Vendor_lock-in",
             "id": 492      
         },
@@ -2985,83 +2985,28 @@ def return_word():
         },
         {
             "name": "Data sovereignty",
-            "definition": "Data sovereignty is the idea that data are subject to the laws and governance structures within the nation it is collected. The concept of data sovereignty is closely linked with data security, cloud computing, network sovereignty and technological sovereignty. As part of Canada's IT strategy for the years 2016–2020, data localization measures were discussed as a way to uphold citizens' privacy. \n\n  A common criticism of data sovereignty brought forward by corporate actors is that it impedes and has the potential to destroy processes in cloud computing. Since cloud storage might be dispersed and disseminated in a variety of locations at any given time, it is argued that governance of cloud computing is difficult under data sovereignty laws. For example, data held in the cloud may be illegal in some jurisdictions but legal in others. \n\n According to Professor Susan Ariel Aaronson, research professor and director of the Digital Trade and Data Governance Hub at George Washington University, governments are seeking to regulate the commercial use of personal data without enacting clear rules governing public sector use. The hoarding of data by nations or firms may reduce data generativity and the public benefits of data analysis. \n\n With the rise of cloud computing, many countries have passed various laws around control and storage of data, which all reflects measures of data sovereignty. More than 100 countries have some sort of data sovereignty laws in place. With self-sovereign identity (SSI) the individual identity holders can fully create and control their credentials, although a nation can still issue a digital identity in that paradigm.",
+            "definition": "Data sovereignty is the idea that data are subject to the laws and governance structures within the nation it is collected. The concept of data sovereignty is closely linked with data security, cloud computing, network sovereignty and technological sovereignty. \n\n  A common criticism of data sovereignty brought forward by corporate actors is that it impedes and has the potential to destroy processes in cloud computing. Since cloud storage might be dispersed and disseminated in a variety of locations at any given time, it is argued that governance of cloud computing is difficult under data sovereignty laws. For example, data held in the cloud may be illegal in some jurisdictions but legal in others. \n\n According to Professor Susan Ariel Aaronson, research professor and director of the Digital Trade and Data Governance Hub at George Washington University, governments are seeking to regulate the commercial use of personal data without enacting clear rules governing public sector use. The hoarding of data by nations or firms may reduce data generativity and the public benefits of data analysis. \n\n With the rise of cloud computing, many countries have passed various laws around control and storage of data, which all reflects measures of data sovereignty. More than 100 countries have some sort of data sovereignty laws in place. As part of Canada's IT strategy for the years 2016–2020, data localization measures were discussed as a way to uphold citizens' privacy. \n\n With self-sovereign identity (SSI) the individual identity holders can fully create and control their credentials, although a nation can still issue a digital identity in that paradigm.",
             "url": "https://en.wikipedia.org/wiki/Data_sovereignty",
             "id": 494      
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 495      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 496      
-        # },
+        {
+            "name": "Multi-access edge computing (MEC)",
+            "definition": "Multi-access edge computing (MEC), formerly mobile edge computing, is an ETSI-defined network architecture concept that enables cloud computing capabilities and an IT service environment at the edge of the cellular network and, more in general at the edge of any network. \n\n The basic idea behind MEC is that by running applications and performing related processing tasks closer to the cellular customer, network congestion is reduced and applications perform better. MEC technology is designed to be implemented at the cellular base stations or other edge nodes, and enables flexible and rapid deployment of new applications and services for customers. Combining elements of information technology and telecommunications networking, MEC also allows cellular operators to open their radio access network (RAN) to authorized third parties, such as application developers and content providers. \n\n Technical standards for MEC are being developed by the European Telecommunications Standards Institute.",
+            "url": "https://en.wikipedia.org/wiki/Multi-access_edge_computing",
+            "id": 495      
+        },
+        {
+            "name": "Usenet",
+            "definition": "Usenet is a worldwide distributed discussion system available on computers. It was developed from the general-purpose Unix-to-Unix Copy (UUCP) dial-up network architecture. Tom Truscott and Jim Ellis conceived the idea in 1979, and it was established in 1980. Users read and post messages (called articles or posts, and collectively termed news) to one or more topic categories, known as newsgroups. Usenet resembles a bulletin board system (BBS) in many respects and is the precursor to the Internet forums that have become widely used. Discussions are threaded, as with web forums and BBSs, though posts are stored on the server sequentially. \n\n A major difference between a BBS or web message board and Usenet is the absence of a central server and dedicated administrator or hosting provider. Usenet is distributed among a large, constantly changing set of news servers that store and forward messages to one another via ‘news feeds’. Individual users may read messages from and post to a local (or simply preferred) news server, which can be operated by anyone, and those posts will automatically be forwarded to any other news servers peered with the local one, while the local server will receive any news its peers have that it currently lacks. This results in the automatic proliferation of content posted by any user on any server to any other user subscribed to the same newsgroups on other servers. \n\n Usenet is culturally and historically significant in the networked world, having given rise to, or popularized, many widely recognized concepts and terms such as ‘FAQ’, ‘flame’, ‘sockpuppet’, and ‘spam’. In the early 1990s, shortly before access to the Internet became commonly affordable, Usenet connections via Fidonet's dial-up BBS networks made long-distance or worldwide discussions and other communication widespread, not needing a server, just (local) telephone service. \n\n The name Usenet comes from the term ‘users network’. The first Usenet group was NET.general, which quickly became net.general. The first commercial spam on Usenet was from immigration attorneys Canter and Siegel advertising green card services. On the Internet, Usenet is transported via the Network News Transfer Protocol (NNTP) on TCP Port 119 for standard, unprotected connections and on TCP port 563 for SSL encrypted connections.",
+            "url": "https://en.wikipedia.org/wiki/Usenet",
+            "id": 496      
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
         #     "id": 497      
         # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 498      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 499      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 500      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 501      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 502      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 503      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 504      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 505      
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 506      
-        # },
-
 
 
     ]
