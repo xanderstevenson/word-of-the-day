@@ -3097,143 +3097,143 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Technological_singularity",
             "id": 512     
         },
+        {
+            "name": "traceroute",
+            "definition": "In computing, ‘traceroute’ and ‘tracert’ are computer network diagnostic commands for displaying possible routes (paths) and measuring transit delays of packets across an Internet Protocol (IP) network. The history of the route is recorded as the round-trip times of the packets received from each successive host (remote node) in the route (path); the sum of the mean times in each hop is a measure of the total time spent to establish the connection. Traceroute proceeds unless all (usually three) sent packets are lost more than twice; then the connection is lost and the route cannot be evaluated. Ping, on the other hand, only computes the final round-trip times from the destination point. \n\n For Internet Protocol Version 6 (IPv6) the tool sometimes has the name traceroute6 and tracert6.",
+            "url": "https://en.wikipedia.org/wiki/Traceroute",
+            "id": 513     
+        },
+        {
+            "name": "SOAP",
+            "definition": "SOAP (formerly a backronym for Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services in computer networks. It uses XML Information Set for its message format, and relies on application layer protocols, most often Hypertext Transfer Protocol (HTTP), although some legacy systems communicate over Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission. \n\n SOAP allows developers to invoke processes running on different operating systems (such as Windows, macOS, and Linux) to authenticate, authorize, and communicate using Extensible Markup Language (XML). Since Web protocols like HTTP are installed and running on practically all operating systems, SOAP allows clients to invoke web services and receive responses independent of language and platforms.",
+            "url": "https://en.wikipedia.org/wiki/SOAP",
+            "id": 514     
+        },
+        {
+            "name": "Webhook",
+            "definition": "A webhook in web development is a method of augmenting or altering the behavior of a web page or web application with custom callbacks. These callbacks may be maintained, modified, and managed by third-party users and developers who may not necessarily be affiliated with the originating website or application. The term "webhook" was coined by Jeff Lindsay in 2007 from the computer programming term hook. \n\n Webhooks are ‘user-defined HTTP callbacks’. They are usually triggered by some event, such as pushing code to a repository or a comment being posted to a blog. When that event occurs, the source site makes an HTTP request to the URL configured for the webhook. Users can configure them to cause events on one site to invoke behavior on another. \n\n Common uses are to trigger builds with continuous integration systems or to notify bug tracking systems. Because webhooks use HTTP, they can be integrated into web services without adding new infrastructure. The request is done as a HTTP POST request and the format is usually JSON.",
+            "url": "https://en.wikipedia.org/wiki/Webhook",
+            "id": 515     
+        },
+        {
+            "name": "Document Object Model (DOM)",
+            "definition": "The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree; with them one can change the structure, style or content of a document. Nodes can have event handlers attached to them. Once an event is triggered, the event handlers get executed.",
+            "url": "https://en.wikipedia.org/wiki/Document_Object_Model",
+            "id": 516     
+        },
+        {
+            "name": "LAMP",
+            "definition": "LAMP (Linux, Apache, MySQL, PHP/Perl/Python) is an acronym denoting one of the most common software stacks for many of the web's most popular applications. However, LAMP now refers to a generic software stack model and its components are largely interchangeable. \n\n Each letter in the acronym stands for one of its four open-source building blocks: \n\n - Linux for the operating system \n Apache HTTP Server \n MySQL for the relational database management system \n PHP, Perl, or Python programming language \n\n The components of the LAMP stack are present in the software repositories of most Linux distributions.",
+            "url": "https://en.wikipedia.org/wiki/LAMP_(software_bundle)",
+            "id": 517     
+        },
+        {
+            "name": "MEAN",
+            "definition": "MEAN (MongoDB, Express.js, AngularJS (or Angular), and Node.js) is a free and open-source JavaScript software stack for building dynamic web sites and web applications. A variation known as MERN replaces Angular with React. \n\n Because all components of the MEAN stack support programs that are written in JavaScript, MEAN applications can be written in one language for both server-side and client-side execution environments. \n\n Though often compared directly to other popular web development stacks such as the LAMP stack, the components of the MEAN stack are higher-level including a web application presentation layer and not including an operating system layer.",
+            "url": "https://en.wikipedia.org/wiki/MEAN_(solution_stack)",
+            "id": 518     
+        },
+        {
+            "name": "Header",
+            "definition": "In information technology, header refers to supplemental data placed at the beginning of a block of data being stored or transmitted. In data transmission, the data following the header is sometimes called the payload or body. It is vital that header composition follows a clear and unambiguous specification or format, to allow for parsing.",
+            "url": "https://en.wikipedia.org/wiki/Header_(computing)",
+            "id": 519     
+        },
+        {
+            "name": "Northbound/Southbound Interface",
+            "definition": "In computer networking and computer architecture, a northbound interface of a component is an interface that allows the component to communicate with a higher level component, using the latter component's southbound interface. The northbound interface conceptualizes the lower level details (e.g., data or functions) used by, or in, the component, allowing the component to interface with higher level layers.",
+            "url": "https://en.wikipedia.org/wiki/Northbound_interface",
+            "id": 520     
+        },
+        {
+            "name": "Network functions virtualization (NFV)",
+            "definition": "Network functions virtualization (NFV) is a network architecture concept that leverages the IT virtualization technologies to virtualize entire classes of network node functions into building blocks that may connect, or chain together, to create and deliver communication services. \n\n NFV relies upon traditional server-virtualization techniques such as those used in enterprise IT. A virtualized network function, or VNF, is implemented within one or more virtual machines or containers running different software and processes, on top of commercial off the shelf (COTS) high-volume servers, switches and storage devices, or even cloud computing infrastructure, instead of having custom hardware appliances for each network function thereby avoiding vendor lock-in.",
+            "url": "https://en.wikipedia.org/wiki/Network_function_virtualization",
+            "id": 521     
+        },
+        {
+            "name": "Inter-process communication (IPC)",
+            "definition": "In computer science, inter-process communication or interprocess communication (IPC) refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data. Typically, applications can use IPC, categorized as clients and servers, where the client requests data and the server responds to client requests. Many applications are both clients and servers, as commonly seen in distributed computing. \n\n IPC is very important to the design process for microkernels and nanokernels, which reduce the number of functionalities provided by the kernel. Those functionalities are then obtained by communicating with servers via IPC, leading to a large increase in communication when compared to a regular monolithic kernel. IPC interfaces generally encompass variable analytic framework structures. These processes ensure compatibility between the multi-vector protocols upon which IPC models rely. \n\n An IPC mechanism is either synchronous or asynchronous. Synchronization primitives may be used to have synchronous behavior with an asynchronous IPC mechanism.",
+            "url": "https://en.wikipedia.org/wiki/Inter-process_communication",
+            "id": 522     
+        },
+        {
+            "name": "Cartesian coordinate system",
+            "definition": "A Cartesian coordinate system in a plane is a coordinate system that specifies each point uniquely by a pair of numerical coordinates, which are the signed distances to the point from two fixed perpendicular oriented lines, measured in the same unit of length. Each reference coordinate line is called a coordinate axis or just axis (plural axes) of the system, and the point where they meet is its origin, at ordered pair (0, 0). The coordinates can also be defined as the positions of the perpendicular projections of the point onto the two axes, expressed as signed distances from the origin. \n\n One can use the same principle to specify the position of any point in three-dimensional space by three Cartesian coordinates, its signed distances to three mutually perpendicular planes (or, equivalently, by its perpendicular projection onto three mutually perpendicular lines). In general, n Cartesian coordinates (an element of real n-space) specify the point in an n-dimensional Euclidean space for any dimension n. These coordinates are equal, up to sign, to distances from the point to n mutually perpendicular hyperplanes. \n\n The invention of Cartesian coordinates in the 17th century by René Descartes (Latinized name: Cartesius) revolutionized mathematics by providing the first systematic link between Euclidean geometry and algebra. Using the Cartesian coordinate system, geometric shapes (such as curves) can be described by Cartesian equations: algebraic equations involving the coordinates of the points lying on the shape. For example, a circle of radius 2, centered at the origin of the plane, may be described as the set of all points whose coordinates x and y satisfy the equation x2 + y2 = 4. \n\n Cartesian coordinates are the foundation of analytic geometry, and provide enlightening geometric interpretations for many other branches of mathematics, such as linear algebra, complex analysis, differential geometry, multivariate calculus, group theory and more. A familiar example is the concept of the graph of a function. Cartesian coordinates are also essential tools for most applied disciplines that deal with geometry, including astronomy, physics, engineering and many more. They are the most common coordinate system used in computer graphics, computer-aided geometric design and other geometry-related data processing.",
+            "url": "https://en.wikipedia.org/wiki/Cartesian_coordinate_system",
+            "id": 523     
+        },
+        {
+            "name": "CAP theorem",
+            "definition": "In theoretical computer science, the CAP theorem, also named Brewer's theorem after computer scientist Eric Brewer, states that any distributed data store can provide only two of the following three guarantees: \n\n 1. Consistency: Every read receives the most recent write or an error. \n\n 2. Availability: Every request receives a (non-error) response, without the guarantee that it contains the most recent write. \n\n 3. Partition tolerance: The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes. \n\n When a network partition failure happens, it must be decided whether A) cancel the operation and thus decrease the availability but ensure consistency or to B) proceed with the operation and thus provide availability but risk inconsistency. \n\n Thus, if there is a network partition, one has to choose between consistency and availability. Note that consistency as defined in the CAP theorem is quite different from the consistency guaranteed in ACID database transactions. \n\n Eric Brewer argues that the often-used "two out of three" concept can be somewhat misleading because system designers need only to sacrifice consistency or availability in the presence of partitions, but that in many systems partitions are rare.",
+            "url": "https://en.wikipedia.org/wiki/CAP_theorem",
+            "id": 524     
+        },
+        {
+            "name": "Hypermedia",
+            "definition": "Hypermedia, an extension of the term hypertext, is a nonlinear medium of information that includes graphics, audio, video, plain text and hyperlinks. This designation contrasts with the broader term multimedia, which may include non-interactive linear presentations as well as hypermedia. It is also related to the field of electronic literature. The term was first used in a 1965 article written by Ted Nelson. \n\n The World Wide Web is a classic example of hypermedia to access web content, whereas a non-interactive cinema presentation is an example of standard multimedia due to the absence of hyperlinks. \n\n The first hypermedia work was, arguably, the Aspen Movie Map. Bill Atkinson's HyperCard popularized hypermedia writing, while a variety of literary hypertext and hypertext works, fiction and non-fiction, demonstrated the promise of links. Most modern hypermedia is delivered via electronic pages from a variety of systems including media players, web browsers, and stand-alone applications (i.e., software that does not require network access). Audio hypermedia is emerging with voice command devices and voice browsing.",
+            "url": "https://en.wikipedia.org/wiki/Hypermedia",
+            "id": 525     
+        },
+        {
+            "name": "OpenFlow",
+            "definition": "OpenFlow is a communications protocol that gives access to the forwarding plane of a network switch or router over the network. \n\n OpenFlow enables network controllers to determine the path of network packets across a network of switches. The controllers are distinct from the switches. This separation of the control from the forwarding allows for more sophisticated traffic management than is feasible using access control lists (ACLs) and routing protocols. Also, OpenFlow allows switches from different vendors — often each with their own proprietary interfaces and scripting languages — to be managed remotely using a single, open protocol. The protocol's inventors consider OpenFlow an enabler of software-defined networking (SDN).",
+            "url": "https://en.wikipedia.org/wiki/OpenFlow",
+            "id": 526     
+        },
+        {
+            "name": "Interface to the Routing System (i2rs)",
+            "definition": "According to the final charter of its IETF working group, Interface to the Routing System (abbreviated ‘i2rs’ or ‘I2RS’) facilitates real-time or event driven interaction with the routing system through a collection of protocol-based control or management interfaces. These allow information, policies, and operational parameters to be injected into and retrieved (as read or by notification) from the routing system while retaining data consistency and coherency across the routers and routing infrastructure, and among multiple interactions with the routing system. The I2RS interfaces will co-exist with existing configuration and management systems and interfaces. \n\n It is envisioned that users of the I2RS interfaces will be management applications, network controllers, and user applications that makespecific demands on the network. \n\n The I2RS working group works to develop a high-level architecture that describes the basic building-blocks necessary to enable the specific usecases, and that will lead to an understanding of the abstract informational models and requirements for encodings and protocols for the I2RS interfaces. Small and well-scoped use cases are critical toconstrain the scope of the work and achieve sufficient focus for the working group to deliver successful outcomes. Initial work within the working group will be limited to a single administrative domain.",
+            "url": "https://datatracker.ietf.org/wg/i2rs/about/",
+            "id": 527     
+        },
+        {
+            "name": "Routing information base (RIB)",
+            "definition": "In computer networking, a routing table, or routing information base (RIB), is a data table stored in a router or a network host that lists the routes to particular network destinations, and in some cases, metrics (distances) associated with those routes. The routing table contains information about the topology of the network immediately around it. \n\n The construction of routing tables is the primary goal of routing protocols. Static routes are entries made in a routing table by non-automatic means and which are fixed rather than being the result of routing protocols and associated network topology-discovery procedures.",
+            "url": "https://en.wikipedia.org/wiki/Routing_table",
+            "id": 528     
+        },
+        {
+            "name": "Path Computation Element (PCE)",
+            "definition": "In computer networks, a Path Computation Element (PCE) is a system component, application, or network node that is capable of determining and finding a suitable route for conveying data between a source and a destination.Routing can be subject to a set of constraints, such as quality of service (QoS), policy, or price. Constraint-based path computation is a strategic component of traffic engineering in MPLS, GMPLS and Segment Routing networks. It is used to determine the path through the network that traffic should follow, and provides the route for each Label Switched Path (LSP) that is set up. \n\n Path computation has previously been performed either in a management system or at the head end of each LSP. But path computation in large, multi-domain networks may be very complex and may require more computational power and network information than is typically available at a network element, yet may still need to be more dynamic than can be provided by a management system. \n\n Thus, a PCE is an entity capable of computing paths for a single or set of services. A PCE might be a network node, network management station, or dedicated computational platform that is resource-aware and has the ability to consider multiple constraints for sophisticated path computation. PCE applications compute label switched paths for MPLS and GMPLS traffic engineering. The various components of the PCE architecture are in the process of being standardized by the IETF's PCE Working Group. \n\n PCE represents a vision of networks that separates route computations from the signaling of end-to-end connections and from actual packet forwarding.",
+            "url": "https://en.wikipedia.org/wiki/Path_computation_element",
+            "id": 529     
+        },
+        {
+            "name": "Bidirectional Forwarding Detection (BFD)",
+            "definition": "Bidirectional Forwarding Detection (BFD) is a network protocol that is used to detect faults between two routers or switches connected by a link. It provides low-overhead detection of faults even on physical media that doesn't support failure detection of any kind, such as Ethernet, virtual circuits, tunnels and MPLS Label Switched Paths. \n\n BFD establishes a session between two endpoints over a particular link. If more than one link exists between two systems, multiple BFD sessions may be established to monitor each one of them. The session is established with a three-way handshake, and is torn down the same way. Authentication may be enabled on the session. A choice of simple password, MD5 or SHA1 authentication is available.",
+            "url": "https://en.wikipedia.org/wiki/Bidirectional_Forwarding_Detection",
+            "id": 530     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 513     
+        #     "id": 531     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 514     
+        #     "id": 532     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 515     
+        #     "id": 533     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 516     
+        #     "id": 534     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 517     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 518     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 519     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 520     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
+        #     "id": 535     
         # },
 
     ]
