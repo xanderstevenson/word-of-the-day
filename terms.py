@@ -3111,7 +3111,7 @@ def return_word():
         },
         {
             "name": "Webhook",
-            "definition": "A webhook in web development is a method of augmenting or altering the behavior of a web page or web application with custom callbacks. These callbacks may be maintained, modified, and managed by third-party users and developers who may not necessarily be affiliated with the originating website or application. The term "webhook" was coined by Jeff Lindsay in 2007 from the computer programming term hook. \n\n Webhooks are ‘user-defined HTTP callbacks’. They are usually triggered by some event, such as pushing code to a repository or a comment being posted to a blog. When that event occurs, the source site makes an HTTP request to the URL configured for the webhook. Users can configure them to cause events on one site to invoke behavior on another. \n\n Common uses are to trigger builds with continuous integration systems or to notify bug tracking systems. Because webhooks use HTTP, they can be integrated into web services without adding new infrastructure. The request is done as a HTTP POST request and the format is usually JSON.",
+            "definition": "A webhook in web development is a method of augmenting or altering the behavior of a web page or web application with custom callbacks. These callbacks may be maintained, modified, and managed by third-party users and developers who may not necessarily be affiliated with the originating website or application. The term 'webhook' was coined by Jeff Lindsay in 2007 from the computer programming term hook. \n\n Webhooks are ‘user-defined HTTP callbacks’. They are usually triggered by some event, such as pushing code to a repository or a comment being posted to a blog. When that event occurs, the source site makes an HTTP request to the URL configured for the webhook. Users can configure them to cause events on one site to invoke behavior on another. \n\n Common uses are to trigger builds with continuous integration systems or to notify bug tracking systems. Because webhooks use HTTP, they can be integrated into web services without adding new infrastructure. The request is done as a HTTP POST request and the format is usually JSON.",
             "url": "https://en.wikipedia.org/wiki/Webhook",
             "id": 515     
         },
@@ -3205,12 +3205,12 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Bidirectional_Forwarding_Detection",
             "id": 530     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 531     
-        # },
+        {
+            "name": "Intent-based networking (IBN)",
+            "definition": "Intent-based networking (IBN) is an emerging technology concept that aims to apply a deeper level of intelligence and intended state to replace the manual processes of configuring networks and reacting to network issues. Instead, network administrators define an outcome or business objective—the intent—and the network’s software figures out how to achieve that goal, thanks to artificial intelligence and machine learning. \n\n IBN systems not only automate time-consuming tasks and provide real-time visibility into a network’s activity to validate a given intent, they also predict potential deviations to that intent, and prescribe the action required to ensure that intent. This greater intelligence makes the network faster and more agile, and reduces errors.",
+            "url": "https://www.vmware.com/topics/glossary/content/intent-based-networking.html",
+            "id": 531     
+        },
         # {
         #     "name": "",
         #     "definition": "",
