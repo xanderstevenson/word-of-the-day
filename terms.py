@@ -3211,29 +3211,239 @@ def return_word():
             "url": "https://www.vmware.com/topics/glossary/content/intent-based-networking.html",
             "id": 531     
         },
+        {
+            "name": "Web Services Description Language (WSDL)",
+            "definition": "The Web Services Description Language (WSDL) is an XML-based interface description language that is used for describing the functionality offered by a web service. The acronym is also used for any specific WSDL description of a web service (also referred to as a WSDL file), which provides a machine-readable description of how the service can be called, what parameters it expects, and what data structures it returns. Therefore, its purpose is roughly similar to that of a type signature in a programming language. \n\n The latest version of WSDL, which became a W3C recommendation in 2007, is WSDL 2.0. The meaning of the acronym has changed from version 1.1 where the ‘D’ stood for ‘Definition’.",
+            "url": "https://en.wikipedia.org/wiki/Web_Services_Description_Language",
+            "id": 532     
+        },
+        {
+            "name": "Message authentication code",
+            "definition": "In cryptography, a message authentication code (MAC), sometimes known as a tag, is a short piece of information used for authenticating a message. In other words, to confirm that the message came from the stated sender (its authenticity) and has not been changed. The MAC value protects a message's data integrity, as well as its authenticity, by allowing verifiers (who also possess the secret key) to detect any changes to the message content. \n\n The term message integrity code (MIC) is frequently substituted for the term MAC, especially in communications to distinguish it from the use of the latter as media access control address (MAC address). However, some authors use MIC to refer to a message digest, which aims only to uniquely but opaquely identify a single message. RFC 4949 recommends avoiding the term message integrity code (MIC), and instead using checksum, error detection code, hash, keyed hash, message authentication code, or protected checksum. \n\n Informally, a message authentication code system consists of three algorithms: \n\n 1. A key generation algorithm selects a key from the key space uniformly at random. \n 2. A signing algorithm efficiently returns a tag given the key and the message. \n 3. A verifying algorithm efficiently verifies the authenticity of the message given the key and the tag. That is, return accepted when the message and tag are not tampered with or forged, and otherwise return rejected.",
+            "url": "https://en.wikipedia.org/wiki/Message_authentication_code",
+            "id": 533     
+        },
+        {
+            "name": "Authenticated Encryption (AE) and Authenticated Encryption with Associated Data (AEAD)",
+            "definition": "Authenticated Encryption (AE) and Authenticated Encryption with Associated Data (AEAD) are forms of encryption which simultaneously assure the confidentiality and authenticity of data. \n\n A typical programming interface for an AE implementation provides encryption via input (plaintext, key, and optionally a header in plaintext) that will not be encrypted, but will be covered by authenticity protection, with output in the form of ciphertext and authentication tag (message authentication code or MAC). Decryption is provided through input comprising ciphertext, key, authentication tag, and optionally a header (if used during the encryption), with an output of plaintext, or an error if the authentication tag does not match the supplied ciphertext or header. The header part is intended to provide authenticity and integrity protection for networking or storage metadata for which confidentiality is unnecessary, but authenticity is desired. \n\n AEAD is a variant of AE that allows a recipient to check the integrity of both the encrypted and unencrypted information in a message. AEAD binds associated data (AD) to the ciphertext and to the context where it is supposed to appear so that attempts to ‘cut-and-paste’ a valid ciphertext into a different context are detected and rejected. It is required, for example, by network packets or frames where the header needs visibility, the payload needs confidentiality, and both need integrity and authenticity.",
+            "url": "https://en.wikipedia.org/wiki/Authenticated_encryption",
+            "id": 534     
+        },
+        {
+            "name": "Nonce value",
+            "definition": "In cryptography, a nonce (number once) is an arbitrary number that can be used just once in a cryptographic communication. It is often a random or pseudo-random number issued in an authentication protocol to ensure that old communications cannot be reused in replay attacks. They can also be useful as initialization vectors and in cryptographic hash functions.",
+            "url": "https://en.wikipedia.org/wiki/Cryptographic_nonce",
+            "id": 535     
+        },
+        {
+            "name": "QUIC",
+            "definition": "QUIC (pronounced ‘quick’) is a general-purpose transport layer network protocol initially designed by Jim Roskind at Google, implemented, and deployed in 2012, announced publicly in 2013 as experimentation broadened, and described at an IETF meeting. QUIC is used by more than half of all connections from the Chrome web browser to Google's servers. Microsoft Edge (a derivative of the open-source Chromium browser) and Firefox support it. Safari implements the protocol, however it is not enabled by default. \n\n Although its name was initially proposed as the acronym for ‘Quick UDP Internet Connections’, IETF's use of the word QUIC is not an acronym; it is simply the name of the protocol. QUIC improves performance of connection-oriented web applications that are currently using TCP. It does this by establishing a number of multiplexed connections between two endpoints using User Datagram Protocol (UDP), and is designed to obsolete TCP at the transport layer for many applications, thus earning the protocol the occasional nickname ‘TCP/2’. \n\n QUIC works hand-in-hand with HTTP/2's multiplexed connections, allowing multiple streams of data to reach all the endpoints independently, and hence independent of packet losses involving other streams. In contrast, HTTP/2 hosted on Transmission Control Protocol (TCP) can suffer head-of-line-blocking delays of all multiplexed streams if any of the TCP packets are delayed or lost. \n\n QUIC's secondary goals include reduced connection and transport latency, and bandwidth estimation in each direction to avoid congestion. It also moves congestion control algorithms into the user space at both endpoints, rather than the kernel space, which it is claimed will allow these algorithms to improve more rapidly. Additionally, the protocol can be extended with forward error correction (FEC) to further improve performance when errors are expected, and this is seen as the next step in the protocol's evolution.",
+            "url": "https://en.wikipedia.org/wiki/QUIC",
+            "id": 536     
+        },
+        {
+            "name": "XML",
+            "definition": "Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The World Wide Web Consortium's XML 1.0 Specification of 1998 and several other related specifications—all of them free open standards—define XML. \n\n The design goals of XML emphasize simplicity, generality, and usability across the Internet. It is a textual data format with strong support via Unicode for different human languages. Although the design of XML focuses on documents, the language is widely used for the representation of arbitrary data structures such as those used in web services. \n\n Several schema systems exist to aid in the definition of XML-based languages, while programmers have developed many application programming interfaces (APIs) to aid the processing of XML data.",
+            "url": "https://en.wikipedia.org/wiki/XML",
+            "id": 537     
+        },
+        {
+            "name": "XSD",
+            "definition": "XSD (XML Schema Definition), a recommendation of the World Wide Web Consortium (W3C), specifies how to formally describe the elements in an Extensible Markup Language (XML) document. It can be used by programmers to verify each piece of item content in a document, to assure it adheres to the description of the element it is placed in. \n\n Like all XML schema languages, XSD can be used to express a set of rules to which an XML document must conform to be considered 'valid' according to that schema. However, unlike most other schema languages, XSD was also designed with the intent that determination of a document's validity would produce a collection of information adhering to specific data types. Such a post-validation infoset can be useful in the development of XML document processing software. \n\n The schema can be used to generate code, referred to as XML Data Binding. This code allows contents of XML documents to be treated as objects within the programming environment.",
+            "url": "https://en.wikipedia.org/wiki/XML_Schema_(W3C)",
+            "id": 538     
+        },
+        {
+            "name": "pyATS",
+            "definition": "Originally developed for internal Cisco engineering use, pyATS is at the core of Cisco's Test Automation Solution. It's currently used as the de-facto test framework for internal Cisco engineers across differentplatform/functions, running millions of CI/CD, sanity, regression, scale, HA, solution tests on a monthly basis. pyATS is also used by thousands of network engineers and developers world-wide, outside of Cisco. \n\n In Cisco, pyATS provides sanity, feature, solution, system, and scale test & verification automation for products ranging from routers/switches, to access points, firewalls and cable CPEs. \n\n pyATS is built using extensible layers like lego blocks; pyATS solution consists of… \n\n 1. a foundational platform (eg, the original pyATS framework) \n 2. a standard open-source, platform/vendor agnostic library system (Genie) \n 3. a web dashboard to manage your test suites, testbeds, test results and their insights (XPRESSO) \n 4. multiple bindings to other frameworks in the form of libraries, extensions, plugins and APIs. \n\n …enabling users to build their own business logic and solutions on top of the infrastructure stack.",
+            "url": "https://developer.cisco.com/docs/pyats/",
+            "id": 539     
+        },
+        {
+            "name": "Database Source of Truth (SOT)",
+            "definition": "In information science and information technology, single source of truth (SSOT) architecture, or single point of truth (SPOT) architecture, for information systems is the practice of structuring information models and associated data schemas such that every data element is mastered (or edited) in only one place, providing data normalization to a canonical form (for example, in database normalization or content transclusion). Any possible linkages to this data element (possibly in other areas of the relational schema or even in distant federated databases) are by reference only. Because all other locations of the data just refer back to the primary "source of truth" location, updates to the data element in the primary location propagate to the entire system, providing multiple advantages simultaneously: greater efficiency/productivity, easy prevention of mistaken inconsistencies (such as a duplicate value/copy somewhere being forgotten), and greatly simplified version control. Without SSOT architecture, rampant forking impairs clarity and productivity, imposing laborious maintenance needs. \n\n Deployment of an SSOT architecture is becoming increasingly important in enterprise settings where incorrectly linked duplicate or de-normalized data elements (a direct consequence of intentional or unintentional denormalization of any explicit data model) pose a risk for retrieval of outdated, and therefore incorrect, information.",
+            "url": "",
+            "id": 540     
+        },
+        {
+            "name": "Metaobject",
+            "definition": "In computer science, a metaobject is an object that manipulates, creates, describes, or implements objects (including itself). The object that the metaobject pertains to is called the base object. Some information that a metaobject might define includes the base object's type, interface, class, methods, attributes, parse tree, etc. Metaobjects are examples of the computer science concept of reflection, where a system has access (usually at run time) to its own internal structure. Reflection enables a system to essentially rewrite itself on the fly, to alter its own implementation as it executes. \n\n A metaobject protocol (MOP) provides the vocabulary (protocol) to access and manipulate the structure and behaviour of systems of objects. Typical functions of a metaobject protocol include: \n\n - Create or delete a new class \n - Create a new property or method \n - Cause a class to inherit from a different class (‘change the class structure’) \n - Generate or change the code defining the methods of a class",
+            "url": "https://en.wikipedia.org/wiki/Metaobject",
+            "id": 541     
+        },
+        {
+            "name": "Remote procedure call (RPC)",
+            "definition": "In distributed computing, a remote procedure call (RPC) is when a computer program causes a procedure (subroutine) to execute in a different address space (commonly on another computer on a shared network), which is coded as if it were a normal (local) procedure call, without the programmer explicitly coding the details for the remote interaction. That is, the programmer writes essentially the same code whether the subroutine is local to the executing program, or remote. This is a form of client–server interaction (caller is client, executor is server), typically implemented via a request–response message-passing system. In the object-oriented programming paradigm, RPCs are represented by remote method invocation (RMI). The RPC model implies a level of location transparency, namely that calling procedures are largely the same whether they are local or remote, but usually, they are not identical, so local calls can be distinguished from remote calls. Remote calls are usually orders of magnitude slower and less reliable than local calls, so distinguishing them is important. \n\n RPCs are a form of inter-process communication (IPC), in that different processes have different address spaces: if on the same host machine, they have distinct virtual address spaces, even though the physical address space is the same; while if they are on different hosts, the physical address space is different. Many different (often incompatible) technologies have been used to implement the concept.",
+            "url": "https://en.wikipedia.org/wiki/Remote_procedure_call",
+            "id": 542     
+        },
+        {
+            "name": "Parallel computing",
+            "definition": "Parallel computing is a type of computation in which many calculations or processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level, instruction-level, data, and task parallelism. Parallelism has long been employed in high-performance computing, but has gained broader interest due to the physical constraints preventing frequency scaling. As power consumption (and consequently heat generation) by computers has become a concern in recent years, parallel computing has become the dominant paradigm in computer architecture, mainly in the form of multi-core processors. \n\n Parallel computing is closely related to concurrent computing—they are frequently used together, and often conflated, though the two are distinct: it is possible to have parallelism without concurrency, and concurrency without parallelism (such as multitasking by time-sharing on a single-core CPU). In parallel computing, a computational task is typically broken down into several, often many, very similar sub-tasks that can be processed independently and whose results are combined afterwards, upon completion. In contrast, in concurrent computing, the various processes often do not address related tasks; when they do, as is typical in distributed computing, the separate tasks may have a varied nature and often require some inter-process communication during execution.",
+            "url": "https://en.wikipedia.org/wiki/Parallel_computing",
+            "id": 543     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 532     
+        #     "id": 544     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 533     
+        #     "id": 545     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 534     
+        #     "id": 546     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 535     
+        #     "id": 547     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 548     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 549     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 550     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
         # },
 
     ]
