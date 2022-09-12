@@ -3283,42 +3283,42 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Parallel_computing",
             "id": 543     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 544     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 545     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 546     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 547     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 548     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 549     
-        # },
+        {
+            "name": "Concept drift",
+            "definition": "In predictive analytics and machine learning, concept drift means that the statistical properties of the target variable, which the model is trying to predict, change over time in unforeseen ways. This causes problems because the predictions become less accurate as time passes. The term concept refers to the quantity to be predicted. More generally, it can also refer to other phenomena of interest besides the target concept, such as an input, but, in the context of concept drift, the term commonly refers to the target variable. \n\n Concept drift generally occurs when the covariates that comprise the data set begin to explain the variation of your target set less accurately — there may be some confounding variables that have emerged, and that one simply cannot account for, which renders the model accuracy to progressively decrease with time. Generally, it is advised to perform health checks as part of the post-production analysis and to re-train the model with new assumptions upon signs of concept drift. \n\n To prevent deterioration in prediction accuracy because of concept drift, reactive and tracking solutions can be adopted. Reactive solutions retrain the model in reaction to a triggering mechanism, such as a change-detection test, to explicitly detect concept drift as a change in the statistics of the data-generating process. When concept drift is detected, the current model is no longer up-to-date and must be replaced by a new one to restore prediction accuracy. A shortcoming of reactive approaches is that performance may decay until the change is detected. Tracking solutions seek to track the changes in the concept by continually updating the model. Methods for achieving this include online machine learning, frequent retraining on the most recently observed samples, and maintaining an ensemble of classifiers where one new classifier is trained on the most recent batch of examples and replaces the oldest classifier in the ensemble.",
+            "url": "https://en.wikipedia.org/wiki/Concept_drift",
+            "id": 544     
+        },
+        {
+            "name": "Data drift",
+            "definition": "Data drift is unexpected and undocumented changes to data structure, semantics, and infrastructure that is a result of modern data architectures. It breaks processes and corrupts data, but can also reveal new opportunities for data use. \n\n Data drift is a variation in the production data from the data that was used to test and validate the model before deploying it in production and is one of the top reasons model accuracy degrades over time. For machine learning models, data drift is the change in model input data that leads to model performance degradation. Monitoring data drift helps detect these model performance issues. \n\n Causes of data drift include: \n\n 1. Upstream process changes, such as a sensor being replaced that changes the units of measurement from inches to centimeters. \n 2. Data quality issues, such as a broken sensor always reading 0. \n 3. Natural drift in the data, such as mean temperature changing with the seasons. \n 4. Change in relation between features, or covariate shift.",
+            "url": "https://towardsdatascience.com/why-data-drift-detection-is-important-and-how-do-you-automate-it-in-5-simple-steps-96d611095d93",
+            "id": 545     
+        },
+        {
+            "name": "Zombie API",
+            "definition": "A zombie API is a forgotten and deprecated API which should have been disabled but is instead still active and thus exploitable by new kinds of API attacks. This can lead to account takeover or fraudulent transactions. A zombie API is often left behind to typically handle migrations from one version of an application to another. An example would be the release of a new application version, which because of its enhanced capabilities, required a new API. To ensure a smooth migration, the old API is maintained ‘active’ to give developers time to phase over to the new API. The challenge for the security team is to track those ‘old’ APIs and deactivate them in time. Most often, they are just forgotten and are a great entry door for hackers to use.",
+            "url": "https://www.traceable.ai/blog-post/how-zombie-apis-pose-a-forgotten-vulnerability",
+            "id": 546     
+        },
+        {
+            "name": "Shadow API",
+            "definition": "Shadow APIs are APIs that exist outside of an organization’s official security and operational maintenance processes. There are countless scenarios that can lead to a shadow API. For example, a developer may need to quickly stand up an API to resolve an immediate problem or maybe to develop a proof of concept for a larger project. Regardless of the motivation, the lure of quickly deploying a new API endpoint makes it easy for developers to get their work done in the moment and worry about security and maintenance later. \n\n In many ways, this is the AppSec and DevOps version of the shadow IT problem and brings with it many of the same risks. Security teams can’t defend assets that they don’t know about, and shadow APIs will not receive the appropriate security testing, monitoring and protection. Likewise, a newly or quickly deployed API endpoint may not be properly secured and hardened. As with any new code, the API may have vulnerabilities or misconfigurations that can leave the door open to attackers, who constantly scour applications and APIs for new or vulnerable endpoints.",
+            "url": "https://www.threatx.com/blog/from-zombie-to-rogue-apis-how-to-reduce-your-api-security-risks/",
+            "id": 547     
+        },
+        {
+            "name": "Rogue API",
+            "definition": "A rogue API is an API that does not behave in the manner in which it is intended to. It is possible that it will provide unexpected results, or that it will not operate at all. Whatever the case, a rogue API can pose a slew of issues for developers who attempt to make use of the service. \n\n Some ways to combat rogue APIs include: \n\n 1. Verify that the API is authentic \n 2. Check that the API is trustworthy \n 3. Make sure that the API is well-documented \n 4. Check for positive reviews of the API",
+            "url": "https://datamagazine.co.uk/in-combat-with-rogue-apis/",
+            "id": 548     
+        },
+        {
+            "name": "Swagger",
+            "definition": "Swagger is a suite of tools for API developers from SmartBear Software and a former specification upon which the OpenAPI Specification is based. Swagger's open-source tooling usage can be broken up into different use cases: development, interaction with APIs, and documentation. \n\n Developing APIs \n\n When creating APIs, Swagger tooling may be used to automatically generate an Open API document based on the code itself. This embeds the API description in the source code of a project and is informally called code-first or bottom-up API development. \n\n Interacting with APIs \n\n Using the Swagger Codegen project, end users generate client SDKs directly from the OpenAPI document, reducing the need for human-generated client code. As of August 2017, the Swagger Codegen project supported over 50 different languages and formats for client SDK generation. \n\n Documenting APIs \n\n When described by an OpenAPI document, Swagger open-source tooling may be used to interact directly with the API through the Swagger UI. This project allows connections directly to live APIs through an interactive, HTML-based user interface. Requests can be made directly from the UI and the options explored by the user of the interface.",
+            "url": "https://en.wikipedia.org/wiki/Swagger_(software)",
+            "id": 549     
+        },
         # {
         #     "name": "",
         #     "definition": "",
@@ -3329,61 +3329,61 @@ def return_word():
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 551     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 552     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 553     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 554     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 555     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 556     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 557     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 558     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 559     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 560     
         # },
         # {
         #     "name": "",
