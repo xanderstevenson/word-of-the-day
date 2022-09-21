@@ -459,7 +459,7 @@ def return_word():
         },           
         {
             "name": "Hyperautomation",
-            "definition": "Hyperautomation is the application of advanced technologies like RPA, artificial intelligence, machine learning (ML) and process mining to augment workers and automate processes in ways that are significantly more impactful than traditional automation capabilities. Hyperautomation is the combination of automation tools and technologies to deliver work.",
+            "definition": "Hyperautomation is the application of advanced technologies like robotic process automation (RPA), artificial intelligence (AI), machine learning (ML) and process mining to augment workers and automate processes in ways that are significantly more impactful than traditional automation capabilities. Hyperautomation is the combination of automation tools and technologies to deliver work.",
             "url": "https://en.wikipedia.org/wiki/Robotic_process_automation#Hyperautomation",
             "id": 74     
         },          
@@ -1785,7 +1785,7 @@ def return_word():
         }, 
         {
             "name": "Backronym",
-            "definition": "(BACKward acRONYM) A reverse acronym. Instead of turning a multi-word term into letters, such as ‘central processing unit’ into CPU, a given set of letters becomes a multi-word term. For example, TEMPEST was a code name that was turned into ‘Telecommunications Electronics Material Protected from Emanating Spurious Transmissions’. DVD originally meant ‘digital video disc’ but was later changed to ‘digital versatile disc’.",
+            "definition": "(BACKward acRONYM) A reverse acronym. Instead of turning a multi-word term into letters, such as ‘central processing unit’ into CPU, a given set of letters becomes a multi-word term. For example, TEMPEST was a code name that was turned into ‘Telecommunications Electronics Material Protected from Emanating Spurious Transmissions’. DVD originally meant ‘Digital Video Disc’ but was later changed to ‘Digital Versatile Disc’.",
             "url": "https://en.wikipedia.org/wiki/Backronym",
             "id": 294      
         }, 
@@ -3319,42 +3319,42 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Swagger_(software)",
             "id": 549     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 550     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 551     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 552     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 553     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 554     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 555     
-        # },
+        {
+            "name": "Non Maximum Suppression (NMS)",
+            "definition": "Non Maximum Suppression (NMS) is a technique used in numerous computer vision tasks. It is a class of algorithms to select one entity (e.g., bounding boxes) out of many overlapping entities. We can choose the selection criteria to arrive at the desired results. The criteria are most commonly some form of probability number and some form of overlap measure (e.g. Intersection over Union). \n\n Most object detection algorithms use NMS to whittle down many detected bounding boxes to only a few. At the most basic level, most object detectors do some form of windowing. Thousands of windows (anchors) of various sizes and shapes are generated. \n\n These windows supposedly contain only one object, and a classifier is used to obtain a probability/score for each class. Once the detector outputs a large number of bounding boxes, it is necessary to filter out the best ones. NMS is the most commonly used algorithm for this task.",
+            "url": "https://medium.com/analytics-vidhya/non-max-suppression-nms-6623e6572536",
+            "id": 550     
+        },
+        {
+            "name": "Singleton pattern",
+            "definition": "In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to one ‘single’ instance. This is useful when exactly one object is needed to coordinate actions across the system. The term comes from the mathematical concept of a singleton. \n\n The singleton design pattern is one of the twenty-three well-known ‘Gang of Four’ design patterns that describe how to solve recurring design problems to design flexible and reusable object-oriented software with the aim of making it easier to implement, change, test, and reuse objects.",
+            "url": "https://en.wikipedia.org/wiki/Singleton_pattern",
+            "id": 551     
+        },
+        {
+            "name": "Creational pattern",
+            "definition": "In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or in added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.\n\n Creational design patterns are composed of two dominant ideas. One is encapsulating knowledge about which concrete classes the system uses. Another is hiding how instances of these concrete classes are created and combined. \n\n Creational design patterns are further categorized into object-creational patterns and class-creational patterns, where object-creational patterns deal with object creation and class-creational patterns deal with class-instantiation. In greater details, object-creational patterns defer part of its object creation to another object, while class-creational patterns defer its object creation to subclasses.",
+            "url": "https://en.wikipedia.org/wiki/Creational_pattern",
+            "id": 552     
+        },
+        {
+            "name": "Software framework",
+            "definition": "In computer programming, a software framework is an abstraction in which software, providing generic functionality, can be selectively changed by additional user-written code, thus providing application-specific software. It provides a standard way to build and deploy applications and is a universal, reusable software environment that provides particular functionality as part of a larger software platform to facilitate the development of software applications, products and solutions. Software frameworks may include support programs, compilers, code libraries, toolsets, and application programming interfaces (APIs) that bring together all the different components to enable development of a project or system. \n\n Frameworks have 4 key distinguishing features that separate them from normal libraries: \n\n 1. inversion of control: In a framework, unlike in libraries or in standard user applications, the overall program's flow of control is not dictated by the caller, but by the framework. This is usually achieved with the Template Method Pattern. \n 2. default behaviour: This can be provided with the invariant methods of the Template Method Pattern in an abstract class which is provided by the framework. \n 3. extensibility: A user can extend the framework – usually by selective overriding – or programmers can add specialized user code to provide specific functionality. This is usually achieved by a hook method in a subclass that overrides a template method in the superclass. \n 4. non-modifiable framework code: The framework code, in general, is not supposed to be modified, while accepting user-implemented extensions. In other words, users can extend the framework, but cannot modify its code.",
+            "url": "https://en.wikipedia.org/wiki/Software_framework",
+            "id": 553     
+        },
+        {
+            "name": "Extensibility",
+            "definition": "Extensibility is a software engineering and systems design principle that provides for future growth. Extensibility is a measure of the ability to extend a system and the level of effort required to implement the extension. Extensions can be through the addition of new functionality or through modification of existing functionality. The principle provides for enhancements without impairing existing system functions. \n\n An extensible system is one whose internal structure and dataflow are minimally or not affected by new or modified functionality, for example recompiling or changing the original source code might be unnecessary when changing a system’s behavior, either by the creator or other programmers. Because software systems are long lived and will be modified for new features and added functionalities demanded by users, extensibility enables developers to expand or add to the software’s capabilities and facilitates systematic reuse. Some of its approaches include facilities for allowing users’ own program routines to be inserted and the abilities to define new data types as well as to define new formatting markup tags.",
+            "url": "https://en.wikipedia.org/wiki/Extensibility",
+            "id": 554     
+        },
+        {
+            "name": "Loose coupling",
+            "definition": "In computing and systems design, a loosely coupled system is one \n\n 1. in which components are weakly associated (have breakable relationships) with each other, and thus changes in one component least affect existence or performance of another component. \n 2. in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. Sub-areas include the coupling of classes, interfaces, data, and services. Loose coupling is the opposite of tight coupling. \n\n Components in a loosely coupled system can be replaced with alternative implementations that provide the same services. Components in a loosely coupled system are less constrained to the same platform, language, operating system, or build environment. \n\n If systems are decoupled in time, it is difficult to also provide transactional integrity; additional coordination protocols are required. Data replication across different systems provides loose coupling (in availability), but creates issues in maintaining consistency (data synchronization).",
+            "url": "https://en.wikipedia.org/wiki/Loose_coupling",
+            "id": 555     
+        },
         # {
         #     "name": "",
         #     "definition": "",
