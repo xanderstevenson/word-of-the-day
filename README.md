@@ -1,14 +1,15 @@
 <h1 align="center">WORD OF THE DAY</h1>
 <p align="center"><h2 align="center">A Webex Space and Bot</h2></p>
 
-<p align="left">Anyone with a Cisco domain account and Webex can join the Word of the Day by going here --> <a href='https://eurl.io/#3wNrmU0-1'>Join the 'Word of the Day' on Webex</a></p>
+<ul>
+<li><p align="left">Anyone with a Cisco domain account and Webex can join the Word of the Day by going here --> <a href='https://eurl.io/#3wNrmU0-1'>Join the 'Word of the Day' on Webex</a></p></li>
 
 <p align="left">Read the Cisco Blog about this project here --> <a href='https://blogs.cisco.com/developer/automatewebexspace01'>'How to Create and Automate a Webex Space' on Cisco Blogs</a></p>
 
 <p align="left">Check out the Cisco Code Exchange entry for this project here --> <a href='https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot'>'word-of-the-day-bot' on Cisco Code Exchange</a></p>
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot)
-
+</ul>
 
 <p align="center"><h1 align="center">How to Create and Automate a Webex Space</h1></p>
 
