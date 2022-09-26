@@ -6,7 +6,7 @@
 
 <li><p align="left">Read the Cisco Blog about this project here --> <a href='https://blogs.cisco.com/developer/automatewebexspace01'>'How to Create and Automate a Webex Space' on Cisco Blogs</a></p></li>
 
-<li><p align="left">Check out the Cisco Code Exchange entry for this project here --> <a href='https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot'>'word-of-the-day-bot' on Cisco Code Exchange</a></p>
+<li><p align="left">See out the Cisco Code Exchange entry for this project here --> <a href='https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot'>'word-of-the-day-bot' on Cisco Code Exchange</a></p>
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot)
   </li>
