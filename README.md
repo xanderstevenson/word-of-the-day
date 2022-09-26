@@ -24,7 +24,7 @@ This project describes how to create a Webex bot which posts to a Webex space yo
 <h2 align="center">Layout and Functionality</h2>
 
 <p align="center">
-<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/WoD-screenshot-enhanced-labeled.png' width="375" height="437" border="10">
+<img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Word-of-the_day.jpg' width="375" height="437" border="10">
 </p>
 
 A card similar to the above is posted on a regular schedule to the 'Word of the Day' Webex room. A random word is chosen each time from hundreds of the most cutting-edge and interesting terms relevant to development, coding, networking, cloud computing and the sociology of technology. The word is in green font. A multi-word/sentence definition is provided below that. Below the definition is a button whith green font that is clickable and will take the user to the source and/or more information on the word of the day.
