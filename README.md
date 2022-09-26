@@ -48,7 +48,7 @@ I prefer using Adaptive Cards when posting to Webex spaces. If you're starting f
 <img src='https://github.com/xanderstevenson/word-of-the-day-bot/blob/main/media/Card-Designer.png' border="10">
 </p>
 
-Next we want to create a message to post in the Webex space that will contain the card we just created. You can test this out with the interactive [Create a Message](https://developer.webex.com/docs/api/v1/messages/create-a-message) on the Webex for Developers page under the 'Try it' tab. Don't forget to paste you Adaptive Card code you saved into the 'attachments' field, as well as the roomID ou saved from the previous API call. Click 'Run' to create the message. When you get it working, click the 'Example' tab and copy the code. You will use this to build your request. 
+Next we want to create a message to post in the Webex space that will contain the card we just created. You can test this out with the interactive [Create a Message](https://developer.webex.com/docs/api/v1/messages/create-a-message) on the Webex for Developers page under the 'Try it' tab. Don't forget to paste your Adaptive Card code you saved into the 'attachments' field, as well as the roomID ou saved from the previous API call. Click 'Run' to create the message. When you get it working, click the 'Example' tab and copy the code. You will use this to build your request. 
 
 <h3 align="center">Building the App in Python</h3>
 
@@ -60,7 +60,7 @@ I use Python and the requests library to do all the work for this app. You can s
 
 <h3 align="center">Create a Bot to Post the Message to the Webex Space</h3>
 
-So far you have your Webex Room and you have Python code to post messages to your room. But who will post the messages. That's where the bot comes in.
+So far you have your Webex Room and you have Python code to post messages to your room. But who will post the messages? That's where the bot comes in.
 
 Go to [Webex for Developers / My Apps](https://developer.webex.com/my-apps) and 'Create a New App' (You'll need to be logged in to do this). Choose 'Create a Bot'. Follow all the steps and create the bot. You'll then get a Bot Access Token. Save this as the TEAMS_ACCESS_TOKEN variable in the '~/.bashrc' file with the line export TEAMS_ACCESS_TOKEN="<Bot Access Token Goes Here>". Use the command 'source ~/.bashrc' to load the variable into the environment. You can check this worked with the command 'echo $TEAMS_ACCESS_TOKEN'. In my main module, chatops.py, you'll see the line 'access_token = os.environ.get("TEAMS_ACCESS_TOKEN"). This sets it up so the bot is the one doing the posting in the Webex space. Cool, right?
 
@@ -75,7 +75,7 @@ your message was successfully posted to Webex Teams
 
   <h2 align="center">Running the App on Schedule (Using GitHub Workflows and Actions)</h2>
 
-In order to run the app on a schedule, we use GitHub workflows. In order to do that, you'll need to create a GitHub repo named '.github' and creat a directory in it called '.github/workflows'. So that structrure will look like this: '.github/.github/workflows/'. 
+In order to run the app on a schedule, we use GitHub workflows. In order to do that, you'll need to create a GitHub repo named '.github' and create a directory in it called '.github/workflows'. So that structrure will look like this: '.github/.github/workflows/'. 
 
 Next, you want to create a workflow file in the workslows directory. It will contain a name, a trigger, a job, and basic steps (including checkout and run). To learn more about what all this means, check out this tutorial: [How To Build Your First GitHub Actions Workflow](https://www.ipswitch.com/blog/how-to-build-your-first-github-actions-workflow). I also have a 'workflow templates' directory in the '.github' repo that contains the workslow as a template, as well as a properties.json file describing everything. 
 
@@ -100,7 +100,7 @@ If everything is setup correctly, the code will run completely and the Webex spa
 
 For this project, words were chosen which are relevant to modern and future technologies. I also deliberately chose words which have cross-functional use in network and software development. Additionally, I chose a mix of words which will be of interest to a wide range of IT professionals, i.e., engineers, managers, human resources personnel, testers, programmers, developers, cybersecurity, etc..
 
-I used a variety of resources to find the most cutting-edge terms but without getting too deep or technical. Neither did I choose words which would be too common or simple. Last but not least, I tried to compile a list of words that will make anyone who uses them sound smart. Well, not really. Actually, humor is a common theme. Trying to hard to sound smart usually has the opposite effect.
+I used a variety of resources to find the most cutting-edge terms but without getting too deep or technical. Neither did I choose words which would be too common or simple. Last but not least, I tried to compile a list of words that will make anyone who uses them sound smart. Well, not really. Actually, humor is a common theme. Trying to hard too sound smart usually has the opposite effect.
 
 <h4 align="center">Sources (not all-inclusive)</h4>
 
