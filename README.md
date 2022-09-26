@@ -3,9 +3,9 @@
 
 <p align="center">Anyone with a Cisco domain account and Webex can join the Word of the Day by going here --> <a href='https://eurl.io/#3wNrmU0-1'>Join the 'Word of the Day' on Webex</a></p>
 
-<p align="center">Read the Cisco Blog about this project here --> <a href='[https://eurl.io/#3wNrmU0-1](https://blogs.cisco.com/developer/automatewebexspace01)'>'How to Create and Automate a Webex Space' on Cisco Blogs</a></p>
+<p align="center">Read the Cisco Blog about this project here --> <a href='https://blogs.cisco.com/developer/automatewebexspace01'>'How to Create and Automate a Webex Space' on Cisco Blogs</a></p>
 
-<p align="center">Check out the Cisco Code Exchange entry for this project here --> <a href='[word-of-the-day-bot](https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot)'>word-of-the-day-bot on Cisco Code Exchange</a></p>
+<p align="center">Check out the Cisco Code Exchange entry for this project here --> <a href='https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/word-of-the-day-bot'>word-of-the-day-bot on Cisco Code Exchange</a></p>
 
 
 <p align="center"><h1 align="center">How to Create and Automate a Webex Space</h1></p>
