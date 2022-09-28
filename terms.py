@@ -3355,35 +3355,275 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Loose_coupling",
             "id": 555     
         },
+        {
+            "name": "Monorepo",
+            "definition": "In version control systems, a monorepo (‘mono’ meaning 'single' and ‘repo’ being short for 'repository') is a software development strategy where code for many projects is stored in the same repository. This software engineering practice dates back to at least the early 2000s, when it was known as a 'shared codebase'. A related concept is the monolith, but while a monolith combines its sub-projects into one large project, a monorepo may contain independent projects. \n\n Google, Meta, Microsoft, Uber, Airbnb, and Twitter all employ very large monorepos with varying strategies to scale build systems and version control software with a large volume of code and daily changes.",
+            "url": "https://en.wikipedia.org/wiki/Monorepo",
+            "id": 556     
+        },
+        {
+            "name": "Von Neumann architecture",
+            "definition": "The von Neumann architecture — also known as the von Neumann model or Princeton architecture — is a computer architecture based on a 1945 description by John von Neumann, and by others, in the First Draft of a Report on the EDVAC. The document describes a design architecture for an electronic digital computer with these components: \n\n - A processing unit with both an arithmetic logic unit and processor registers \n - A control unit that includes an instruction register and a program counter \n - Memory that stores data and instructions \n - External mass storage \n - Input and output mechanisms \n\n The term ‘von Neumann architecture’ has evolved to refer to any stored-program computer in which an instruction fetch and a data operation cannot occur at the same time (since they share a common bus). This is referred to as the von Neumann bottleneck, which often limits the performance of the corresponding system. \n\n A von Neumann language in computing is any of those programming languages that are high-level abstract isomorphic copies of von Neumann architectures. As of 2009, most current programming languages fit into this description , likely as a consequence of the extensive domination of the von Neumann computer architecture during the past 50 years.",
+            "url": "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
+            "id": 557     
+        },
+        {
+            "name": "Computronium",
+            "definition": "Computronium is a material hypothesized by Norman Margolus and Tommaso Toffoli of MIT in 1991 to be used as ‘programmable matter’, a substrate for computer modeling of virtually any real object. \n\n It also refers to a arrangement of matter that is the best possible form of computing device for that amount of matter. In this context, the term can refer both to a theoretically perfect arrangement of hypothetical materials that would have been developed using nanotechnology at the molecular, atomic, or subatomic level (in which case this interpretation of computronium could be unobtainium), and to the best possible achievable form using currently available and used computational materials.",
+            "url": "https://en.wikipedia.org/wiki/Computronium",
+            "id": 558     
+        },
+        {
+            "name": "Halting problem",
+            "definition": "In computability theory, the halting problem is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running, or continue to run forever. Alan Turing proved in 1936 that a general algorithm to solve the halting problem for all possible program-input pairs cannot exist. \n\n For any program f that might determine if programs halt, a ‘pathological’ program g, called with some input, can pass its own source and its input to f and then specifically do the opposite of what f predicts g will do. No f can exist that handles this case. A key part of the proof is a mathematical definition of a computer and program, which is known as a Turing machine; the halting problem is undecidable over Turing machines. It is one of the first cases of decision problems proven to be unsolvable. This proof is significant to practical computing efforts, defining a class of applications which no programming invention can possibly perform perfectly. \n\n Jack Copeland attributes the introduction of the term halting problem to the work of Martin Davis in the 1950s.",
+            "url": "https://en.wikipedia.org/wiki/Halting_problem",
+            "id": 559     
+        },
+        {
+            "name": "Evolutionary algorithm",
+            "definition": "In computational intelligence (CI), an evolutionary algorithm (EA) is a subset of evolutionary computation, a generic population-based metaheuristic optimization algorithm. An EA uses mechanisms inspired by biological evolution, such as reproduction, mutation, recombination, and selection. Candidate solutions to the optimization problem play the role of individuals in a population, and the fitness function determines the quality of the solutions (see also loss function). Evolution of the population then takes place after the repeated application of the above operators. \n\n Evolutionary algorithms often perform well approximating solutions to all types of problems because they ideally do not make any assumption about the underlying fitness landscape. Techniques from evolutionary algorithms applied to the modeling of biological evolution are generally limited to explorations of microevolutionary processes and planning models based upon cellular processes. In most real applications of EAs, computational complexity is a prohibiting factor. In fact, this computational complexity is due to fitness function evaluation. Fitness approximation is one of the solutions to overcome this difficulty. However, seemingly simple EA can solve often complex problems; therefore, there may be no direct link between algorithm complexity and problem complexity.",
+            "url": "https://en.wikipedia.org/wiki/Evolutionary_algorithm",
+            "id": 560     
+        },
+        {
+            "name": "Heuristic",
+            "definition": "A heuristic (from Ancient Greek (heurískō) 'I find, discover'), or heuristic technique, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution. Heuristics can be mental shortcuts that ease the cognitive load of making a decision. \n\n Examples that employ heuristics include using trial and error, a rule of thumb or an educated guess. \n\n Heuristics are the strategies derived from previous experiences with similar problems. These strategies depend on using readily accessible, though loosely applicable, information to control problem solving in human beings, machines and abstract issues. When an individual applies a heuristic in practice, it generally performs as expected. However it can alternatively create systematic errors.",
+            "url": "https://en.wikipedia.org/wiki/Heuristic",
+            "id": 561     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 556     
+        #     "id": 562     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 557     
+        #     "id": 563     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 558     
+        #     "id": 564     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 559     
+        #     "id": 565     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 560     
+        #     "id": 566     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 567     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 568     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 569     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 570     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 5     
         # },
         # {
         #     "name": "",
