@@ -3391,119 +3391,119 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Heuristic",
             "id": 561     
         },
+        {
+            "name": "Cloud access security broker (CASB)",
+            "definition": "A cloud access security broker (CASB) (sometimes pronounced cas-bee) is on-premises or cloud based software that sits between cloud service users and cloud applications, and monitors all activity and enforces security policies. A CASB can offer services such as monitoring user activity, warning administrators about potentially hazardous actions, enforcing security policy compliance, and automatically preventing malware. \n\n CASBs consolidate multiple types of security policy enforcement. Example security policies include authentication, single sign-on, authorization, credential mapping, device profiling, encryption, tokenization, logging, alerting, malware detection/prevention and so on.",
+            "url": "https://en.wikipedia.org/wiki/Cloud_access_security_broker",
+            "id": 562     
+        },
+        {
+            "name": "System on a chip (SoC)",
+            "definition": "A system on a chip or system-on-chip (SoC) is an integrated circuit that integrates most or all components of a computer or other electronic system. These components almost always include a central processing unit (CPU), memory interfaces, on-chip input/output devices, input/output interfaces, and secondary storage interfaces, often alongside other components such as radio modems and a graphics processing unit (GPU) – all on a single substrate or microchip. It may contain digital, analog, mixed-signal, and often radio frequency signal processing functions (otherwise it is considered only an application processor).",
+            "url": "https://en.wikipedia.org/wiki/System_on_a_chip",
+            "id": 563     
+        },
+        {
+            "name": "Ostrich algorithm",
+            "definition": "In computer science, the ostrich algorithm is a strategy of ignoring potential problems on the basis that they may be exceedingly rare. It is named after the ostrich effect which is defined as ‘to stick one's head in the sand and pretend there is no problem’. It is used when it is more cost-effective to allow the problem to occur than to attempt its prevention. \n\n This approach may be used in dealing with deadlocks in concurrent programming if they are believed to be very rare and the cost of detection or prevention is high. For example, if each PC deadlocks once per 10 years, a single reboot may be less painful than the restrictions needed to prevent it. \n\n A set of processes is deadlocked if each process in the set is waiting for an event that only another process in the set can cause. Usually the event is the release of a currently held resource and none of the processes can run, release resources, and be awakened. \n\n The ostrich algorithm pretends there is no problem and is reasonable to use if deadlocks occur very rarely and the cost of their prevention would be high. The UNIX and Windows operating systems take this approach. \n\n Although using the ostrich algorithm is one of the methods of dealing with deadlocks, other effective methods exist such as dynamic avoidance, banker's algorithm, detection and recovery, and prevention.",
+            "url": "https://en.wikipedia.org/wiki/Ostrich_algorithm",
+            "id": 564     
+        },
+        {
+            "name": "Logarithm",
+            "definition": "In mathematics, the logarithm is the inverse function to exponentiation. That means the logarithm of a given number x is the exponent to which another fixed number, the base b, must be raised, to produce that number x. \n\n Analysis of algorithms is a branch of computer science that studies the performance of algorithms (computer programs solving a certain problem). Logarithms are valuable for describing algorithms that divide a problem into smaller ones, and join the solutions of the subproblems.",
+            "url": "https://en.wikipedia.org/wiki/Logarithm#Computational_complexity",
+            "id": 565     
+        },
+        {
+            "name": "Adapter pattern",
+            "definition": "In software engineering, the adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code. \n\n An example is an adapter that converts the interface of a Document Object Model of an XML document into a tree structure that can be displayed. \n\n The adapter design pattern is one of the twenty-three well-known Gang of Four design patterns that describe how to solve recurring design problems to design flexible and reusable object-oriented software, that is, objects that are easier to implement, change, test, and reuse. \n\n The adapter design pattern solves problems like: \n\n - How can a class be reused that does not have an interface that a client requires? \n - How can classes that have incompatible interfaces work together? \n -How can an alternative interface be provided for a class?",
+            "url": "https://en.wikipedia.org/wiki/Adapter_pattern",
+            "id": 566     
+        },
+        {
+            "name": "Factory",
+            "definition": "In object-oriented programming (OOP), a factory is an object for creating other objects; formally, it is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be ‘new’. More broadly, a subroutine that returns a ‘new’ object may be referred to as a ‘factory’, as in factory method or factory function. This is a basic concept in OOP, and forms the basis for a number of related software design patterns.",
+            "url": "https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)",
+            "id": 567     
+        },
+        {
+            "name": "Time complexity",
+            "definition": "In computer science, the time complexity is the computational complexity that describes the amount of computer time it takes to run an algorithm. Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm, supposing that each elementary operation takes a fixed amount of time to perform. Thus, the amount of time taken and the number of elementary operations performed by the algorithm are taken to be related by a constant factor.",
+            "url": "https://en.wikipedia.org/wiki/Time_complexity",
+            "id": 568     
+        },
+        {
+            "name": "Space complexity",
+            "definition": "The space complexity of an algorithm or a computer program is the amount of memory space required to solve an instance of the computational problem as a function of characteristics of the input. It is the memory required by an algorithm until it executes completely. Similar to time complexity, space complexity is often expressed asymptotically in big O notation.",
+            "url": "https://en.wikipedia.org/wiki/Space_complexity",
+            "id": 569     
+        },
+        {
+            "name": "Breadth-first search (BFS)",
+            "definition": "Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue, is needed to keep track of the child nodes that were encountered but not yet explored.",
+            "url": "https://en.wikipedia.org/wiki/Breadth-first_search",
+            "id": 570     
+        },
+        {
+            "name": "Depth-first search (DFS)",
+            "definition": "Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. Extra memory, usually a stack, is needed to keep track of the nodes discovered so far along a specified branch which helps in backtracking of the graph.",
+            "url": "https://en.wikipedia.org/wiki/Depth-first_search",
+            "id": 571     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 562     
+        #     "id": 572     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 563     
+        #     "id": 573     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 564     
+        #     "id": 574     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 565     
+        #     "id": 575     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 566     
+        #     "id": 576     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 567     
+        #     "id": 577     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 568     
+        #     "id": 578     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 569     
+        #     "id": 579     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 570     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
+        #     "id": 580     
         # },
         # {
         #     "name": "",
