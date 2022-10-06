@@ -3451,42 +3451,42 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Depth-first_search",
             "id": 571     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 572     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 573     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 574     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 575     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 576     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 577     
-        # },
+        {
+            "name": "Hardware overhang",
+            "definition": "Hardware overhang is a situation where sufficient compute is available, but the algorithms are suboptimal. It commonly refers to instances where large quantities of computing hardware can be diverted to running powerful AI systems as soon as the software is developed.",
+            "url": "https://www.lesswrong.com/posts/75dnjiD8kv2khe9eQ/measuring-hardware-overhang",
+            "id": 572     
+        },
+        {
+            "name": "Computing overhang",
+            "definition": "Computing overhang refers to a situation where new algorithms can exploit existing computing power far more efficiently than before. This can happen if previously used algorithms have been suboptimal.",
+            "url": "https://www.lesswrong.com/tag/computing-overhang",
+            "id": 573     
+        },
+        {
+            "name": "Instrumental convergence",
+            "definition": "Instrumental convergence is the hypothetical tendency for most sufficiently intelligent beings (both human and non-human) to pursue similar sub-goals, even if their ultimate goals are quite different. More precisely, agents (beings with agency) may pursue instrumental goals—goals which are made in pursuit of some particular end, but are not the end goals themselves—without end, provided that their ultimate (intrinsic) goals may never be fully satisfied. Instrumental convergence posits that an intelligent agent with unbounded but apparently harmless goals can act in surprisingly harmful ways. For example, a computer with the sole, unconstrained goal of solving an incredibly difficult mathematics problem like the Riemann hypothesis could attempt to turn the entire Earth into one giant computer in an effort to increase its computational power so that it can succeed in its calculations. \n\n Proposed basic AI drives include utility function or goal-content integrity, self-protection, freedom from interference, self-improvement, and non-satiable acquisition of additional resources.",
+            "url": "https://en.wikipedia.org/wiki/Instrumental_convergence",
+            "id": 574     
+        },
+        {
+            "name": "Orthogonality thesis",
+            "definition": "The Orthogonality Thesis states that an agent can have any combination of intelligence level and final goal, that is, its Utility Functions and General Intelligence can vary independently of each other. This is in contrast to the belief that, because of their intelligence, AIs will all converge to a common goal.",
+            "url": "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_general_intelligence#Orthogonality_thesis",
+            "id": 575     
+        },
+        {
+            "name": "Separation of concerns",
+            "definition": "In computer science, separation of concerns is a design principle for separating a computer program into distinct sections. Each section addresses a separate concern, a set of information that affects the code of a computer program. A concern can be as general as ‘the details of the hardware for an application’, or as specific as ‘the name of which class to instantiate’. A program that embodies SoC well is called a modular program. Modularity, and hence separation of concerns, is achieved by encapsulating information inside a section of code that has a well-defined interface. Encapsulation is a means of information hiding. Layered designs in information systems are another embodiment of separation of concerns (e.g., presentation layer, business logic layer, data access layer, persistence layer).",
+            "url": "https://en.wikipedia.org/wiki/Separation_of_concerns",
+            "id": 576     
+        },
+        {
+            "name": "Anonymous function",
+            "definition": "In computer programming, an anonymous function (function literal, lambda abstraction, lambda function, lambda expression or block) is a function definition that is not bound to an identifier. Anonymous functions are often arguments being passed to higher-order functions or used for constructing the result of a higher-order function that needs to return a function. If the function is only used once, or a limited number of times, an anonymous function may be syntactically lighter than using a named function. Anonymous functions are ubiquitous in functional programming languages and other languages with first-class functions, where they fulfill the same role for the function type as literals do for other data types.",
+            "url": "https://en.wikipedia.org/wiki/Anonymous_function",
+            "id": 577     
+        },
         # {
         #     "name": "",
         #     "definition": "",
