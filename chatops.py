@@ -46,7 +46,7 @@ if __name__ == '__main__':
             "type": "TextBlock",
             "text": "Word of the Day",
             "size": "ExtraLarge",
-            "horizontalAlignment": "Center",
+            "horizontalAlignment": "center",
             "fontType": "Default",
             "isSubtle": True,
             "color": "Accent",
@@ -60,7 +60,7 @@ if __name__ == '__main__':
             "text": word,
             "size": "ExtraLarge",
             "separator": True,
-            "horizontalAlignment": "Center",
+            "horizontalAlignment": "center",
             "fontType": "Default",
             "isSubtle": True,
             "color": "Good",
@@ -72,38 +72,38 @@ if __name__ == '__main__':
             "type": "TextBlock",
             "text": definition,
             "size": "Medium",
-            "horizontalAlignment": "Center",
+            "horizontalAlignment": "center",
             "fontType": "Default",
             "isSubtle": True,
             "wrap": True
             },
             {
             "type":"ActionSet",
-            "horizontalAlignment": "Center",
+            "horizontalAlignment": "center",
             "actions": [
                 {
                 "type": "Action.OpenUrl",
                 "url": word_url,
                 "title": wiki_link_text,
                 "style": "positive",
-                "horizontalAlignment": "Center",
+                "horizontalAlignment": "center",
                 }
             ]
 
             },
 
-        # code block - use in a sentence
-            {
-            "type": "TextBlock",
-            "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
-            "size": "Small",
-            "horizontalAlignment": "Center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "color": "Warning",
-            "weight": "Lighter",
-            "wrap": True
-            },
+        # # code block - use in a sentence
+        #     {
+        #     "type": "TextBlock",
+        #     "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
+        #     "size": "Small",
+        #     "horizontalAlignment": "left",
+        #     "fontType": "Default",
+        #     "isSubtle": True,
+        #     "color": "Warning",
+        #     "weight": "Lighter",
+        #     "wrap": True
+        #     },
     ],
 
         }
