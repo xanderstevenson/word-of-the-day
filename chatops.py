@@ -92,18 +92,18 @@ if __name__ == '__main__':
 
             },
 
-        # code block - use in a sentence
-            {
-            "type": "TextBlock",
-            "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
-            "size": "Small",
-            "horizontalAlignment": "Center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "color": "Warning",
-            "weight": "Lighter",
-            "wrap": True
-            },
+        # # code block - use in a sentence
+        #     {
+        #     "type": "TextBlock",
+        #     "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
+        #     "size": "Small",
+        #     "horizontalAlignment": "left",
+        #     "fontType": "Default",
+        #     "isSubtle": True,
+        #     "color": "Warning",
+        #     "weight": "Lighter",
+        #     "wrap": True
+        #     },
     ],
 
         }
