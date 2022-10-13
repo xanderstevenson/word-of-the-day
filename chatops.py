@@ -39,7 +39,6 @@ if __name__ == '__main__':
     {
     "contentType": "application/vnd.microsoft.card.adaptive",
     "content": {
-            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
             "type": "AdaptiveCard",
             "version": "1.2",
     "body": [
