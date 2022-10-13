@@ -3505,36 +3505,36 @@ def return_word():
             "url": "https://www.synopsys.com/glossary/what-is-software-composition-analysis.html",
             "id": 580     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 581     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 582     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 583     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 584     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 585     
-        # },
+        {
+            "name": "Binary Tree",
+            "definition": "In computer science, a binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. \n\n In computing, binary trees are used in two very different ways: \n\n - First, as a means of accessing nodes based on some value or label associated with each node. Binary trees labelled this way are used to implement binary search trees and binary heaps, and are used for efficient searching and sorting. The designation of non-root nodes as left or right child even when there is only one child present matters in some of these applications, in particular, it is significant in binary search trees. However, the arrangement of particular nodes into the tree is not part of the conceptual information. For example, in a normal binary search tree the placement of nodes depends almost entirely on the order in which they were added, and can be re-arranged (for example by balancing) without changing the meaning. \n - Second, as a representation of data with a relevant bifurcating structure. In such cases, the particular arrangement of nodes under and/or to the left or right of other nodes is part of the information (that is, changing it would change the meaning). Common examples occur with Huffman coding and cladograms. The everyday division of documents into chapters, sections, paragraphs, and so on is an analogous example with n-ary rather than binary trees.",
+            "url": "https://en.wikipedia.org/wiki/Binary_tree",
+            "id": 581     
+        },
+        {
+            "name": "Tree (data structure)",
+            "definition": "In computer science, a tree is a widely used abstract data type that represents a hierarchical tree structure with a set of connected nodes. Each node in the tree can be connected to many children (depending on the type of tree), but must be connected to exactly one parent, except for the root node, which has no parent. These constraints mean there are no cycles or ‘loops’ (no node can be its own ancestor), and also that each child can be treated like the root node of its own subtree, making recursion a useful technique for tree traversal. In contrast to linear data structures, many trees cannot be represented by relationships between neighboring nodes in a single straight line.",
+            "url": "https://en.wikipedia.org/wiki/Tree_(data_structure)",
+            "id": 582     
+        },
+        {
+            "name": "Information technology service management (ITSM)",
+            "definition": "Information technology service management (ITSM) is the activities that are performed by an organization to design, build, deliver, operate and control information technology (IT) services offered to customers. \n\n Differing from more technology-oriented IT management approaches like network management and IT systems management, IT service management is characterized by adopting a process approach towards management, focusing on customer needs and IT services for customers rather than IT systems, and stressing continual improvement. \n\n As a discipline, ITSM has ties and common interests with other IT and general management approaches, information security management and software engineering. Consequently, IT service management frameworks have been influenced by other standards and adopted concepts from them.",
+            "url": "https://en.wikipedia.org/wiki/IT_service_management",
+            "id": 583     
+        },
+        {
+            "name": "IP address management (IPAM)",
+            "definition": "IP address management (IPAM) is a methodology implemented in computer software for planning and managing the assignment and use of IP addresses and closely related resources of a computer network. IPAM tools are increasingly important as new IPv6 networks are deployed with large address pools of 128-bit hexadecimal numbers and new subnetting techniques.",
+            "url": "https://en.wikipedia.org/wiki/IP_address_management",
+            "id": 584     
+        },
+        {
+            "name": "OpenConfig",
+            "definition": "OpenConfig is a vendor-neutral, model-driven network management technology designed by users. It defines and implements a common, vendor-independent software layer for managing network devices. OpenConfig operates as an open source project with contributions from network operators, equipment vendors, and the wider community. OpenConfig is led by an Operator Working Group consisting of network operators from multiple segments of the industry.",
+            "url": "https://www.openconfig.net/",
+            "id": 585     
+        },
         # {
         #     "name": "",
         #     "definition": "",
