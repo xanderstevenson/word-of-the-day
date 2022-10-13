@@ -1377,7 +1377,7 @@ def return_word():
         }, 
         {
             "name": "Application integration",
-            "definition": "1. Translating data and commands from the format of one application into the format of another. It is essentially data and command conversion on an ongoing basis between two or more incompatible systems. Implementing application integration has traditionally been done by tedious programming, or occasionally one package might support the interfaces of one or two other packages. However, the trend today is to use message brokers, applications servers and other specialized integration products that provide a common connecting point. Since the advent of the Web, these pre-packaged ‘middleware’ solutions have become widely used to Web enable the enterprise. \n\n 2. Redesigning disparate information systems into one system that uses a common set of data structures and rules.",
+            "definition": "Application integration is translating data and commands from the format of one application into the format of another. It is essentially data and command conversion on an ongoing basis between two or more incompatible systems. Implementing application integration has traditionally been done by tedious programming, or occasionally one package might support the interfaces of one or two other packages. However, the trend today is to use message brokers, applications servers and other specialized integration products that provide a common connecting point. Since the advent of the Web, these pre-packaged ‘middleware’ solutions have become widely used to Web enable the enterprise. \n\n It may also refer to redesigning disparate information systems into one system that uses a common set of data structures and rules.",
             "url": "https://en.wikipedia.org/wiki/Enterprise_application_integration",
             "id": 226      
         }, 
@@ -3487,131 +3487,125 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Anonymous_function",
             "id": 577     
         },
+        {
+            "name": "Static application security testing (SAST)",
+            "definition": "Static application security testing (SAST) allows developers to scan their source code for weak or insecure coding, identifying potential security issues that should be fixed. Each issue discovered has a severity level that can help developers prioritize remediation. \n\n When SAST is integrated into the SDLC or a CI/CD pipeline, teams can define quality gates that identify how many issues and what level of severity should cause the build to fail, or prevent a component from being promoted to next stages of the pipeline. Integration into developers’ integrated development environment (IDE) will allow developers to see code weaknesses as they write code, helping them build security in from the start.",
+            "url": "https://en.wikipedia.org/wiki/Static_application_security_testing",
+            "id": 578     
+        },
+        {
+            "name": "Dynamic application security testing (DAST)",
+            "definition": "Dynamic application security testing (DAST) tools can automatically perform security testing on running applications, testing for a variety of real threats without requiring access to source code. These tools typically test the HTTP and HTML interfaces of a web application. \n\n DAST is a black box testing method, which can identify application vulnerabilities from an attacker’s perspective, simulating common attack vectors recreating how an attacker may detect and exploit vulnerabilities. Because DAST is automated and easy to integrate with other DevOps tools, it is a great way to verify application security in testing or staging environments.",
+            "url": "https://en.wikipedia.org/wiki/Dynamic_application_security_testing",
+            "id": 579     
+        },
+        {
+            "name": "Software composition analysis (SCA)",
+            "definition": "Software composition analysis (SCA) is an automated process that identifies the open source software in a codebase. This analysis is performed to evaluate security, license compliance, and code quality. \n\n Companies need to be aware of open source license limitations and obligations. Tracking these obligations manually became too arduous of a task—and it often overlooked code and its accompanying vulnerabilities. An automated solution, SCA, was developed, and from this initial use case, it expanded to analyze code security and quality. \n\n In a modern DevOps or DevSecOps environment, SCA has galvanized the ‘shift left’ paradigm. Earlier and continuous SCA testing has enabled developers and security teams to drive productivity without compromising security and quality.",
+            "url": "https://www.synopsys.com/glossary/what-is-software-composition-analysis.html",
+            "id": 580     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 578     
+        #     "id": 581     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 579     
+        #     "id": 582     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 580     
+        #     "id": 583     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 584     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 585     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 586     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 587     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 588     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 589     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 590     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 591     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 592     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 593     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 594     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 595     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 596     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 5     
+        #     "id": 597     
         # },
         # {
         #     "name": "",
@@ -3623,67 +3617,673 @@ def return_word():
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 598     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 599     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
+        # },
+        # {
+        #     "name": "",
+        #     "definition": "",
+        #     "url": "",
+        #     "id": 6     
         # },
 
     ]
