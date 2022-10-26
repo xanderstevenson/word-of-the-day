@@ -3535,66 +3535,66 @@ def return_word():
             "url": "https://www.openconfig.net/",
             "id": 585     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 586     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 587     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 588     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 589     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 590     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 591     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 592     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 593     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 594     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 595     
-        # },
+        {
+            "name": "First-class function",
+            "definition": "In computer science, a programming language is said to have first-class functions if it treats functions as first-class citizens. This means the language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures. Some programming language theorists require support for anonymous functions (function literals) as well. In languages with first-class functions, the names of functions do not have any special status; they are treated like ordinary variables with a function type. The term was coined by Christopher Strachey in the context of ‘functions as first-class citizens’ in the mid-1960s.",
+            "url": "https://en.wikipedia.org/wiki/First-class_function",
+            "id": 586     
+        },
+        {
+            "name": "Software-defined everything (SDE/SDx)",
+            "definition": "Software-defined everything (SDE), sometimes referred to as SDx, is a broad term which refers to a group of various systems controlled by advanced software programs and constructed in a virtual, versus physical, hardware space. SDE is an advance in technology that allows virtualization of the entire technology stack compute, network, storage, and security layers. Software-Defined Everything aims to make information technology (IT) infrastructures more flexible and agile. \n\n Software-defined everything is a container term where the umbrella of SDE/Sdx includes Software Defined Networking (SDN), Software-Defined Storage (SDS) and Software-Defined Data Center (SDDC).",
+            "url": "https://www.geeksforgeeks.org/umbrella-of-software-defined-everything-sdx-sde/",
+            "id": 587     
+        },
+        {
+            "name": "Product-family engineering (PFE)",
+            "definition": "Product-family engineering (PFE), also known as product-line engineering, is based on the ideas of ‘domain engineering’ created by the Software Engineering Institute, and coined as a term by James Neighbors. Software product lines are quite common in our daily lives, but before a product family can be successfully established, an extensive process has to be followed. This process is known as product-family engineering. \n\n Product-family engineering can be defined as a method that creates an underlying architecture of an organization's product platform. It provides an architecture that is based on commonality as well as planned variabilities. The various product variants can be derived from the basic product family, which creates the opportunity to reuse and differentiate on products in the family. Product-family engineering is conceptually similar to the widespread use of vehicle platforms in the automotive industry. \n\n Product-family engineering is a relatively new approach to the creation of new products. It focuses on the process of engineering new products in such a way that it is possible to reuse product components and apply variability with decreased costs and time. Product-family engineering is all about reusing components and structures as much as possible.",
+            "url": "https://en.wikipedia.org/wiki/Product-family_engineering",
+            "id": 588     
+        },
+        {
+            "name": "Linked list",
+            "definition": "In computer science, a linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes which together represent a sequence. In its most basic form, each node contains: data, and a reference (in other words, a link) to the next node in the sequence. This structure allows for efficient insertion or removal of elements from any position in the sequence during iteration. More complex variants add additional links, allowing more efficient insertion or removal of nodes at arbitrary positions. A drawback of linked lists is that access time is linear (and difficult to pipeline). Faster access, such as random access, is not feasible. Arrays have better cache locality compared to linked lists. \n\n Linked lists are among the simplest and most common data structures. The principal benefit of a linked list over a conventional array is that the list elements can be easily inserted or removed without reallocation or reorganization of the entire structure because the data items need not be stored contiguously in memory or on disk, while restructuring an array at run-time is a much more expensive operation. \n\n On the other hand, since simple linked lists by themselves do not allow random access to the data or any form of efficient indexing, many basic operations—such as obtaining the last node of the list, finding a node that contains a given datum, or locating the place where a new node should be inserted—may require iterating through most or all of the list elements.",
+            "url": "https://en.wikipedia.org/wiki/Linked_list",
+            "id": 589     
+        },
+        {
+            "name": "Network management software",
+            "definition": "Network management software was developed to help reduce the burden of managing the growing complexity of computer networks and addresses the issues of network faults, performance bottlenecks, compliance issues, etc. Some advanced network management software may rectify network problems automatically and may also help with tasks involved in provisioning new networks, such as installing and configuring new network nodes, etc. They may also help with maintenance of existing networks like upgrading software on existing network devices, creating new virtual networks, etc. \n\n Functions of network management software include provisioning, mapping, monitoring, configuration management, regulatory compliance, change control, software asset management and cybersecurity.",
+            "url": "https://en.wikipedia.org/wiki/Network_management_software",
+            "id": 590     
+        },
+        {
+            "name": "Service-oriented modeling",
+            "definition": "Service-oriented modeling is the discipline of modeling business and software systems, for the purpose of designing and specifying service-oriented business systems within a variety of architectural styles and paradigms, such as application architecture, service-oriented architecture, microservices, and cloud computing. \n\n Any service-oriented modeling method typically includes a modeling language that can be employed by both the ‘problem domain organization’ (the business), and ‘solution domain organization’ (the information technology department), whose unique perspectives typically influence the service development life-cycle strategy and the projects implemented using that strategy. \n\n Service-oriented modeling typically strives to create models that provide a comprehensive view of the analysis, design, and architecture of all software entities in an organization, which can be understood by individuals with diverse levels of business and technical understanding. Service-oriented modeling typically encourages viewing software entities as ‘assets’ (service-oriented assets), and refers to these assets collectively as ‘services’. A key service design concern is to find the right service granularity both on the business (domain) level and on a technical (interface contract) level. \n\n Popular approaches to service-oriented modeling include service-oriented design and development methodology (SDDM), service-oriented modeling and architecture (SOMA) and service-oriented modeling framework (SOMF).",
+            "url": "https://en.wikipedia.org/wiki/Service-oriented_modeling",
+            "id": 591     
+        },
+        {
+            "name": "Modeling language",
+            "definition": "A modeling language is any artificial language that can be used to express information or knowledge or systems in a structure that is defined by a consistent set of rules. The rules are used for interpretation of the meaning of components in the structure. \n\n A modeling language can be graphical or textual. Graphical modeling languages use a diagram technique with named symbols that represent concepts and lines that connect the symbols and represent relationships and various other graphical notation to represent constraints. Textual modeling languages may use standardized keywords accompanied by parameters or natural language terms and phrases to make computer-interpretable expressions. \n\n Various kinds of modeling languages are applied in different disciplines, including computer science, information management, business process modeling, software engineering, and systems engineering. Modeling languages can be used to specify system requirements, structures and behaviors and are intended to be used to precisely specify systems so that stakeholders (e.g., customers, operators, analysts, designers) can better understand the system being modeled. \n\n Some popular modeling languages are Object-Role Modeling (ORM), Unified Modeling Language (UML) and Java Modeling Language (JML).",
+            "url": "https://en.wikipedia.org/wiki/Modeling_language",
+            "id": 592     
+        },
+        {
+            "name": "Theory of constraints (TOC)",
+            "definition": "The theory of constraints (TOC) is a management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints. There is always at least one constraint, and TOC uses a focusing process to identify the constraint and restructure the rest of the organization around it. TOC adopts the common idiom ‘a chain is no stronger than its weakest link’. That means that organizations and processes are vulnerable because the weakest person or part can always damage or break them, or at least adversely affect the outcome.",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_constraints",
+            "id": 593     
+        },
+        {
+            "name": "DevSecOps",
+            "definition": "DevSecOps stands for development, security and operations. It is an approach to culture, automation and platform design that integrates security as a shared responsibility throughout the entire IT lifecycle. \n\n In the collaborative framework of DevOps, security is a shared responsibility integrated from end to end. It’s a mindset that is so important, it led some to coin the term ‘DevSecOps’ to emphasize the need to build a security foundation into DevOps initiatives. \n\n DevSecOps means thinking about application and infrastructure security from the start. It also means automating some security gates to keep the DevOps workflow from slowing down. Selecting the right tools to continuously integrate security, like agreeing on an integrated development environment (IDE) with security features, can help meet these goals. However, effective DevOps security requires more than new tools—it builds on the cultural changes of DevOps to integrate the work of security teams sooner rather than later.",
+            "url": "https://www.redhat.com/en/topics/devops/what-is-devsecops",
+            "id": 594     
+        },
+        {
+            "name": "Scalar",
+            "definition": "A scalar data type, or just scalar, is any non-composite value. Generally, all basic primitive data types are considered scalar, including boolean data type (bool), numeric types (int, the floating point types float and double) and character types (char and string). A variable (that is, a named location containing a scalar data type) is sometimes referred to as a ‘scalar’. Scalar processors are a class of computer processors that process only one data item at a time.",
+            "url": "https://en.wikipedia.org/wiki/Scalar_processor#Scalar_data_type",
+            "id": 595     
+        },
         # {
         #     "name": "",
         #     "definition": "",
