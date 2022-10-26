@@ -3595,101 +3595,95 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Scalar_processor#Scalar_data_type",
             "id": 595     
         },
+        {
+            "name": "Critical control point (CCP)",
+            "definition": "A critical control point (CCP) is the point where the failure of Standard Operation Procedure (SOP) could cause harm to customers and to the business, or even loss of the business itself. It is a point, step or procedure at which controls can be applied and a safety hazard can be prevented, eliminated or reduced to acceptable (critical) levels. \n\n It is now possible to apply algorithms to CCPs rather than just rely on individual parameters or combinations. Artificial intelligence and machine learning are also coming down the line allowing much greater understanding and ‘line of sight’ for failure prediction.",
+            "url": "https://www.riskedge.com.au/have-we-been-getting-critical-control-points-all-wrongits-time-to-rethink-like-a-coder/",
+            "id": 596     
+        },
+        {
+            "name": "Internet of behaviors (IoB)",
+            "definition": "The Internet of behaviors (IoB) can be defined as the collection and use of data to understand and drive behaviors. It is an area of research and development (R&D) that seeks to understand how, when and why humans use technology to make decisions. IoB combines three fields of study: behavioral science, edge analytics and the Internet of Things (IoT). \n\n IoB platforms are designed to gather, aggregate and analyze data generated from a wide variety of sources, including household digital devices, wearable computers and human online activities. The data is then analyzed in terms of behavioral psychology to look for patterns that can be used by marketing and sales teams to influence future consumer behavior. \n\n The concept of IoB can be thought of in two high-level stages: \n\n 1. Measuring: Harvesting and Understanding \n 2. Influencing: Driving Behavior \n\n An important goal of the IoB is to help marketers understand and monetize the massive amount of data produced by network nodes in the Internet of Things. \n\n The collection of behavioral events data can be problematic. The IoB raises concerns about how businesses gather, navigate, and use data, particularly as more of it is collected. Whatever perspectives are on IoT and IoB, experts predict that they will continue to grow and influence in the near future.",
+            "url": "https://www.rackspace.com/solve/internet-behavior-what-it",
+            "id": 597     
+        },
+        {
+            "name": "Protobuf",
+            "definition": "Protocol Buffers (Protobuf) is a free and open-source cross-platform data format used to serialize structured data. It is useful in developing programs to communicate with each other over a network or for storing data. The method involves an interface description language that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data. \n\n Google developed Protocol Buffers for internal use and provided a code generator for multiple languages under an open-source license. The design goals for Protocol Buffers emphasized simplicity and performance. In particular, it was designed to be smaller and faster than XML. Protocol Buffers are widely used at Google for storing and interchanging all kinds of structured information. The method serves as a basis for a custom remote procedure call (RPC) system that is used for nearly all inter-machine communication at Google. \n\n Protocol Buffers are similar to the Apache Thrift (used by Facebook, Evernote), Ion (created by Amazon), or Microsoft Bond protocols, offering as well a concrete RPC protocol stack to use for defined services called gRPC.",
+            "url": "https://en.wikipedia.org/wiki/Protocol_Buffers",
+            "id": 598     
+        },
+        {
+            "name": "gNMI",
+            "definition": "gNMI (gRPC Network Management Interface) is gRPC network management protocol developed by Google. gNMI provides the mechanism to install, manipulate, and delete the configuration of network devices, and also to view operational data. It defines the gRPC service name, RPCs and messages. The content provided through gNMI can be modeled using YANG. \n\n gRPC is a remote procedure call developed by Google for low-latency, scalable distributions with mobile clients communicating to a cloud server. gRPC carries gNMI, and provides the means to formulate and transmit data and operation requests. \n\n When a failure occurs, the gNMI broker (GNMIB) will indicate an operational change of state from up to down, and all RPCs will return a service unavailable message until the database is up and running. Upon recovery, the GNMIB will indicate a change of operation state from down to up, and resume normal handling of RPCs.",
+            "url": "https://datatracker.ietf.org/meeting/101/materials/slides-101-netconf-grpc-network-management-interface-gnmi-00",
+            "id": 599     
+        },
+        {
+            "name": "gRPC",
+            "definition": "gRPC (a recursive acronym for gRPC Remote Procedure Calls) is a cross-platform open source high performance Remote Procedure Call (RPC) framework. gRPC was initially created by Google, which has used a single general-purpose RPC infrastructure called Stubby to connect the large number of microservices running within and across its data centers for over a decade[when?]. In March 2015, Google decided to build the next version of Stubby and make it open source. The result was gRPC, which is now used in many organizations outside of Google to power use cases from microservices to the ‘last mile’ of computing (mobile, web, and Internet of Things). \n\n gRPC uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts. It generates cross-platform client and server bindings for many languages. Most common usage scenarios include connecting services in a microservices style architecture, or connecting mobile device clients to backend services.",
+            "url": "https://en.wikipedia.org/wiki/GRPC",
+            "id": 600     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 596     
+        #     "id": 601    
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 597     
+        #     "id": 602     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 5     
+        #     "id": 603     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 598     
+        #     "id": 604     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 599     
+        #     "id": 605     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 606     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 607     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 608     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 609     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
+        #     "id": 610     
         # },
         # {
         #     "name": "",
