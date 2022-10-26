@@ -3625,36 +3625,36 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/GRPC",
             "id": 600     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 601    
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 602     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 603     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 604     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 605     
-        # },
+        {
+            "name": "Network slicing",
+            "definition": "Network slicing is a form of virtual network architecture using the same principles behind software defined networking (SDN) and network functions virtualization (NFV) in fixed networks. SDN and NFV are now being commercially deployed to deliver greater network flexibility by allowing traditional network architectures to be partitioned into virtual elements that can be linked (also through software). \n\n Network slicing allows multiple virtual networks to be created on top of a common shared physical infrastructure. The virtual networks are then customized to meet the specific needs of applications, services, devices, customers or operators.",
+            "url": "https://en.wikipedia.org/wiki/5G_network_slicing",
+            "id": 601    
+        },
+        {
+            "name": "eMBB, URLLC and mMTC",
+            "definition": "Enhanced Mobile Broadband (eMBB), Ultra Reliable Low Latency Communications (URLLC) and Massive Machine Type Communications (mMTC) are the three main application areas for the enhanced capabilities of 5G. \n\n Enhanced Mobile Broadband (eMBB) uses 5G as a progression from 4G LTE mobile broadband services, with faster connections, higher throughput, and more capacity. This will benefit areas of higher traffic such as stadiums, cities, and concert venues. \n\n Ultra-Reliable Low-Latency Communications (URLLC) refer to using the network for mission critical applications that require uninterrupted and robust data exchange. The short-packet data transmission is used to meet both reliability and latency requirements of the wireless communication networks. \n\n Massive Machine-Type Communications (mMTC) would be used to connect to a large number of devices. 5G technology will connect some of the 50 billion connected IoT devices. \n\n Only eMBB is deployed as of 2020; URLLC and mMTC are several years away in most locations.",
+            "url": "https://en.wikipedia.org/wiki/5G#Application_areas",
+            "id": 602     
+        },
+        {
+            "name": "MPLS Traffic Engineering (MPLS-TE)",
+            "definition": "MPLS Traffic Engineering (MPLS-TE) allows the MPLS-enabled network to replicate and expand upon the TE capabilities of Layer 2 ATM and Frame Relay networks. MPLS uses the reachability information provided by Layer 3 routing protocols and operates like a Layer 2 ATM network. With MPLS, TE capabilities are integrated into Layer 3, which can be implemented for efficient bandwidth utilization between routers in the SP network. \n\n MPLS-TE works by learning about the topology and resources available in a network. It then maps the traffic flows to a particular path based on the resources that the traffic flow requires and the available resources. MPLS-TE builds unidirectional tunnels from a source to the destination in the form of LSPs, which is then used for forwarding traffic. The point where the tunnel begins is called tunnel headend or tunnel source, and the node where the tunnel ends is called ‘tunnel tailend’ or ‘tunnel destination’. \n\n The main advantage of implementing MPLS-TE is that it provides a combination of ATM's TE capabilities along with the class of service (CoS) differentiation of IP. In MPLS-TE, the headend router in the network controls the path taken by traffic to any particular destination in the network. The requirement to implement a full mesh of virtual circuits (VCs), as in ATM, does not exist when implementing MPLS-TE.",
+            "url": "https://community.cisco.com/t5/networking-knowledge-base/how-mpls-traffic-engineering-works/ta-p/3128593",
+            "id": 603     
+        },
+        {
+            "name": "Abstraction and Control of Traffic-Engineered Networks (ACTN)",
+            "definition": "Abstraction and Control of Traffic-Engineered Networks (ACTN) in an IETF standard architecture enabling virtual network operations to control and manage large-scale multi-domain, multilayer and multi-vendor TE networks, so as to facilitate network programmability, automation, efficient resource sharing. ACTN architecture, together with 3GPP 5G architecture addresses service assurance and performance guarantee for end-to-end 5G backhaul transport networks. \n\n The ACTN initiative represents a set of well-defined use cases developed from the input of network operators and service providers, international academic researchers, and vendors. The ACTN framework and its ongoing solution development addresses gaps between technology layers that could limit resource abstraction for multitechnology and multivendor transport networks.",
+            "url": "https://www.ietfjournal.org/actn-from-standard-to-interop/",
+            "id": 604     
+        },
+        {
+            "name": "Distributed Overlay Virtual Ethernet (DOVE)",
+            "definition": "Distributed Overlay Virtual Ethernet (DOVE) is a tunneling and virtualization technology for computer networks, created and backed by IBM. DOVE allows creation of network virtualization layers for deploying, controlling, and managing multiple independent and isolated network applications over a shared physical network infrastructure. \n\n Primary advantages of DOVE include the following: \n\n 1. No dependency on the underlying physical network and protocols \n 2. Use of the existing IP network infrastructure \n 3. No addresses of virtual machines are present in Ethernet switches, resulting in smaller MAC tables and less complex STP layouts \n 4. No limitations related to the Virtual LAN (VLAN) technology, resulting in more than 16 million possible separate networks, compared to the VLAN's limit of 4,000 \n 5. No dependency on the IP multicast traffic",
+            "url": "https://en.wikipedia.org/wiki/Distributed_Overlay_Virtual_Ethernet",
+            "id": 605     
+        },
         # {
         #     "name": "",
         #     "definition": "",
