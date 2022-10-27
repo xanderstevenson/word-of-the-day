@@ -3625,66 +3625,66 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/GRPC",
             "id": 600     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 601    
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 602     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 603     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 604     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 605     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 606     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 607     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 608     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 609     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 610     
-        # },
+        {
+            "name": "Network slicing",
+            "definition": "Network slicing is a form of virtual network architecture using the same principles behind software defined networking (SDN) and network functions virtualization (NFV) in fixed networks. SDN and NFV are now being commercially deployed to deliver greater network flexibility by allowing traditional network architectures to be partitioned into virtual elements that can be linked (also through software). \n\n Network slicing allows multiple virtual networks to be created on top of a common shared physical infrastructure. The virtual networks are then customized to meet the specific needs of applications, services, devices, customers or operators.",
+            "url": "https://en.wikipedia.org/wiki/5G_network_slicing",
+            "id": 601    
+        },
+        {
+            "name": "eMBB, URLLC and mMTC",
+            "definition": "Enhanced Mobile Broadband (eMBB), Ultra Reliable Low Latency Communications (URLLC) and Massive Machine Type Communications (mMTC) are the three main application areas for the enhanced capabilities of 5G. \n\n Enhanced Mobile Broadband (eMBB) uses 5G as a progression from 4G LTE mobile broadband services, with faster connections, higher throughput, and more capacity. This will benefit areas of higher traffic such as stadiums, cities, and concert venues. \n\n Ultra-Reliable Low-Latency Communications (URLLC) refer to using the network for mission critical applications that require uninterrupted and robust data exchange. The short-packet data transmission is used to meet both reliability and latency requirements of the wireless communication networks. \n\n Massive Machine-Type Communications (mMTC) would be used to connect to a large number of devices. 5G technology will connect some of the 50 billion connected IoT devices. \n\n Only eMBB is deployed as of 2020; URLLC and mMTC are several years away in most locations.",
+            "url": "https://en.wikipedia.org/wiki/5G#Application_areas",
+            "id": 602     
+        },
+        {
+            "name": "MPLS Traffic Engineering (MPLS-TE)",
+            "definition": "MPLS Traffic Engineering (MPLS-TE) allows the MPLS-enabled network to replicate and expand upon the TE capabilities of Layer 2 ATM and Frame Relay networks. MPLS uses the reachability information provided by Layer 3 routing protocols and operates like a Layer 2 ATM network. With MPLS, TE capabilities are integrated into Layer 3, which can be implemented for efficient bandwidth utilization between routers in the SP network. \n\n MPLS-TE works by learning about the topology and resources available in a network. It then maps the traffic flows to a particular path based on the resources that the traffic flow requires and the available resources. MPLS-TE builds unidirectional tunnels from a source to the destination in the form of LSPs, which is then used for forwarding traffic. The point where the tunnel begins is called tunnel headend or tunnel source, and the node where the tunnel ends is called ‘tunnel tailend’ or ‘tunnel destination’. \n\n The main advantage of implementing MPLS-TE is that it provides a combination of ATM's TE capabilities along with the class of service (CoS) differentiation of IP. In MPLS-TE, the headend router in the network controls the path taken by traffic to any particular destination in the network. The requirement to implement a full mesh of virtual circuits (VCs), as in ATM, does not exist when implementing MPLS-TE.",
+            "url": "https://community.cisco.com/t5/networking-knowledge-base/how-mpls-traffic-engineering-works/ta-p/3128593",
+            "id": 603     
+        },
+        {
+            "name": "Abstraction and Control of Traffic-Engineered Networks (ACTN)",
+            "definition": "Abstraction and Control of Traffic-Engineered Networks (ACTN) in an IETF standard architecture enabling virtual network operations to control and manage large-scale multi-domain, multilayer and multi-vendor TE networks, so as to facilitate network programmability, automation, efficient resource sharing. ACTN architecture, together with 3GPP 5G architecture addresses service assurance and performance guarantee for end-to-end 5G backhaul transport networks. \n\n The ACTN initiative represents a set of well-defined use cases developed from the input of network operators and service providers, international academic researchers, and vendors. The ACTN framework and its ongoing solution development addresses gaps between technology layers that could limit resource abstraction for multitechnology and multivendor transport networks.",
+            "url": "https://www.ietfjournal.org/actn-from-standard-to-interop/",
+            "id": 604     
+        },
+        {
+            "name": "Distributed Overlay Virtual Ethernet (DOVE)",
+            "definition": "Distributed Overlay Virtual Ethernet (DOVE) is a tunneling and virtualization technology for computer networks, created and backed by IBM. DOVE allows creation of network virtualization layers for deploying, controlling, and managing multiple independent and isolated network applications over a shared physical network infrastructure. \n\n Primary advantages of DOVE include the following: \n\n 1. No dependency on the underlying physical network and protocols \n 2. Use of the existing IP network infrastructure \n 3. No addresses of virtual machines are present in Ethernet switches, resulting in smaller MAC tables and less complex STP layouts \n 4. No limitations related to the Virtual LAN (VLAN) technology, resulting in more than 16 million possible separate networks, compared to the VLAN's limit of 4,000 \n 5. No dependency on the IP multicast traffic",
+            "url": "https://en.wikipedia.org/wiki/Distributed_Overlay_Virtual_Ethernet",
+            "id": 605     
+        },
+        {
+            "name": "Cisco ACI (Application Centric Infrastructure)",
+            "definition": "Cisco Application Centric Infrastructure (ACI) is a software-defined networking (SDN) solution designed for data centers. Cisco ACI allows network infrastructure to be defined based upon network policies – simplifying, optimizing, and accelerating the application deployment lifecycle. To make this possible Cisco has created the ACI Fabric OS, which is run by all systems within the ACI network. This shared OS makes it possible for the various switches within the ACI network to translate policies into infrastructure designs. \n\n A Cisco ACI environment is built with two main components: \n\n - Cisco Application Policy Infrastructure Controller (APIC): APIC is the SDN controller for Cisco ACI. It creates the policies that define the data center’s network infrastructure. \n - Nexus 9000 Switches: Nexus 9000 switches use the ACI Fabric OS to communicate with APIC and create infrastructure based on policies. They can be either Spine (distribution) or Leaf (access) switches. \n\n All endpoints, including APICs, connect to the network via Leaf switches. These Leaf switches are connected together using Spine switches in the backend. Using these components, ACI can be deployed under a variety of different models. This includes support for on-site, cloud-based (including public, private, and hybrid clouds), and SD-WAN edge environments. This enables organizations to use policy-based network management throughout their corporate WANs.",
+            "url": "https://www.cisco.com/c/en/us/solutions/collateral/data-center-virtualization/application-centric-infrastructure/solution-overview-c22-741487.html",
+            "id": 606     
+        },
+        {
+            "name": "Underlay network vs. Overlay network",
+            "definition": "An Underlay network is the physical network responsible for the delivery of packets like DWDM, L2, L3, MPLS, or internet, etc. while an Overlay is a logical network that uses network virtualization to built connectivity on top of physical infrastructure using tunneling encapsulations such as VXLAN, GRE, IPSec. \n\n Traditional networks can be limited by an underlay which is hardware-specific and too complex for the changes needed for proper security, load balancing and transport independence, much less the network slicing and multi-path forwarding required of modern solutions. Overlays, which are software-based virtual links on top of the physical network, solve this issue by making configuration changing much easier and, thus, faster. Underlays are the pipe on which overlays run and the intelligence is all in the overlay.",
+            "url": "https://telcocloudbridge.com/blog/overlay-vs-underlay-networks/#:~:text=An%20Underlay%20network%20is%20the,as%20VXLAN%2C%20GRE%2C%20IPSec.",
+            "id": 607     
+        },
+        {
+            "name": "Segment routing",
+            "definition": "Segment routing is a method of forwarding packets on the network based on the source routing paradigm. The source chooses a path and encodes it in the packet header as an ordered list of segments. Segments are an identifier for any type of instruction. For example, topology segments identify the next hop toward a destination. Each segment is identified by the segment ID (SID) consisting of a flat unsigned 20-bit integer. Segment routing works either on top of a MPLS network or on an IPv6 network.",
+            "url": "https://www.packetcoders.io/what-is-segment-routing/",
+            "id": 608     
+        },
+        {
+            "name": "Segment Routing over IPv6 (SRv6)",
+            "definition": "Segment Routing over IPv6 (SRv6) simplifies the network by eliminating MPLS altogether and by relying on the native IPv6 header and header extension to provide the same services and flexibility as SR-MPLS, directly over the IPv6 data plane. SRv6 takes advantage of IPv6 Extension Headers by inserting Segment Routing headers into IPv6 packets, which facilitates infrastructure programming. \n\n SRv6 provides advanced traffic engineering capabilities, turning the network into a multi-service infrastructure. New Flexible Algorithm capabilities make multiple optimizations of the same physical network infrastructure along various dimensions possible (e.g., one can be optimized for low-latency vs. another one for bandwidth, or one can offer disjoint paths via two distinct planes.) \n\n SRv6 TI-LFA (Topology Independent Loop Free Alternate) guarantees under 50ms protection against any kind of network failures and brings with 100% topology coverage, simplicity and path optimality.",
+            "url": "https://events-cisco.webex.com/recordingservice/sites/events-cisco/recording/531d7bd2c0fa4dcda22eb0ba6a750304/playback?token=QUhTSwAAAAUs-SLeyM3WMCI4Z8CQKiP9O9RHr3ZK5bT6WrsP3BrKshYykwSuswJQMDdMTYM_vaplZPVA-sm4BqyViKSTPZ2Fd-VCeRP55oswcWEc4tRydS3IjRibvfMpLWovSXXRwfNBUfosY9oil_hvQ2xMJ_YJJ-GbADorQxpejdZtRLJbfxd9cWXm-JAqItpUmvjlWLeI4Hc-gKPH4NZR_UbNt-hG0",
+            "id": 609     
+        },
+        {
+            "name": "Source routing",
+            "definition": "In computer networking, source routing, also called path addressing, allows a sender of a packet to partially or completely specify the route the packet takes through the network. In contrast, in conventional routing, routers in the network determine the path incrementally based on the packet's destination. Another routing alternative, label switching, is used in connection-oriented networks such as X.25, Frame Relay, Asynchronous Transfer Mode and Multiprotocol Label Switching. \n\n Source routing allows easier troubleshooting, improved traceroute, and enables a node to discover all the possible routes to a host. It does not allow a source to directly manage network performance by forcing packets to travel over one path to prevent congestion on another.",
+            "url": "https://en.wikipedia.org/wiki/Source_routing",
+            "id": 610     
+        },
         # {
         #     "name": "",
         #     "definition": "",
