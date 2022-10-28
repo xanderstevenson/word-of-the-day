@@ -3140,7 +3140,7 @@ def return_word():
             "id": 519     
         },
         {
-            "name": "Northbound/Southbound Interface",
+            "name": "Northbound/Southbound interfaces",
             "definition": "In computer networking and computer architecture, a northbound interface of a component is an interface that allows the component to communicate with a higher level component, using the latter component's southbound interface. The northbound interface conceptualizes the lower level details (e.g., data or functions) used by, or in, the component, allowing the component to interface with higher level layers.",
             "url": "https://en.wikipedia.org/wiki/Northbound_interface",
             "id": 520     
@@ -3685,36 +3685,36 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Source_routing",
             "id": 610     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
+        {
+            "name": "Deployment vs. Provisioning",
+            "definition": "Deployment is the ‘process of putting a new application, or new version of an application, onto a prepared application server’ while provisioning is ‘getting computers or virtual hosts to use, and installing needed libraries or services on them’. A key distinction is that ‘deployment’ does not, as a rule, include ‘provisioning’.",
+            "url": "https://codefol.io/posts/deployment-versus-provisioning-versus-orchestration/",
+            "id": 611     
+        },
+        {
+            "name": "Interior gateway protocol vs. Exterior gateway protocol",
+            "definition": "An interior gateway protocol (IGP) or Interior routing protocol is a type of routing protocol used for exchanging routing table information between gateways (commonly routers) within an autonomous system (for example, a system of corporate local area networks). This routing information can then be used to route network-layer protocols like IP. Interior gateway protocols can be divided into two categories: distance-vector routing protocols and link-state routing protocols. Specific examples of IGPs include Open Shortest Path First (OSPF), Routing Information Protocol (RIP), Intermediate System to Intermediate System (IS-IS) and Enhanced Interior Gateway Routing Protocol (EIGRP). \n\n By contrast, an exterior gateway protocol is an IP routing protocol used to exchange routing information between autonomous systems. This exchange is crucial for communications across the Internet. Notable exterior gateway protocols include Exterior Gateway Protocol (EGP), now obsolete, and Border Gateway Protocol (BGP).",
+            "url": "https://en.wikipedia.org/wiki/Interior_gateway_protocol",
+            "id": 612     
+        },
+        {
+            "name": "Equal-cost multi-path routing (ECMP)",
+            "definition": "Equal-cost multi-path routing (ECMP) is a routing strategy where packet forwarding to a single destination can occur over multiple best paths with equal routing priority. Multi-path routing can be used in conjunction with most routing protocols because it is a per-hop local decision made independently at each router. It can substantially increase bandwidth by load-balancing traffic over multiple paths; however, there may be significant problems in deploying it in practice. \n\n Load balancing by per-packet multipath routing was generally disfavored due to the impact of rapidly changing latency, packet reordering and maximum transmission unit (MTU) differences within a network flow, which could disrupt the operation of many Internet protocols, most notably TCP and path MTU discovery. RFC 2992 analyzed one particular multipath routing strategy involving the assignment of flows through hashing flow-related data in the packet header. This solution is designed to avoid these problems by sending all packets from any particular network flow through the same path while balancing multiple flows over multiple paths in general.",
+            "url": "https://www.juniper.net/documentation/us/en/software/junos/flow-packet-processing/topics/topic-map/security-ecmp-flow-based-forwarding.html",
+            "id": 613     
+        },
+        {
+            "name": "Processor affinity",
+            "definition": "Processor affinity, or CPU pinning or ‘cache affinity’, enables the binding and unbinding of a process or a thread to a central processing unit (CPU) or a range of CPUs, so that the process or thread will execute only on the designated CPU or CPUs rather than any CPU. This can be viewed as a modification of the native central queue scheduling algorithm in a symmetric multiprocessing operating system. Each item in the queue has a tag indicating its kin processor. At the time of resource allocation, each task is allocated to its kin processor in preference to others.",
+            "url": "https://en.wikipedia.org/wiki/Processor_affinity",
+            "id": 614     
+        },
+        {
+            "name": "Eastbound/Westbound interfaces",
+            "definition": "Eastbound and Westbound interfaces, often in the form of APIs, are used by systems to integrate with other systems for exchange of information or to work together on common workflows. \n\n Cisco DNA Center defines an Eastbound interface (outbound) to facilitate other systems subscribing to event notifications sent by a push mechanism and RESTful API known as a webhook. In contrast, it defines a Westbound interface (inbound/integrative) exposes a RESTful API, called the Integration API, that allows ITTSM, IPAM, reporting and analytics systems to integrate with DNA Center.",
+            "url": "https://blogs.cisco.com/networking/with-apis-cisco-dna-center-can-improve-your-competitive-advantage",
+            "id": 615     
+        },
         # {
         #     "name": "",
         #     "definition": "",
