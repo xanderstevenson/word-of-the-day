@@ -2655,7 +2655,7 @@ def return_word():
         },
         {
             "name": "Shoulder surfing",
-            "definition": "Looking over someone's shoulder to obtain passwords, PINs and other security codes being entered. Often performed with binoculars, ATMs and other data entry terminals may make it more difficult by requiring a 90 degree viewing angle to read the screen or moving the digit keys around on touchscreens",
+            "definition": "Looking over someone's shoulder to obtain passwords, PINs and other security codes being entered. Often performed with binoculars, ATMs and other data entry terminals may make it more difficult by requiring a 90 degree viewing angle to read the screen or moving the digit keys around on touchscreens.",
             "url": "https://en.wikipedia.org/wiki/Shoulder_surfing_(computer_security)",
             "id": 440      
         },
@@ -3140,7 +3140,7 @@ def return_word():
             "id": 519     
         },
         {
-            "name": "Northbound/Southbound Interface",
+            "name": "Northbound/Southbound interfaces",
             "definition": "In computer networking and computer architecture, a northbound interface of a component is an interface that allows the component to communicate with a higher level component, using the latter component's southbound interface. The northbound interface conceptualizes the lower level details (e.g., data or functions) used by, or in, the component, allowing the component to interface with higher level layers.",
             "url": "https://en.wikipedia.org/wiki/Northbound_interface",
             "id": 520     
@@ -3685,125 +3685,125 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Source_routing",
             "id": 610     
         },
+        {
+            "name": "Deployment vs. Provisioning",
+            "definition": "Deployment is the ‘process of putting a new application, or new version of an application, onto a prepared application server’ while provisioning is ‘getting computers or virtual hosts to use, and installing needed libraries or services on them’. A key distinction is that ‘deployment’ does not, as a rule, include ‘provisioning’.",
+            "url": "https://codefol.io/posts/deployment-versus-provisioning-versus-orchestration/",
+            "id": 611     
+        },
+        {
+            "name": "Interior gateway protocol vs. Exterior gateway protocol",
+            "definition": "An interior gateway protocol (IGP) or Interior routing protocol is a type of routing protocol used for exchanging routing table information between gateways (commonly routers) within an autonomous system (for example, a system of corporate local area networks). This routing information can then be used to route network-layer protocols like IP. Interior gateway protocols can be divided into two categories: distance-vector routing protocols and link-state routing protocols. Specific examples of IGPs include Open Shortest Path First (OSPF), Routing Information Protocol (RIP), Intermediate System to Intermediate System (IS-IS) and Enhanced Interior Gateway Routing Protocol (EIGRP). \n\n By contrast, an exterior gateway protocol is an IP routing protocol used to exchange routing information between autonomous systems. This exchange is crucial for communications across the Internet. Notable exterior gateway protocols include Exterior Gateway Protocol (EGP), now obsolete, and Border Gateway Protocol (BGP).",
+            "url": "https://en.wikipedia.org/wiki/Interior_gateway_protocol",
+            "id": 612     
+        },
+        {
+            "name": "Equal-cost multi-path routing (ECMP)",
+            "definition": "Equal-cost multi-path routing (ECMP) is a routing strategy where packet forwarding to a single destination can occur over multiple best paths with equal routing priority. Multi-path routing can be used in conjunction with most routing protocols because it is a per-hop local decision made independently at each router. It can substantially increase bandwidth by load-balancing traffic over multiple paths; however, there may be significant problems in deploying it in practice. \n\n Load balancing by per-packet multipath routing was generally disfavored due to the impact of rapidly changing latency, packet reordering and maximum transmission unit (MTU) differences within a network flow, which could disrupt the operation of many Internet protocols, most notably TCP and path MTU discovery. RFC 2992 analyzed one particular multipath routing strategy involving the assignment of flows through hashing flow-related data in the packet header. This solution is designed to avoid these problems by sending all packets from any particular network flow through the same path while balancing multiple flows over multiple paths in general.",
+            "url": "https://www.juniper.net/documentation/us/en/software/junos/flow-packet-processing/topics/topic-map/security-ecmp-flow-based-forwarding.html",
+            "id": 613     
+        },
+        {
+            "name": "Processor affinity",
+            "definition": "Processor affinity, or CPU pinning or ‘cache affinity’, enables the binding and unbinding of a process or a thread to a central processing unit (CPU) or a range of CPUs, so that the process or thread will execute only on the designated CPU or CPUs rather than any CPU. This can be viewed as a modification of the native central queue scheduling algorithm in a symmetric multiprocessing operating system. Each item in the queue has a tag indicating its kin processor. At the time of resource allocation, each task is allocated to its kin processor in preference to others.",
+            "url": "https://en.wikipedia.org/wiki/Processor_affinity",
+            "id": 614     
+        },
+        {
+            "name": "Eastbound/Westbound interfaces",
+            "definition": "Eastbound and Westbound interfaces, often in the form of APIs, are used by systems to integrate with other systems for exchange of information or to work together on common workflows. \n\n Cisco DNA Center defines an Eastbound interface (outbound) to facilitate other systems subscribing to event notifications sent by a push mechanism and RESTful API known as a webhook. In contrast, it defines a Westbound interface (inbound/integrative) exposes a RESTful API, called the Integration API, that allows ITTSM, IPAM, reporting and analytics systems to integrate with DNA Center.",
+            "url": "https://blogs.cisco.com/networking/with-apis-cisco-dna-center-can-improve-your-competitive-advantage",
+            "id": 615     
+        },
+        {
+            "name": "Internal Developer Platform (IDP)",
+            "definition": "An Internal Developer Platform (IDP) is built by a platform team to build golden paths and enable developer self-service. An IDP consists of many different techs and tools, glued together in a way that lowers cognitive load on developers without abstracting away context and underlying technologies. Following best practices, platform teams treat their platform as a product and build it based on user research, maintain and continuously improve it. \n\n Internal Developer Platforms (IDPs) are configured by Ops teams and used by developers. Ops teams specify what resources start up with what environment or at what request. They also set base-line templates for application configurations and govern permissions. This helps them to automate recurring tasks such as spinning up environments and resources and makes their setup easier to maintain by enforcing standards. Developer teams gain autonomy by changing configurations, deploying, spinning up fully provisioned environments, and rollback. IDPs can be built or bought.",
+            "url": "https://internaldeveloperplatform.org/what-is-an-internal-developer-platform/",
+            "id": 616     
+        },
+        {
+            "name": "Platform engineering",
+            "definition": "Platform engineering is the discipline of designing and building toolchains and workflows that enable self-service capabilities for software engineering organizations in the cloud-native era. Platform engineers provide an integrated product most often referred to as an Internal Developer Platform (IDP) covering the operational necessities of the entire lifecycle of an application.",
+            "url": "https://platformengineering.org/blog/what-is-platform-engineering",
+            "id": 617     
+        },
+        {
+            "name": "Jinja",
+            "definition": "Jinja is a web template engine for the Python programming language. It is similar to the Django template engine but provides Python-like expressions while ensuring that the templates are evaluated in a sandbox. It is a text-based template language and thus can be used to generate any markup as well as source code. \n\n The Jinja template engine allows customization of tags, filters, tests and globals. Also, unlike the Django template engine, Jinja allows the template designer to call functions with arguments on objects. Jinja is Flask's default template engine and it is also used by Ansible, Trac and Salt. \n\n Some of the features of Jinja are: \n\n sandboxed execution \n automatic HTML escaping to prevent cross-site scripting (XSS) attacks \n template inheritance \n compiles down to the optimal Python code just-in-time \n optional ahead-of-time template compilation \n easy to debug (for example, line numbers of exceptions directly point to the correct line in the template) \n configurable syntax \n easy-to-use filter system similar to the Unix pipeline.",
+            "url": "https://en.wikipedia.org/wiki/Jinja_(template_engine)",
+            "id": 618     
+        },
+        {
+            "name": "Common Information Model (CIM)",
+            "definition": "The Common Information Model (CIM) is an open standard that defines how managed elements in an IT environment are represented as a common set of objects and relationships between them. \n\n The Distributed Management Task Force maintains the CIM to allow consistent management of these managed elements, independent of their manufacturer or provider. \n\n One way to describe CIM is to say that it allows multiple parties to exchange management information about these managed elements. However, this falls short in expressing that CIM not only represents these managed elements and the management information, but also provides means to actively control and manage these elements. By using a common model of information, management software can be written once and work with many implementations of the common model without complex and costly conversion operations or loss of information. \n\n The CIM standard includes the CIM Infrastructure Specification and the CIM Schema.",
+            "url": "https://en.wikipedia.org/wiki/Common_Information_Model_(computing)",
+            "id": 619     
+        },
+        {
+            "name": "Managed object (MO)",
+            "definition": "In telecommunication network, a managed object (MO) is an abstract representation of network resources that are managed. With ‘representation’, it is meant not only the actual device that is managed, but also the device driver, that communicates with the device. An example of a printer as a managed object is the window that shows information about the printer, such as the location, printer status, printing progress, paper choice, and printing margins. \n\n The database, where all managed objects are stored, is called Management Information Base. A managed object is ‘dynamic’ and communicates with other network resources that are managed. A managed object may represent a physical entity, a network service, or an abstraction of a resource that exists independently of its use in management. A managed object model is a set of objects that together form a blueprint describing the managed objects you use in your application.",
+            "url": "https://cobra.readthedocs.io/en/latest/api-ref/mo.html",
+            "id": 620     
+        },
+        {
+            "name": "Management information base (MIB",
+            "definition": "A management information base (MIB) is a database used for managing the entities in a communication network. Most often associated with the Simple Network Management Protocol (SNMP), the term is also used more generically in contexts such as in OSI/ISO Network management model. While intended to refer to the complete collection of management information available on an entity, it is often used to refer to a particular subset, more correctly referred to as MIB-module. \n\n The database is hierarchical (tree-structured) and each entry is addressed through an object identifier (OID). The software that performs the parsing is a MIB compiler.",
+            "url": "https://en.wikipedia.org/wiki/Management_information_base",
+            "id": 621     
+        },
+        {
+            "name": "Database engine",
+            "definition": "A database engine (or storage engine) is the underlying software component that a database management system (DBMS) uses to create, read, update and delete (CRUD) data from a database. Most database management systems include their own application programming interface (API) that allows the user to interact with their underlying engine without going through the user interface of the DBMS. \n\n The term ‘database engine’ is frequently used interchangeably with ‘database server’ or ‘database management system’. A ‘database instance’ refers to the processes and memory structures of the running database engine.",
+            "url": "https://en.wikipedia.org/wiki/Database_engine",
+            "id": 622     
+        },
+        {
+            "name": "Software Image Management (SWIM)",
+            "definition": "Software Image Management (SWIM) is the management of software upgrades and control over the consistency of image versions across a network. Cisco DNA Center provides a SWIM solution which stores the unique software images according to image type and version for the devices in your network. It allows to view, import, and delete software images and also push software images to the devices in your network. Software upgrade can also be scheduled for later date and time.",
+            "url": "https://www.youtube.com/watch?v=PuTSB8S5An0",
+            "id": 623     
+        },
+        {
+            "name": "Free Range Routing (FRR)",
+            "definition": "Free Range Routing or FRRouting or FRR is a network routing software suite running on Unix-like platforms, particularly Linux, Solaris, OpenBSD, FreeBSD and NetBSD. It was created as a fork from Quagga in 2017, with a current, stable version as of August, 2022. FRRouting is distributed under the terms of the GNU General Public License v2 (GPL2). \n\n FRR provides implementations of the following protocols: \n\n Open Shortest Path First (OSPF) \n Routing Information Protocol (RIP) \n Border Gateway Protocol (BGP) \n IS-IS \n Label Distribution Protocol (LDP) \n Protocol Independent Multicast (PIM) \n Babel \n Bidirectional Forwarding Detection (BFD) \n Ethernet VPN (EVPN) \n\n It also provides alpha implementations of: \n\n Next Hop Resolution Protocol (NHRP) \n Enhanced Interior Gateway Routing Protocol (EIGRP)",
+            "url": "https://en.wikipedia.org/wiki/FRRouting",
+            "id": 624     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 625     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 626     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 627     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 628     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 629     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
+        #     "id": 630     
         # },
         # {
         #     "name": "",
