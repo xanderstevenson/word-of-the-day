@@ -1,4 +1,9 @@
+#!/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/bin/python3
 import random
+# database connection
+from tinydb import TinyDB, Query
+db = TinyDB('db.json')
+User = Query()
 
 ##                        ATTENTION DEVELOPERS!!
 
@@ -357,7 +362,7 @@ def return_word():
         },          
         {
             "name": "Data migration",
-            "definition": "The process of moving data, applications, or business elements between multiple formats, storage systems, warehouses, and servers. ",
+            "definition": "The process of moving data, applications or business elements between multiple formats, storage systems, warehouses and servers. Additionally, the validation of migrated data for completeness and the decommissioning of legacy data storage are considered part of the entire data migration process. \n\n Data migration is a key consideration for any system implementation, upgrade, or consolidation, and it is typically performed in such a way as to be as automated as possible, freeing up human resources from tedious tasks. Data migration occurs for a variety of reasons, including server or storage equipment replacements, maintenance or upgrades, application migration, website consolidation, disaster recovery, and data center relocation.",
             "url": "https://en.wikipedia.org/wiki/Data_migration",
             "id": 57     
         },          
@@ -440,9 +445,9 @@ def return_word():
             "id": 70     
         },          
         {
-            "name": "Wantrepreneur",
-            "definition": "Someone who would like to start a business and thinks and talks about doing so, but never gets started.",
-            "url": "https://www.entrepreneur.com/article/242451",
+            "name": "DIKW pyramid",
+            "definition": "The DIKW pyramid (also known variously as the DIKW hierarchy, wisdom hierarchy, knowledge hierarchy, information hierarchy, information pyramid, and the data pyramid) refers loosely to a class of models for representing purported structural and/or functional relationships between data, information, knowledge, and wisdom. The DIKW acronym has worked into the lexical rotation from knowledge management. It demonstrates how the deep understanding of the subject emerges, passing through four qualitative stages: ‘D’ – data, ‘I’ – information, ‘K’ – knowledge and ‘W’ – wisdom.",
+            "url": "https://en.wikipedia.org/wiki/DIKW_pyramid",
             "id": 71     
         },          
         {
@@ -940,7 +945,7 @@ def return_word():
         {
             "name": "Anonymization",
             "definition": "Data anonymization is a type of information sanitization whose intent is privacy protection. It is the process of removing personally identifiable information from data sets, so that the people whom the data describe remain anonymous. \n\n Data anonymization has been defined as a ‘process by which personal data is altered in such a way that a data subject can no longer be identified directly or indirectly, either by the data controller alone or in collaboration with any other party.’ Data anonymization may enable the transfer of information across a boundary, such as between two departments within an agency or between two agencies, while reducing the risk of unintended disclosure, and in certain environments in a manner that enables evaluation and analytics post-anonymization.",
-            "url": "",
+            "url": "https://en.wikipedia.org/wiki/Data_anonymization",
             "id": 153      
         }, 
         {
@@ -3123,7 +3128,7 @@ def return_word():
         },
         {
             "name": "LAMP",
-            "definition": "LAMP (Linux, Apache, MySQL, PHP/Perl/Python) is an acronym denoting one of the most common software stacks for many of the web's most popular applications. However, LAMP now refers to a generic software stack model and its components are largely interchangeable. \n\n Each letter in the acronym stands for one of its four open-source building blocks: \n\n - Linux for the operating system \n Apache HTTP Server \n MySQL for the relational database management system \n PHP, Perl, or Python programming language \n\n The components of the LAMP stack are present in the software repositories of most Linux distributions.",
+            "definition": "LAMP (Linux, Apache, MySQL, PHP/Perl/Python) is an acronym denoting one of the most common software stacks for many of the web's most popular applications. However, LAMP now refers to a generic software stack model and its components are largely interchangeable. \n\n Each letter in the acronym stands for one of its four open-source building blocks: \n\n - Linux for the operating system \n - Apache HTTP Server \n - MySQL for the relational database management system \n - PHP, Perl, or Python programming language \n\n The components of the LAMP stack are present in the software repositories of most Linux distributions.",
             "url": "https://en.wikipedia.org/wiki/LAMP_(software_bundle)",
             "id": 517     
         },
@@ -3363,7 +3368,7 @@ def return_word():
         },
         {
             "name": "Von Neumann architecture",
-            "definition": "The von Neumann architecture — also known as the von Neumann model or Princeton architecture — is a computer architecture based on a 1945 description by John von Neumann, and by others, in the First Draft of a Report on the EDVAC. The document describes a design architecture for an electronic digital computer with these components: \n\n - A processing unit with both an arithmetic logic unit and processor registers \n - A control unit that includes an instruction register and a program counter \n - Memory that stores data and instructions \n - External mass storage \n - Input and output mechanisms \n\n The term ‘von Neumann architecture’ has evolved to refer to any stored-program computer in which an instruction fetch and a data operation cannot occur at the same time (since they share a common bus). This is referred to as the von Neumann bottleneck, which often limits the performance of the corresponding system. \n\n A von Neumann language in computing is any of those programming languages that are high-level abstract isomorphic copies of von Neumann architectures. As of 2009, most current programming languages fit into this description , likely as a consequence of the extensive domination of the von Neumann computer architecture during the past 50 years.",
+            "definition": "The Von Neumann architecture — also known as the Von Neumann model or Princeton architecture — is a computer architecture based on a 1945 description by John von Neumann, and by others, in the First Draft of a Report on the EDVAC. The document describes a design architecture for an electronic digital computer with these components: \n\n - A processing unit with both an arithmetic logic unit and processor registers \n - A control unit that includes an instruction register and a program counter \n - Memory that stores data and instructions \n - External mass storage \n - Input and output mechanisms \n\n The term ‘von Neumann architecture’ has evolved to refer to any stored-program computer in which an instruction fetch and a data operation cannot occur at the same time (since they share a common bus). This is referred to as the von Neumann bottleneck, which often limits the performance of the corresponding system. \n\n A von Neumann language in computing is any of those programming languages that are high-level abstract isomorphic copies of von Neumann architectures. As of 2009, most current programming languages fit into this description , likely as a consequence of the extensive domination of the von Neumann computer architecture during the past 50 years.",
             "url": "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
             "id": 557     
         },
@@ -3769,18 +3774,18 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/FRRouting",
             "id": 624     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 625     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 626     
-        # },
+        {
+            "name": "Ethernet Virtual Private Network (EVPN)",
+            "definition": "Ethernet VPN (EVPN) is a technology for carrying layer 2 Ethernet traffic as a virtual private network using wide area network protocols. EVPN technologies include Ethernet over MPLS and Ethernet over VXLAN. \n\n An EVPN enables you to connect dispersed customer sites using a Layer 2 virtual bridge. As with other types of VPNs, an EVPN consists of customer edge (CE) devices (host, router, or switch) connected to provider edge (PE) routers.",
+            "url": "https://blogs.cisco.com/sp/ethernet-vpn-whats-the-big-deal-about-it",
+            "id": 625     
+        },
+        {
+            "name": "Provider edge (PE) router vs. Customer edge (CE) Router",
+            "definition": "The provider edge (PE) router is located at the provider network, usually either at its core or on the edge of the Multiprotocol Label Switching (MPLS) cloud. The PE router provides connectivity from the MPLS cloud to the Customer network. The customer edge (CE) router is located on the customer premises and provides connectivity to the interior of the customer network and to the MPLS cloud. \n\n The CE router peers with the PE and exchanges routes with the corresponding virtual routing and forwarding (VRF) inside the PE. The routing protocol used could be static or dynamic (an interior gateway protocol like OSPF or an exterior gateway protocol like BGP).",
+            "url": "https://docs.oracle.com/cd/E35292_01/doc.72/e47715/con_vpn.htm#autoId3",
+            "id": 626     
+        },
         # {
         #     "name": "",
         #     "definition": "",
@@ -4282,5 +4287,25 @@ def return_word():
 
     ]
 
-    return random.choice(word_list)
+    # Note -- if you want to run this app in GitHub only, remove all lines regarding variables 'used_list' and 'items'
+
+    # select a candidate word from word list
+    candidate_word = random.choice(word_list)
+    # query db for current used word list
+    used_list_search = db.search(User.used.exists())
+    used_list = used_list_search[0]['used']
+    #if length of word list and length of used list is equal, erase used list and start over
+    if len(used_list) == len(word_list):
+        used_list = []
+    # if random choice is already in used list, choose again
+    while candidate_word["id"] in used_list:
+        candidate_word = random.choice(word_list)
+    # solidify choice
+    word = candidate_word
+    # add new choice to used list and to db
+    used_list.append(word["id"])
+    items = {'used':used_list}
+    db.update(items)
+
+    return word
  
