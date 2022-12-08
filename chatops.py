@@ -35,7 +35,7 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {
-                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nTo learn more about '{random_word_name}', visit {word_url}\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API. The GitHub repo for this project can be found at https://github.com/xanderstevenson/word-of-the-day-bot"
+                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API.\n\n#tech #wordoftheday #{random_word_name.lower()} #python #apis"
                 },
                 "shareMediaCategory": "NONE",
             }
