@@ -39,7 +39,7 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {
-                    "text": f"Word of the Day\n\n{random_word_name}\n\n{definition}\n\nTo learn more, visit {word_url}\n\nThis automated post was created with Cisco Webex and LinkedIn APIs."
+                    "text": f"Word of the Day\n\n{random_word_name}\n\n{definition}\n\nTo learn more about '{random_word_name}', visit {word_url}\n\nThis automated post was created with Cisco Webex and LinkedIn APIs."
                 },
                 "shareMediaCategory": "NONE",
             }
