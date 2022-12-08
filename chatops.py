@@ -35,7 +35,7 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {
-                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nTo learn more about '{random_word_name}', visit {word_url}\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API. The GitHub repo for this project can be found at https://github.com/xanderstevenson/word-of-the-day-bot"
+                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API.\n\n#tech #wordoftheday #{random_word_name.lower()} #python #apis"
                 },
                 "shareMediaCategory": "NONE",
             }
@@ -60,82 +60,78 @@ if __name__ == '__main__':
     word_url = random_word["url"]
     definition = random_word["definition"]
     wiki_link_text = f"Learn More about '{random_word_name}'"
-    
 
     card = [
-    {
-    "contentType": "application/vnd.microsoft.card.adaptive",
-    "content": {
-            "type": "AdaptiveCard",
-            "version": "1.2",
-    "body": [
-            {
-            "type": "TextBlock",
-            "text": "Word of the Day",
-            "size": "ExtraLarge",
-            "horizontalAlignment": "center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "color": "Accent",
-            "weight": "Bolder",
-            "wrap": True,
-            "style": "Emphasis"
+        {
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "type": "AdaptiveCard",
+                "version": "1.2",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": "Word of the Day",
+                        "size": "ExtraLarge",
+                        "horizontalAlignment": "center",
+                        "fontType": "Default",
+                        "isSubtle": True,
+                        "color": "Accent",
+                        "weight": "Bolder",
+                        "wrap": True,
+                        "style": "Emphasis",
+                    },
+                    # code block for word
+                    {
+                        "type": "TextBlock",
+                        "text": word,
+                        "size": "ExtraLarge",
+                        "separator": True,
+                        "horizontalAlignment": "center",
+                        "fontType": "Default",
+                        "isSubtle": True,
+                        "color": "Good",
+                        "weight": "Bolder",
+                        "wrap": True,
+                    },
+                    # code block for definition
+                    {
+                        "type": "TextBlock",
+                        "text": definition,
+                        "size": "Medium",
+                        "horizontalAlignment": "center",
+                        "fontType": "Default",
+                        "isSubtle": True,
+                        "wrap": True,
+                    },
+                    {
+                        "type": "ActionSet",
+                        "horizontalAlignment": "center",
+                        "actions": [
+                            {
+                                "type": "Action.OpenUrl",
+                                "url": word_url,
+                                "title": wiki_link_text,
+                                "style": "positive",
+                                "horizontalAlignment": "center",
+                            }
+                        ],
+                    },
+                    # # code block - use in a sentence
+                    #     {
+                    #     "type": "TextBlock",
+                    #     "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
+                    #     "size": "Small",
+                    #     "horizontalAlignment": "left",
+                    #     "fontType": "Default",
+                    #     "isSubtle": True,
+                    #     "color": "Warning",
+                    #     "weight": "Lighter",
+                    #     "wrap": True
+                    #     },
+                ],
             },
-    # code block for word
-            {
-            "type": "TextBlock",
-            "text": word,
-            "size": "ExtraLarge",
-            "separator": True,
-            "horizontalAlignment": "center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "color": "Good",
-            "weight": "Bolder",
-            "wrap": True,
-            },
-    # code block for definition
-            {
-            "type": "TextBlock",
-            "text": definition,
-            "size": "Medium",
-            "horizontalAlignment": "center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "wrap": True
-            },
-            {
-            "type":"ActionSet",
-            "horizontalAlignment": "center",
-            "actions": [
-                {
-                "type": "Action.OpenUrl",
-                "url": word_url,
-                "title": wiki_link_text,
-                "style": "positive",
-                "horizontalAlignment": "center",
-                }
-            ]
-
-            },
-
-        # # code block - use in a sentence
-        #     {
-        #     "type": "TextBlock",
-        #     "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
-        #     "size": "Small",
-        #     "horizontalAlignment": "left",
-        #     "fontType": "Default",
-        #     "isSubtle": True,
-        #     "color": "Warning",
-        #     "weight": "Lighter",
-        #     "wrap": True
-        #     },
-    ],
-
         }
-        }
-        ]
+    ]
 
     # Now let's post our message to Webex Teams
     res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
