@@ -1,6 +1,0 @@
-client_id = "78gcif1lw2s78d"
-client_secret = "jBZznDSbTHQNFe4q"
-organization_id = "91502016"
-li_access_token = "AQWUTQ0r4fDl-taD5-4MWBaOAB2S8E40tam_l-wwMIcaKt_ihJBWCuTAruhO3NfBhi_S4Wu0RYhilP6qO4ys25umD8GAwFJw9BC_ZW_qOVppeku_i4CeSR896B-2B3dFyuFEBTNlzFKfchirv8dmdep0hRN0o5QyEo1Bl3aWlWnKF7v51PX45z7xuk1e4BotIIpU20ml_aWMBFWeJp9edbVxhiZb9OEzbcLaxGVfgOwLwmltKz-7byuOJoPa4IK2azHCui_-MvTvcdMzc_Z2BDti7FLfz2qokURMVsD_CMUqmAty-5I6S9u-uXWdzJL6y_ru4lJFwCVJQwHkQ3f77i5xhKR2rQ"
-profile_id = "rrmuV0poP2"
-TEAMS_ACCESS_TOKEN = "Mjk5OTRmNWQtYmJiZS00ODNjLWIxNDEtNWNjMjdjZTc3N2JiYjE4OGVmZGEtN2Q5_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
