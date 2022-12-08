@@ -142,9 +142,6 @@ if __name__ == "__main__":
         }
     ]
 
-    # Check access token
-    # teams_access_token = os.environ.get("TEAMS_ACCESS_TOKEN")
-    # TEAMS_ACCESS_TOKEN = "Mjk5OTRmNWQtYmJiZS00ODNjLWIxNDEtNWNjMjdjZTc3N2JiYjE4OGVmZGEtN2Q5_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
 
     # Now let's post our message to Webex Teams
     res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)

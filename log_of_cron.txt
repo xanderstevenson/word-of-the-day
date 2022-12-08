@@ -1,0 +1,114 @@
+
+your message was successfully posted to Webex Teams
+
+Microarray
+
+ was successfully posted to Webex Teams on 2022-11-10 12:00:03.000062
+
+x86
+
+ was successfully posted to Webex Teams on 2022-11-11 12:00:03.636146
+
+Product-family engineering (PFE)
+
+ was successfully posted to Webex Teams on 2022-11-12 12:00:01.336144
+
+traceroute
+
+ was successfully posted to Webex Teams on 2022-11-13 12:00:02.048390
+
+Wantrepreneur
+
+ was successfully posted to Webex Teams on 2022-11-14 12:00:04.103672
+
+Kubernetes (K8s)
+
+ was successfully posted to Webex Teams on 2022-11-15 12:00:02.506413
+
+Buffer overflow
+
+ was successfully posted to Webex Teams on 2022-11-16 12:00:04.341348
+
+Sanitization
+
+ was successfully posted to Webex Teams on 2022-11-17 12:00:02.835602
+
+XML
+
+ was successfully posted to Webex Teams on 2022-11-18 12:00:02.367360
+
+Cloud native
+
+ was successfully posted to Webex Teams on 2022-11-19 12:00:03.541210
+
+Blacksurfing
+
+ was successfully posted to Webex Teams on 2022-11-20 12:00:02.842396
+
+Separation of concerns
+
+ was successfully posted to Webex Teams on 2022-11-21 12:00:03.429271
+
+Out-of-band data
+
+ was successfully posted to Webex Teams on 2022-11-22 12:00:03.868055
+
+Managed object (MO)
+
+ was successfully posted to Webex Teams on 2022-11-23 12:00:01.993719
+
+Regression testing
+
+ was successfully posted to Webex Teams on 2022-11-24 12:00:02.475856
+
+Source routing
+
+ was successfully posted to Webex Teams on 2022-11-25 12:00:03.735158
+
+OpenFlow
+
+ was successfully posted to Webex Teams on 2022-11-26 12:00:03.301218
+
+Coupled
+
+ was successfully posted to Webex Teams on 2022-11-27 12:00:04.032659
+
+Driver
+
+ was successfully posted to Webex Teams on 2022-11-28 12:00:04.141343
+
+Marshalling
+
+ was successfully posted to Webex Teams on 2022-11-29 12:00:02.286923
+
+HTTP return codes
+
+ was successfully posted to Webex Teams on 2022-11-30 12:00:04.297762
+
+Scalability
+
+ was successfully posted to Webex Teams on 2022-12-01 12:00:03.274682
+
+Cliff effect
+
+ was successfully posted to Webex Teams on 2022-12-02 12:00:02.800646
+
+Expireware
+
+ was successfully posted to Webex Teams on 2022-12-03 12:00:02.848086
+
+Shotgun debugging
+
+ was successfully posted to Webex Teams on 2022-12-04 12:00:02.204787
+
+Dynamic application security testing (DAST)
+
+ was successfully posted to Webex Teams on 2022-12-05 12:00:03.462608
+
+Distributed Overlay Virtual Ethernet (DOVE)
+
+ was successfully posted to Webex Teams on 2022-12-06 12:00:04.627753
+
+Full-stack observability
+
+ was successfully posted to Webex Teams on 2022-12-07 12:00:01.656258
