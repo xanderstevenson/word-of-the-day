@@ -1,6 +1,5 @@
 #!/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/bin/python3
 import json
-import sys
 import requests
 import os
 from test_terms import return_word
@@ -39,7 +38,7 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {
-                    "text": f"Word of the Day\n\n{random_word_name}\n\n{definition}\n\nTo learn more about '{random_word_name}', visit {word_url}\n\nThis automated post was created with Cisco Webex and LinkedIn APIs."
+                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nTo learn more about '{random_word_name}', visit {word_url}\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API. The GitHub repo for this project can be found at https://github.com/xanderstevenson/word-of-the-day-bot"
                 },
                 "shareMediaCategory": "NONE",
             }
@@ -56,7 +55,6 @@ if __name__ == "__main__":
     # Command line arguments parsing
     from argparse import ArgumentParser
 
-    access_token = os.environ.get("TEAMS_ACCESS_TOKEN")
     # Bot Testing room
     teams_room = (
         "Y2lzY29zcGFyazovL3VzL1JPT00vMGI1OGQyODAtNWQ4Ny0xMWVhLTk3YzMtNjMxZThlNjhkY2I1"
