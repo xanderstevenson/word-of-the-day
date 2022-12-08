@@ -60,82 +60,78 @@ if __name__ == '__main__':
     word_url = random_word["url"]
     definition = random_word["definition"]
     wiki_link_text = f"Learn More about '{random_word_name}'"
-    
 
     card = [
-    {
-    "contentType": "application/vnd.microsoft.card.adaptive",
-    "content": {
-            "type": "AdaptiveCard",
-            "version": "1.2",
-    "body": [
-            {
-            "type": "TextBlock",
-            "text": "Word of the Day",
-            "size": "ExtraLarge",
-            "horizontalAlignment": "center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "color": "Accent",
-            "weight": "Bolder",
-            "wrap": True,
-            "style": "Emphasis"
+        {
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "type": "AdaptiveCard",
+                "version": "1.2",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": "Word of the Day",
+                        "size": "ExtraLarge",
+                        "horizontalAlignment": "center",
+                        "fontType": "Default",
+                        "isSubtle": True,
+                        "color": "Accent",
+                        "weight": "Bolder",
+                        "wrap": True,
+                        "style": "Emphasis",
+                    },
+                    # code block for word
+                    {
+                        "type": "TextBlock",
+                        "text": word,
+                        "size": "ExtraLarge",
+                        "separator": True,
+                        "horizontalAlignment": "center",
+                        "fontType": "Default",
+                        "isSubtle": True,
+                        "color": "Good",
+                        "weight": "Bolder",
+                        "wrap": True,
+                    },
+                    # code block for definition
+                    {
+                        "type": "TextBlock",
+                        "text": definition,
+                        "size": "Medium",
+                        "horizontalAlignment": "center",
+                        "fontType": "Default",
+                        "isSubtle": True,
+                        "wrap": True,
+                    },
+                    {
+                        "type": "ActionSet",
+                        "horizontalAlignment": "center",
+                        "actions": [
+                            {
+                                "type": "Action.OpenUrl",
+                                "url": word_url,
+                                "title": wiki_link_text,
+                                "style": "positive",
+                                "horizontalAlignment": "center",
+                            }
+                        ],
+                    },
+                    # # code block - use in a sentence
+                    #     {
+                    #     "type": "TextBlock",
+                    #     "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
+                    #     "size": "Small",
+                    #     "horizontalAlignment": "left",
+                    #     "fontType": "Default",
+                    #     "isSubtle": True,
+                    #     "color": "Warning",
+                    #     "weight": "Lighter",
+                    #     "wrap": True
+                    #     },
+                ],
             },
-    # code block for word
-            {
-            "type": "TextBlock",
-            "text": word,
-            "size": "ExtraLarge",
-            "separator": True,
-            "horizontalAlignment": "center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "color": "Good",
-            "weight": "Bolder",
-            "wrap": True,
-            },
-    # code block for definition
-            {
-            "type": "TextBlock",
-            "text": definition,
-            "size": "Medium",
-            "horizontalAlignment": "center",
-            "fontType": "Default",
-            "isSubtle": True,
-            "wrap": True
-            },
-            {
-            "type":"ActionSet",
-            "horizontalAlignment": "center",
-            "actions": [
-                {
-                "type": "Action.OpenUrl",
-                "url": word_url,
-                "title": wiki_link_text,
-                "style": "positive",
-                "horizontalAlignment": "center",
-                }
-            ]
-
-            },
-
-        # # code block - use in a sentence
-        #     {
-        #     "type": "TextBlock",
-        #     "text": f"Challenge: See how many times you can you incorporate '{random_word_name}' into your converstions today.",
-        #     "size": "Small",
-        #     "horizontalAlignment": "left",
-        #     "fontType": "Default",
-        #     "isSubtle": True,
-        #     "color": "Warning",
-        #     "weight": "Lighter",
-        #     "wrap": True
-        #     },
-    ],
-
         }
-        }
-        ]
+    ]
 
     # Now let's post our message to Webex Teams
     res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
