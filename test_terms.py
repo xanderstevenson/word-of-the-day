@@ -3786,89 +3786,89 @@ def return_word():
             "url": "https://docs.oracle.com/cd/E35292_01/doc.72/e47715/con_vpn.htm#autoId3",
             "id": 626,
         },
+        {
+            "name": "Golden image",
+            "definition": "A golden image is a template for a virtual machine, virtual desktop, server or hard disk drive. Golden images are also known as ghost images, clones, master images or base images.\n\nTo create a golden image, an administrator first sets up the computing environment with the exact specifications needed and then saves the disk image as a pattern for future copies. Using golden images can save time and ensure consistency by eliminating the need for repetitive configuration changes and performance tweaks.\n\nThis approach can be compared with automated replication, which requires a configuration management tool such as Puppet to build new images on demand.\n\nIn an automated provisioning environment, a collection of golden images might be referred to as a golden repository or golden image library.",
+            "url": "https://www.redhat.com/en/topics/linux/what-is-a-golden-image",
+            "id": 627
+        },
+        {
+            "name": "High-performance computing (HPC)",
+            "definition": "High-performance computing (HPC) uses supercomputers and computer clusters to solve advanced computation problems.\n\nHPC integrates systems administration (including network and security knowledge) and parallel programming into a multidisciplinary field that combines digital electronics, computer architecture, system software, programming languages, algorithms and computational techniques. HPC technologies are the tools and systems used to implement and create high performance computing systems.\n\nRecently, HPC systems have shifted from supercomputing to computing clusters and grids. Because of the need of networking in clusters and grids, High Performance Computing Technologies are being promoted by the use of a collapsed network backbone, because the collapsed backbone architecture is simple to troubleshoot and upgrades can be applied to a single router as opposed to multiple ones.",
+            "url": "https://en.wikipedia.org/wiki/High-performance_computing",
+            "id": 628
+        },
+        {
+            "name": "Heisenbug",
+            "definition": "In computer programming jargon, a heisenbug is a software bug that seems to disappear or alter its behavior when one attempts to study it. The term is a pun on the name of Werner Heisenberg, the physicist who first asserted the observer effect of quantum mechanics, which states that the act of observing a system inevitably alters its state. In electronics, the traditional term is probe effect, where attaching a test probe to a device changes its behavior.\n\nHeisenbugs occur because common attempts to debug a program, such as inserting output statements or running it with a debugger, usually have the side-effect of altering the behavior of the program in subtle ways, such as changing the memory addresses of variables and the timing of its execution.",
+            "url": "https://en.wikipedia.org/wiki/Heisenbug#cite_note-jarhei-1",
+            "id": 629
+        },
+        {
+            "name": "Dvorak vs. QWERTY",
+            "definition": "Dvorak is a keyboard layout for English patented in 1936 by August Dvorak and his brother-in-law, William Dealey, as a faster and more ergonomic alternative to the QWERTY layout (the de facto standard keyboard layout). Dvorak proponents claim that it requires less finger motion and as a result reduces errors, increases typing speed, reduces repetitive strain injuries, or is simply more comfortable than QWERTY.\n\nDvorak has failed to replace QWERTY as the most common keyboard layout, with the most oft pointed to reason being QWERTY was popularized 60 years prior to Dvorak's creation and Dvorak's advantages are debated and relatively minuscule. However, most major modern operating systems (such as Windows, macOS, Linux, iOS, Android, ChromeOS, and BSD) allow a user to switch to the Dvorak layout. The layout can be chosen for use with any hardware keyboard, regardless of printed characters on the keyboard.",
+            "url": "https://www.youtube.com/watch?v=tIJNusYZXMA",
+            "id": 630
+        },
+        {
+            "name": "Conway's law",
+            "definition": "Conway's law is an adage that states organizations design systems that mirror their own communication structure. It is named after the computer programmer Melvin Conway, who introduced the idea in 1967. His original wording was:\n\n’Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.’\n\n— Melvin E. Conway\n\nThe law is based on the reasoning that in order for a product to function, the authors and designers of its component parts must communicate with each other in order to ensure compatibility between the components. Therefore, the technical structure of a system will reflect the social boundaries of the organizations that produced it, across which communication is more difficult.\n\nIn colloquial terms, it means complex products end up 'shaped like' the organizational structure they are designed in or designed for. The law is applied primarily in the field of software architecture, though Conway directed it more broadly and its assumptions and conclusions apply to most technical fields.",
+            "url": "https://en.wikipedia.org/wiki/Conway%27s_law",
+            "id": 631
+        },
+        {
+            "name": "Programming kata",
+            "definition": "Kata, a term borrowed from the Japanese word for ‘form’, is a term used by some programmers in the Software Craftsmanship movement. Computer programmers who call themselves ‘Software Craftsmen’ will write 'Kata' - small snippets of code that they write in one sitting, sometimes repeatedly, often daily, in order to build muscle memory and practise their craft.\n\nIn 1999, the term was used by Dave Thomas, co-author of the book The Pragmatic Programmer. The concept was implemented by Laurent Bossavit and Emmanuel Gaillot who talked about it at XP2005 in Sheffield (UK). Following this conference, Robert C. Martin described the concept and initial usages in his article ‘The Programming Dojo’.",
+            "url": "",
+            "id": 632
+        },
+        {
+            "name": "Chaos Monkey",
+            "definition": "Chaos Monkey is a chaos engineering tool invented in 2011 by Netflix to test the resilience of its IT infrastructure. It works by intentionally and randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures. Chaos Monkey is now part of a larger suite of tools called the Simian Army designed to simulate and test responses to various system failures and edge cases.",
+            "url": "https://en.wikipedia.org/wiki/Chaos_engineering#Chaos_Monkey",
+            "id": 633
+        },
+        {
+            "name": "Antifragility",
+            "definition": "Antifragility is a property of systems in which they increase in capability to thrive as a result of stressors, shocks, volatility, noise, mistakes, faults, attacks, or failures. The concept was developed by Nassim Nicholas Taleb in his book, Antifragile, and in technical papers. As Taleb explains in his book, antifragility is fundamentally different from the concepts of resiliency (i.e. the ability to recover from failure) and robustness (that is, the ability to resist failure).\n\nThe concept has been applied in risk analysis, physics, molecular biology, transportation planning, engineering, aerospace (NASA), and computer science.\n\nIn computer science, there is a structured proposal for an ‘Antifragile Software Manifesto’, to react to traditional system designs. The major idea is to develop antifragility by design, building a system which improves from environment's input.",
+            "url": "https://en.wikipedia.org/wiki/Antifragility",
+            "id": 634
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 627
+        #     "id": 635
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 628
+        #     "id": 636
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 629
+        #     "id": 637
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 630
+        #     "id": 638
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6
+        #     "id": 639
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6
+        #     "id": 640
         # },
         # {
         #     "name": "",
