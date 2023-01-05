@@ -176,3 +176,169 @@ Cartesian coordinate system
 Cartesian coordinate system
 
  was successfully posted to LinkedIn
+
+CSS (Cascading Style Sheets)
+
+ was successfully posted to Webex Teams on 2022-12-16 12:00:02.448468
+
+CSS (Cascading Style Sheets)
+
+ was successfully posted to LinkedIn
+
+initRD
+
+ was successfully posted to Webex Teams on 2022-12-17 12:00:03.070771
+
+initRD
+
+ was successfully posted to LinkedIn
+
+Magic
+
+ was successfully posted to Webex Teams on 2022-12-18 12:00:02.975988
+
+Magic
+
+ was successfully posted to LinkedIn
+
+Forward chaining
+
+ was successfully posted to Webex Teams on 2022-12-19 12:00:02.563396
+
+Forward chaining
+
+ was successfully posted to LinkedIn
+
+Microservice
+
+ was successfully posted to Webex Teams on 2022-12-20 12:00:02.680349
+
+Microservice
+
+ was successfully posted to LinkedIn
+
+Alphanumerish
+
+ was successfully posted to Webex Teams on 2022-12-21 12:00:02.826520
+
+Alphanumerish
+
+ was successfully posted to LinkedIn
+
+Dogfooding
+
+ was successfully posted to Webex Teams on 2022-12-22 12:00:02.125963
+
+Dogfooding
+
+ was successfully posted to LinkedIn
+
+Bridgeware
+
+ was successfully posted to Webex Teams on 2022-12-23 12:00:02.159709
+
+Bridgeware
+
+ was successfully posted to LinkedIn
+failed with statusCode: 400
+please check the identifier of the room you're attempting to post to...
+
+John McCarthy
+
+ was successfully posted to LinkedIn
+
+Network management software
+
+ was successfully posted to Webex Teams on 2022-12-25 12:00:04.139245
+
+Network management software
+
+ was successfully posted to LinkedIn
+
+Management information base (MIB
+
+ was successfully posted to Webex Teams on 2022-12-26 12:00:02.849550
+
+Management information base (MIB
+
+ was successfully posted to LinkedIn
+
+Database engine
+
+ was successfully posted to Webex Teams on 2022-12-27 12:00:05.302042
+
+Database engine
+
+ was successfully posted to LinkedIn
+
+Gender changer
+
+ was successfully posted to Webex Teams on 2022-12-28 12:00:01.364355
+
+Gender changer
+
+ was successfully posted to LinkedIn
+
+Application service provider (ASP)
+
+ was successfully posted to Webex Teams on 2022-12-29 12:00:02.216919
+
+Application service provider (ASP)
+
+ was successfully posted to LinkedIn
+
+Stack
+
+ was successfully posted to Webex Teams on 2022-12-30 12:00:01.928853
+
+Stack
+
+ was successfully posted to LinkedIn
+
+Composite pattern
+
+ was successfully posted to Webex Teams on 2022-12-31 12:00:02.405087
+
+Composite pattern
+
+ was successfully posted to LinkedIn
+
+Hypermedia
+
+ was successfully posted to Webex Teams on 2023-01-01 12:00:02.494022
+
+Hypermedia
+
+ was successfully posted to LinkedIn
+
+Biomimetics
+
+ was successfully posted to Webex Teams on 2023-01-02 12:00:03.042389
+
+Biomimetics
+
+ was successfully posted to LinkedIn
+
+gNMI
+
+ was successfully posted to Webex Teams on 2023-01-03 12:00:02.062039
+
+gNMI
+
+ was successfully posted to LinkedIn
+
+SOAP
+
+ was successfully posted to Webex Teams on 2023-01-04 12:00:03.297715
+
+SOAP
+
+ was successfully posted to LinkedIn
+
+Weighted round robin
+
+ was successfully posted to Webex Teams on 2023-01-05 12:00:04.816327
+
+Weighted round robin
+
+ was successfully posted to LinkedIn
