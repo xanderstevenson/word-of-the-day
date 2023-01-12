@@ -1202,7 +1202,7 @@ def return_word():
         }, 
         {
             "name": "Coding best practices",
-            "definition": "Coding best practices are a set of informal rules that the software development community employs to help improve software quality.Many computer programs remain in use for long periods of time so any rules need to facilitate both initial development and subsequent maintenance and enhancement by people other than the original authors.\n\nThere are a few best practices when it comes to learning how to code, and they center around these 7 concepts:\n\n1. Variable naming conventions\n2. Class and function naming conventions\n3. Clear and concise comments\n4. Indentations\n	 5. Portability\n6. Reusability and scalability\n7. Testing",
+            "definition": "Coding best practices are a set of informal rules that the software development community employs to help improve software quality.Many computer programs remain in use for long periods of time so any rules need to facilitate both initial development and subsequent maintenance and enhancement by people other than the original authors.\n\nThere are a few best practices when it comes to learning how to code, and they center around these 7 concepts:\n\n1. Variable naming conventions\n2. Class and function naming conventions\n3. Clear and concise comments\n4. Indentations\n5. Portability\n6. Reusability and scalability\n7. Testing",
             "url": "https://en.wikipedia.org/wiki/Coding_best_practices",
             "id": 197      
         }, 
@@ -3828,125 +3828,125 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Antifragility",
             "id": 634
         },
+        {
+            "name": "Source Code Management (SCM)",
+            "definition": "Source code management (SCM) is used to track modifications to a source code repository. SCM tracks a running history of changes to a code base and helps resolve conflicts when merging updates from multiple contributors. It helps your development team collaborate and maximize productivity, sparking faster delivery and increased visibility. SCM is also synonymous with 'version control' and is often handled by a Source Code Manager (SCM) or Source Code Control System (SCCS).",
+            "url": "https://en.wikipedia.org/wiki/Source_Code_Control_System",
+            "id": 627     
+        },
+        {
+            "name": "Recovery as a service (RaaS)",
+            "definition": "Recovery as a service (RaaS), sometimes referred to as disaster recovery as a service (DRaaS), is a category of cloud computing used for protecting an application or data from a natural or human disaster or service disruption at one location by enabling a full recovery in the cloud.\nRaaS differs from cloud-based backup services by protecting data and providing standby computing capacity on demand to facilitate more rapid application recovery. RaaS capacity is delivered in a cloud-computing model so recovery resources are only paid for when they are used, making it more efficient than a traditional disaster recovery warm site or hot site where the recovery resources must be running at all times.",
+            "url": "https://en.wikipedia.org/wiki/Recovery_as_a_service",
+            "id": 628     
+        },
+        {
+            "name": "Flow-based programming",
+            "definition": "In computer programming, flow-based programming (FBP) is a programming paradigm that defines applications as networks of ‘black box’ processes, which exchange data across predefined connections by message passing, where the connections are specified externally to the processes. These black box processes can be reconnected endlessly to form different applications without having to be changed internally. FBP is thus naturally component-oriented.\nFBP is a particular form of dataflow programming based on bounded buffers, information packets with defined lifetimes, named ports, and separate definition of connections.",
+            "url": "https://en.wikipedia.org/wiki/Flow-based_programming",
+            "id": 629     
+        },
+        {
+            "name": "Programmatic vs. Declarative transaction management",
+            "definition": "In Java programming, you can approach coding transactions in two basic ways: programmatically or declaratively. When possible, declarative transactions are a better choice since they allow the container to manage the transaction for you, and this saves you from having to put transaction management calls into your application code.\nProgrammatic transaction management means you have transaction management code surrounding your business code. Programmatic transaction management is usually a good idea only if you have a small number of transactional operations.\nDeclarative transaction management involves separating transaction management from the business logic. If your application has numerous transactional operations, declarative transaction management is usually worthwhile. ",
+            "url": "https://www.oreilly.com/library/view/java-enterprise-in/0596101422/ch16s02.html",
+            "id": 630     
+        },
+        {
+            "name": "Dependency hell",
+            "definition": "Dependency hell is a colloquial term for the frustration of some software users who have installed software packages which have dependencies on specific versions of other software packages.\nThe dependency issue arises when several packages have dependencies on the same shared packages or libraries, but they depend on different and incompatible versions of the shared packages. If the shared package or library can only be installed in a single version, the user may need to address the problem by obtaining newer or older versions of the dependent packages. This, in turn, may break other dependencies and push the problem to another set of packages.",
+            "url": "https://en.wikipedia.org/wiki/Dependency_hell",
+            "id": 631     
+        },
+        {
+            "name": "Onshore vs. Offshore vs. Nearshore",
+            "definition": "In the outsourcing of labor, the following terms indicate where resources, including personnel, are located.\n\n- Onshore signifies the resource are located within the same country.\n- Offshore indicates that the resources are in another country with a different time zone.\n- Nearshore refers to resources in a neighboring country, which is a short distance away.",
+            "url": "https://en.wikipedia.org/wiki/Outsourcing",
+            "id": 632     
+        },
+        {
+            "name": "Homeshoring",
+            "definition": "Homeshoring (also known as Homesourcing) is a form of IT-enabled ‘transfer of service industry employment from offices to home-based ... with appropriate telephone and Internet facilities’. These remote work positions may be customer-facing or back office and the workers may be employees or independent contractors.",
+            "url": "https://en.wikipedia.org/wiki/Remote_work",
+            "id": 633     
+        },
+        {
+            "name": "Dynamic Multipoint Virtual Private Network (DMVPN)",
+            "definition": "Dynamic Multipoint Virtual Private Network (DMVPN) is a dynamic tunneling form of a virtual private network (VPN) supported on Cisco IOS-based routers, and Huawei AR G3 routers, and on Unix-like operating systems.\nDMVPN provides the capability for creating a dynamic-mesh VPN network without having to pre-configure (static) all possible tunnel end-point peers, including IPsec (Internet Protocol Security) and ISAKMP (Internet Security Association and Key Management Protocol) peers.\nAs with GRE tunnels, DMVPN allows for several encryption schemes (including none) for the encryption of data traversing the tunnels. For security reasons Cisco recommend that customers use AES.",
+            "url": "https://en.wikipedia.org/wiki/Dynamic_Multipoint_Virtual_Private_Network",
+            "id": 634     
+        },
+        {
+            "name": "Greenfield vs. Brownfield",
+            "definition": "In general terms, a greenfield project is a brand new one, developed from scratch, and not based on any existing systems, code or infrastructure, unlike a brownfield one, which is built upon already existing projects, code or other resources.\nIn software development, brownfield development describes problem spaces needing the development and deployment of new software systems within the immediate presence of existing (legacy) software applications/services. This implies that any new software architecture must take into account and coexist with live software already in production. A brownfield project usually refers to a major upgrade, or a redevelopment of an existing live application where there are issues like backwards compatibility to existing file formats, interfaces, modules, etc. On the other hand, greenfield development lacks any constraints imposed by prior work.",
+            "url": "https://www.moogsoft.com/blog/aiops/brownfield-greenfield-ops/",
+            "id": 635     
+        },
+        {
+            "name": "Decentralized application",
+            "definition": "A decentralised application (DApp, dApp, Dapp, or dapp) is an application that can operate autonomously, typically through the use of smart contracts, that run on a decentralized computing, blockchain or other distributed ledger system. Like traditional applications, DApps provide some function or utility to its users. However, unlike traditional applications, DApps operate without human intervention and are not owned by any one entity, rather DApps distribute tokens that represent ownership. These tokens are distributed according to a programmed algorithm to the users of the system, diluting ownership and control of the DApp. Without any one entity controlling the system, the application is therefore decentralised.",
+            "url": "https://en.wikipedia.org/wiki/Decentralized_application",
+            "id": 636     
+        },
+        {
+            "name": "Dry run",
+            "definition": "A dry run (or practice run) is a software testing process where the effects of a possible failure are intentionally mitigated. For example, an aerospace company may conduct a ‘dry run’ test of a jet's new pilot ejection seat while the jet is parked on the ground, rather than while it is in flight. The term dry run appears to have originated from fire departments in the U.S. In order to practice, they would carry out dispatches of the fire brigade where water was not pumped. A run with real fire and water was referred to as a wet run. ",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zg4j7ty/revision/3",
+            "id": 637     
+        },
+        {
+            "name": "Trace table",
+            "definition": "A trace table is a technique used to test algorithms in order to make sure that no logical errors occur while the calculations are being processed. They can also be useful for debugging applications, helping the programmer to easily detect what error is occurring, and why it may be occurring.",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zg4j7ty/revision/4",
+            "id": 638     
+        },
+        {
+            "name": "Dereference",
+            "definition": "In computer programming, to dereference is to go to an address before performing the operation. For example, in C programming, a dereferenced variable is a pointer to the variable, not the variable itself. An example is found in the tar archiving program. The dereference switch causes files referenced by symbolic links to be archived rather than the symbolic link itself. ",
+            "url": "https://en.wikipedia.org/wiki/Dereference_operator",
+            "id": 639     
+        },
+        {
+            "name": "Kanban",
+            "definition": "Kanban (Japanese, meaning signboard or billboard) is a lean method to manage and improve work across human systems. This approach aims to manage work by balancing demands with available capacity, and by improving the handling of system-level bottlenecks.\nWork items are visualized to give participants a view of progress and process, from start to finish—usually via a kanban board. Work is pulled as capacity permits, rather than work being pushed into the process when requested.\nIn knowledge work and in software development, the aim is to provide a visual process management system which aids decision-making about what, when, and how much to produce.",
+            "url": "https://en.wikipedia.org/wiki/Kanban_(development)",
+            "id": 640     
+        },
+        {
+            "name": "Salt",
+            "definition": "In cryptography, a salt is random data that is used as an additional input to a one-way function that hashes data, a  or passphrase. Salts are used to safeguard passwords in storage. Historically, only the output from an invocation of a cryptographic hash function on the password was stored on a system, but, over time, additional safeguards were developed to protect against duplicate or common passwords being identifiable (as their hashes are identical). Salting is one such protection.\nA new salt is randomly generated for each password. Typically, the salt and the password (or its version after key stretching) are concatenated and fed to a cryptographic hash function, and the output hash value (but not the original password) is stored with the salt in a database. Hashing allows later authentication without keeping and therefore risking exposure of the plaintext password if the authentication data store is compromised. Salts don't need to be encrypted or stored separately from the hashed password itself, because even if an attacker has access to the database with the hash values and the salts, the correct use of said salts will hinder common attacks.",
+            "url": "https://en.wikipedia.org/wiki/Salt_(cryptography)",
+            "id": 641     
+        },
+        {
+            "name": "Feedback vs. Feed forward",
+            "definition": "A feedback control system is a control system where the output depends on the generated feedback signal. Feedback control system is responsible for processing the feedback signals which further act as an input to the system. The loop in a feedback control system is a closed loop. It focuses on the output of the system and variables are adjusted on the basis of errors.\n\nA feed forward control system is a system which passes the signal to some external load. It directly measures and rejects the disturbances before they affect the controlled variable. The loop in a feed forward control system is an open loop. It focuses on the input of the system and variables are adjusted on the basis of knowledge.",
+            "url": "https://en.wikipedia.org/wiki/Feed_forward_(control)",
+            "id": 642     
+        },
+        {
+            "name": "ChatOps",
+            "definition": "Chat Operations (ChatOps) is the use of chat clients and real-time chat tools to facilitate software development and operations. Also known as ‘conversation-driven collaboration’ or ‘conversation-driven DevOps’, ChatOps is designed for fast and simple instant messaging between development team members. Throughout the ChatOps experience, a chatbot accepts plain-English commands and initiates actions with background apps (via API) to optimize IT operations (ITOps) and development operations (DevOps).\n\nThe ChatOps flow connects the work needed, the work happening, and the work done in a persistent location staffed by the people, bots and related tools. The transparency tightens the feedback loop, improves information sharing, and enhances team collaboration.",
+            "url": "https://www.ibm.com/cloud/blog/benefits-of-chatops",
+            "id": 643     
+        },
+        {
+            "name": "CALMS",
+            "definition": "CALMS (Culture, Automation, Lean, Measurement, and Sharing) is a framework that assesses a company's ability to adopt DevOps processes, as well as a way of measuring success during a DevOps transformation. The acronym was coined by Jez Humble, co-author of ‘The DevOps Handbook’. The CALMS framework covers all stakeholders within DevOps, including business, IT operations, QA, InfoSec and development teams, and how they collectively deliver, deploy and integrate automated processes that make business sense.",
+            "url": "https://www.atlassian.com/devops/frameworks/calms-framework",
+            "id": 644     
+        },
+        {
+            "name": "DevOps Wall of Confusion",
+            "definition": "The ‘Wall of Confusion’ is a DevOps term popularized by Andrew Clay Schafer and Lee Thompson. It refers to the phenomena where one group in a value stream approaches their job as complete when they’ve passed it onto the next group. The canonical example is when developers throw their code ‘over the wall’ to their ops colleagues and ignore what must be done to get the software they’ve written into a deployable state. This often causes the ops team to struggle with getting the software deployed, leading to significant delays in releases and raising the risk of defects and other problems.\n\nThis phenomenon is not limited to development and IT operations, but the result is almost always the same: waste in our workflows, including overhead in communication, defects being passed downstream resulting in back-flow, context-switching due to excessive cognitive load, and over-engineered solutions. This can call be mitigated through the breaking down of organizational silos, the use of boundary objects to ensure collaboration and the implementation of shift left, parallel work streams.",
+            "url": "https://levelup.gitconnected.com/the-wall-of-confusion-623057a4dd26",
+            "id": 645     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 627     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 628     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 629     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 630     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
+        #     "id": 645     
         # },
         # {
         #     "name": "",
