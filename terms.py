@@ -3882,71 +3882,71 @@ def return_word():
             "url": "https://www.moogsoft.com/blog/aiops/brownfield-greenfield-ops/",
             "id": 635     
         },
+        {
+            "name": "Decentralized application",
+            "definition": "A decentralised application (DApp, dApp, Dapp, or dapp) is an application that can operate autonomously, typically through the use of smart contracts, that run on a decentralized computing, blockchain or other distributed ledger system. Like traditional applications, DApps provide some function or utility to its users. However, unlike traditional applications, DApps operate without human intervention and are not owned by any one entity, rather DApps distribute tokens that represent ownership. These tokens are distributed according to a programmed algorithm to the users of the system, diluting ownership and control of the DApp. Without any one entity controlling the system, the application is therefore decentralised.",
+            "url": "https://en.wikipedia.org/wiki/Decentralized_application",
+            "id": 636     
+        },
+        {
+            "name": "Dry run",
+            "definition": "A dry run (or practice run) is a software testing process where the effects of a possible failure are intentionally mitigated. For example, an aerospace company may conduct a ‘dry run’ test of a jet's new pilot ejection seat while the jet is parked on the ground, rather than while it is in flight. The term dry run appears to have originated from fire departments in the U.S. In order to practice, they would carry out dispatches of the fire brigade where water was not pumped. A run with real fire and water was referred to as a wet run. ",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zg4j7ty/revision/3",
+            "id": 637     
+        },
+        {
+            "name": "Trace table",
+            "definition": "A trace table is a technique used to test algorithms in order to make sure that no logical errors occur while the calculations are being processed. They can also be useful for debugging applications, helping the programmer to easily detect what error is occurring, and why it may be occurring.",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zg4j7ty/revision/4",
+            "id": 638     
+        },
+        {
+            "name": "Dereference",
+            "definition": "In computer programming, to dereference is to go to an address before performing the operation. For example, in C programming, a dereferenced variable is a pointer to the variable, not the variable itself. An example is found in the tar archiving program. The dereference switch causes files referenced by symbolic links to be archived rather than the symbolic link itself. ",
+            "url": "https://en.wikipedia.org/wiki/Dereference_operator",
+            "id": 639     
+        },
+        {
+            "name": "Kanban",
+            "definition": "Kanban (Japanese, meaning signboard or billboard) is a lean method to manage and improve work across human systems. This approach aims to manage work by balancing demands with available capacity, and by improving the handling of system-level bottlenecks.\nWork items are visualized to give participants a view of progress and process, from start to finish—usually via a kanban board. Work is pulled as capacity permits, rather than work being pushed into the process when requested.\nIn knowledge work and in software development, the aim is to provide a visual process management system which aids decision-making about what, when, and how much to produce.",
+            "url": "https://en.wikipedia.org/wiki/Kanban_(development)",
+            "id": 640     
+        },
+        {
+            "name": "Salt",
+            "definition": "In cryptography, a salt is random data that is used as an additional input to a one-way function that hashes data, a  or passphrase. Salts are used to safeguard passwords in storage. Historically, only the output from an invocation of a cryptographic hash function on the password was stored on a system, but, over time, additional safeguards were developed to protect against duplicate or common passwords being identifiable (as their hashes are identical). Salting is one such protection.\nA new salt is randomly generated for each password. Typically, the salt and the password (or its version after key stretching) are concatenated and fed to a cryptographic hash function, and the output hash value (but not the original password) is stored with the salt in a database. Hashing allows later authentication without keeping and therefore risking exposure of the plaintext password if the authentication data store is compromised. Salts don't need to be encrypted or stored separately from the hashed password itself, because even if an attacker has access to the database with the hash values and the salts, the correct use of said salts will hinder common attacks.",
+            "url": "https://en.wikipedia.org/wiki/Salt_(cryptography)",
+            "id": 641     
+        },
+        {
+            "name": "Feedback vs. Feed forward",
+            "definition": "A feedback control system is a control system where the output depends on the generated feedback signal. Feedback control system is responsible for processing the feedback signals which further act as an input to the system. The loop in a feedback control system is a closed loop. It focuses on the output of the system and variables are adjusted on the basis of errors.\n\nA feed forward control system is a system which passes the signal to some external load. It directly measures and rejects the disturbances before they affect the controlled variable. The loop in a feed forward control system is an open loop. It focuses on the input of the system and variables are adjusted on the basis of knowledge.",
+            "url": "https://en.wikipedia.org/wiki/Feed_forward_(control)",
+            "id": 642     
+        },
+        {
+            "name": "ChatOps",
+            "definition": "Chat Operations (ChatOps) is the use of chat clients and real-time chat tools to facilitate software development and operations. Also known as ‘conversation-driven collaboration’ or ‘conversation-driven DevOps’, ChatOps is designed for fast and simple instant messaging between development team members. Throughout the ChatOps experience, a chatbot accepts plain-English commands and initiates actions with background apps (via API) to optimize IT operations (ITOps) and development operations (DevOps).\n\nThe ChatOps flow connects the work needed, the work happening, and the work done in a persistent location staffed by the people, bots and related tools. The transparency tightens the feedback loop, improves information sharing, and enhances team collaboration.",
+            "url": "https://www.ibm.com/cloud/blog/benefits-of-chatops",
+            "id": 643     
+        },
+        {
+            "name": "CALMS",
+            "definition": "CALMS (Culture, Automation, Lean, Measurement, and Sharing) is a framework that assesses a company's ability to adopt DevOps processes, as well as a way of measuring success during a DevOps transformation. The acronym was coined by Jez Humble, co-author of ‘The DevOps Handbook’. The CALMS framework covers all stakeholders within DevOps, including business, IT operations, QA, InfoSec and development teams, and how they collectively deliver, deploy and integrate automated processes that make business sense.",
+            "url": "https://www.atlassian.com/devops/frameworks/calms-framework",
+            "id": 644     
+        },
+        {
+            "name": "DevOps Wall of Confusion",
+            "definition": "The ‘Wall of Confusion’ is a DevOps term popularized by Andrew Clay Schafer and Lee Thompson. It refers to the phenomena where one group in a value stream approaches their job as complete when they’ve passed it onto the next group. The canonical example is when developers throw their code ‘over the wall’ to their ops colleagues and ignore what must be done to get the software they’ve written into a deployable state. This often causes the ops team to struggle with getting the software deployed, leading to significant delays in releases and raising the risk of defects and other problems.\n\nThis phenomenon is not limited to development and IT operations, but the result is almost always the same: waste in our workflows, including overhead in communication, defects being passed downstream resulting in back-flow, context-switching due to excessive cognitive load, and over-engineered solutions. This can call be mitigated through the breaking down of organizational silos, the use of boundary objects to ensure collaboration and the implementation of shift left, parallel work streams.",
+            "url": "https://levelup.gitconnected.com/the-wall-of-confusion-623057a4dd26",
+            "id": 645     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 636     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 637     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 638     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 639     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 640     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
+        #     "id": 645     
         # },
         # {
         #     "name": "",
