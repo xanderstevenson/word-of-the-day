@@ -1,4 +1,4 @@
-
+import re
 import json
 import requests
 import os
@@ -28,14 +28,20 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
         "X-Restli-Protocol-Version": "2.0.0",
         "Authorization": "Bearer " + li_access_token,
     }
-
+    # make new variable for linkedin hashtag, lowercase it and remove spaces
+    random_word_linkedin = random_word_name.lower().replace(' ', '')
+    # remove abbreviations for linkedin hashtag
+    #remove everything between ()
+    random_word_linkedin=re.sub("\(.*?\)","()",random_word_linkedin)
+    #remove ()
+    random_word_linkedin = random_word_linkedin.replace('(', '').replace(')', '')
     post_data = {
         "author": "urn:li:person:" + profile_id,
         "lifecycleState": "PUBLISHED",
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {
-                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API.\n\n#tech #wordoftheday #{random_word_name.lower().replace(' ', '')} #python #apis"
+                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API.\n\n#tech #wordoftheday #{random_word_linkedin} #python #apis"
                 },
                 "shareMediaCategory": "NONE",
             }

@@ -1202,7 +1202,7 @@ def return_word():
         }, 
         {
             "name": "Coding best practices",
-            "definition": "Coding best practices are a set of informal rules that the software development community employs to help improve software quality.Many computer programs remain in use for long periods of time so any rules need to facilitate both initial development and subsequent maintenance and enhancement by people other than the original authors.\n\nThere are a few best practices when it comes to learning how to code, and they center around these 7 concepts:\n\n1. Variable naming conventions\n2. Class and function naming conventions\n3. Clear and concise comments\n4. Indentations\n	 5. Portability\n6. Reusability and scalability\n7. Testing",
+            "definition": "Coding best practices are a set of informal rules that the software development community employs to help improve software quality.Many computer programs remain in use for long periods of time so any rules need to facilitate both initial development and subsequent maintenance and enhancement by people other than the original authors.\n\nThere are a few best practices when it comes to learning how to code, and they center around these 7 concepts:\n\n1. Variable naming conventions\n2. Class and function naming conventions\n3. Clear and concise comments\n4. Indentations\n5. Portability\n6. Reusability and scalability\n7. Testing",
             "url": "https://en.wikipedia.org/wiki/Coding_best_practices",
             "id": 197      
         }, 
@@ -3828,89 +3828,89 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Antifragility",
             "id": 634
         },
+        {
+            "name": "Source Code Management (SCM)",
+            "definition": "Source code management (SCM) is used to track modifications to a source code repository. SCM tracks a running history of changes to a code base and helps resolve conflicts when merging updates from multiple contributors. It helps your development team collaborate and maximize productivity, sparking faster delivery and increased visibility. SCM is also synonymous with 'version control' and is often handled by a Source Code Manager (SCM) or Source Code Control System (SCCS).",
+            "url": "https://en.wikipedia.org/wiki/Source_Code_Control_System",
+            "id": 627     
+        },
+        {
+            "name": "Recovery as a service (RaaS)",
+            "definition": "Recovery as a service (RaaS), sometimes referred to as disaster recovery as a service (DRaaS), is a category of cloud computing used for protecting an application or data from a natural or human disaster or service disruption at one location by enabling a full recovery in the cloud.\nRaaS differs from cloud-based backup services by protecting data and providing standby computing capacity on demand to facilitate more rapid application recovery. RaaS capacity is delivered in a cloud-computing model so recovery resources are only paid for when they are used, making it more efficient than a traditional disaster recovery warm site or hot site where the recovery resources must be running at all times.",
+            "url": "https://en.wikipedia.org/wiki/Recovery_as_a_service",
+            "id": 628     
+        },
+        {
+            "name": "Flow-based programming",
+            "definition": "In computer programming, flow-based programming (FBP) is a programming paradigm that defines applications as networks of ‘black box’ processes, which exchange data across predefined connections by message passing, where the connections are specified externally to the processes. These black box processes can be reconnected endlessly to form different applications without having to be changed internally. FBP is thus naturally component-oriented.\nFBP is a particular form of dataflow programming based on bounded buffers, information packets with defined lifetimes, named ports, and separate definition of connections.",
+            "url": "https://en.wikipedia.org/wiki/Flow-based_programming",
+            "id": 629     
+        },
+        {
+            "name": "Programmatic vs. Declarative transaction management",
+            "definition": "In Java programming, you can approach coding transactions in two basic ways: programmatically or declaratively. When possible, declarative transactions are a better choice since they allow the container to manage the transaction for you, and this saves you from having to put transaction management calls into your application code.\nProgrammatic transaction management means you have transaction management code surrounding your business code. Programmatic transaction management is usually a good idea only if you have a small number of transactional operations.\nDeclarative transaction management involves separating transaction management from the business logic. If your application has numerous transactional operations, declarative transaction management is usually worthwhile. ",
+            "url": "https://www.oreilly.com/library/view/java-enterprise-in/0596101422/ch16s02.html",
+            "id": 630     
+        },
+        {
+            "name": "Dependency hell",
+            "definition": "Dependency hell is a colloquial term for the frustration of some software users who have installed software packages which have dependencies on specific versions of other software packages.\nThe dependency issue arises when several packages have dependencies on the same shared packages or libraries, but they depend on different and incompatible versions of the shared packages. If the shared package or library can only be installed in a single version, the user may need to address the problem by obtaining newer or older versions of the dependent packages. This, in turn, may break other dependencies and push the problem to another set of packages.",
+            "url": "https://en.wikipedia.org/wiki/Dependency_hell",
+            "id": 631     
+        },
+        {
+            "name": "Onshore vs. Offshore vs. Nearshore",
+            "definition": "In the outsourcing of labor, the following terms indicate where resources, including personnel, are located.\n\n- Onshore signifies the resource are located within the same country.\n- Offshore indicates that the resources are in another country with a different time zone.\n- Nearshore refers to resources in a neighboring country, which is a short distance away.",
+            "url": "https://en.wikipedia.org/wiki/Outsourcing",
+            "id": 632     
+        },
+        {
+            "name": "Homeshoring",
+            "definition": "Homeshoring (also known as Homesourcing) is a form of IT-enabled ‘transfer of service industry employment from offices to home-based ... with appropriate telephone and Internet facilities’. These remote work positions may be customer-facing or back office and the workers may be employees or independent contractors.",
+            "url": "https://en.wikipedia.org/wiki/Remote_work",
+            "id": 633     
+        },
+        {
+            "name": "Dynamic Multipoint Virtual Private Network (DMVPN)",
+            "definition": "Dynamic Multipoint Virtual Private Network (DMVPN) is a dynamic tunneling form of a virtual private network (VPN) supported on Cisco IOS-based routers, and Huawei AR G3 routers, and on Unix-like operating systems.\nDMVPN provides the capability for creating a dynamic-mesh VPN network without having to pre-configure (static) all possible tunnel end-point peers, including IPsec (Internet Protocol Security) and ISAKMP (Internet Security Association and Key Management Protocol) peers.\nAs with GRE tunnels, DMVPN allows for several encryption schemes (including none) for the encryption of data traversing the tunnels. For security reasons Cisco recommend that customers use AES.",
+            "url": "https://en.wikipedia.org/wiki/Dynamic_Multipoint_Virtual_Private_Network",
+            "id": 634     
+        },
+        {
+            "name": "Greenfield vs. Brownfield",
+            "definition": "In general terms, a greenfield project is a brand new one, developed from scratch, and not based on any existing systems, code or infrastructure, unlike a brownfield one, which is built upon already existing projects, code or other resources.\nIn software development, brownfield development describes problem spaces needing the development and deployment of new software systems within the immediate presence of existing (legacy) software applications/services. This implies that any new software architecture must take into account and coexist with live software already in production. A brownfield project usually refers to a major upgrade, or a redevelopment of an existing live application where there are issues like backwards compatibility to existing file formats, interfaces, modules, etc. On the other hand, greenfield development lacks any constraints imposed by prior work.",
+            "url": "https://www.moogsoft.com/blog/aiops/brownfield-greenfield-ops/",
+            "id": 635     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 627     
+        #     "id": 636     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 628     
+        #     "id": 637     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 629     
+        #     "id": 638     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 630     
+        #     "id": 639     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
+        #     "id": 640     
         # },
         # {
         #     "name": "",
