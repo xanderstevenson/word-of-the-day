@@ -398,3 +398,216 @@ Coding best practices
 Coding best practices
 
  was successfully posted to LinkedIn
+
+Blockchain
+
+ was successfully posted to Webex Teams on 2023-01-13 12:00:03.130475
+
+Blockchain
+
+ was successfully posted to LinkedIn
+
+Expert system
+
+ was successfully posted to Webex Teams on 2023-01-14 12:00:03.329545
+
+Expert system
+
+ was successfully posted to LinkedIn
+
+Bug compatibility
+
+ was successfully posted to Webex Teams on 2023-01-15 12:00:03.046133
+
+Bug compatibility
+
+ was successfully posted to LinkedIn
+
+Standard operating environment (SOE)
+
+ was successfully posted to Webex Teams on 2023-01-16 12:00:02.038494
+
+Standard operating environment (SOE)
+
+ was successfully posted to LinkedIn
+
+Function as a Service (FaaS)
+
+ was successfully posted to Webex Teams on 2023-01-17 12:00:02.082256
+
+Function as a Service (FaaS)
+
+ was successfully posted to LinkedIn
+
+Source Code Management (SCM)
+
+ was successfully posted to Webex Teams on 2023-01-18 12:00:04.467930
+
+Source Code Management (SCM)
+
+ was successfully posted to LinkedIn
+
+Instrumental convergence
+
+ was successfully posted to Webex Teams on 2023-01-19 12:00:03.316384
+
+Instrumental convergence
+
+ was successfully posted to LinkedIn
+
+Web3
+
+ was successfully posted to Webex Teams on 2023-01-20 12:00:03.926413
+
+Web3
+
+ was successfully posted to LinkedIn
+
+Kanban
+
+ was successfully posted to Webex Teams on 2023-01-21 12:00:01.728702
+
+Kanban
+
+ was successfully posted to LinkedIn
+
+Exploratory model
+
+ was successfully posted to Webex Teams on 2023-01-22 12:00:01.802902
+
+Exploratory model
+
+ was successfully posted to LinkedIn
+
+Dark web
+
+ was successfully posted to Webex Teams on 2023-01-23 12:00:02.828702
+
+Dark web
+
+ was successfully posted to LinkedIn
+
+Code ninja
+
+ was successfully posted to Webex Teams on 2023-01-24 12:00:02.783372
+
+Code ninja
+
+ was successfully posted to LinkedIn
+
+Dereference
+
+ was successfully posted to Webex Teams on 2023-01-25 12:00:02.638255
+
+Dereference
+
+ was successfully posted to LinkedIn
+
+Vampire device
+
+ was successfully posted to Webex Teams on 2023-01-26 12:00:02.677186
+
+Vampire device
+
+ was successfully posted to LinkedIn
+
+Poisson distribution
+
+ was successfully posted to Webex Teams on 2023-01-27 12:00:04.141359
+
+Poisson distribution
+
+ was successfully posted to LinkedIn
+
+Primitive data type
+
+ was successfully posted to Webex Teams on 2023-01-28 12:00:06.338090
+
+Primitive data type
+
+ was successfully posted to LinkedIn
+
+Internet of behaviors (IoB)
+
+ was successfully posted to Webex Teams on 2023-01-29 12:00:02.704202
+
+Internet of behaviors (IoB)
+
+ was successfully posted to LinkedIn
+
+Always On VPN (AOVPN)
+
+ was successfully posted to Webex Teams on 2023-01-30 12:00:01.888137
+
+Always On VPN (AOVPN)
+
+ was successfully posted to LinkedIn
+
+Virtual appliance
+
+ was successfully posted to Webex Teams on 2023-01-31 12:00:01.890466
+
+Virtual appliance
+
+ was successfully posted to LinkedIn
+
+Big data
+
+ was successfully posted to Webex Teams on 2023-02-01 12:00:03.217894
+
+Big data
+
+ was successfully posted to LinkedIn
+
+First-class function
+
+ was successfully posted to Webex Teams on 2023-02-02 12:00:03.569392
+
+First-class function
+
+ was successfully posted to LinkedIn
+
+Modeling language
+
+ was successfully posted to Webex Teams on 2023-02-03 12:00:04.131009
+
+Modeling language
+
+ was successfully posted to LinkedIn
+
+Splinternet
+
+ was successfully posted to Webex Teams on 2023-02-04 12:00:03.720891
+
+Splinternet
+
+ was successfully posted to LinkedIn
+
+Multiexperience (MX)
+
+ was successfully posted to Webex Teams on 2023-02-05 12:00:02.147263
+failed with statusCode: 401
+
+Factory
+
+ was successfully posted to Webex Teams on 2023-02-06 12:00:02.234780
+
+Factory
+
+ was successfully posted to LinkedIn
+
+QUIC
+
+ was successfully posted to Webex Teams on 2023-02-07 12:00:02.318446
+
+QUIC
+
+ was successfully posted to LinkedIn
+
+Integrated development environment (IDE)
+
+ was successfully posted to Webex Teams on 2023-02-08 12:00:04.269161
+
+Integrated development environment (IDE)
+
+ was successfully posted to LinkedIn

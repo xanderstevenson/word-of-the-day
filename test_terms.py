@@ -3064,7 +3064,7 @@ def return_word():
         },
         {
             "name": "Neuromorphic",
-            "definition": "Neuromorphic engineering, also known as neuromorphic computing,[1][2][3] is the use of very-large-scale integration (VLSI) systems containing electronic analog circuits to mimic neuro-biological architectures present in the nervous system. A neuromorphic computer/chip is any device that uses physical artificial neurons (made from silicon) to do computations. In recent times, the term neuromorphic has been used to describe analog, digital, mixed-mode analog/digital VLSI, and software systems that implement models of neural systems (for perception, motor control, or multisensory integration). The implementation of neuromorphic computing on the hardware level can be realized by oxide-based memristors, spintronic memories, threshold switches, and transistors. Training software-based neuromorphic systems of spiking neural networks can be achieved using error backpropagation, e.g., using Python based frameworks such as snnTorch, or using canonical learning rules from the biological learning literature, e.g., using BindsNet.\n\nA key aspect of neuromorphic engineering is understanding how the morphology of individual neurons, circuits, applications, and overall architectures creates desirable computations, affects how information is represented, influences robustness to damage, incorporates learning and development, adapts to local change (plasticity), and facilitates evolutionary change.\n\nNeuromorphic engineering is an interdisciplinary subject that takes inspiration from biology, physics, mathematics, computer science, and electronic engineering to design artificial neural systems, such as vision systems, head-eye systems, auditory processors, and autonomous robots, whose physical architecture and design principles are based on those of biological nervous systems. It was developed by Carver Mead in the late 1980s.",
+            "definition": "Neuromorphic engineering, also known as neuromorphic computing, is the use of very-large-scale integration (VLSI) systems containing electronic analog circuits to mimic neuro-biological architectures present in the nervous system. A neuromorphic computer/chip is any device that uses physical artificial neurons (made from silicon) to do computations. In recent times, the term neuromorphic has been used to describe analog, digital, mixed-mode analog/digital VLSI, and software systems that implement models of neural systems (for perception, motor control, or multisensory integration). The implementation of neuromorphic computing on the hardware level can be realized by oxide-based memristors, spintronic memories, threshold switches, and transistors. Training software-based neuromorphic systems of spiking neural networks can be achieved using error backpropagation, e.g., using Python based frameworks such as snnTorch, or using canonical learning rules from the biological learning literature, e.g., using BindsNet.\n\nA key aspect of neuromorphic engineering is understanding how the morphology of individual neurons, circuits, applications, and overall architectures creates desirable computations, affects how information is represented, influences robustness to damage, incorporates learning and development, adapts to local change (plasticity), and facilitates evolutionary change.\n\nNeuromorphic engineering is an interdisciplinary subject that takes inspiration from biology, physics, mathematics, computer science, and electronic engineering to design artificial neural systems, such as vision systems, head-eye systems, auditory processors, and autonomous robots, whose physical architecture and design principles are based on those of biological nervous systems. It was developed by Carver Mead in the late 1980s.",
             "url": "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
             "id": 507     
         },
@@ -3944,155 +3944,155 @@ def return_word():
             "url": "https://levelup.gitconnected.com/the-wall-of-confusion-623057a4dd26",
             "id": 645     
         },
+        {
+            "name": "Big bang adoption",
+            "definition": "Big bang adoption or direct changeover is when a new system is adopted instantly, with no transition period between the old and new systems.\n\nWhen a new system needs to be implemented in an organization, there are three different ways to adopt this new system: the big bang adoption, phased adoption and parallel adoption. In case of parallel adoption the old and the new system are running parallel, so all the users can get used to the new system, and meanwhile do their work using the old system. Phased adoption means that the adoption will happen in several phases, so after each phase the system is a little nearer to be fully adopted. With the big bang adoption, the switch between using the old system and using the new system happens at one single date, the so-called instant changeover of the system. Everybody starts to use the new system at the same date and the old system will not be used anymore from that moment on.\n\nThe advantage of a big bang adoption is that the new system does not need to be compatible or connected with any old systems it is replacing. This significantly simplifies the design of the new system, especially in an organization that is running on multiple incompatible systems. However, the big bang adoption type is riskier than other adoption types because there are fewer learning opportunities incorporated in the approach, so more preparation is needed to get to the big bang. This preparation will be described below, illustrated by the process-data model of the big bang adoption.",
+            "url": "https://en.wikipedia.org/wiki/Big_bang_adoption",
+            "id": 646     
+        },
+        {
+            "name": "Root cause analysis (RCA)",
+            "definition": "In science and engineering, root cause analysis (RCA) is a method of problem solving used for identifying the root causes of faults or problems. It is widely used in IT operations, manufacturing, telecommunications, industrial process control, accident analysis (e.g., in aviation, rail transport, or nuclear plants), medicine (for medical diagnosis), healthcare industry (e.g., for epidemiology), etc. Root cause analysis is a form of deductive inference since it requires an understanding of the underlying causal mechanisms of the potential root causes and the problem.\n\nRCA can be decomposed into four steps: 1. Identify and describe the problem clearly. 2. Establish a timeline from the normal situation until the problem occurs. 3. Distinguish between the root cause and other causal factors (e.g., using event correlation). 4. Establish a causal graph between the root cause and the problem.",
+            "url": "https://en.wikipedia.org/wiki/Root_cause_analysis",
+            "id": 647     
+        },
+        {
+            "name": "Muxponder",
+            "definition": "In optical fiber communications, a muxponder is the element that sends and receives the optical signal on a fiber in much the same way as a transponder except that the muxponder has the additional functionality of multiplexing multiple sub-rate client interfaces onto the line interface.",
+            "url": "https://www.cisco.com/c/en/us/products/collateral/optical-networking/ons-15500-series/product_data_sheet0900aecd801d2889.html",
+            "id": 648     
+        },
+        {
+            "name": "Lindy effect",
+            "definition": "The Lindy effect (also known as Lindy's Law) is a theorized phenomenon by which the future life expectancy of some non-perishable things, like a technology or an idea, is proportional to their current age. Thus, the Lindy effect proposes the longer a period something has survived to exist or be used in the present, the longer its remaining life expectancy. Longevity implies a resistance to change, obsolescence or competition, and greater odds of continued existence into the future. Where the Lindy effect applies, mortality rate decreases with time. Mathematically, the Lindy effect corresponds to lifetimes following a Pareto probability distribution.\n\nThe concept is named after Lindy's delicatessen in New York City, where the concept was informally theorized by comedians. The Lindy effect has subsequently been theorized by mathematicians and statisticians. Nassim Nicholas Taleb has expressed the Lindy effect in terms of ‘distance from an absorbing barrier’.",
+            "url": "https://en.wikipedia.org/wiki/Lindy_effect",
+            "id": 649     
+        },
+        {
+            "name": "Automagically",
+            "definition": "Automatic, but with an apparent element of magic. Commonly referring to complex technical processes hidden from the view of users or operators, resulting in technology that ‘just works’.",
+            "url": "https://www.techopedia.com/definition/14261/automagically",
+            "id": 650     
+        },
+        {
+            "name": "Foot gun",
+            "definition": "Any feature whose addition to a product results in the user ‘shooting themselves in the foot’. A footgun is designed in such a way as to be extremely likely to cause problems. Use of this word puts blame on the design, not on users.",
+            "url": "https://swizec.com/blog/dry-is-a-footgun-remember-to-yagni/",
+            "id": 651     
+        },
+        {
+            "name": "LLVM",
+            "definition": "LLVM is a set of compiler and toolchain technologies that can be used to develop a front end for any programming language and a back end for any instruction set architecture. LLVM is designed around a language-independent intermediate representation (IR) that serves as a portable, high-level assembly language that can be optimized with a variety of transformations over multiple passes.\n\nLLVM is written in C++ and is designed for compile-time, link-time, run-time, and ‘idle-time’ optimization. Originally implemented for C and C++, the language-agnostic design of LLVM has since spawned a wide variety of front ends: languages with compilers that use LLVM (or which do not directly use LLVM but can generate compiled programs as LLVM IR) include ActionScript, Ada, C#, Common Lisp, PicoLisp, Crystal, CUDA, D, Delphi, Dylan, Forth,[9] Fortran, Free Basic, Free Pascal, Graphical G, Halide, Haskell, Java bytecode, Julia, Kotlin, Lua, Objective-C, OpenCL, PostgreSQL's SQL and PLpgSQL, Ruby, Rust, Scala, Swift, XC, Xojo and Zig.",
+            "url": "https://en.wikipedia.org/wiki/LLVM",
+            "id": 652     
+        },
+        {
+            "name": "Homoiconicity",
+            "definition": "In computer programming, homoiconicity (from the Greek words homo- meaning ‘the same’ and icon meaning ‘representation’) is a property of some programming languages. A language is homoiconic if a program written in it can be manipulated as data using the language, and thus the program's internal representation can be inferred just by reading the program itself. This property is often summarized by saying that the language treats ‘code as data’.",
+            "url": "https://en.wikipedia.org/wiki/Homoiconicity",
+            "id": 653     
+        },
+        {
+            "name": "Metaprogramming",
+            "definition": "Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their data. It means that a program can be designed to read, generate, analyze or transform other programs, and even modify itself while running. In some cases, this allows programmers to minimize the number of lines of code to express a solution, in turn reducing development time. It also allows programs a greater flexibility to efficiently handle new situations without recompilation.",
+            "url": "https://en.wikipedia.org/wiki/Metaprogramming",
+            "id": 654     
+        },
+        {
+            "name": "Weighted random early detection (WRED)",
+            "definition": "Weighted random early detection (WRED) is a queueing discipline for a network scheduler suited for congestion avoidance. It is an extension to random early detection (RED) where a single queue may have several different sets of queue thresholds. Each threshold set is associated to a particular traffic class.\n\nFor example, a queue may have lower thresholds for lower priority packet. A queue buildup will cause the lower priority packets to be dropped, hence protecting the higher priority packets in the same queue. In this way quality of service prioritization is made possible for important packets from a pool of packets using the same buffer. It is more likely that standard traffic will be dropped instead of higher prioritized traffic.\n\nOn Cisco switches WRED is restricted to TCP/IP traffic. Only this kind of traffic indicates congestion to the sender to enable a reduction of the transmission rate. Non-IP traffic will be dropped more often than TCP/IP traffic because it is treated with the lowest possible precedence.",
+            "url": "https://en.wikipedia.org/wiki/Weighted_random_early_detection",
+            "id": 655     
+        },
+        {
+            "name": "Tabula rasa",
+            "definition": "Tabula rasa is a Latin phrase often translated as ‘clean slate’ in English and originates from the Roman tabula, a wax-covered tablet used for notes, which was blanked (rasa) by heating the wax and then smoothing it. This roughly equates to the English term ‘blank slate’ (or, more literally, ‘erased slate’) which refers to the emptiness of a slate prior to it being written on with chalk. Both may be renewed repeatedly, by melting the wax of the tablet or by erasing the chalk on the slate.\n\nIn artificial intelligence, tabula rasa refers to the development of autonomous agents with a mechanism to reason and plan toward their goal, but no ‘built-in’ knowledge-base of their environment. Thus, they truly are a blank slate. AlphaZero achieved superhuman performance in various board games using self-play and tabula rasa reinforcement learning, meaning it had no access to human games or hard-coded human knowledge about either game, only being given the rules of the games.",
+            "url": "https://en.wikipedia.org/wiki/Tabula_rasa",
+            "id": 656     
+        },
+        {
+            "name": "NAT64",
+            "definition": "NAT64 is an IPv6 transition mechanism that facilitates communication between IPv6 and IPv4 hosts by using a form of network address translation (NAT). The NAT64 gateway is a translator between IPv4 and IPv6 protocols, for which function it needs at least one IPv4 address and an IPv6 network segment comprising a 32-bit address space. The ‘well-known prefix’ reserved for this service is 64:ff9b::/96.\n\nAn IPv6 client embeds the IPv4 address it wishes to communicate with using the host part of the IPv6 network segment, resulting in an IPv4-embedded IPv6 addresses (hence the 32-bit address space in the IPv6 network segment), and sends packets to the resulting address. The NAT64 gateway creates a mapping between the IPv6 and the IPv4 addresses, which may be manually configured or determined automatically.",
+            "url": "https://en.wikipedia.org/wiki/NAT64",
+            "id": 657     
+        },
+        {
+            "name": "Y2K38",
+            "definition": "The year 2038 problem (also known as Y2038, Y2K38, or the Epochalypse) is a time formatting bug in computer systems with representing times after 03:14:07 UTC on 19 January 2038.\n\nThe problem exists in systems which measure Unix time – the number of seconds elapsed since the Unix epoch (00:00:00 UTC on 1 January 1970) – and store it in a signed 32-bit integer. The data type is only capable of representing integers between −(2^31) and 2^31 -1, meaning the latest time that can be properly encoded is 2^31 − 1 seconds after epoch (03:14:07 UTC on 19 January 2038). Attempting to increment to the following second (03:14:08) will cause the integer to overflow, setting its value to −(2^31) which systems will interpret as 2^31 seconds before epoch (20:45:52 UTC on 13 December 1901). The problem is similar in nature to the year 2000 problem.\n\nComputer systems that use time for critical computations may encounter fatal errors if the Y2038 problem is not addressed. Some applications that use future dates have already encountered the bug. The most vulnerable systems are those which are infrequently or never updated, such as legacy and embedded systems. There is no universal solution to the problem, though many modern systems have been upgraded to measure Unix time with signed 64-bit integers which will not overflow for 292 billion years, which is approximately 21 times the estimated age of the universe.",
+            "url": "https://en.wikipedia.org/wiki/Year_2038_problem",
+            "id": 658     
+        },
+        {
+            "name": "Clos network",
+            "definition": "In the field of telecommunications, a Clos network is a kind of multistage circuit-switching network which represents a theoretical idealization of practical, multistage switching systems. It was invented by Edson Erwin in 1938 and first formalized by Charles Clos in 1952.\n\nWhen the Clos network was first devised, the number of crosspoints was a good approximation of the total cost of the switching system. While this was important for electromechanical crossbars, it became less relevant with the advent of VLSI, wherein the interconnects could be implemented either directly in silicon, or within a relatively small cluster of boards. Upon the advent of complex data centers, with huge interconnect structures, each based on optical fiber links, Clos networks regained importance. A subtype of Clos network, the Beneš network, has also found recent application in machine learning.",
+            "url": "https://en.wikipedia.org/wiki/Clos_network",
+            "id": 659     
+        },
+        {
+            "name": "Very large-scale integration (VLSI)",
+            "definition": "Very large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining millions or billions of MOS transistors onto a single chip. VLSI began in the 1970s when MOS integrated circuit (Metal Oxide Semiconductor) chips were developed and then widely adopted, enabling complex semiconductor and telecommunication technologies. The microprocessor and memory chips are VLSI devices.\n\nBefore the introduction of VLSI technology, most ICs had a limited set of functions they could perform. An electronic circuit might consist of a CPU, ROM, RAM and other glue logic. VLSI enables IC designers to add all of these into one chip.",
+            "url": "https://en.wikipedia.org/wiki/Very_Large_Scale_Integration",
+            "id": 660     
+        },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 645     
+        #     "id": 661     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 662     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 663     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 664     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 665     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 666     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 667     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 668     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 669     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 6     
+        #     "id": 670    
         # },
         # {
         #     "name": "",

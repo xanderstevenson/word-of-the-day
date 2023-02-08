@@ -35,6 +35,7 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
     random_word_linkedin=re.sub("\(.*?\)","()",random_word_linkedin)
     #remove ()
     random_word_linkedin = random_word_linkedin.replace('(', '').replace(')', '')
+    random_word_linkedin = random_word_linkedin.replace('-', '')
     post_data = {
         "author": "urn:li:person:" + profile_id,
         "lifecycleState": "PUBLISHED",
