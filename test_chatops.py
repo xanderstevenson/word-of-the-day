@@ -22,32 +22,32 @@ def send_it(token, room_id, message):
 
 
 # post to LinkedIn
-# def post(profile_id, li_access_token, random_word_name, definition, word_url):
+def post(profile_id, li_access_token, random_word_name, definition, word_url):
 
-#     url = "https://api.linkedin.com/v2/ugcPosts"
+    url = "https://api.linkedin.com/v2/ugcPosts"
 
-#     headers = {
-#         "Content-Type": "application/json",
-#         "X-Restli-Protocol-Version": "2.0.0",
-#         "Authorization": "Bearer " + li_access_token,
-#     }
+    headers = {
+        "Content-Type": "application/json",
+        "X-Restli-Protocol-Version": "2.0.0",
+        "Authorization": "Bearer " + li_access_token,
+    }
 
-#     post_data = {
-#         "author": "urn:li:person:" + profile_id,
-#         "lifecycleState": "PUBLISHED",
-#         "specificContent": {
-#             "com.linkedin.ugc.ShareContent": {
-#                 "shareCommentary": {
-#                     "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nTo learn more about '{random_word_name}', visit {word_url}\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API. The GitHub repo for this project can be found at https://github.com/xanderstevenson/word-of-the-day-bot"
-#                 },
-#                 "shareMediaCategory": "NONE",
-#             }
-#         },
-#         "visibility": {"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"},
-#     }
+    post_data = {
+        "author": "urn:li:person:" + profile_id,
+        "lifecycleState": "PUBLISHED",
+        "specificContent": {
+            "com.linkedin.ugc.ShareContent": {
+                "shareCommentary": {
+                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nTo learn more about '{random_word_name}', visit {word_url}\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API. The GitHub repo for this project can be found at https://github.com/xanderstevenson/word-of-the-day-bot"
+                },
+                "shareMediaCategory": "NONE",
+            }
+        },
+        "visibility": {"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"},
+    }
 
-#     response = requests.post(url, headers=headers, json=post_data)
-#     return response
+    response = requests.post(url, headers=headers, json=post_data)
+    return response
 
 
 if __name__ == "__main__":
@@ -158,8 +158,8 @@ if __name__ == "__main__":
             print("please check if the access token is correct...")
 
     # post to linkedin
-    # res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
-    # if res2.status_code == 201:
-    #     print(f"{word} was successfully posted to LinkedIn")
-    # else:
-    #     print("failed with statusCode: %d" % res2.status_code)
+    res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
+    if res2.status_code == 201:
+        print(f"{word} was successfully posted to LinkedIn")
+    else:
+        print("failed with statusCode: %d" % res2.status_code)

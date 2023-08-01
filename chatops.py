@@ -19,6 +19,7 @@ def send_it(token, room_id, message):
     return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
 
 # post to LinkedIn
+# will change to https://api.linkedin.com/rest/posts
 def post(profile_id, li_access_token, random_word_name, definition, word_url):
 
     url = "https://api.linkedin.com/v2/ugcPosts"
@@ -31,11 +32,12 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
     # make new variable for linkedin hashtag, lowercase it and remove spaces
     random_word_linkedin = random_word_name.lower().replace(' ', '')
     # remove abbreviations for linkedin hashtag
-    #remove everything between ()
+    # remove everything between ()
     random_word_linkedin=re.sub("\(.*?\)","()",random_word_linkedin)
-    #remove ()
+    # remove (), -.  and /
     random_word_linkedin = random_word_linkedin.replace('(', '').replace(')', '')
-    random_word_linkedin = random_word_linkedin.replace('-', '')
+    random_word_linkedin = random_word_linkedin.replace('-', '').replace('/', '')
+    random_word_linkedin = random_word_linkedin.replace('.', '')
     post_data = {
         "author": "urn:li:person:" + profile_id,
         "lifecycleState": "PUBLISHED",

@@ -812,7 +812,7 @@ def return_word():
         },     
         {
             "name": "Polymorphism",
-            "definition": "Polymorphism is an object-oriented programming concept that refers to the ability of a variable, function or object to take on multiple forms. A language that features polymorphism allows developers to program in the general rather than program in the specific.\n\nIn a programming language that exhibits polymorphism, objects of classes belonging to the same hierarchical tree (inherited from a common base class) may possess functions bearing the same name, but each having different behaviors.\n\nIn effect, polymorphism cuts down the work of the developer because he can now create a sort of general class with all the attributes and behaviors that he envisions for it. When the time comes for the developer to create more specific subclasses with certain unique attributes and behaviors, the developer can simply alter code in the specific portions where the behaviors differ. All other portions of the code can be left as is.\n\nTo know whether an object is polymorphic, you can perform a simple test. If the object successfully passes multiple is-a or instanceof tests, it’s polymorphic.",
+            "definition": "Polymorphism is an object-oriented programming concept that refers to the ability of a variable, function or object to take on multiple forms. A language that features polymorphism allows developers to program in the general rather than program in the specific.\n\nIn a programming language that exhibits polymorphism, objects of classes belonging to the same hierarchical tree (inherited from a common base class) may possess functions bearing the same name, but each having different behaviors.\n\nIn effect, polymorphism cuts down the work of the developer because they can now create a sort of general class with all the attributes and behaviors that he envisions for it. When the time comes for the developer to create more specific subclasses with certain unique attributes and behaviors, the developer can simply alter code in the specific portions where the behaviors differ. All other portions of the code can be left as is.\n\nTo know whether an object is polymorphic, you can perform a simple test. If the object successfully passes multiple is-a or instanceof tests, it’s polymorphic.",
             "url": "https://en.wikipedia.org/wiki/Polymorphism_(computer_science)",
             "id": 132      
         }, 
@@ -1021,7 +1021,7 @@ def return_word():
             "id": 166      
         }, 
         {
-            "name": "DINK (Duel Income, No Kids)",
+            "name": "DINK (Dual Income, No Kids)",
             "definition": "‘DINK’ is an acronym that stands for ‘double income, no kids’ or ‘dual income, no kids’. It describes a couple without children living together while both partners are receiving an income; because both of their wages are coming into the same household, they are free to live more comfortably than couples who live together and spend their money on raising their children.",
             "url": "https://en.wikipedia.org/wiki/DINK",
             "id": 167      
@@ -3710,7 +3710,7 @@ def return_word():
         },
         {
             "name": "Eastbound/Westbound interfaces",
-            "definition": "Eastbound and Westbound interfaces, often in the form of APIs, are used by systems to integrate with other systems for exchange of information or to work together on common workflows.\n\nCisco DNA Center defines an Eastbound interface (outbound) to facilitate other systems subscribing to event notifications sent by a push mechanism and RESTful API known as a webhook. In contrast, it defines a Westbound interface (inbound/integrative) exposes a RESTful API, called the Integration API, that allows ITTSM, IPAM, reporting and analytics systems to integrate with DNA Center.",
+            "definition": "Eastbound and Westbound interfaces, often in the form of APIs, are used by systems to integrate with other systems for exchange of information or to work together on common workflows.\n\nCisco DNA Center defines an Eastbound interface (outbound) to facilitate other systems subscribing to event notifications sent by a push mechanism and RESTful API known as a webhook. In contrast, it defines a Westbound interface (inbound/integrative) which exposes a RESTful API, called the Integration API, that allows ITTSM, IPAM, reporting and analytics systems to integrate with DNA Center.",
             "url": "https://blogs.cisco.com/networking/with-apis-cisco-dna-center-can-improve-your-competitive-advantage",
             "id": 615     
         },
@@ -4032,60 +4032,60 @@ def return_word():
             "url": "https://en.wikipedia.org/wiki/Very_Large_Scale_Integration",
             "id": 660     
         },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 661     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 662     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 663     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 664     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 665     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 666     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 667     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 668     
-        # },
-        # {
-        #     "name": "",
-        #     "definition": "",
-        #     "url": "",
-        #     "id": 669     
-        # },
+        {
+            "name": "Git Bundle",
+            "definition": "Git bundle is a utility included with Git that allows you to package an entire repository into a single file quickly. This can be helpful when you want to share work with other developers in an offline or secure setting.\n\nWhat makes Git bundle so valuable is that it comes with various options and ways to use it. You can bundle an entire repository, branch, or even just a specific commit. Once you generate a Git bundle, you can clone or fork it using standard Git commands.",
+            "url": "https://git-scm.com/docs/git-bundle",
+            "id": 661     
+        },
+        {
+            "name": "Generics",
+            "definition": "Generic programming is a style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed for specific types provided as parameters.\n\nThis approach, pioneered by ML in 1973, permits writing common functions or types that differ only in the set of types on which they operate when used, thus reducing duplication. Such software entities are known as generics in Ada, C#, Delphi, Eiffel, F#, Java, Rust, Swift, TypeScript and Visual Basic .NET. They are known as parametric polymorphism in ML, Scala, Haskell (the Haskell community also uses the term 'generic' for a related but somewhat different concept) and Julia; templates in C++ and D; and parameterized types in the influential 1994 book Design Patterns.\n\nBenefits of Generics:\n\n- Stronger type checks at compile time.\n- Fixing compile-time errors is easier than fixing runtime errors\n- Elimination of casts. Which in turn is quicker.\n- Enabling coders to implement generic solutions, which can be reused for multiple purposes.\n- Future proofed for the datatypes of tomorrow.",
+            "url": "https://en.wikipedia.org/wiki/Generic_programming",
+            "id": 662     
+        },
+        {
+            "name": "Lazy loading",
+            "definition": "Lazy loading is a strategy to identify resources as non-blocking (non-critical) and load these only when needed. It's a way to shorten the length of the critical rendering path, which translates into reduced page load times.\n\nLazy loading can occur on different moments in the application, but it typically happens on some user interactions such as scrolling and navigation.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading",
+            "id": 663     
+        },
+        {
+            "name": "Code splitting",
+            "definition": "Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.\n\nAs an application grows in complexity or is maintained, CSS and JavaScripts files or bundles grow in byte size, especially as the number and size of included third-party libraries increases. To prevent the requirement of downloading ginormous files, scripts can be split into multiple smaller files. Then features required at page load can be downloaded immediately with additional scripts being lazy loaded after the page or application is interactive, thus improving performance. While the total amount of code is the same (and perhaps even a few bytes larger), the amount of code needed during initial load can be reduced.\n\nCode splitting is a feature supported by bundlers like Webpack and Browserify which can create multiple bundles that can be dynamically loaded at runtime.",
+            "url": "https://dev.to/thekashey/code-splitting-what-when-and-why-59op",
+            "id": 664     
+        },
+        {
+            "name": "Event bubbling",
+            "definition": "Event bubbling is a type of DOM event propagation[1] where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element in the same nesting hierarchy till it reaches the outermost DOM element or document object (Provided the handler is initialized).\n\nIt is one way that events are handled in the browser. Events are actions done by the user such as a button click, changing a field etc. Event Handlers are used to execute code when a particular kind of user interface event occurs, such as when a button has been clicked or when a webpage has completed loading",
+            "url": "https://en.wikipedia.org/wiki/Event_bubbling",
+            "id": 665     
+        },
+        {
+            "name": "Post-quantum cryptography (PQC)",
+            "definition": "In cryptography, post-quantum cryptography (PQC) (sometimes referred to as quantum-proof, quantum-safe or quantum-resistant) refers to cryptographic algorithms (usually public-key algorithms) that are thought to be secure against a cryptanalytic attack by a quantum computer. The problem with currently popular algorithms is that their security relies on one of three hard mathematical problems: the integer factorization problem, the discrete logarithm problem or the elliptic-curve discrete logarithm problem. All of these problems could be easily solved on a sufficiently powerful quantum computer running Shor's algorithm.\n\nEven though current quantum computers lack processing power to break any real cryptographic algorithm,[3] many cryptographers are designing new algorithms to prepare for a time when quantum computing becomes a threat.",
+            "url": "https://en.wikipedia.org/wiki/Post-quantum_cryptography",
+            "id": 666     
+        },
+        {
+            "name": "Workgroup bridge (WGB)",
+            "definition": "A workgroup bridge is a special mode on Cisco access points where a wireless device associates to another access point as a client and provides a network connection for the equipment connected to its Ethernet port.\n\nFor example, if you need to provide wireless connectivity for a group of network printers, you can connect the printers to a hub or to a switch, connect the hub or switch to the access point Ethernet port, and configure the access point as a workgroup bridge. The workgroup bridge associates to an access point on your network.\n\nIf your access point has two radios, either the 2.4-GHz radio or the 5-GHz radio can function in workgroup bridge mode. When you configure one radio interface as a workgroup bridge, the other radio interface remains up.",
+            "url": "https://www.cisco.com/c/en/us/td/docs/routers/access/wireless/software/guide/RolesWGB.html",
+            "id": 667     
+        },
+        {
+            "name": "Strangler pattern",
+            "definition": "The strangler pattern allows software teams to retire legacy systems incrementally and avoid the pitfalls of major rewrites.\n\nMigration from a legacy application system often requires heavy code rewrite processes. But rather than do a complete overhaul and take the system offline, it is possible to implement a pattern that slowly deprecates a legacy system over time while incrementally adding new functionality.\n\nThis approach, coined by Martin Fowler as the strangler pattern, gradually updates monolithic application systems -- colloquially known as the ‘big ball of mud’ -- while still keeping them running in production.",
+            "url": "https://www.techtarget.com/searchapparchitecture/tip/A-detailed-intro-to-the-strangler-pattern",
+            "id": 668     
+        },
+        {
+            "name": "Liquid Neural Network",
+            "definition": "Liquid neural networks are a class of artificial intelligence systems that learn on the job, even after their training. In other words, they utilize ‘liquid’ algorithms that continuously adapt to new information, such as a new environment, just like the brains of living organisms.\n\nRecent research has demonstrated the efficiency of a new kind of very small—20,000 parameter—machine-learning system called a liquid neural network. They showed that drones equipped with these excelled in navigating complex, new environments with precision, even edging out state-of-the art systems. The systems were able to make decisions that led them to a target in previously unexplored forests and city spaces, and they could do it in the presence of added noise and other difficulties.",
+            "url": "https://spectrum.ieee.org/liquid-neural-networks",
+            "id": 669     
+        },
         # {
         #     "name": "",
         #     "definition": "",
@@ -4096,61 +4096,61 @@ def return_word():
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 671     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 672     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 673     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 674     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 675     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 676     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 677     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 678     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 679     
         # },
         # {
         #     "name": "",
         #     "definition": "",
         #     "url": "",
-        #     "id": 6     
+        #     "id": 680     
         # },
         # {
         #     "name": "",
