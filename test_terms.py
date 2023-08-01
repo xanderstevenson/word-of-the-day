@@ -1,7 +1,7 @@
 #!/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/bin/python3
 import random
 
-# database connection
+# database connection.
 from tinydb import TinyDB, Query
 
 db = TinyDB("db.json")
