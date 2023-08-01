@@ -7,7 +7,7 @@ from tinydb import TinyDB, Query
 db = TinyDB("db.json")
 User = Query()
 
-##                        ATTENTION DEVELOPERS!!
+##                        ATTENTION DEVELOPERS!!!
 
 ##     Hi, please add new definitions to the end of the list.
 ##     A Wikipedia entry is the default url unless it is lacking, absent or clearly outdone.
