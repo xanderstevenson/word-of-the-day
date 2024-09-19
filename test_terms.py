@@ -4,7 +4,7 @@ import random
 # database connection.
 from tinydb import TinyDB, Query
 
-db = TinyDB("db.json")
+db = TinyDB("db-test.json")
 User = Query()
 
 ##                        ATTENTION DEVELOPERS!!!
