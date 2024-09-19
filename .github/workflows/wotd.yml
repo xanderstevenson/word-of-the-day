@@ -1,0 +1,46 @@
+name: Run Daily Script
+
+on:
+  schedule:
+    # Run the workflow daily at 9 AM EST
+    - cron: '0 16 * * *'  # This will run at 9 AM EST during daylight saving time (UTC-4)
+  workflow_dispatch:  # Enables manual triggering
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository to access your scripts and db.json
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Run your script with environment variable
+      - name: Run the script
+        env:
+          TEAMS_ACCESS_TOKEN: ${{ secrets.TEAMS_ACCESS_TOKEN }}
+        run: |
+          python3 chatops.py
+
+      # Commit and push changes to db-test.json
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add db.json
+          git commit -m "Update db.json with new word"
+          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+        env:
+          PAT: ${{ secrets.PAT }}
