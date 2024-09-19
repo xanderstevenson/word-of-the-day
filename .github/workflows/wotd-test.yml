@@ -28,6 +28,7 @@ jobs:
       - name: Run the script
         env:
           TEAMS_ACCESS_TOKEN: ${{ secrets.TEAMS_ACCESS_TOKEN }}
+          LI_ACCESS_TOKEN: ${{ secrets.LI_ACCESS_TOKEN }}
         run: |
           python3 test_chatops.py
 
