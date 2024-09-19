@@ -7,8 +7,6 @@ from datetime import datetime
 
 # Retrieve environemntal varibles
 TEAMS_ACCESS_TOKEN = os.getenv("TEAMS_ACCESS_TOKEN")
-profile_id = os.getenv("PROFILE_ID")
-li_access_token = os.getenv("LI_ACCESS_TOKEN")
 
 # Simple Bot Function for passing messages to a room
 def send_it(token, room_id, message):
@@ -162,8 +160,8 @@ if __name__ == "__main__":
 
     # REMOVED for testing purposes
     # post to linkedin
-    res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
-    if res2.status_code == 201:
-        print(f"{word} was successfully posted to LinkedIn")
-    else:
-        print("failed with statusCode: %d" % res2.status_code)
+    #res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
+    #if res2.status_code == 201:
+    #    print(f"{word} was successfully posted to LinkedIn")
+    #else:
+    #    print("failed with statusCode: %d" % res2.status_code)
