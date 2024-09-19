@@ -1736,3 +1736,2823 @@ YAML
 YAML
 
  was successfully posted to LinkedIn
+
+Information technology service management (ITSM)
+
+ was successfully posted to Webex Teams on 2023-08-02 12:00:05.871278
+
+Information technology service management (ITSM)
+
+ was successfully posted to LinkedIn
+
+Gold code
+
+ was successfully posted to Webex Teams on 2023-08-03 12:00:03.124893
+
+Gold code
+
+ was successfully posted to LinkedIn
+
+What You See is What You Get (WYSIWYG)
+
+ was successfully posted to Webex Teams on 2023-08-04 12:00:02.471485
+
+What You See is What You Get (WYSIWYG)
+
+ was successfully posted to LinkedIn
+
+Linked list
+
+ was successfully posted to Webex Teams on 2023-08-08 12:00:06.918832
+
+Linked list
+
+ was successfully posted to LinkedIn
+
+Event bubbling
+
+ was successfully posted to Webex Teams on 2023-08-09 12:00:02.460417
+
+Event bubbling
+
+ was successfully posted to LinkedIn
+
+Anonymous function
+
+ was successfully posted to Webex Teams on 2023-08-10 12:00:06.562862
+
+Anonymous function
+
+ was successfully posted to LinkedIn
+
+Capacity planning
+
+ was successfully posted to Webex Teams on 2023-08-14 12:00:03.245035
+
+Capacity planning
+
+ was successfully posted to LinkedIn
+
+Code splitting
+
+ was successfully posted to Webex Teams on 2023-08-15 12:00:03.240474
+
+Code splitting
+
+ was successfully posted to LinkedIn
+
+Serverless
+
+ was successfully posted to Webex Teams on 2023-08-16 12:00:03.760331
+
+Serverless
+
+ was successfully posted to LinkedIn
+
+Tree (data structure)
+
+ was successfully posted to Webex Teams on 2023-08-17 12:00:03.142965
+
+Tree (data structure)
+
+ was successfully posted to LinkedIn
+
+Zero trust
+
+ was successfully posted to Webex Teams on 2023-08-18 12:00:03.011945
+
+Zero trust
+
+ was successfully posted to LinkedIn
+
+Infoxication
+
+ was successfully posted to Webex Teams on 2023-08-21 12:00:03.626021
+
+Infoxication
+
+ was successfully posted to LinkedIn
+
+Swagger
+
+ was successfully posted to Webex Teams on 2023-08-22 12:00:02.690327
+
+Swagger
+
+ was successfully posted to LinkedIn
+
+GUI (Graphical User Interface)
+
+ was successfully posted to Webex Teams on 2023-08-23 12:00:03.493472
+
+GUI (Graphical User Interface)
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f833bd25e50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f833bd25e50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f833bd25e50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Parkerian Hexad
+
+ was successfully posted to Webex Teams on 2023-09-05 12:00:04.046135
+failed with statusCode: 401
+
+Computational sprinting
+
+ was successfully posted to Webex Teams on 2023-09-06 12:00:04.897756
+failed with statusCode: 401
+
+Perceptual control theory (PCT)
+
+ was successfully posted to Webex Teams on 2023-09-07 12:00:03.230864
+failed with statusCode: 401
+
+Orthogonality thesis
+
+ was successfully posted to Webex Teams on 2023-09-08 12:00:05.362132
+failed with statusCode: 401
+
+CALMS
+
+ was successfully posted to Webex Teams on 2023-09-11 12:00:05.225168
+failed with statusCode: 401
+
+Critical control point (CCP)
+
+ was successfully posted to Webex Teams on 2023-09-12 12:00:05.512861
+failed with statusCode: 401
+
+Flow-based programming
+
+ was successfully posted to Webex Teams on 2023-09-13 12:00:06.505376
+failed with statusCode: 401
+
+Patch vs. Hotfix vs. Coldfix vs. Bugfix
+
+ was successfully posted to Webex Teams on 2023-09-14 12:00:05.497579
+failed with statusCode: 401
+
+Inductive reasoning
+
+ was successfully posted to Webex Teams on 2023-09-15 12:00:02.974800
+failed with statusCode: 401
+
+Code on demand
+
+ was successfully posted to Webex Teams on 2023-09-19 12:00:03.438110
+failed with statusCode: 401
+
+Imagineering
+
+ was successfully posted to Webex Teams on 2023-09-20 12:00:04.116935
+failed with statusCode: 401
+
+Prosumer
+
+ was successfully posted to Webex Teams on 2023-09-21 12:00:02.169213
+
+Prosumer
+
+ was successfully posted to LinkedIn
+
+Scripting language
+
+ was successfully posted to Webex Teams on 2023-09-22 12:00:04.033602
+
+Scripting language
+
+ was successfully posted to LinkedIn
+
+Dangling pointer
+
+ was successfully posted to Webex Teams on 2023-09-25 12:00:04.612118
+
+Dangling pointer
+
+ was successfully posted to LinkedIn
+
+Relational operator
+
+ was successfully posted to Webex Teams on 2023-09-26 12:00:03.577048
+
+Relational operator
+
+ was successfully posted to LinkedIn
+
+Careware
+
+ was successfully posted to Webex Teams on 2023-09-27 12:00:04.168753
+
+Careware
+
+ was successfully posted to LinkedIn
+
+Baseband
+
+ was successfully posted to Webex Teams on 2023-09-28 12:01:22.528802
+
+Baseband
+
+ was successfully posted to LinkedIn
+
+DevSecOps
+
+ was successfully posted to Webex Teams on 2023-09-29 12:00:02.943109
+
+DevSecOps
+
+ was successfully posted to LinkedIn
+
+Free Range Routing (FRR)
+
+ was successfully posted to Webex Teams on 2023-10-02 12:00:03.350209
+
+Free Range Routing (FRR)
+
+ was successfully posted to LinkedIn
+
+Cleanroom software engineering
+
+ was successfully posted to Webex Teams on 2023-10-03 12:00:04.269894
+
+Cleanroom software engineering
+
+ was successfully posted to LinkedIn
+failed with statusCode: 400
+please check the identifier of the room you're attempting to post to...
+
+Bastion host
+
+ was successfully posted to LinkedIn
+
+Parallel computing
+
+ was successfully posted to Webex Teams on 2023-10-05 12:00:06.733031
+
+Parallel computing
+
+ was successfully posted to LinkedIn
+
+Trace table
+
+ was successfully posted to Webex Teams on 2023-10-06 12:00:19.814790
+
+Trace table
+
+ was successfully posted to LinkedIn
+failed with statusCode: 400
+please check the identifier of the room you're attempting to post to...
+
+Non-fungible token (NFT)
+
+ was successfully posted to LinkedIn
+
+Post-quantum cryptography (PQC)
+
+ was successfully posted to Webex Teams on 2023-10-10 12:00:04.338150
+
+Post-quantum cryptography (PQC)
+
+ was successfully posted to LinkedIn
+
+Clamshell
+
+ was successfully posted to Webex Teams on 2023-10-11 12:00:03.004870
+
+Clamshell
+
+ was successfully posted to LinkedIn
+
+Kolmogorov complexity
+
+ was successfully posted to Webex Teams on 2023-10-12 12:00:07.886251
+
+Kolmogorov complexity
+
+ was successfully posted to LinkedIn
+
+Encapsulation
+
+ was successfully posted to Webex Teams on 2023-10-13 12:00:03.983096
+
+Encapsulation
+
+ was successfully posted to LinkedIn
+
+Proof of stake (PoS)
+
+ was successfully posted to Webex Teams on 2023-10-16 12:00:04.032073
+
+Proof of stake (PoS)
+
+ was successfully posted to LinkedIn
+
+Cucumber
+
+ was successfully posted to Webex Teams on 2023-10-19 12:00:07.800403
+
+Cucumber
+
+ was successfully posted to LinkedIn
+
+Active Directory (AD)
+
+ was successfully posted to Webex Teams on 2023-10-20 12:00:03.711765
+
+Active Directory (AD)
+
+ was successfully posted to LinkedIn
+
+Superintelligence
+
+ was successfully posted to Webex Teams on 2023-10-24 12:00:03.269230
+
+Superintelligence
+
+ was successfully posted to LinkedIn
+
+Hypervisor
+
+ was successfully posted to Webex Teams on 2023-10-25 12:00:05.099776
+
+Hypervisor
+
+ was successfully posted to LinkedIn
+
+Passive cooling
+
+ was successfully posted to Webex Teams on 2023-10-26 12:00:03.086188
+
+Passive cooling
+
+ was successfully posted to LinkedIn
+
+Race condition
+
+ was successfully posted to Webex Teams on 2023-10-27 12:00:04.988086
+
+Race condition
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fbf2763adf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fbf2763adf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fbf2763adf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Data furnace
+
+ was successfully posted to Webex Teams on 2023-10-30 12:00:09.999623
+
+Data furnace
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f8f40a28df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8f40a28df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8f40a28df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Root cause analysis (RCA)
+
+ was successfully posted to Webex Teams on 2023-11-01 12:00:05.648848
+
+Root cause analysis (RCA)
+
+ was successfully posted to LinkedIn
+
+Path
+
+ was successfully posted to Webex Teams on 2023-11-02 12:00:04.485017
+
+Path
+
+ was successfully posted to LinkedIn
+
+Network slicing
+
+ was successfully posted to Webex Teams on 2023-11-03 12:00:04.572944
+
+Network slicing
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fc586621df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc586621df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc586621df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+eMBB, URLLC and mMTC
+
+ was successfully posted to Webex Teams on 2023-11-06 12:00:05.703262
+
+eMBB, URLLC and mMTC
+
+ was successfully posted to LinkedIn
+
+Recursion
+
+ was successfully posted to Webex Teams on 2023-11-07 12:00:03.698834
+
+Recursion
+
+ was successfully posted to LinkedIn
+
+Blind signature
+
+ was successfully posted to Webex Teams on 2023-11-08 12:00:03.132131
+
+Blind signature
+
+ was successfully posted to LinkedIn
+
+Troll
+
+ was successfully posted to Webex Teams on 2023-11-09 12:00:04.833998
+
+Troll
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7facdc83ddf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7facdc83ddf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7facdc83ddf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff11503ddf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff11503ddf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff11503ddf0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Extended reality (XR)
+
+ was successfully posted to Webex Teams on 2023-11-13 12:00:06.044471
+
+Extended reality (XR)
+
+ was successfully posted to LinkedIn
+
+Preparedness paradox
+
+ was successfully posted to Webex Teams on 2023-11-14 12:00:06.616868
+
+Preparedness paradox
+
+ was successfully posted to LinkedIn
+
+Escape character
+
+ was successfully posted to Webex Teams on 2023-11-15 12:00:05.581679
+
+Escape character
+
+ was successfully posted to LinkedIn
+
+Inheritance
+
+ was successfully posted to Webex Teams on 2023-11-17 12:00:03.550861
+
+Inheritance
+
+ was successfully posted to LinkedIn
+
+gRPC
+
+ was successfully posted to Webex Teams on 2023-11-20 12:00:05.323258
+failed with statusCode: 401
+
+Polyfill
+
+ was successfully posted to Webex Teams on 2023-11-21 12:00:03.938926
+failed with statusCode: 401
+
+10-foot user interface
+
+ was successfully posted to Webex Teams on 2023-11-22 12:00:02.599846
+failed with statusCode: 401
+
+Fault injection
+
+ was successfully posted to Webex Teams on 2023-11-28 12:00:06.499867
+failed with statusCode: 401
+
+Upconvert
+
+ was successfully posted to Webex Teams on 2023-11-29 12:00:04.570048
+failed with statusCode: 401
+
+Computronium
+
+ was successfully posted to Webex Teams on 2023-11-30 12:00:07.695087
+failed with statusCode: 401
+
+Infrastructure as a Service (IaaS)
+
+ was successfully posted to Webex Teams on 2023-12-04 12:02:29.352690
+failed with statusCode: 401
+
+Logarithm
+
+ was successfully posted to Webex Teams on 2023-12-05 12:03:06.454436
+
+Logarithm
+
+ was successfully posted to LinkedIn
+
+Front and back office application
+
+ was successfully posted to Webex Teams on 2023-12-11 12:00:03.360849
+
+Front and back office application
+
+ was successfully posted to LinkedIn
+
+Circuit breaking
+
+ was successfully posted to Webex Teams on 2023-12-12 12:00:06.945928
+
+Circuit breaking
+
+ was successfully posted to LinkedIn
+
+Weighted random early detection (WRED)
+
+ was successfully posted to Webex Teams on 2023-12-13 12:00:06.993896
+
+Weighted random early detection (WRED)
+
+ was successfully posted to LinkedIn
+
+Feature creep
+
+ was successfully posted to Webex Teams on 2023-12-15 12:00:01.875010
+
+Feature creep
+
+ was successfully posted to LinkedIn
+
+Voice-user interface (VUI)
+
+ was successfully posted to Webex Teams on 2023-12-16 12:00:02.295618
+
+Voice-user interface (VUI)
+
+ was successfully posted to LinkedIn
+
+Abstraction
+
+ was successfully posted to Webex Teams on 2023-12-17 12:00:02.703017
+
+Abstraction
+
+ was successfully posted to LinkedIn
+
+Optical computer
+
+ was successfully posted to Webex Teams on 2023-12-18 12:00:02.384928
+
+Optical computer
+
+ was successfully posted to LinkedIn
+
+Software framework
+
+ was successfully posted to Webex Teams on 2023-12-29 12:00:04.089228
+
+Software framework
+
+ was successfully posted to LinkedIn
+
+Refactoring
+
+ was successfully posted to Webex Teams on 2024-01-01 12:00:03.395876
+
+Refactoring
+
+ was successfully posted to LinkedIn
+
+Frontend and backend
+
+ was successfully posted to Webex Teams on 2024-01-02 12:00:03.674662
+
+Frontend and backend
+
+ was successfully posted to LinkedIn
+
+Creational pattern
+
+ was successfully posted to Webex Teams on 2024-01-03 12:00:01.721791
+
+Creational pattern
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fe5eac27df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5eac27df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5eac27df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Application delivery controller (ADC)
+
+ was successfully posted to Webex Teams on 2024-01-05 12:00:03.348353
+
+Application delivery controller (ADC)
+
+ was successfully posted to LinkedIn
+
+Data drift
+
+ was successfully posted to Webex Teams on 2024-01-07 12:02:06.526185
+
+Data drift
+
+ was successfully posted to LinkedIn
+
+Web Services Description Language (WSDL)
+
+ was successfully posted to Webex Teams on 2024-01-10 12:00:06.497150
+
+Web Services Description Language (WSDL)
+
+ was successfully posted to LinkedIn
+
+Routing information base (RIB)
+
+ was successfully posted to Webex Teams on 2024-01-11 12:00:11.096484
+
+Routing information base (RIB)
+
+ was successfully posted to LinkedIn
+
+Message broker
+
+ was successfully posted to Webex Teams on 2024-01-15 12:00:07.144364
+
+Message broker
+
+ was successfully posted to LinkedIn
+
+AIOps
+
+ was successfully posted to Webex Teams on 2024-01-17 12:00:06.645218
+
+AIOps
+
+ was successfully posted to LinkedIn
+
+Pseudocode
+
+ was successfully posted to Webex Teams on 2024-01-18 12:00:04.381611
+
+Pseudocode
+
+ was successfully posted to LinkedIn
+
+Workgroup bridge (WGB)
+
+ was successfully posted to Webex Teams on 2024-01-19 12:00:02.365657
+
+Workgroup bridge (WGB)
+
+ was successfully posted to LinkedIn
+
+Meta element
+
+ was successfully posted to Webex Teams on 2024-01-21 12:00:03.321874
+
+Meta element
+
+ was successfully posted to LinkedIn
+
+Document Object Model (DOM)
+
+ was successfully posted to Webex Teams on 2024-01-22 12:00:04.611304
+
+Document Object Model (DOM)
+
+ was successfully posted to LinkedIn
+
+Neuromorphic
+
+ was successfully posted to Webex Teams on 2024-01-23 12:00:05.460978
+
+Neuromorphic
+
+ was successfully posted to LinkedIn
+
+Hot swapping (software)
+
+ was successfully posted to Webex Teams on 2024-01-24 12:00:10.392541
+
+Hot swapping (software)
+
+ was successfully posted to LinkedIn
+
+Capacitor
+
+ was successfully posted to Webex Teams on 2024-01-26 12:00:04.136876
+
+Capacitor
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fb70f626df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb70f626df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb70f626df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Priority queue
+
+ was successfully posted to Webex Teams on 2024-01-29 12:00:04.913966
+
+Priority queue
+
+ was successfully posted to LinkedIn
+
+Big Mother
+
+ was successfully posted to Webex Teams on 2024-01-30 12:00:06.591999
+
+Big Mother
+
+ was successfully posted to LinkedIn
+
+Rollback
+
+ was successfully posted to Webex Teams on 2024-01-31 12:00:04.496885
+
+Rollback
+
+ was successfully posted to LinkedIn
+
+Webhook
+
+ was successfully posted to Webex Teams on 2024-02-06 12:01:22.409286
+failed with statusCode: 401
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fc7a6e29df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc7a6e29df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc7a6e29df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Advanced persistent threat (APT)
+
+ was successfully posted to Webex Teams on 2024-02-12 12:00:03.582424
+failed with statusCode: 401
+
+Colo (Colocation Centre)
+
+ was successfully posted to Webex Teams on 2024-02-13 12:00:05.677143
+failed with statusCode: 401
+
+Infrastructure as Code (IaC)
+
+ was successfully posted to Webex Teams on 2024-02-14 12:00:03.051395
+failed with statusCode: 401
+
+Metaprogramming
+
+ was successfully posted to Webex Teams on 2024-02-15 12:00:02.916854
+failed with statusCode: 401
+
+Asimov's laws
+
+ was successfully posted to Webex Teams on 2024-02-16 12:00:02.743477
+failed with statusCode: 401
+
+Whole brain emulation (WBE)
+
+ was successfully posted to Webex Teams on 2024-02-19 12:00:04.418012
+failed with statusCode: 401
+
+Evolware
+
+ was successfully posted to Webex Teams on 2024-02-20 12:00:02.517336
+failed with statusCode: 401
+
+Decentralized autonomous organization (DAO)
+
+ was successfully posted to Webex Teams on 2024-02-21 12:00:04.042171
+failed with statusCode: 401
+
+DevOps
+
+ was successfully posted to Webex Teams on 2024-02-26 12:00:05.977715
+
+DevOps
+
+ was successfully posted to LinkedIn
+
+Minimum viable product (MVP)
+
+ was successfully posted to Webex Teams on 2024-02-27 12:00:03.215333
+
+Minimum viable product (MVP)
+
+ was successfully posted to LinkedIn
+
+OpenConfig
+
+ was successfully posted to Webex Teams on 2024-02-28 12:00:02.990162
+
+OpenConfig
+
+ was successfully posted to LinkedIn
+
+Adapter pattern
+
+ was successfully posted to Webex Teams on 2024-02-29 12:00:03.421630
+
+Adapter pattern
+
+ was successfully posted to LinkedIn
+
+Pair programming
+
+ was successfully posted to Webex Teams on 2024-03-01 12:00:04.352305
+
+Pair programming
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f85e8867eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f85e8867eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f85e8867eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Secure access service edge (SASE)
+
+ was successfully posted to Webex Teams on 2024-03-06 12:00:02.325222
+
+Secure access service edge (SASE)
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f83acb2beb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f83acb2beb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f83acb2beb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Mutual TLS (mTLS)
+
+ was successfully posted to Webex Teams on 2024-03-11 12:00:04.879294
+
+Mutual TLS (mTLS)
+
+ was successfully posted to LinkedIn
+
+Three Laws of Robotics
+
+ was successfully posted to Webex Teams on 2024-03-12 12:00:03.333103
+
+Three Laws of Robotics
+
+ was successfully posted to LinkedIn
+
+Heuristic
+
+ was successfully posted to Webex Teams on 2024-03-13 12:00:04.046833
+
+Heuristic
+
+ was successfully posted to LinkedIn
+
+NoOps
+
+ was successfully posted to Webex Teams on 2024-03-14 12:00:03.240881
+
+NoOps
+
+ was successfully posted to LinkedIn
+
+Internal Developer Platform (IDP)
+
+ was successfully posted to Webex Teams on 2024-03-15 12:00:03.649372
+
+Internal Developer Platform (IDP)
+
+ was successfully posted to LinkedIn
+
+WNN (World Wide Name)
+
+ was successfully posted to Webex Teams on 2024-03-17 12:04:31.698500
+
+WNN (World Wide Name)
+
+ was successfully posted to LinkedIn
+
+Portability
+
+ was successfully posted to Webex Teams on 2024-03-18 12:00:02.998133
+
+Portability
+
+ was successfully posted to LinkedIn
+
+Polling
+
+ was successfully posted to Webex Teams on 2024-03-19 12:00:05.932200
+
+Polling
+
+ was successfully posted to LinkedIn
+
+Chaos engineering
+
+ was successfully posted to Webex Teams on 2024-03-20 12:00:02.527387
+
+Chaos engineering
+
+ was successfully posted to LinkedIn
+
+NAT64
+
+ was successfully posted to Webex Teams on 2024-03-22 12:00:05.508340
+
+NAT64
+
+ was successfully posted to LinkedIn
+
+Bare-metal server
+
+ was successfully posted to Webex Teams on 2024-03-26 12:00:03.077009
+
+Bare-metal server
+
+ was successfully posted to LinkedIn
+
+Proxy server
+
+ was successfully posted to Webex Teams on 2024-03-27 12:00:05.922189
+
+Proxy server
+
+ was successfully posted to LinkedIn
+
+Source lines of code (SLOC)
+
+ was successfully posted to Webex Teams on 2024-03-28 12:00:02.855043
+
+Source lines of code (SLOC)
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff193928eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff193928eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff193928eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Push technology
+
+ was successfully posted to Webex Teams on 2024-04-03 12:00:11.639228
+
+Push technology
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fd8ab93feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd8ab93feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd8ab93feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fa9c6051eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa9c6051eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa9c6051eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fe00595aeb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe00595aeb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe00595aeb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fe7c3a2beb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe7c3a2beb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe7c3a2beb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Virtual reality
+
+ was successfully posted to Webex Teams on 2024-04-10 12:00:02.553952
+
+Virtual reality
+
+ was successfully posted to LinkedIn
+
+Space complexity
+
+ was successfully posted to Webex Teams on 2024-04-11 12:00:05.553316
+
+Space complexity
+
+ was successfully posted to LinkedIn
+
+Augmented reality (AR)
+
+ was successfully posted to Webex Teams on 2024-04-12 12:00:03.319468
+
+Augmented reality (AR)
+
+ was successfully posted to LinkedIn
+
+Arduino
+
+ was successfully posted to Webex Teams on 2024-04-13 12:00:02.756576
+
+Arduino
+
+ was successfully posted to LinkedIn
+
+Bistable
+
+ was successfully posted to Webex Teams on 2024-04-22 12:00:07.468608
+
+Bistable
+
+ was successfully posted to LinkedIn
+
+Microprocessor
+
+ was successfully posted to Webex Teams on 2024-04-23 12:00:03.358417
+failed with statusCode: 401
+
+Blitzscaling
+
+ was successfully posted to Webex Teams on 2024-04-24 12:00:06.578454
+failed with statusCode: 401
+
+Mosquito noise
+
+ was successfully posted to Webex Teams on 2024-04-26 12:00:02.471448
+
+Mosquito noise
+
+ was successfully posted to LinkedIn
+
+Brownfield
+
+ was successfully posted to Webex Teams on 2024-05-01 12:00:02.257061
+
+Brownfield
+
+ was successfully posted to LinkedIn
+
+HashiCorp Configuration Language (HCL)
+
+ was successfully posted to Webex Teams on 2024-05-02 12:00:06.271807
+
+HashiCorp Configuration Language (HCL)
+
+ was successfully posted to LinkedIn
+
+Call to action (CTA)
+
+ was successfully posted to Webex Teams on 2024-05-03 12:00:03.184411
+
+Call to action (CTA)
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fb822454eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb822454eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb822454eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Very large-scale integration (VLSI)
+
+ was successfully posted to Webex Teams on 2024-05-06 12:00:04.479164
+
+Very large-scale integration (VLSI)
+
+ was successfully posted to LinkedIn
+
+ChatOps
+
+ was successfully posted to Webex Teams on 2024-05-07 12:00:02.731243
+
+ChatOps
+
+ was successfully posted to LinkedIn
+
+Nonce value
+
+ was successfully posted to Webex Teams on 2024-05-08 12:00:05.829784
+
+Nonce value
+
+ was successfully posted to LinkedIn
+
+Qi (standard)
+
+ was successfully posted to Webex Teams on 2024-05-09 12:00:03.044114
+
+Qi (standard)
+
+ was successfully posted to LinkedIn
+
+Extreme programming (XP)
+
+ was successfully posted to Webex Teams on 2024-05-10 12:00:01.645481
+
+Extreme programming (XP)
+
+ was successfully posted to LinkedIn
+
+Object-oriented analysis and design (OOAD)
+
+ was successfully posted to Webex Teams on 2024-05-11 12:00:03.932380
+
+Object-oriented analysis and design (OOAD)
+
+ was successfully posted to LinkedIn
+
+Non Maximum Suppression (NMS)
+
+ was successfully posted to Webex Teams on 2024-05-13 12:00:05.689916
+
+Non Maximum Suppression (NMS)
+
+ was successfully posted to LinkedIn
+
+Conway's law
+
+ was successfully posted to Webex Teams on 2024-05-14 12:00:03.839064
+
+Conway's law
+
+ was successfully posted to LinkedIn
+
+DevOps Wall of Confusion
+
+ was successfully posted to Webex Teams on 2024-05-15 12:00:06.293134
+
+DevOps Wall of Confusion
+
+ was successfully posted to LinkedIn
+
+Last mile
+
+ was successfully posted to Webex Teams on 2024-05-16 12:00:02.530783
+
+Last mile
+
+ was successfully posted to LinkedIn
+
+Multi-access edge computing (MEC)
+
+ was successfully posted to Webex Teams on 2024-05-17 12:00:06.131948
+
+Multi-access edge computing (MEC)
+
+ was successfully posted to LinkedIn
+
+LLVM
+
+ was successfully posted to Webex Teams on 2024-05-21 12:00:05.138756
+
+LLVM
+
+ was successfully posted to LinkedIn
+
+Lazy loading
+
+ was successfully posted to Webex Teams on 2024-05-23 12:00:04.422028
+
+Lazy loading
+
+ was successfully posted to LinkedIn
+
+Dribbleware
+
+ was successfully posted to Webex Teams on 2024-05-24 12:00:02.738663
+
+Dribbleware
+
+ was successfully posted to LinkedIn
+
+Identity-Aware Proxy (IAP)
+
+ was successfully posted to Webex Teams on 2024-05-27 12:00:03.509577
+
+Identity-Aware Proxy (IAP)
+
+ was successfully posted to LinkedIn
+
+Big bang adoption
+
+ was successfully posted to Webex Teams on 2024-05-28 12:00:05.275397
+
+Big bang adoption
+
+ was successfully posted to LinkedIn
+
+Three-tier architecture
+
+ was successfully posted to Webex Teams on 2024-05-29 12:00:03.519172
+
+Three-tier architecture
+
+ was successfully posted to LinkedIn
+
+Cloud broker
+
+ was successfully posted to Webex Teams on 2024-05-30 12:00:05.404632
+
+Cloud broker
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f8c80e3feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8c80e3feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8c80e3feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Breakout box
+
+ was successfully posted to Webex Teams on 2024-06-03 12:00:04.395133
+
+Breakout box
+
+ was successfully posted to LinkedIn
+
+Path Computation Element (PCE)
+
+ was successfully posted to Webex Teams on 2024-06-05 12:00:03.124122
+
+Path Computation Element (PCE)
+
+ was successfully posted to LinkedIn
+
+Unified Computing System (UCS)
+
+ was successfully posted to Webex Teams on 2024-06-06 12:00:03.929331
+
+Unified Computing System (UCS)
+
+ was successfully posted to LinkedIn
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7faaf743feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faaf743feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 146, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 19, in send_it
+    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faaf743feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Framekiller
+
+ was successfully posted to Webex Teams on 2024-06-10 12:00:02.953820
+
+Framekiller
+
+ was successfully posted to LinkedIn
+
+Alpha testing
+
+ was successfully posted to Webex Teams on 2024-06-11 12:00:02.339698
+
+Alpha testing
+
+ was successfully posted to LinkedIn
+
+Service proxy
+
+ was successfully posted to Webex Teams on 2024-06-12 12:00:05.388417
+
+Service proxy
+
+ was successfully posted to LinkedIn
+
+Intent-based networking (IBN)
+
+ was successfully posted to Webex Teams on 2024-06-13 12:00:04.276386
+
+Intent-based networking (IBN)
+
+ was successfully posted to LinkedIn
+
+Bidirectional Forwarding Detection (BFD)
+
+ was successfully posted to Webex Teams on 2024-06-14 12:00:05.035319
+
+Bidirectional Forwarding Detection (BFD)
+
+ was successfully posted to LinkedIn
+
+Bluetooth Low Energy (Bluetooth LE or BLE)
+
+ was successfully posted to Webex Teams on 2024-06-18 12:00:02.963573
+
+Bluetooth Low Energy (Bluetooth LE or BLE)
+
+ was successfully posted to LinkedIn
+
+Runtime
+
+ was successfully posted to Webex Teams on 2024-06-20 12:00:06.608584
+
+Runtime
+
+ was successfully posted to LinkedIn
+
+Baselining
+
+ was successfully posted to Webex Teams on 2024-06-21 12:00:02.442058
+
+Baselining
+
+ was successfully posted to LinkedIn
+
+Astroturfing
+
+ was successfully posted to Webex Teams on 2024-06-24 12:00:05.546817
+failed with statusCode: 401
+
+Network functions virtualization (NFV)
+
+ was successfully posted to Webex Teams on 2024-06-25 12:00:03.863395
+failed with statusCode: 401
+
+Gray failure
+
+ was successfully posted to Webex Teams on 2024-06-26 12:00:05.974070
+failed with statusCode: 401
+
+GCP (Google Cloud Platform)
+
+ was successfully posted to Webex Teams on 2024-06-27 12:00:03.615289
+failed with statusCode: 401
+
+Monkey testing
+
+ was successfully posted to Webex Teams on 2024-06-28 12:00:05.694670
+failed with statusCode: 401
+
+High-performance computing (HPC)
+
+ was successfully posted to Webex Teams on 2024-06-29 12:00:02.483522
+failed with statusCode: 401
+
+Service set
+
+ was successfully posted to Webex Teams on 2024-07-03 12:00:05.569510
+failed with statusCode: 400
+
+Provider edge (PE) router vs. Customer edge (CE) Router
+
+ was successfully posted to Webex Teams on 2024-07-08 12:00:07.135175
+
+Provider edge (PE) router vs. Customer edge (CE) Router
+
+ was successfully posted to LinkedIn
+
+Amara's law
+
+ was successfully posted to Webex Teams on 2024-07-09 12:00:03.721653
+
+Amara's law
+
+ was successfully posted to LinkedIn
+
+Agile software development
+
+ was successfully posted to Webex Teams on 2024-07-10 12:00:06.539553
+
+Agile software development
+
+ was successfully posted to LinkedIn
+
+WebSocket
+
+ was successfully posted to Webex Teams on 2024-07-11 12:00:03.212589
+
+WebSocket
+
+ was successfully posted to LinkedIn
+
+Backing service
+
+ was successfully posted to Webex Teams on 2024-07-12 12:00:06.262538
+
+Backing service
+
+ was successfully posted to LinkedIn
+
+Automata-based programming (Shalyto's approach)
+
+ was successfully posted to Webex Teams on 2024-07-15 12:00:06.099775
+
+Automata-based programming (Shalyto's approach)
+
+ was successfully posted to LinkedIn
+
+DIKW pyramid
+
+ was successfully posted to Webex Teams on 2024-07-16 12:00:03.100844
+
+DIKW pyramid
+
+ was successfully posted to LinkedIn
+
+Emulator
+
+ was successfully posted to Webex Teams on 2024-07-17 12:00:03.208702
+
+Emulator
+
+ was successfully posted to LinkedIn
+
+Artificial empathy (AE)
+
+ was successfully posted to Webex Teams on 2024-07-18 12:00:04.436501
+
+Artificial empathy (AE)
+
+ was successfully posted to LinkedIn
+
+Header
+
+ was successfully posted to Webex Teams on 2024-07-19 12:00:05.846866
+
+Header
+
+ was successfully posted to LinkedIn
+
+Interior gateway protocol vs. Exterior gateway protocol
+
+ was successfully posted to Webex Teams on 2024-07-22 12:00:08.079254
+
+Interior gateway protocol vs. Exterior gateway protocol
+
+ was successfully posted to LinkedIn
+
+Common Information Model (CIM)
+
+ was successfully posted to Webex Teams on 2024-07-23 12:00:04.055275
+
+Common Information Model (CIM)
+
+ was successfully posted to LinkedIn
+
+ARM
+
+ was successfully posted to Webex Teams on 2024-07-24 12:00:07.460469
+
+ARM
+
+ was successfully posted to LinkedIn
+
+PowerOn Auto Provisioning (POAP)
+
+ was successfully posted to Webex Teams on 2024-07-25 12:00:03.066119
+
+PowerOn Auto Provisioning (POAP)
+
+ was successfully posted to LinkedIn
+failed with statusCode: 400
+please check the identifier of the room you're attempting to post to...
+
+Assembly language
+
+ was successfully posted to LinkedIn
+
+Throbber
+
+ was successfully posted to Webex Teams on 2024-07-31 12:00:02.546443
+
+Throbber
+
+ was successfully posted to LinkedIn
+
+Actuator
+
+ was successfully posted to Webex Teams on 2024-08-03 12:01:42.764505
+
+Actuator
+
+ was successfully posted to LinkedIn
+
+Architecture neutral
+
+ was successfully posted to Webex Teams on 2024-08-05 12:00:02.314294
+
+Architecture neutral
+
+ was successfully posted to LinkedIn
+
+Upper-layer protocol (ULP)
+
+ was successfully posted to Webex Teams on 2024-08-06 12:00:06.674563
+
+Upper-layer protocol (ULP)
+
+ was successfully posted to LinkedIn
+
+Rapid application development (RAD)
+
+ was successfully posted to Webex Teams on 2024-08-07 12:00:03.502511
+
+Rapid application development (RAD)
+
+ was successfully posted to LinkedIn
+
+Generics
+
+ was successfully posted to Webex Teams on 2024-08-08 12:00:06.352309
+
+Generics
+
+ was successfully posted to LinkedIn
+
+Black/White/Gray box testing
+
+ was successfully posted to Webex Teams on 2024-08-09 12:00:02.480586
+
+Black/White/Gray box testing
+
+ was successfully posted to LinkedIn
+
+Foot gun
+
+ was successfully posted to Webex Teams on 2024-08-12 12:00:06.147461
+
+Foot gun
+
+ was successfully posted to LinkedIn
+
+Beamforming
+
+ was successfully posted to Webex Teams on 2024-08-13 12:00:02.719743
+
+Beamforming
+
+ was successfully posted to LinkedIn
+
+Closed-loop automation
+
+ was successfully posted to Webex Teams on 2024-08-14 12:01:11.848786
+
+Closed-loop automation
+
+ was successfully posted to LinkedIn
+
+Preboot Execution Environment (PXE)
+
+ was successfully posted to Webex Teams on 2024-08-15 12:00:03.259438
+
+Preboot Execution Environment (PXE)
+
+ was successfully posted to LinkedIn
+
+AI winter
+
+ was successfully posted to Webex Teams on 2024-08-19 12:00:06.410191
+
+AI winter
+
+ was successfully posted to LinkedIn
+
+Virtual Device Context (VDC)
+
+ was successfully posted to Webex Teams on 2024-08-20 12:00:03.292258
+
+Virtual Device Context (VDC)
+
+ was successfully posted to LinkedIn
+
+MPLS Traffic Engineering (MPLS-TE)
+
+ was successfully posted to Webex Teams on 2024-08-21 12:00:03.400470
+
+MPLS Traffic Engineering (MPLS-TE)
+
+ was successfully posted to LinkedIn
+
+Static application security testing (SAST)
+
+ was successfully posted to Webex Teams on 2024-08-22 12:00:04.124774
+
+Static application security testing (SAST)
+
+ was successfully posted to LinkedIn
+
+Kerning
+
+ was successfully posted to Webex Teams on 2024-08-23 12:00:04.476254
+
+Kerning
+
+ was successfully posted to LinkedIn
+
+Visual programming
+
+ was successfully posted to Webex Teams on 2024-08-27 12:00:05.796287
+
+Visual programming
+
+ was successfully posted to LinkedIn
+
+Indirect normativity
+
+ was successfully posted to Webex Teams on 2024-08-28 12:00:02.016201
+failed with statusCode: 401
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fd10b172eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd10b172eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 153, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 17, in send_it
+    return requests.post(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd10b172eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Lurker
+
+ was successfully posted to Webex Teams on 2024-09-02 12:26:55.865558
+failed with statusCode: 401
+
+Power-on self-test (POST)
+
+ was successfully posted to Webex Teams on 2024-09-03 12:00:03.674477
+failed with statusCode: 401
+
+Anonymization
+
+ was successfully posted to Webex Teams on 2024-09-04 12:00:06.120535
+failed with statusCode: 401
+
+Treacherous Turn
+
+ was successfully posted to Webex Teams on 2024-09-05 12:00:03.446443
+failed with statusCode: 401
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f82d264feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f82d264feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 153, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 17, in send_it
+    return requests.post(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f82d264feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f9cc262feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9cc262feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 153, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 17, in send_it
+    return requests.post(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9cc262feb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fcb2e643eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fcb2e643eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "chatops.py", line 153, in <module>
+    res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
+  File "chatops.py", line 17, in send_it
+    return requests.post(
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alexstev/Documents/CiscoDevNet/code/wod/venv/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ciscospark.com', port=443): Max retries exceeded with url: /v1/messages/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fcb2e643eb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+Virtual private cloud (VPC)
+
+ was successfully posted to Webex Teams on 2024-09-10 12:00:03.459727
+failed with statusCode: 401
+
+Object-oriented programming (OOP)
+
+ was successfully posted to Webex Teams on 2024-09-11 12:00:06.849868
+failed with statusCode: 401
+
+Pipe (|)
+
+ was successfully posted to Webex Teams on 2024-09-12 12:00:03.536966
+
+Pipe (|)
+
+ was successfully posted to LinkedIn
+
+Software rot
+
+ was successfully posted to Webex Teams on 2024-09-13 12:00:06.822495
+
+Software rot
+
+ was successfully posted to LinkedIn
+
+Extensibility
+
+ was successfully posted to Webex Teams on 2024-09-14 12:00:02.145231
+
+Extensibility
+
+ was successfully posted to LinkedIn
+
+Atomic Operation
+
+ was successfully posted to Webex Teams on 2024-09-15 12:00:04.491805
+
+Atomic Operation
+
+ was successfully posted to LinkedIn
+
+Strangler pattern
+
+ was successfully posted to Webex Teams on 2024-09-16 12:00:02.764182
+
+Strangler pattern
+
+ was successfully posted to LinkedIn
+
+Public-key cryptography
+
+ was successfully posted to Webex Teams on 2024-09-17 12:00:06.205243
+
+Public-key cryptography
+
+ was successfully posted to LinkedIn

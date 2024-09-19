@@ -134,3 +134,9 @@ If you have neither the time, patience nor desire to read the Wikipedia article,
 <h3 align="center">Codebase Updates</h3>
 
 I had created an empty __init__.py file in the root directory out of habit. Before Python 3.3 this was done to to make Python treat the directories as containing packages and facilitate importing between modules. From Python 3.3+ Implicit Namespace Packages are supported which allows the creation of a package without an __init__.py file. This however only applies to empty __init__.py files. So empty __init__.py files are no longer necessary and can be omitted.
+
+
+> For posting to LinkedIn: now generate token here: https://learn.microsoft.com/en-us/linkedin/shared/authentication/developer-portal-tools?view=li-lms-2022-09
+
+or here https://www.linkedin.com/developers/tools/oauth/token-generator
+

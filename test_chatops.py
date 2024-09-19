@@ -6,6 +6,7 @@ from test_terms import return_word
 from datetime import datetime
 from passwords import profile_id, li_access_token, TEAMS_ACCESS_TOKEN
 
+
 # Simple Bot Function for passing messages to a room
 def send_it(token, room_id, message):
 
@@ -140,7 +141,6 @@ if __name__ == "__main__":
         }
     ]
 
-
     # Now let's post our message to Webex Teams
     res = send_it(TEAMS_ACCESS_TOKEN, teams_room, the_message)
     if res.status_code == 200:
@@ -157,6 +157,7 @@ if __name__ == "__main__":
         elif res.status_code == 401:
             print("please check if the access token is correct...")
 
+    # REMOVED for testing purposes
     # post to linkedin
     res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
     if res2.status_code == 201:

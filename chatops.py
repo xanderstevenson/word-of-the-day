@@ -6,17 +6,21 @@ from terms import return_word
 from datetime import datetime
 from passwords import profile_id, li_access_token, TEAMS_ACCESS_TOKEN
 
+
 # Simple Bot Function for passing messages to a room
 def send_it(token, room_id, message):
 
-    header = {"Authorization": "Bearer %s" % token,
-                "Content-Type": "application/json"}
+    header = {"Authorization": "Bearer %s" % token, "Content-Type": "application/json"}
 
-    data = {"roomId": room_id,
-            "text": message,
-            "attachments": card}
+    data = {"roomId": room_id, "text": message, "attachments": card}
 
-    return requests.post("https://api.ciscospark.com/v1/messages/", headers=header, data=json.dumps(data), verify=True)
+    return requests.post(
+        "https://api.ciscospark.com/v1/messages/",
+        headers=header,
+        data=json.dumps(data),
+        verify=True,
+    )
+
 
 # post to LinkedIn
 # will change to https://api.linkedin.com/rest/posts
@@ -30,21 +34,21 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
         "Authorization": "Bearer " + li_access_token,
     }
     # make new variable for linkedin hashtag, lowercase it and remove spaces
-    random_word_linkedin = random_word_name.lower().replace(' ', '')
+    random_word_linkedin = random_word_name.lower().replace(" ", "")
     # remove abbreviations for linkedin hashtag
     # remove everything between ()
-    random_word_linkedin=re.sub("\(.*?\)","()",random_word_linkedin)
+    random_word_linkedin = re.sub("\(.*?\)", "()", random_word_linkedin)
     # remove (), -.  and /
-    random_word_linkedin = random_word_linkedin.replace('(', '').replace(')', '')
-    random_word_linkedin = random_word_linkedin.replace('-', '').replace('/', '')
-    random_word_linkedin = random_word_linkedin.replace('.', '')
+    random_word_linkedin = random_word_linkedin.replace("(", "").replace(")", "")
+    random_word_linkedin = random_word_linkedin.replace("-", "").replace("/", "")
+    random_word_linkedin = random_word_linkedin.replace(".", "")
     post_data = {
         "author": "urn:li:person:" + profile_id,
         "lifecycleState": "PUBLISHED",
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
                 "shareCommentary": {
-                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alex Stevenson using Python and a LinkedIn API.\n\n#tech #wordoftheday #{random_word_linkedin} #python #apis"
+                    "text": f"----------------------\nTech Word of the Day\n----------------------\n\n{random_word_name}\n\n\n{definition}\n\n\nThis automated post was created by Alex Stevenson using #Python and a LinkedIn #API.\n\n#Tech #WordOfTheDay #{random_word_linkedin} #Automation #DevNet"
                 },
                 "shareMediaCategory": "NONE",
             }
@@ -56,11 +60,14 @@ def post(profile_id, li_access_token, random_word_name, definition, word_url):
     return response
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
-    # Command line arguments parsing    
-    from argparse import ArgumentParser   
-    teams_room = "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
+    # Command line arguments parsing
+    from argparse import ArgumentParser
+
+    teams_room = (
+        "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
+    )
     the_message = ""
     # fetch random dictionary containing word as key and definition as value
     random_word = return_word()
