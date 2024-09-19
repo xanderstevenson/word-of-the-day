@@ -4,8 +4,11 @@ import requests
 import os
 from test_terms import return_word
 from datetime import datetime
-from passwords import profile_id, li_access_token, TEAMS_ACCESS_TOKEN
 
+# Retrieve environemntal varibles
+TEAMS_ACCESS_TOKEN = os.getenv("TEAMS_ACCESS_TOKEN")
+profile_id = os.getenv("profile_id")
+li_access_token = os.getenv("li_access_token")
 
 # Simple Bot Function for passing messages to a room
 def send_it(token, room_id, message):
