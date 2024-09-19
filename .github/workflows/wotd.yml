@@ -2,7 +2,7 @@ name: Run Daily Script
 
 on:
   schedule:
-    # Run the workflow daily at 9 AM EST
+    # Run the workflow daily at 12 Noon EST
     - cron: '0 16 * * *'  # This will run at 9 AM EST during daylight saving time (UTC-4)
   workflow_dispatch:  # Enables manual triggering
 
@@ -32,6 +32,7 @@ jobs:
         env:
           TEAMS_ACCESS_TOKEN: ${{ secrets.TEAMS_ACCESS_TOKEN }}
           LI_ACCESS_TOKEN: ${{ secrets.LI_ACCESS_TOKEN }}
+          PROFILE_ID: ${{ secrets.PROFILE_ID }}
         run: |
           python3 chatops.py
 
