@@ -4519,24 +4519,30 @@ def return_word():
         #     "id": 7
         # },
     ]
-    # Note -- if you want to run this app in GitHub only, remove all lines regarding variables 'used_list' and 'items'
 
-    # select a candidate word from word list
+# Select a candidate word from word list
     candidate_word = random.choice(word_list)
-    # query db for current used word list
+
+    # Query db for current used word list
     used_list_search = db.search(User.used.exists())
-    used_list = used_list_search[0]["used"]
-    # if length of word list and length of used list is equal, erase used list and start over
+    if used_list_search:
+        used_list = used_list_search[0]["used"]
+    else:
+        used_list = []
+
+    # If length of word list and length of used list is equal, erase used list and start over
     if len(used_list) == len(word_list):
         used_list = []
-    # if random choice is already in used list, choose again
+
+    # If random choice is already in used list, choose again
     while candidate_word["id"] in used_list:
         candidate_word = random.choice(word_list)
-    # solidify choice
+
+    # Solidify choice
     word = candidate_word
-    # add new choice to used list and to db
+
+    # Add new choice to used list and to db
     used_list.append(word["id"])
-    items = {"used": used_list}
-    db.update(items)
+    db.upsert({"used": used_list}, User.used.exists())
 
     return word
