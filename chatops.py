@@ -169,8 +169,8 @@ if __name__ == "__main__":
             print("please check if the access token is correct...")
 
     # post to linkedin
-    res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
-    if res2.status_code == 201:
-        print(f"{word} was successfully posted to LinkedIn")
-    else:
-        print("failed with statusCode: %d" % res2.status_code)
+#    res2 = post(profile_id, li_access_token, random_word_name, definition, word_url)
+#    if res2.status_code == 201:
+#        print(f"{word} was successfully posted to LinkedIn")
+#    else:
+#        print("failed with statusCode: %d" % res2.status_code)
