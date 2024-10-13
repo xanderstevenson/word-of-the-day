@@ -10,7 +10,7 @@ from datetime import datetime
 TEAMS_ACCESS_TOKEN = os.getenv("TEAMS_ACCESS_TOKEN")
 profile_id = os.getenv("PROFILE_ID")
 li_access_token = os.getenv("LI_ACCESS_TOKEN")
-
+teams_room = os.getenv("TEAMS_ROOM")
 
 # Simple Bot Function for passing messages to a room
 def send_it(token, room_id, message):
@@ -70,9 +70,7 @@ if __name__ == "__main__":
     # Command line arguments parsing
     from argparse import ArgumentParser
 
-    teams_room = (
-        "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
-    )
+
     the_message = ""
     # fetch random dictionary containing word as key and definition as value
     random_word = return_word()
