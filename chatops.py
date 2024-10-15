@@ -69,7 +69,10 @@ if __name__ == "__main__":
 
     # Command line arguments parsing
     from argparse import ArgumentParser
-
+    
+    +teams_room = (
+        "Y2lzY29zcGFyazovL3VzL1JPT00vODJiMzdhODAtOThhYy0xMWVjLTg2ZTItNWJiZDMwODA3OTMx"
+    )
 
     the_message = ""
     # fetch random dictionary containing word as key and definition as value
