@@ -3,7 +3,7 @@ name: Run Daily Script
 on:
   schedule:
     # Run the workflow daily at 12 Noon EST
-    - cron: '0 16 * * *'  # This will run at 9 AM EST during daylight saving time (UTC-4)
+    - cron: '0 16 * * 1-5'  # This will run at 9 AM EST during daylight saving time (UTC-4)
   workflow_dispatch:  # Enables manual triggering
 
 jobs:
